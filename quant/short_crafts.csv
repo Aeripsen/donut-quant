@@ -1,0 +1,345 @@
+output,out_n,inputs,cost,ah_median,ah_conservative,profit_per_craft_con,margin_pct,trades_per_day,units_per_day,day_cap_con,input_price_stale,flag
+emerald_block,1,emeraldx9@556o,5004.0,27969.0,27969.0,22965.0,458.9,6385,230120,5284705800,yes,
+map,1,paperx8@103o + compassx1@700o,1524.0,6953.0,6953.0,5429.0,356.2,37807,785373,4263790017,yes,
+respawn_anchor,1,crying_obsidianx6@201o + glowstonex3@430o,2496.0,21873.0,21873.0,19377.0,776.3,5522,164388,3185346276,yes,
+gold_block,1,gold_ingotx9@600o,5400.0,23438.0,23438.0,18038.0,334.0,5842,151938,2740657644,yes,
+tnt,1,gunpowderx5@47o + red_sandx4@253o,1247.0,3906.0,3906.0,2659.0,213.2,22975,871838,2318182368,yes,
+sea_lantern,1,prismarine_shardx4@23o + prismarine_crystalsx5@75o,467.0,9375.0,9375.0,8908.0,1907.5,6277,185042,1648354136,yes,stack-median vs last-sale disagree (9375 vs 80000)
+item_frame,1,stickx8@5o + leatherx1@283o,323.0,4688.0,4688.0,4365.0,1351.4,15166,331371,1446434415,yes,stack-median vs last-sale disagree (4688 vs 13000)
+shulker_box,1,shulker_shellx2@2800o + chestx1@558a,6158.2,49900.0,40000.0,33841.8,549.5,26223,26223,887432735,,
+wind_charge,4,breeze_rodx1@15700o,15700.0,6250.0,6250.0,9300.0,59.2,9159,366527,852175275,yes,
+iron_block,1,iron_ingotx9@170o,1530.0,4688.0,4688.0,3158.0,206.4,15090,251217,793343286,yes,stack-median vs last-sale disagree (4688 vs 12500)
+silence_armor_trim_smithing_template,2,diamondx7@5713a + silence_armor_trim_smithing_templatex1@21000o + cobbled_deepslatex1@10o,60998.9,46719.0,46719.0,32439.1,53.2,9278,48805,791595138,yes,
+crafter,1,iron_ingotx5@170o + crafting_tablex1@25o + redstonex2@361a + dropperx1@236o,1832.8,5156.0,5156.0,3323.2,181.3,8329,234042,777777736,yes,stack-median vs last-sale disagree (5156 vs 139000)
+polished_blackstone_bricks,4,polished_blackstonex4@312o,1248.0,3078.0,2797.0,9940.0,796.5,4832,286112,710988320,yes,
+black_stained_glass,8,glassx8@280o + black_dyex1@90o,2330.0,3125.0,2250.0,15670.0,672.5,5674,347192,680062330,yes,
+barrel,1,spruce_planksx6@32o + spruce_slabx2@94a,379.5,3906.0,3906.0,3526.5,929.2,6782,170346,600725169,yes,stack-median vs last-sale disagree (3906 vs 15000)
+bread,1,wheatx3@225o,675.0,2547.0,2547.0,1872.0,277.3,6565,320708,600365376,yes,
+polished_blackstone,4,blackstonex4@850o,3400.0,3125.0,3125.0,9100.0,267.6,3942,241585,549605875,,
+golden_carrot,1,gold_nuggetx8@33o + carrotx1@90o,354.0,2953.0,2953.0,2599.0,734.2,5325,211048,548513752,yes,stack-median vs last-sale disagree (2953 vs 30000)
+lodestone,1,chiseled_stone_bricksx8@16o + iron_ingotx1@170o,298.0,14063.0,14063.0,13765.0,4619.1,1510,39160,539037400,yes,
+red_wool,1,red_dyex1@156a + black_woolx1@30o,186.0,3906.0,3891.0,3705.0,1991.9,2125,131282,486399810,yes,
+dispenser,1,cobblestonex7@131a + bowx1@70o + redstonex1@361a,1350.4,4500.0,3875.0,2524.6,187.0,12189,190276,480370790,yes,
+lapis_lazuli,9,lapis_blockx1@700o,700.0,1563.0,1563.0,13367.0,1909.6,5179,290225,431048619,,
+white_carpet,3,white_woolx2@103o,206.0,2031.0,1563.0,4483.0,2176.2,4753,284479,425106452,yes,
+red_stained_glass,8,glassx8@280o + red_dyex1@156a,2396.0,2266.0,2188.0,15108.0,630.6,3544,223708,422472558,yes,
+bundle,1,stringx1@72o + leatherx1@283o,355.0,99000.0,99000.0,98645.0,27787.3,4165,4165,410856425,yes,
+chest_minecart,1,chestx1@558a + minecartx1@460o,1018.2,50000.0,50000.0,48981.8,4810.5,8192,8192,401258660,yes,
+leather,1,rabbit_hidex4@13o,52.4,1719.0,1719.0,1666.6,3180.5,5488,240201,400318987,yes,
+light_blue_wool,1,light_blue_dyex1@1247a + black_woolx1@30o,1277.0,6563.0,6250.0,4973.0,389.4,1277,79277,394244521,yes,stack-median vs last-sale disagree (6563 vs 3215)
+white_stained_glass,8,glassx8@280o + white_dyex1@584a,2823.5,1250.0,1250.0,7176.5,254.2,6964,434788,390030923,yes,
+black_dye,1,wither_rosex1@1o,1.0,2969.0,2969.0,2968.0,296800.0,3101,129661,384833848,yes,stack-median vs last-sale disagree (2969 vs 99800)
+chest,1,spruce_planksx8@32o,256.0,781.0,781.0,525.0,205.1,21030,717651,376766775,yes,
+smoker,1,dark_oak_woodx4@25o + furnacex1@95a,195.3,2266.0,2188.0,1992.7,1020.3,3841,186957,372547344,yes,stack-median vs last-sale disagree (2266 vs 90000)
+chiseled_polished_blackstone,1,polished_blackstone_slabx2@1172a,2344.0,7031.0,7031.0,4687.0,200.0,1550,79272,371547864,,
+red_nether_bricks,1,nether_brickx2@469a + nether_wartx2@52o,1042.0,7109.0,7109.0,6067.0,582.2,941,59457,360725619,yes,
+white_wool,1,stringx4@72o,288.0,1563.0,1563.0,1275.0,442.7,5798,274007,349358925,yes,
+green_carpet,3,green_woolx2@501o,1002.2,15625.0,15625.0,45872.8,4577.2,347,21189,323999586,yes,
+prismarine,1,prismarine_shardx4@23o,92.0,5078.0,4188.0,4096.0,4452.2,1349,78812,322813952,yes,
+prismarine_bricks,1,prismarine_shardx9@23o,207.0,3906.0,3750.0,3543.0,1711.6,1542,90385,320234055,yes,stack-median vs last-sale disagree (3906 vs 10000)
+pale_oak_sign,3,pale_oak_planksx6@655a + stickx1@5o,3934.6,10188.0,10188.0,26629.4,676.8,2611,35707,316951519,yes,
+spruce_fence,3,spruce_planksx4@32o + stickx2@5o,138.0,1563.0,1563.0,4551.0,3297.8,4528,207028,314061476,yes,stack-median vs last-sale disagree (1563 vs 20000)
+wheat,9,hay_blockx1@2100o,2100.0,1859.0,1563.0,11967.0,569.9,3800,228627,303997701,yes,
+cyan_terracotta,8,terracottax8@250a + cyan_dyex1@50o,2050.0,3125.0,3125.0,22950.0,1119.5,1664,105525,302724712,yes,
+torch,4,charcoalx1@100o + stickx1@5o,105.0,547.0,547.0,2083.0,1983.8,10737,580034,302052706,yes,
+anvil,1,iron_blockx3@2500o + iron_ingotx4@170o,8180.0,18750.0,17000.0,8820.0,107.8,9110,34190,301555800,yes,
+polished_andesite_stairs,4,polished_andesitex6@1547a,9281.3,7031.0,7031.0,18842.7,203.0,1016,62835,295995578,,
+diorite_wall,6,dioritex6@1197a,7181.5,7813.0,7813.0,39696.5,552.8,689,43777,289632134,,
+ender_eye,1,ender_pearlx1@55o + blaze_powderx1@30o,85.0,3109.0,3109.0,3024.0,3557.6,2025,94772,286590528,yes,stack-median vs last-sale disagree (3109 vs 30000)
+black_wool,1,black_dyex1@90o + blue_woolx1@70o,160.0,2969.0,1703.0,1543.0,964.4,3041,183946,283828678,yes,stack-median vs last-sale disagree (2969 vs 1703)
+orange_dye,2,red_dyex1@156a + yellow_dyex1@312a,468.5,4188.0,3000.0,5531.5,1180.7,1632,99015,273850736,,
+nether_bricks,1,nether_brickx4@469a,1876.0,4688.0,4688.0,2812.0,149.9,1575,96572,271560464,,stack-median vs last-sale disagree (4688 vs 17857)
+emerald,9,emerald_blockx1@21100o,21100.0,3438.0,3438.0,9842.0,46.6,6250,247593,270756701,,
+honey_block,1,honey_bottlex4@375o,1500.0,5625.0,5625.0,4125.0,275.0,7113,65103,268549875,yes,stack-median vs last-sale disagree (5625 vs 39000)
+black_terracotta,8,terracottax8@250a + black_dyex1@90o,2090.0,13906.0,9219.0,71662.0,3428.8,475,29909,267917345,yes,
+stone_slab,6,stonex3@14o,42.0,3125.0,2344.0,14022.0,33385.7,1791,112900,263847300,yes,
+blue_wool,1,blue_dyex1@766a + black_woolx1@30o,795.6,4688.0,4688.0,3892.4,489.2,1139,66517,258909440,yes,
+blue_stained_glass,8,glassx8@280o + blue_dyex1@766a,3005.6,1531.0,1531.0,9242.4,307.5,3707,222329,256856138,yes,
+yellow_wool,1,yellow_dyex1@312a + black_woolx1@30o,342.5,6641.0,4375.0,4032.5,1177.4,1041,63047,254237028,yes,
+scaffolding,6,bamboox6@14o + stringx1@72o,156.0,594.0,594.0,3408.0,2184.6,7179,441509,250777112,yes,
+campfire,1,stickx3@5o + charcoalx1@100o + dark_oak_woodx3@25o,190.0,8594.0,8594.0,8404.0,4423.2,2082,29423,247270892,yes,stack-median vs last-sale disagree (8594 vs 30000)
+iron_ingot,9,iron_blockx1@2500o,2500.0,677.0,677.0,3593.0,143.7,12891,614588,245357187,,stack-median vs last-sale disagree (677 vs 3375)
+orange_stained_glass,8,glassx8@280o + orange_dyex1@1402a,3642.1,3594.0,2813.0,18862.0,517.9,1690,103973,245141691,yes,
+quartz_stairs,4,quartz_blockx6@1100o,6600.0,3750.0,3750.0,8400.0,127.3,1946,112652,236569200,yes,
+armor_stand,1,stickx6@5o + smooth_stone_slabx1@15o,45.1,1813.0,1250.0,1204.9,2671.6,12908,195139,235122981,yes,
+white_bed,1,white_woolx3@103o + spruce_planksx3@32o,405.0,20000.0,20000.0,19595.0,4838.3,11825,11825,231710875,yes,
+stone_bricks,4,stonex4@14o,56.0,469.0,469.0,1820.0,3250.0,7949,504609,229597095,yes,stack-median vs last-sale disagree (469 vs 13514)
+diorite,2,cobblestonex2@131a + quartzx2@310o,882.7,5469.0,1875.0,2867.3,324.8,2659,159811,229111442,yes,
+purple_stained_glass,8,glassx8@280o + purple_dyex1@781a,3021.0,1531.0,1406.0,8227.0,272.3,3629,222331,228639642,yes,
+polished_andesite,4,andesitex4@11o,44.0,1547.0,1547.0,6144.0,13963.6,2356,148049,227403264,yes,
+hopper_minecart,1,hopperx1@1900o + minecartx1@460o,2360.0,50000.0,26526.0,24166.0,1024.0,9248,9248,223487168,yes,
+firework_rocket,3,gunpowderx1@47o + paperx1@103o,150.0,1094.0,469.0,1257.0,838.0,9410,532862,223269178,yes,
+blue_carpet,3,blue_woolx2@70o,140.0,4966.0,4636.0,13768.0,9834.3,767,47303,217089235,yes,
+beehive,1,spruce_planksx6@32o + honeycombx3@100o,492.0,5469.0,5469.0,4977.0,1011.6,1647,42077,209417229,yes,
+lime_stained_glass,8,glassx8@280o + lime_dyex1@50o,2290.0,1719.0,1688.0,11214.0,489.7,2330,145539,204009293,yes,
+brown_stained_glass,8,glassx8@280o + brown_dyex1@1391a,3630.6,3734.0,3125.0,21369.4,588.6,1238,75790,202448164,yes,
+gray_stained_glass,8,glassx8@280o + gray_dyex1@3538a,5777.7,10438.0,2813.0,16726.3,289.5,1542,94745,198091425,yes,
+orange_wool,1,orange_dyex1@1402a + black_woolx1@30o,1432.0,5375.0,5375.0,3942.9,275.3,909,49881,196678289,yes,
+copper_block,1,copper_ingotx9@63o,567.0,4688.0,4688.0,4121.0,726.8,949,47485,195685685,yes,
+tnt_minecart,1,tntx1@1700o + minecartx1@460o,2160.0,35000.0,23126.0,20966.0,970.6,9090,9090,190580940,yes,
+crafting_table,1,spruce_planksx4@32o,128.0,625.0,625.0,497.0,388.3,13912,383443,190571171,yes,
+polished_blackstone_brick_stairs,4,polished_blackstone_bricksx6@215o,1290.0,5469.0,4219.0,15586.0,1208.2,876,48493,188952974,yes,
+blast_furnace,1,iron_ingotx5@170o + furnacex1@95a + smooth_stonex3@80o,1185.3,5703.0,5703.0,4517.7,381.1,3495,41752,188622593,yes,stack-median vs last-sale disagree (5703 vs 38000)
+spruce_shelf,6,stripped_spruce_logx6@2344a,14062.5,54688.0,6250.0,23437.5,166.7,1086,46955,183417969,,stack-median vs last-sale disagree (54688 vs 140625)
+green_terracotta,8,terracottax8@250a + green_dyex1@781a,2781.0,3125.0,3109.0,22091.0,794.4,1072,66215,182844446,,
+light_blue_terracotta,8,terracottax8@250a + light_blue_dyex1@1247a,3247.0,6680.0,6250.0,46753.0,1439.9,495,31226,182488647,,
+white_stained_glass_pane,16,white_stained_glassx6@310o,1860.0,3109.0,3109.0,47884.0,2574.4,1017,59628,178451697,yes,
+coal,9,coal_blockx1@1600o,1600.0,623.0,623.0,4007.0,250.4,6826,400411,178271875,,
+stone_button,1,stonex1@14o,14.0,5078.0,3906.0,3892.0,27800.0,1282,45783,178187436,yes,
+mud_bricks,4,packed_mudx4@400o,1600.0,3125.0,3125.0,10900.0,681.2,1080,64542,175876950,yes,
+activator_rail,6,iron_ingotx6@170o + stickx2@5o + redstone_torchx1@203o,1233.0,3125.0,3125.0,17517.0,1420.7,1457,60202,175759739,yes,
+gray_terracotta,8,terracottax8@250a + gray_dyex1@3538a,5537.7,4828.0,4813.0,32966.3,595.3,674,42327,174420467,,
+cake,1,milk_bucketx3@400o + sugarx2@344a + eggx1@28o + wheatx3@225o,2591.0,150000.0,99000.0,96409.0,3720.9,1808,1808,174307472,yes,
+observer,1,cobblestonex6@131a + redstonex2@361a + quartzx1@310o,1819.9,2172.0,2172.0,352.1,19.3,22683,494942,174259179,yes,stack-median vs last-sale disagree (2172 vs 25000)
+ladder,3,stickx7@5o,35.0,313.0,306.0,883.0,2522.9,9835,587225,172839892,yes,stack-median vs last-sale disagree (313 vs 172)
+cherry_boat,1,cherry_planksx5@781a,3906.2,500000.0,250000.0,246093.8,6300.0,701,701,172511719,,
+black_bed,1,black_woolx3@30o + spruce_planksx3@32o,186.0,90000.0,88000.0,87814.0,47211.8,1962,1962,172291068,yes,
+light_gray_stained_glass,8,glassx8@280o + light_gray_dyex1@1023a,3263.0,2328.0,2031.0,12985.0,397.9,1675,105102,170593684,yes,
+purple_concrete_powder,8,purple_dyex1@781a + sandx4@312a + gravelx4@10o,2071.0,4688.0,3003.0,21953.0,1060.0,969,61841,169699434,yes,
+dark_prismarine,1,prismarine_shardx8@23o + black_dyex1@90o,274.0,5469.0,3571.0,3297.0,1203.3,1012,51265,169020705,yes,
+paper,3,sugar_canex3@51o,153.0,625.0,391.0,1020.0,666.7,8072,494320,168068800,yes,stack-median vs last-sale disagree (625 vs 10000)
+packed_mud,1,mudx1@1o + wheatx1@225o,226.0,4672.0,3906.0,3680.0,1628.3,725,44923,165316640,yes,
+waxed_oxidized_copper_bulb,4,waxed_oxidized_copperx3@4685a + blaze_rodx1@400o + redstonex1@361a,14815.3,12500.0,12500.0,35184.7,237.5,1008,18772,165121750,yes,stack-median vs last-sale disagree (12500 vs 199999)
+lime_wool,1,lime_dyex1@50o + black_woolx1@30o,80.0,3125.0,3016.0,2936.0,3670.0,912,56047,164553992,yes,
+stone_brick_wall,6,stone_bricksx6@5o,30.0,1547.0,1547.0,9252.0,30840.0,1681,106713,164551446,yes,
+bucket,1,iron_ingotx3@170o,510.0,2813.0,2813.0,2303.0,451.6,5624,70599,162589497,yes,
+glass_bottle,3,glassx3@280o,840.0,1094.0,1016.0,2208.0,262.9,3619,220067,161969312,yes,
+lapis_block,1,lapis_lazulix9@22o,198.0,1875.0,1875.0,1677.0,847.0,2051,96025,161033925,yes,
+redstone,9,redstone_blockx1@1900o,1900.0,467.0,431.0,1979.0,104.2,17641,727721,160017762,,stack-median vs last-sale disagree (467 vs 1312)
+coal_block,1,coalx9@200o,1800.0,7031.0,3140.0,1340.0,74.4,3264,119166,159682440,yes,stack-median vs last-sale disagree (7031 vs 59000)
+red_terracotta,8,terracottax8@250a + red_dyex1@156a,2156.0,8594.0,3125.0,22844.0,1059.6,890,53725,153411738,,stack-median vs last-sale disagree (8594 vs 3125)
+black_carpet,3,black_woolx2@30o,60.0,1547.0,1484.0,4392.0,7320.0,1710,104317,152720088,yes,
+polished_deepslate_stairs,4,polished_deepslatex6@391a,2343.7,2344.0,2344.0,7032.3,300.0,1380,86064,151306536,,stack-median vs last-sale disagree (2344 vs 10000)
+tuff_bricks,4,polished_tuffx4@1852a,7406.4,4688.0,3125.0,5093.6,68.8,1936,118562,150975665,,
+spruce_trapdoor,2,spruce_planksx6@32o,192.0,547.0,547.0,902.0,469.8,11906,333873,150576723,yes,stack-median vs last-sale disagree (547 vs 9000)
+polished_blackstone_stairs,4,polished_blackstonex6@312o,1872.0,3125.0,3109.0,10564.0,564.3,1000,56698,149739418,yes,stack-median vs last-sale disagree (3125 vs 11875)
+stone_stairs,4,stonex6@14o,84.0,1094.0,1094.0,4292.0,5109.5,2147,135183,145051359,yes,
+blackstone_slab,6,blackstonex3@850o,2550.0,3906.0,3906.0,20886.0,819.1,666,41663,145028903,,
+pink_terracotta,8,terracottax8@250a + pink_dyex1@141a,2140.6,15625.0,6219.0,47611.4,2224.2,379,24191,143970862,,stack-median vs last-sale disagree (15625 vs 1650)
+green_stained_glass,8,glassx8@280o + green_dyex1@781a,3021.0,1250.0,1250.0,6979.0,231.0,2666,163885,142969177,yes,
+red_concrete_powder,8,red_dyex1@156a + sandx4@312a + gravelx4@10o,1446.0,2344.0,2031.0,14802.0,1023.7,1235,76902,142287926,yes,
+light_blue_stained_glass,8,glassx8@280o + light_blue_dyex1@1247a,3487.0,2500.0,1563.0,9017.0,258.6,2011,125887,141890385,yes,
+cobblestone_stairs,4,cobblestonex6@131a,788.2,2109.0,1250.0,4211.8,534.4,2114,133875,140965020,,stack-median vs last-sale disagree (2109 vs 1250)
+polished_tuff,4,tuffx4@1o,4.0,3125.0,1875.0,7496.0,187400.0,1219,75186,140898564,yes,
+red_carpet,3,red_woolx2@2943a,5886.9,3141.0,2891.0,2786.1,47.3,2511,151635,140821403,,
+stick,4,spruce_planksx2@32o,64.0,313.0,313.0,1188.0,1856.2,8234,466981,138693357,yes,stack-median vs last-sale disagree (313 vs 30000)
+red_bed,1,red_woolx3@2943a + spruce_planksx3@32o,8926.4,85000.0,73226.0,64299.6,720.3,2104,2104,135286337,yes,
+bone_meal,9,bone_blockx1@445o,445.0,469.0,141.0,824.0,185.2,23437,1443928,132199630,,stack-median vs last-sale disagree (469 vs 250)
+pale_oak_stairs,4,pale_oak_planksx6@655a,3929.6,3906.0,3906.0,11694.4,297.6,743,45063,131745736,,stack-median vs last-sale disagree (3906 vs 11719)
+tripwire_hook,2,iron_ingotx1@170o + stickx1@5o + spruce_planksx1@32o,207.0,1547.0,1547.0,2887.0,1394.7,3150,90120,130088220,yes,stack-median vs last-sale disagree (1547 vs 5938)
+arrow,4,flintx1@5o + stickx1@5o + featherx1@234a,244.1,250.0,250.0,755.9,309.7,10800,673991,127367449,yes,
+pale_oak_slab,6,pale_oak_planksx3@655a,1964.8,5469.0,3125.0,16785.2,854.3,724,45255,126602220,,stack-median vs last-sale disagree (5469 vs 1571)
+redstone_lamp,1,redstonex4@361a + glowstonex1@430o,1873.5,4688.0,4688.0,2814.5,150.2,2814,44953,126519319,yes,stack-median vs last-sale disagree (4688 vs 67000)
+deepslate_tile_stairs,4,deepslate_tilesx6@5o,30.0,2266.0,2266.0,9034.0,30113.3,946,55512,125373852,yes,stack-median vs last-sale disagree (2266 vs 9188)
+blue_dye,1,cornflowerx1@1o,1.0,766.0,766.0,765.0,76500.0,2833,161011,123173415,yes,
+black_candle,1,candlex1@100o + black_dyex1@90o,190.0,7813.0,7813.0,7623.0,4012.1,406,15978,121800294,yes,
+lime_dye,2,green_dyex1@781a + white_dyex1@584a,1364.5,1875.0,1719.0,2073.5,152.0,1837,115827,120082484,,
+purple_carpet,3,purple_woolx2@3031a,6062.0,6234.0,6234.0,12640.0,208.5,469,27963,117817440,,
+brown_wool,1,brown_dyex1@1391a + black_woolx1@30o,1420.6,5469.0,4688.0,3267.4,230.0,621,35931,117400231,yes,
+deepslate_brick_stairs,4,deepslate_bricksx6@10o,60.0,1547.0,1172.0,4628.0,7713.3,1599,101277,117177489,yes,
+deepslate_bricks,4,polished_deepslatex4@391a,1562.5,781.0,719.0,1313.5,84.1,5621,353645,116129945,,
+pale_oak_fence,3,pale_oak_planksx4@655a + stickx2@5o,2629.8,4688.0,4688.0,11434.2,434.8,540,30452,116065159,yes,
+oak_fence,3,oak_planksx4@52o + stickx2@5o,218.0,1563.0,1563.0,4471.0,2050.9,1518,77374,115313051,yes,
+white_candle,1,candlex1@100o + white_dyex1@584a,683.5,4688.0,4688.0,4004.5,585.9,777,28616,114592200,yes,stack-median vs last-sale disagree (4688 vs 1094)
+pale_oak_trapdoor,2,pale_oak_planksx6@655a,3929.6,3906.0,3906.0,3882.4,98.8,1654,58730,114005501,,
+magma_cream,1,blaze_powderx1@30o + slime_ballx1@40o,70.0,3438.0,2969.0,2899.0,4141.4,711,38984,113014616,yes,
+glass_pane,16,glassx6@280o,1680.0,609.0,609.0,8064.0,480.0,3552,218992,110371968,yes,
+polished_deepslate,4,cobbled_deepslatex4@10o,40.0,391.0,391.0,1524.0,3810.0,4587,287797,109650657,yes,
+spruce_sign,3,spruce_planksx6@32o + stickx1@5o,197.0,625.0,624.0,1675.0,850.3,19912,192701,107591392,yes,stack-median vs last-sale disagree (625 vs 9900)
+quartz_bricks,4,quartz_blockx4@1100o,4400.0,3386.0,3109.0,8036.0,182.6,1139,53403,107286627,yes,
+pink_carpet,3,pink_woolx2@160o,320.0,4688.0,2857.0,8251.0,2578.4,646,38904,106998968,yes,stack-median vs last-sale disagree (4688 vs 62500)
+andesite_wall,6,andesitex6@11o,66.0,5938.0,5469.0,32748.0,49618.2,307,19553,106720274,yes,stack-median vs last-sale disagree (5938 vs 3125)
+purple_wool,1,purple_dyex1@781a + black_woolx1@30o,811.0,3031.0,2980.0,2169.0,267.4,804,48764,105769116,yes,stack-median vs last-sale disagree (3031 vs 10000)
+brewing_stand,1,blaze_rodx1@400o + cobbled_deepslatex3@10o,430.0,1563.0,1563.0,1133.0,263.5,5488,93261,105664713,yes,stack-median vs last-sale disagree (1563 vs 10000)
+polished_basalt,4,basaltx4@62a,250.0,1094.0,1094.0,4126.0,1650.4,1612,102307,105529670,,stack-median vs last-sale disagree (1094 vs 13547)
+gold_ingot,9,gold_blockx1@20500o,20500.0,2813.0,2813.0,4817.0,23.5,5897,196989,105432890,,
+yellow_stained_glass,8,glassx8@280o + yellow_dyex1@312a,2552.5,1094.0,1094.0,6199.5,242.9,2155,135576,105062926,yes,
+conduit,1,nautilus_shellx8@3097a + heart_of_the_seax1@20100o,44877.0,73386.0,73386.0,28509.0,63.5,445,3629,103459306,yes,stack-median vs last-sale disagree (73386 vs 375000)
+white_concrete_powder,8,white_dyex1@584a + sandx4@312a + gravelx4@10o,1873.5,1516.0,1484.0,9998.5,533.7,1360,82301,102860613,yes,
+cyan_dye,2,blue_dyex1@766a + green_dyex1@781a,1546.6,2328.0,2273.0,2999.4,193.9,1278,68518,102755759,,
+lantern,1,iron_nuggetx8@148a + torchx1@10o,1195.2,2344.0,2344.0,1148.8,96.1,4204,87367,100367210,yes,
+pale_oak_planks,4,pale_oak_logx1@781a,781.0,781.0,764.0,2275.0,291.3,2773,175772,99970325,,
+lime_terracotta,8,terracottax8@250a + lime_dyex1@50o,2050.0,6250.0,3891.0,29078.0,1418.4,432,27017,98200041,yes,
+moss_carpet,3,moss_blockx2@8o,16.2,469.0,469.0,1390.8,8585.2,3404,208747,96775109,yes,
+smooth_quartz_slab,6,smooth_quartzx3@1100o,3300.0,4688.0,4359.0,22854.0,692.5,413,25296,96352464,yes,stack-median vs last-sale disagree (4688 vs 1625)
+birch_stairs,4,birch_planksx6@156a,937.5,6234.0,4086.0,15406.5,1643.4,392,24677,95046550,,
+rail,16,iron_ingotx6@170o + stickx1@5o,1025.0,309.0,309.0,3919.0,382.3,8657,386155,94583840,yes,
+andesite_stairs,4,andesitex6@11o,66.0,3828.0,3828.0,15246.0,23100.0,387,24658,93983967,yes,
+pink_stained_glass,8,glassx8@280o + pink_dyex1@141a,2380.6,1250.0,1250.0,7619.4,320.1,1618,97750,93099299,yes,
+warped_stairs,4,warped_planksx6@2049a,12294.3,7813.0,7813.0,18957.7,154.2,334,19635,93058610,,
+iron_chain,1,iron_nuggetx2@148a + iron_ingotx1@170o,466.3,1563.0,1563.0,1096.7,235.2,2698,84228,92372848,yes,stack-median vs last-sale disagree (1563 vs 25000)
+magenta_stained_glass,8,glassx8@280o + magenta_dyex1@155a,2395.0,1250.0,1250.0,7605.0,317.5,1626,96906,92121266,yes,
+cyan_stained_glass,8,glassx8@280o + cyan_dyex1@50o,2290.0,1531.0,1172.0,7086.0,309.4,1624,102490,90780389,yes,
+polished_andesite_slab,6,polished_andesitex3@1547a,4640.6,4390.0,4390.0,21699.4,467.6,398,25061,90634610,,
+black_stained_glass_pane,16,black_stained_glassx6@690o,4140.0,1563.0,1563.0,20868.0,504.1,1192,69233,90297140,yes,
+pink_wool,1,pink_dyex1@141a + black_woolx1@30o,170.6,2188.0,1547.0,1376.4,806.7,1099,64510,88790274,yes,
+blackstone_stairs,4,blackstonex6@850o,5100.0,3125.0,3125.0,7400.0,145.1,847,46158,85392300,,
+deepslate_brick_slab,6,deepslate_bricksx3@10o,30.0,1953.0,1797.0,10752.0,35840.0,752,47428,84990976,yes,
+cyan_concrete_powder,8,cyan_dyex1@50o + sandx4@312a + gravelx4@10o,1340.0,4241.0,3906.0,29908.0,2231.9,360,22722,84946169,yes,
+spruce_fence_gate,1,stickx4@5o + spruce_planksx2@32o,84.0,547.0,469.0,385.0,458.3,5634,219848,84641480,yes,
+yellow_terracotta,8,terracottax8@250a + yellow_dyex1@312a,2312.5,2578.0,1650.0,10887.5,470.8,1012,61385,83541148,,
+spruce_slab,6,spruce_planksx3@32o,96.0,155.0,155.0,834.0,868.8,9551,598430,83181770,yes,stack-median vs last-sale disagree (155 vs 94)
+warped_planks,4,warped_stemx1@201o,201.0,2266.0,1292.0,4967.0,2471.1,1063,65932,81871061,yes,stack-median vs last-sale disagree (2266 vs 78125)
+oak_wood,3,oak_logx4@85o,340.2,3281.0,3125.0,9034.8,2655.4,442,27104,81626045,yes,
+stone_brick_stairs,4,stone_bricksx6@5o,30.0,1563.0,1047.0,4158.0,13860.0,1205,76148,79155846,yes,
+smooth_quartz_stairs,4,smooth_quartzx6@1100o,6600.0,4672.0,4672.0,12088.0,183.2,538,25995,78556890,yes,
+cyan_wool,1,cyan_dyex1@50o + black_woolx1@30o,80.0,3906.0,2344.0,2264.0,2829.6,561,34651,78449517,yes,stack-median vs last-sale disagree (3906 vs 2344)
+minecart,1,iron_ingotx5@170o,850.0,12000.0,11000.0,10150.0,1194.1,7727,7727,78429050,yes,
+smooth_stone_slab,6,smooth_stonex3@80o,240.0,391.0,391.0,2106.0,877.5,3557,222467,78085917,yes,stack-median vs last-sale disagree (391 vs 1562)
+spruce_boat,1,spruce_planksx5@32o,160.0,8000.0,8000.0,7840.0,4900.0,9720,9720,76204800,yes,
+spruce_hanging_sign,6,iron_chainx2@1563a + stripped_spruce_logx6@2344a,17188.5,37449.0,25000.0,132811.5,772.7,455,3374,74684334,,
+mossy_stone_bricks,1,stone_bricksx1@5o + moss_blockx1@8o,13.1,1047.0,1047.0,1033.9,7892.4,1155,71658,74087206,yes,
+iron_bars,16,iron_ingotx6@170o,1020.0,625.0,469.0,6484.0,635.7,2922,181866,73701196,yes,
+stone_pressure_plate,1,stonex2@14o,28.0,4688.0,4672.0,4644.0,16585.7,931,15858,73644552,yes,
+spruce_pressure_plate,1,spruce_planksx2@32o,64.0,781.0,469.0,405.0,632.8,3284,174843,70811415,yes,
+copper_bulb,4,copper_blockx3@642o + blaze_rodx1@400o + redstonex1@361a,2686.9,1953.0,1953.0,5125.1,190.7,2415,55262,70806095,yes,
+light_gray_carpet,3,light_gray_woolx2@1875a,3750.0,6203.0,4688.0,10314.0,275.0,355,20448,70300224,,stack-median vs last-sale disagree (6203 vs 3125)
+heavy_weighted_pressure_plate,1,iron_ingotx2@170o,340.0,3125.0,3125.0,2785.0,819.1,856,24979,69566515,yes,
+purple_stained_glass_pane,16,purple_stained_glassx6@200o,1200.0,5052.0,2344.0,36304.0,3025.3,493,30647,69538043,yes,
+spruce_button,1,spruce_planksx1@32o,32.0,313.0,313.0,281.0,878.1,4831,246625,69301625,yes,
+lime_concrete_powder,8,lime_dyex1@50o + sandx4@312a + gravelx4@10o,1340.0,1875.0,1875.0,13660.0,1019.4,655,40454,69075205,yes,
+spruce_stairs,4,spruce_planksx6@32o,192.0,780.0,469.0,1684.0,877.1,2615,163778,68950538,yes,
+copper_trapdoor,1,copper_ingotx4@63o,252.0,3594.0,3542.0,3290.0,1305.6,369,20902,68767580,yes,
+yellow_concrete_powder,8,yellow_dyex1@312a + sandx4@312a + gravelx4@10o,1602.5,2683.0,2683.0,19861.5,1239.4,441,27664,68681067,yes,
+brown_dye,1,cocoa_beansx1@26o,26.0,1406.0,1176.0,1150.0,4423.1,1023,59100,67965000,yes,
+diorite_stairs,4,dioritex6@1197a,7181.5,5469.0,5469.0,14694.5,204.6,303,18305,67245614,,stack-median vs last-sale disagree (5469 vs 15156)
+cobblestone_wall,6,cobblestonex6@131a,788.2,313.0,313.0,1089.8,138.3,5824,369449,67106716,,stack-median vs last-sale disagree (313 vs 156)
+gray_carpet,3,gray_woolx2@501o,1002.2,7591.0,1953.0,4856.8,484.6,679,41360,66959083,yes,
+waxed_copper_block,1,copper_blockx1@642o + honeycombx1@100o,742.0,3398.0,2969.0,2227.0,300.1,601,29434,65549518,yes,
+blaze_powder,2,blaze_rodx1@400o,400.0,859.0,781.0,1162.0,290.5,1883,111079,64536899,yes,
+polished_diorite_stairs,4,polished_dioritex6@1172a,7031.3,3125.0,3125.0,5468.7,77.8,751,46494,63565667,,
+spruce_planks,4,spruce_logx1@72o,72.0,156.0,156.0,552.0,766.7,7303,453483,62580654,,
+note_block,1,spruce_planksx8@32o + redstonex1@361a,616.9,938.0,938.0,321.1,52.1,7826,193919,62271269,yes,
+oak_stairs,4,oak_planksx6@52o,312.0,3125.0,1563.0,5940.0,1903.8,679,41853,62151705,yes,stack-median vs last-sale disagree (3125 vs 1613)
+blue_ice,1,packed_icex9@296o,2664.0,2961.0,2961.0,297.0,11.1,4970,205137,60925689,yes,stack-median vs last-sale disagree (2961 vs 9375)
+copper_ingot,9,waxed_copper_blockx1@505o,505.0,625.0,469.0,3716.0,735.8,2552,144234,59552456,yes,
+raw_iron_block,1,raw_ironx9@121o,1089.0,8953.0,7500.0,6411.0,588.7,336,9111,58410621,yes,
+polished_diorite_slab,6,polished_dioritex3@1172a,3515.6,7688.0,3125.0,15234.4,433.3,365,22795,57877873,,stack-median vs last-sale disagree (7688 vs 3125)
+green_concrete_powder,8,green_dyex1@781a + sandx4@312a + gravelx4@10o,2071.0,1250.0,1250.0,7929.0,382.9,1062,57868,57354422,yes,
+bamboo_block,1,bamboox9@14o,126.0,594.0,547.0,421.0,334.1,2235,133218,56084778,,stack-median vs last-sale disagree (594 vs 333)
+blue_concrete_powder,8,blue_dyex1@766a + sandx4@312a + gravelx4@10o,2055.6,1563.0,1563.0,10448.4,508.3,679,42865,55983726,yes,
+cherry_planks,4,cherry_logx1@128o,128.0,859.0,734.0,2808.0,2193.8,1292,79676,55932552,yes,
+smooth_sandstone_stairs,4,smooth_sandstonex6@31o,186.0,3125.0,2381.0,9338.0,5020.4,379,23873,55731518,yes,
+oak_planks,4,oak_logx1@85o,85.1,305.0,303.0,1126.9,1324.9,3226,197728,55706898,yes,
+dark_oak_stairs,4,dark_oak_planksx6@1041a,6245.3,2656.0,2656.0,4378.7,70.1,823,50792,55600225,,
+waxed_oxidized_copper,1,oxidized_copperx1@1000o + honeycombx1@100o,1100.0,5938.0,1887.0,787.0,71.5,1537,70111,55177357,yes,
+black_concrete_powder,8,black_dyex1@90o + sandx4@312a + gravelx4@10o,1380.0,1555.0,1094.0,7372.0,534.2,1047,59593,54914950,yes,
+white_dye,1,bone_mealx1@216a,216.1,781.0,469.0,252.9,117.0,3544,216041,54638929,,
+pale_oak_shelf,6,stripped_pale_oak_logx6@3906a,23437.5,7813.0,5469.0,9376.5,40.0,762,34954,54624364,,stack-median vs last-sale disagree (7813 vs 300000)
+bamboo_sign,3,bamboo_planksx6@469a + stickx1@5o,2819.0,4938.0,4938.0,11995.0,425.5,880,13562,54225397,yes,
+spectral_arrow,2,glowstone_dustx4@10o + arrowx1@250a,290.0,1172.0,1094.0,1898.0,654.5,931,54827,52030823,yes,
+gray_concrete_powder,8,gray_dyex1@3538a + sandx4@312a + gravelx4@10o,4827.7,3881.0,2813.0,17676.3,366.1,368,23376,51650090,yes,
+purple_bed,1,purple_woolx3@3031a + spruce_planksx3@32o,9189.0,179000.0,170000.0,160811.0,1750.0,320,320,51459520,yes,
+oak_slab,6,oak_planksx3@52o,156.0,734.0,547.0,3126.0,2003.8,1613,98000,51058000,yes,stack-median vs last-sale disagree (734 vs 7812)
+green_wool,1,green_dyex1@781a + black_woolx1@30o,811.0,1563.0,1563.0,752.0,92.7,1118,67024,50402048,yes,
+melon,1,melon_slicex9@10o,90.0,1563.0,1484.0,1394.0,1548.9,628,35758,49846652,yes,
+light_gray_wool,1,light_gray_dyex1@1023a + black_woolx1@30o,1053.0,1875.0,1875.0,822.0,78.1,1356,60397,49646334,yes,
+slime_ball,9,slime_blockx1@160o,160.0,469.0,469.0,4061.0,2538.1,1882,107749,48618743,yes,
+spruce_wood,3,spruce_logx4@72o,288.0,1563.0,1563.0,4401.0,1528.1,527,32882,48237894,,
+sandstone_wall,6,sandstonex6@312a,1875.0,5078.0,2344.0,12189.0,650.1,373,23518,47776817,,
+target,1,redstonex4@361a + hay_blockx1@2100o,3543.5,4375.0,4375.0,831.5,23.5,2558,56323,46831448,yes,stack-median vs last-sale disagree (4375 vs 29000)
+magma_block,1,magma_creamx4@37o,148.0,391.0,391.0,243.0,164.2,3410,189409,46026387,yes,
+cookie,8,wheatx2@225o + cocoa_beansx1@26o,476.0,694.0,688.0,5028.0,1056.3,1195,72952,45850332,yes,
+chiseled_bookshelf,1,spruce_planksx6@32o + spruce_slabx3@94a,473.2,2875.0,1406.0,932.8,197.1,1046,48952,45659978,yes,stack-median vs last-sale disagree (2875 vs 69500)
+quartz_pillar,2,quartz_blockx2@1100o,2200.0,1600.0,1600.0,1000.0,45.5,1659,91017,45508500,yes,
+deepslate_tile_wall,6,deepslate_tilesx6@5o,30.0,2344.0,1563.0,9348.0,31160.0,460,29132,45387656,yes,
+cherry_sign,3,cherry_planksx6@781a + stickx1@5o,4692.5,6250.0,6188.0,13871.5,295.6,847,9808,45350557,yes,
+oak_boat,1,oak_planksx5@52o,260.0,25000.0,15000.0,14740.0,5669.2,3012,3012,44396880,yes,
+lightning_rod,1,copper_ingotx3@63o,189.0,3109.0,3109.0,2920.0,1545.0,765,15101,44094920,yes,
+oak_trapdoor,2,oak_planksx6@52o,312.0,703.0,703.0,1094.0,350.6,3198,80148,43840956,yes,
+tuff_slab,6,tuffx3@1o,3.0,1094.0,1094.0,6561.0,218700.0,634,40004,43744374,yes,
+blue_terracotta,8,terracottax8@250a + blue_dyex1@766a,2765.6,4758.0,1471.0,9002.4,325.5,611,38240,43031376,,stack-median vs last-sale disagree (4758 vs 1471)
+light_blue_dye,2,blue_dyex1@766a + white_dyex1@584a,1349.1,1247.0,1210.0,1070.9,79.4,1308,78181,41860453,,
+detector_rail,6,iron_ingotx6@170o + stone_pressure_platex1@4062a + redstonex1@361a,5443.2,3125.0,3125.0,13306.8,244.5,1065,18336,40665459,yes,stack-median vs last-sale disagree (3125 vs 50000)
+raw_iron,9,raw_iron_blockx1@1100o,1100.0,1250.0,1094.0,8746.0,795.1,1526,41400,40231600,yes,stack-median vs last-sale disagree (1250 vs 3333)
+gray_dye,2,black_dyex1@90o + white_dyex1@584a,673.5,3906.0,938.0,1202.5,178.5,1071,65983,39671619,yes,
+red_stained_glass_pane,16,red_stained_glassx6@18o,108.0,4688.0,1563.0,24900.0,23055.6,429,25197,39212831,yes,
+polished_blackstone_brick_slab,6,polished_blackstone_bricksx3@215o,645.0,1563.0,1563.0,8733.0,1354.0,436,26892,39141306,yes,stack-median vs last-sale disagree (1563 vs 6047)
+waxed_copper_bulb,4,waxed_copper_blockx3@505o + blaze_rodx1@400o + redstonex1@361a,2275.9,2813.0,2813.0,8976.1,394.4,877,16910,37946420,yes,
+spyglass,1,amethyst_shardx1@625a + copper_ingotx2@63o,751.0,20000.0,20000.0,19249.0,2563.1,1964,1964,37805036,yes,
+white_harness,1,leatherx3@283o + glassx2@280o + white_woolx1@103o,1512.0,60000.0,60000.0,58488.0,3868.3,639,639,37373832,yes,
+green_bed,1,green_woolx3@501o + spruce_planksx3@32o,1599.3,100000.0,100000.0,98400.7,6152.7,374,374,36801862,yes,
+deepslate_tile_slab,6,deepslate_tilesx3@5o,15.0,1563.0,781.0,4671.0,31140.0,756,47004,36592614,yes,stack-median vs last-sale disagree (1563 vs 7812)
+gold_nugget,9,gold_ingotx1@600o,600.0,1563.0,750.0,6150.0,1025.0,1040,53189,36345817,yes,stack-median vs last-sale disagree (1563 vs 10000)
+deepslate_brick_wall,6,deepslate_bricksx6@10o,60.0,1563.0,1563.0,9318.0,15530.0,379,23346,36256338,yes,stack-median vs last-sale disagree (1563 vs 15625)
+furnace,1,cobbled_deepslatex8@10o,80.0,156.0,156.0,76.0,95.0,8022,452920,34421920,yes,stack-median vs last-sale disagree (156 vs 95)
+pumpkin_seeds,4,pumpkinx1@70o,70.0,703.0,703.0,2742.0,3917.1,932,49780,34124190,yes,stack-median vs last-sale disagree (703 vs 4688)
+purple_dye,2,blue_dyex1@766a + red_dyex1@156a,921.6,781.0,781.0,640.4,69.5,1699,102779,32908808,,
+polished_deepslate_slab,6,polished_deepslatex3@391a,1171.9,781.0,781.0,3514.1,299.9,875,55679,32610634,,
+cobbled_deepslate_stairs,4,cobbled_deepslatex6@10o,60.0,1250.0,1172.0,4628.0,7713.3,475,27854,32227078,yes,
+sandstone_stairs,4,sandstonex6@312a,1875.0,3125.0,1563.0,4377.0,233.4,462,29151,31898482,,
+red_dye,2,rose_bushx1@125a,125.0,156.0,156.0,187.0,149.6,5429,330375,30890062,,
+stone_brick_slab,6,stone_bricksx3@5o,15.0,2344.0,531.0,3171.0,21140.0,923,58251,30785654,yes,
+lime_bed,1,lime_woolx3@3125a + spruce_planksx3@32o,9471.0,74999.0,74999.0,65528.0,691.9,467,467,30601576,yes,
+polished_blackstone_slab,6,polished_blackstonex3@312o,936.0,2188.0,1079.0,5538.0,591.7,536,32364,29871972,yes,
+yellow_dye,2,sunflowerx1@469a,468.8,391.0,391.0,313.2,66.8,3109,189445,29671823,,
+pink_dye,1,pink_petalsx1@6o,6.0,188.0,188.0,182.0,3033.3,2624,162208,29521856,,
+oak_pressure_plate,1,oak_planksx2@52o,104.0,1563.0,1563.0,1459.0,1402.9,530,20136,29378424,yes,
+white_terracotta,8,terracottax8@250a + white_dyex1@584a,2583.5,859.0,781.0,3664.5,141.8,1045,63018,28866025,,
+fire_charge,3,gunpowderx1@47o + blaze_powderx1@30o + coalx1@200o,277.0,1563.0,1563.0,4412.0,1592.8,761,19186,28216211,yes,
+bamboo_fence,3,bamboo_planksx4@469a + stickx2@5o,1886.0,3906.0,1875.0,3739.0,198.3,386,22535,28086122,yes,
+pink_bed,1,pink_woolx3@160o + spruce_planksx3@32o,576.0,66641.0,40000.0,39424.0,6844.4,696,696,27439104,yes,
+candle,1,stringx1@72o + honeycombx1@100o,172.0,1094.0,1094.0,922.0,536.0,836,29622,27311484,yes,
+mangrove_trapdoor,2,mangrove_planksx6@1717a,10302.0,7031.0,7031.0,3760.0,36.5,554,14420,27109600,,
+cobblestone_slab,6,cobblestonex3@131a,394.1,234.0,156.0,541.9,137.5,4664,292692,26435941,,
+red_candle,1,candlex1@100o + red_dyex1@156a,256.0,1250.0,1250.0,994.0,388.3,705,26247,26089518,yes,
+light_gray_dye,3,black_dyex1@90o + white_dyex2@584a,1257.0,1023.0,1022.0,1809.0,143.9,811,41765,25183738,yes,
+cherry_trapdoor,2,cherry_planksx6@781a,4687.5,4219.0,3937.0,3186.5,68.0,437,15569,24805309,,
+stonecutter,1,iron_ingotx1@170o + stonex3@14o,212.0,2031.0,2031.0,1819.0,858.0,2217,12955,23565145,yes,
+polished_tuff_stairs,4,polished_tuffx6@1852a,11109.7,3906.0,3906.0,4514.3,40.6,322,20324,22937362,,
+bamboo_trapdoor,2,bamboo_planksx6@469a,2814.0,2891.0,2344.0,1874.0,66.6,658,24342,22808454,,
+light_blue_concrete_powder,8,light_blue_dyex1@1247a + sandx4@312a + gravelx4@10o,2537.0,1250.0,1250.0,7463.0,294.2,389,24360,22724835,yes,
+warped_sign,3,warped_planksx6@2049a + stickx1@5o,12299.3,6188.0,6188.0,6264.7,50.9,917,10797,22546655,yes,stack-median vs last-sale disagree (6188 vs 75000)
+blue_bed,1,blue_woolx3@70o + spruce_planksx3@32o,306.0,28900.0,28000.0,27694.0,9050.3,807,807,22349058,yes,
+end_rod,4,blaze_rodx1@400o + popped_chorus_fruitx1@1562a,1962.5,703.0,703.0,849.5,43.3,2989,101245,21501907,yes,
+bamboo_planks,2,bamboo_blockx1@133o,133.0,469.0,234.0,335.0,251.9,1994,124927,20925272,,
+waxed_oxidized_cut_copper,4,waxed_oxidized_copperx4@4685a,18739.2,5469.0,5469.0,3136.8,16.7,462,25413,19928620,,
+diorite_slab,6,dioritex3@1197a,3590.8,2344.0,1563.0,5787.2,161.2,307,19133,18454544,,
+brown_terracotta,8,terracottax8@250a + brown_dyex1@1391a,3390.6,1172.0,781.0,2857.4,84.3,814,50422,18009352,,
+light_gray_concrete_powder,8,light_gray_dyex1@1023a + sandx4@312a + gravelx4@10o,2313.0,1094.0,1094.0,6439.0,278.4,336,21317,17157520,yes,
+tinted_glass,2,amethyst_shardx4@625a + glassx1@280o,2780.0,1528.0,1528.0,276.0,9.9,2035,119018,16424484,yes,
+mangrove_slab,6,mangrove_planksx3@1717a,5151.0,2344.0,1563.0,4227.0,82.1,370,22792,16056964,,
+blackstone_wall,6,blackstonex6@850o,5100.0,1563.0,1563.0,4278.0,83.9,365,22518,16055334,,stack-median vs last-sale disagree (1563 vs 4083)
+yellow_bed,1,yellow_woolx3@2989a + spruce_planksx3@32o,9063.5,40000.0,40000.0,30936.5,341.3,515,515,15932308,yes,
+magenta_dye,1,alliumx1@1o,1.0,155.0,155.0,154.0,15400.0,1684,100429,15466066,yes,
+dark_oak_planks,4,dark_oak_logx1@100o,100.0,1563.0,234.0,836.0,836.0,1167,72454,15142886,yes,
+magenta_concrete_powder,8,magenta_dyex1@155a + sandx4@312a + gravelx4@10o,1445.0,1250.0,859.0,5427.0,375.6,350,21654,14689532,yes,
+coarse_dirt,4,dirtx2@12o + gravelx2@10o,44.0,1172.0,469.0,1832.0,4163.6,587,31654,14497532,yes,
+warped_slab,6,warped_planksx3@2049a,6147.2,1547.0,1531.0,3038.8,49.4,458,28142,14253219,,
+cut_sandstone,4,sandstonex4@312a,1250.0,7781.0,781.0,1874.0,149.9,477,29015,13593528,,
+light_blue_bed,1,light_blue_woolx3@3215a + spruce_planksx3@32o,9741.0,100000.0,50000.0,40259.0,413.3,330,330,13285470,yes,
+dried_kelp,9,dried_kelp_blockx1@500o,500.0,156.0,141.0,769.0,153.8,2506,154520,13202876,yes,
+quartz_slab,6,quartz_blockx3@1100o,3300.0,6250.0,781.0,1386.0,42.0,975,55766,12881946,yes,
+dark_oak_fence,3,dark_oak_planksx4@1041a + stickx2@5o,4173.6,6042.0,2292.0,2702.4,64.8,432,14121,12720385,yes,stack-median vs last-sale disagree (6042 vs 2292)
+honeycomb_block,1,honeycombx4@100o,400.0,3125.0,1953.0,1553.0,388.2,302,8114,12601042,yes,stack-median vs last-sale disagree (3125 vs 1875)
+oak_button,1,oak_planksx1@52o,52.0,391.0,391.0,339.0,651.9,1013,34331,11638209,yes,stack-median vs last-sale disagree (391 vs 14286)
+andesite,2,dioritex1@1197a + cobblestonex1@131a,1328.3,1563.0,781.0,233.7,17.6,1683,96696,11299895,,
+birch_boat,1,birch_planksx5@156a,781.2,20000.0,9825.0,9043.8,1157.6,1183,1183,10698756,,
+nether_wart_block,1,nether_wartx9@52o,468.0,938.0,906.0,438.0,93.6,410,23039,10091082,yes,
+gray_bed,1,gray_woolx3@501o + spruce_planksx3@32o,1599.3,20000.0,20000.0,18400.7,1150.5,516,516,9494761,yes,
+magenta_bed,1,magenta_woolx3@1843a + spruce_planksx3@32o,5625.0,30000.0,20000.0,14375.0,255.6,646,646,9286250,yes,
+polished_diorite,4,dioritex4@1197a,4787.7,1250.0,1250.0,212.3,4.4,2656,167527,8892333,,
+cherry_stairs,4,cherry_planksx6@781a,4687.5,2250.0,1563.0,1564.5,33.4,377,21829,8537868,,
+saddle,1,leatherx3@283o + iron_ingotx1@170o,1019.0,5000.0,5000.0,3981.0,390.7,2081,2081,8284461,yes,
+birch_planks,4,birch_logx1@160o,160.0,1016.0,250.0,840.0,525.0,693,39042,8198820,yes,stack-median vs last-sale disagree (1016 vs 156)
+pale_oak_fence_gate,1,stickx4@5o + pale_oak_planksx2@655a,1329.9,1563.0,1563.0,233.1,17.5,829,33132,7723732,yes,stack-median vs last-sale disagree (1563 vs 70000)
+polished_granite,4,granitex4@435a,1739.1,1000.0,750.0,1260.9,72.5,408,24123,7604052,,
+light_gray_terracotta,8,terracottax8@250a + light_gray_dyex1@1023a,3023.0,781.0,625.0,1977.0,65.4,505,28925,7148091,,
+jungle_planks,4,jungle_logx1@66o,66.0,250.0,250.0,934.0,1415.2,443,26040,6080340,yes,
+birch_sign,3,birch_planksx6@156a + stickx1@5o,942.5,875.0,625.0,932.5,98.9,1805,16957,5270801,yes,
+wolf_armor,1,armadillo_scutex6@512a,3073.0,10000.0,10000.0,6927.0,225.4,743,743,5146791,,
+lever,1,stickx1@5o + cobblestonex1@131a,136.4,156.0,156.0,19.6,14.4,13620,242744,4767492,yes,stack-median vs last-sale disagree (156 vs 5000)
+suspicious_stew,1,bowlx1@2344a + brown_mushroomx1@10o + red_mushroomx1@781a + alliumx1@1o,3136.2,26000.0,10000.0,6863.8,218.9,685,685,4701669,yes,
+spruce_chest_boat,1,chestx1@558a + spruce_boatx1@8000a,8558.2,67000.0,20000.0,11441.8,133.7,309,309,3535507,,
+crimson_planks,4,crimson_stemx1@2047a,2046.9,1094.0,625.0,453.1,22.1,501,29768,3372045,,
+jungle_boat,1,jungle_planksx5@250a,1250.0,25000.0,10000.0,8750.0,700.0,365,365,3193750,,
+bamboo_raft,1,bamboo_planksx5@469a,2345.0,98000.0,10000.0,7655.0,326.4,409,409,3130895,,
+sugar,3,honey_bottlex1@375o,375.0,344.0,234.0,327.0,87.2,537,27172,2961748,yes,stack-median vs last-sale disagree (344 vs 5000)
+mushroom_stew,1,brown_mushroomx1@10o + red_mushroomx1@781a + bowlx1@2344a,3135.2,7000.0,7000.0,3864.8,123.3,682,682,2635760,yes,
+birch_button,1,birch_planksx1@156a,156.2,391.0,391.0,234.8,150.2,467,9952,2336232,,stack-median vs last-sale disagree (391 vs 5769)
+birch_slab,6,birch_planksx3@156a,468.8,313.0,161.0,497.2,106.1,343,20633,1709960,,
+cherry_slab,6,cherry_planksx3@781a,2343.8,609.0,469.0,470.2,20.1,316,19143,1500333,,
+pale_oak_hanging_sign,6,iron_chainx2@1563a + stripped_pale_oak_logx6@3906a,26563.5,10469.0,4688.0,1564.5,5.9,506,3563,929052,,
+snow,6,snow_blockx3@604a,1813.0,313.0,313.0,65.0,3.6,882,54687,592534,,
+jungle_sign,3,jungle_planksx6@250a + stickx1@5o,1505.0,938.0,563.0,184.0,12.2,634,6089,373459,yes,
+purpur_block,4,popped_chorus_fruitx4@1562a,6250.0,1563.0,1563.0,2.0,0.0,1995,123363,61682,,
