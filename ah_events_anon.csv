@@ -1,0 +1,1043 @@
+date,time,type,actor,qty,item,price,unit
+2026-08-27,11:39:48,earned_away,me,,(auction),2000000.0,
+2026-08-27,11:41:28,bought,flipper_D,16,Ender Pearls,1900.0,118.75
+2026-08-27,11:44:48,bought,flipper_D,16,Ender Pearls,1400.0,87.5
+2026-08-27,11:45:12,bought,flipper_D,64,Cooked Porkchops,19000.0,296.875
+2026-08-27,11:46:11,bought,flipper_D,1,Golden Pickaxe,30000.0,30000.0
+2026-08-27,11:46:40,listed,me,64,Flow Armor Trim,7900000.0,123437.5
+2026-08-27,11:46:59,listed,me,11,Flow Armor Trim,800000.0,72727.27272727272
+2026-08-27,11:48:51,listed,flipper_D,3,Chorus Fruit,3000000000.0,1000000000.0
+2026-08-27,11:48:52,listed,flipper_D,2,Chorus Fruit,3000000000.0,1500000000.0
+2026-08-27,11:48:53,listed,flipper_D,3,Chorus Fruit,3000000000.0,1000000000.0
+2026-08-27,11:48:54,listed,flipper_D,3,Chorus Fruit,3000000000.0,1000000000.0
+2026-08-27,11:49:55,bought,flipper_D,16,Ender Pearls,2000.0,125.0
+2026-08-27,11:50:53,bought,flipper_D,64,Cooked Porkchops,30000.0,468.75
+2026-08-27,11:51:26,listed,me,14,Dragon's Breath,399000.0,28500.0
+2026-08-27,11:51:31,listed,me,14,Dragon's Breath,399000.0,28500.0
+2026-08-27,11:51:34,listed,me,13,Dragon's Breath,399000.0,30692.30769230769
+2026-08-27,11:51:38,listed,me,13,Dragon's Breath,399000.0,30692.30769230769
+2026-08-27,11:52:07,listed,me,64,Ghast Tear,4900000.0,76562.5
+2026-08-27,14:28:00,sold_to,player_342,,Flow Armor Trim,800000.0,
+2026-08-27,14:41:19,listed,flipper_D,1,Diamond Pickaxe,1000000000.0,1000000000.0
+2026-08-27,14:43:05,bought,me,64,Golden Carrots,157000.0,2453.125
+2026-08-27,14:45:03,bought,flipper_D,1,Water Bucket,2000.0,2000.0
+2026-08-27,14:45:03,bought,flipper_D,1,Water Bucket,3300.0,3300.0
+2026-08-27,14:45:27,bought,flipper_D,64,Cobblestone,1000.0,15.625
+2026-08-27,14:47:27,listed,flipper_D,1,Diamond Pickaxe,1000000000.0,1000000000.0
+2026-08-27,14:50:43,bought,flipper_D,1,Lava Bucket,6700.0,6700.0
+2026-08-27,14:54:21,listed,flipper_D,1,Diamond Sword,110000.0,110000.0
+2026-08-27,14:54:30,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-27,14:54:32,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-27,14:54:33,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-27,14:54:38,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-27,14:56:22,listed,flipper_D,64,Arrow of Harming,170000.0,2656.25
+2026-08-27,14:56:23,listed,flipper_D,64,Arrow of Harming,170000.0,2656.25
+2026-08-27,14:56:53,listed,flipper_D,13,Arrow of Harming,40000.0,3076.923076923077
+2026-08-27,14:57:19,listed,flipper_D,64,Obsidian,205000.0,3203.125
+2026-08-27,14:57:22,listed,flipper_D,64,Obsidian,205000.0,3203.125
+2026-08-27,14:57:25,listed,flipper_D,60,Obsidian,205000.0,3416.6666666666665
+2026-08-27,14:57:54,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:57:57,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:57:59,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:02,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:04,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:18,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:19,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:21,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:22,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:24,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:26,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:58:29,listed,flipper_D,1,End Crystal,38000.0,38000.0
+2026-08-27,14:59:43,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,14:59:45,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,14:59:47,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,14:59:49,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,14:59:51,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,14:59:52,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,14:59:59,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:01,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:02,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:04,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:05,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:09,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:26,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:28,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:31,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:32,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:34,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:35,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:37,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:38,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:42,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:48,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:55,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:56,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:00:59,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:01:04,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:01:05,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:01:08,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:01:10,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:01:11,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:37,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:39,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:40,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:41,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:42,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:43,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:44,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:45,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:49,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:54,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:56,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:58,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:02:59,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:01,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:20,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:42,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:43,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:45,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:46,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:47,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:48,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:50,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:03:51,listed,flipper_D,1,Golden Apple,20000.0,20000.0
+2026-08-27,15:05:29,listed,flipper_D,1,Diamond Pickaxe,443000.0,443000.0
+2026-08-27,15:06:20,listed,flipper_D,1,Diamond Sword,239000.0,239000.0
+2026-08-27,15:06:43,listed,flipper_D,1,Diamond Sword,149000.0,149000.0
+2026-08-27,15:07:06,listed,flipper_D,1,Diamond Sword,150000.0,150000.0
+2026-08-27,15:07:13,listed,flipper_D,1,Diamond Sword,100000.0,100000.0
+2026-08-27,15:08:02,listed,flipper_D,1,Diamond Sword,747000.0,747000.0
+2026-08-27,15:08:35,listed,flipper_D,1,Diamond Pickaxe,125000.0,125000.0
+2026-08-27,15:08:37,listed,flipper_D,1,Diamond Pickaxe,125000.0,125000.0
+2026-08-27,15:09:18,listed,flipper_D,1,Bow,249000.0,249000.0
+2026-08-27,15:10:07,listed,flipper_D,1,Bow,805000.0,805000.0
+2026-08-27,15:26:52,bought,flipper_D,1,Lava Bucket,5000.0,5000.0
+2026-08-27,15:45:58,bought,me,1,Water Bucket,7600.0,7600.0
+2026-08-27,15:46:44,bought,me,1,Water Bucket,7900.0,7900.0
+2026-08-27,15:47:56,bought,me,1,Water Bucket,8500.0,8500.0
+2026-08-27,15:53:07,bought,me,1,Water Bucket,5800.0,5800.0
+2026-08-27,16:04:46,bought,me,1,Diamond Sword,79000.0,79000.0
+2026-08-27,16:05:40,bought,me,1,Enchanted Book,28300.0,28300.0
+2026-08-27,16:05:46,bought,me,1,Enchanted Book,29600.0,29600.0
+2026-08-27,16:06:44,bought,me,1,Enchanted Book,50000.0,50000.0
+2026-08-27,16:06:55,listed,me,1,Diamond Sword,750000.0,750000.0
+2026-08-27,16:07:52,sold_to,player_327,,Diamond Sword,750000.0,
+2026-08-27,16:34:51,bought,me,1,Diamond Pickaxe,118000.0,118000.0
+2026-08-27,16:35:56,bought,me,1,Water Bucket,7100.0,7100.0
+2026-08-27,16:38:47,bought,me,1,Ender Chest,18000.0,18000.0
+2026-08-27,16:39:44,listed,me,3,Terracotta,300000.0,100000.0
+2026-08-27,16:40:17,sold_to,player_244,,Coal,183.0,
+2026-08-27,16:50:26,listed,flipper_D,1,Diamond Pickaxe,1000000000.0,1000000000.0
+2026-08-27,16:50:30,listed,flipper_D,2,Obsidian,1000000000.0,500000000.0
+2026-08-27,17:01:57,balance,me,,(balance),39900.0,
+2026-08-27,17:03:35,listed,flipper_D,1,Diamond Pickaxe,1000000000.0,1000000000.0
+2026-08-27,17:05:01,bought,flipper_D,44,Nether Wart,30000.0,681.8181818181819
+2026-08-27,17:05:23,bought,me,1,Ender Chest,20900.0,20900.0
+2026-08-27,17:08:12,listed,flipper_D,1,Diamond Pickaxe,1000000000.0,1000000000.0
+2026-08-27,17:09:41,sold_multi,flipper_D,,(multiple),10800.0,
+2026-08-27,17:14:30,bought,flipper_D,64,Cobblestone,2900.0,45.3125
+2026-08-27,17:15:01,listed,flipper_D,13,Obsidian,2000000000.0,153846153.84615386
+2026-08-27,17:16:44,bought,flipper_D,1,Diamond Pickaxe,115000.0,115000.0
+2026-08-27,17:16:44,bought,flipper_D,1,Diamond Pickaxe,115000.0,115000.0
+2026-08-27,17:16:49,listed,flipper_D,1,Diamond Pickaxe,150000.0,150000.0
+2026-08-27,17:17:14,listed,flipper_D,1,Diamond Pickaxe,150000.0,150000.0
+2026-08-27,17:18:15,listed,flipper_D,1,Diamond Pickaxe,2000000000.0,2000000000.0
+2026-08-27,17:20:39,balance,me,,(balance),13600.0,
+2026-08-27,17:24:22,bought,flipper_D,64,Cooked Porkchops,19000.0,296.875
+2026-08-27,17:26:58,bought,flipper_D,64,Spruce Logs,8700.0,135.9375
+2026-08-27,17:26:59,bought,flipper_D,1,Diamond Pickaxe,110000.0,110000.0
+2026-08-27,17:27:10,listed,flipper_D,64,Spruce Log,6700.0,104.6875
+2026-08-27,17:28:09,listed,flipper_D,1,Diamond Pickaxe,150000.0,150000.0
+2026-08-27,17:29:00,bought,flipper_D,1,Diamond Pickaxe,109000.0,109000.0
+2026-08-27,17:29:48,listed,flipper_D,1,Diamond Pickaxe,2000000000.0,2000000000.0
+2026-08-27,17:29:59,listed,flipper_D,1,Diamond Pickaxe,100000.0,100000.0
+2026-08-27,17:30:44,listed,flipper_D,1,Arrow of Harming,30000.0,30000.0
+2026-08-27,17:31:09,balance,me,,(balance),1500.0,
+2026-08-27,17:32:33,listed,flipper_D,4,Golden Apple,2000000000.0,500000000.0
+2026-08-27,17:32:40,balance,me,,(balance),2100.0,
+2026-08-27,17:34:13,bought,me,1,Diamond Hoe,30000.0,30000.0
+2026-08-27,17:35:49,bought,flipper_D,16,Ender Pearls,1800.0,112.5
+2026-08-27,17:36:22,bought,me,64,Cooked Porkchops,11000.0,171.875
+2026-08-27,17:37:23,bought,flipper_D,1,Enchanted Book,57200.0,57200.0
+2026-08-27,17:37:23,bought,flipper_D,1,Enchanted Book,57200.0,57200.0
+2026-08-27,17:37:23,bought,flipper_D,1,Enchanted Book,57300.0,57300.0
+2026-08-27,17:39:26,balance,me,,(balance),435000.0,
+2026-08-27,17:39:44,balance,me,,(balance),2000.0,
+2026-08-27,17:40:02,listed,me,1,Shroomlight,20000.0,20000.0
+2026-08-27,17:40:12,balance,me,,(balance),408.0,
+2026-08-27,17:40:13,balance,me,,(balance),90.0,
+2026-08-27,17:40:25,balance,me,,(balance),451.9,
+2026-08-27,17:40:47,bought,flipper_D,64,Spruce Logs,8100.0,126.5625
+2026-08-27,17:41:05,listed,flipper_D,64,Spruce Planks,8000.0,125.0
+2026-08-27,17:41:06,listed,flipper_D,64,Spruce Planks,8000.0,125.0
+2026-08-27,17:41:08,listed,flipper_D,64,Spruce Planks,8000.0,125.0
+2026-08-27,17:41:14,listed,flipper_D,6,Obsidian,8000000000.0,1333333333.3333333
+2026-08-27,17:43:35,listed,flipper_D,1,Diamond Pickaxe,8000000000.0,8000000000.0
+2026-08-27,17:45:44,listed,flipper_D,5,Obsidian,8000000000.0,1600000000.0
+2026-08-27,17:46:15,listed,flipper_D,1,Diamond Pickaxe,8000000000.0,8000000000.0
+2026-08-27,17:51:43,listed,flipper_D,1,Diamond Pickaxe,2000000000.0,2000000000.0
+2026-08-27,17:55:33,bought,flipper_D,16,Ender Pearls,2000.0,125.0
+2026-08-27,18:01:20,bought,flipper_D,1,Diamond Pickaxe,113000.0,113000.0
+2026-08-27,18:03:00,bought,flipper_D,16,Ender Pearls,1900.0,118.75
+2026-08-27,18:03:18,bought,flipper_D,16,Ender Pearls,1800.0,112.5
+2026-08-27,18:04:04,balance,me,,(balance),32000.0,
+2026-08-27,18:04:05,balance,me,,(balance),584.0,
+2026-08-27,18:16:02,listed,flipper_D,1,Diamond Pickaxe,2000000000.0,2000000000.0
+2026-08-27,18:17:48,bought,flipper_D,64,Cooked Porkchops,19000.0,296.875
+2026-08-27,18:18:15,bought,me,1,Water Bucket,4100.0,4100.0
+2026-08-27,18:18:32,balance,me,,(balance),60000.0,
+2026-08-27,18:19:20,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:21,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:22,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:24,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:26,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:27,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:29,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:30,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:37,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:39,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:41,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:42,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:45,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:46,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:48,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:50,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:19:51,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:20:09,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:20:11,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:20:13,listed,flipper_D,1,Totem of Undying,111000.0,111000.0
+2026-08-27,18:22:55,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:22:57,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:22:59,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:02,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:04,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:05,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:06,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:09,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:11,listed,flipper_D,1,End Crystal,33000.0,33000.0
+2026-08-27,18:23:45,listed,flipper_D,1,Trident,1200000.0,1200000.0
+2026-08-27,18:24:16,listed,flipper_D,1,Leather Cap,70000.0,70000.0
+2026-08-27,18:27:13,bought,flipper_D,64,Cobblestone,2000.0,31.25
+2026-08-27,18:28:47,bought,flipper_D,1,Diamond Pickaxe,119000.0,119000.0
+2026-08-27,18:32:00,balance,me,,(balance),12500.0,
+2026-08-27,18:34:03,bought,flipper_D,7,Ender Pearls,1200.0,171.42857142857142
+2026-08-27,18:34:03,bought,flipper_D,9,Ender Pearls,1200.0,133.33333333333334
+2026-08-27,18:34:40,balance,me,,(balance),2000.0,
+2026-08-27,18:34:47,bought,me,1,Water Bucket,5000.0,5000.0
+2026-08-27,18:34:49,bought,me,1,Water Bucket,5000.0,5000.0
+2026-08-27,18:35:22,bought,flipper_D,1,Iron Sword,17000.0,17000.0
+2026-08-27,18:35:26,bought,flipper_D,64,Cooked Porkchops,46400.0,725.0
+2026-08-27,18:35:50,balance,me,,(balance),17700.0,
+2026-08-27,18:36:35,sold_to,player_157,,Shroomlight,20000.0,
+2026-08-27,18:52:35,bought,me,1,Shield,169000.0,169000.0
+2026-08-27,18:52:57,balance,me,,(balance),9000.0,
+2026-08-27,18:53:57,bought,flipper_D,64,Cooked Porkchops,18800.0,293.75
+2026-08-27,18:54:17,bought,flipper_D,1,Diamond Pickaxe,174000.0,174000.0
+2026-08-27,18:54:41,sold_multi,flipper_D,,(multiple),90100.0,
+2026-08-27,18:55:11,bought,flipper_D,1,Potion of Invisibility,30000.0,30000.0
+2026-08-27,19:00:37,listed,flipper_D,64,Obsidian,120000.0,1875.0
+2026-08-27,19:00:38,listed,flipper_D,64,Obsidian,120000.0,1875.0
+2026-08-27,19:00:40,listed,flipper_D,64,Obsidian,120000.0,1875.0
+2026-08-27,19:00:42,listed,flipper_D,64,Obsidian,120000.0,1875.0
+2026-08-27,19:00:48,listed,flipper_D,42,Obsidian,105000.0,2500.0
+2026-08-27,19:01:09,listed,flipper_D,64,Arrow of Harming,176000.0,2750.0
+2026-08-27,19:01:27,listed,flipper_D,23,Arrow of Harming,80000.0,3478.2608695652175
+2026-08-27,19:01:35,listed,me,1,Shield,190000.0,190000.0
+2026-08-27,19:02:21,balance,me,,(balance),30900.0,
+2026-08-27,19:02:38,balance,me,,(balance),326000.0,
+2026-08-27,19:02:39,balance,me,,(balance),35700.0,
+2026-08-27,19:06:30,listed,flipper_D,1,Diamond Leggings,35000.0,35000.0
+2026-08-27,19:06:40,listed,flipper_D,1,Diamond Chestplate,35000.0,35000.0
+2026-08-27,19:06:58,listed,flipper_D,1,Bow,299000.0,299000.0
+2026-08-27,19:07:16,listed,flipper_D,1,Diamond Chestplate,189000.0,189000.0
+2026-08-27,19:07:33,listed,flipper_D,1,Diamond Helmet,38000.0,38000.0
+2026-08-27,19:07:56,listed,flipper_D,1,Bow,300000.0,300000.0
+2026-08-27,19:08:13,listed,flipper_D,1,Diamond Boots,38000.0,38000.0
+2026-08-27,19:08:47,listed,flipper_D,1,Diamond Helmet,165000.0,165000.0
+2026-08-27,19:08:57,bought,me,64,Cobblestone,1500.0,23.4375
+2026-08-27,19:09:15,listed,flipper_D,64,Bottle o' Enchanting,386000.0,6031.25
+2026-08-27,19:09:29,listed,flipper_D,1,Diamond Hoe,64000.0,64000.0
+2026-08-27,19:10:02,listed,flipper_D,1,Enchanted Book,67000.0,67000.0
+2026-08-27,19:10:21,listed,flipper_D,1,Diamond Sword,43000.0,43000.0
+2026-08-27,19:10:23,listed,flipper_D,1,Diamond Sword,43000.0,43000.0
+2026-08-27,19:10:28,listed,flipper_D,1,Ender Chest,25000.0,25000.0
+2026-08-27,19:10:45,listed,flipper_D,1,Diamond Axe,29800.0,29800.0
+2026-08-27,19:11:05,listed,flipper_D,1,Diamond Axe,44800.0,44800.0
+2026-08-27,19:11:28,listed,flipper_D,1,Diamond,7000.0,7000.0
+2026-08-27,19:12:12,listed,flipper_D,1,Splash Potion of the Turtle Master,33000.0,33000.0
+2026-08-27,19:12:14,listed,flipper_D,1,Splash Potion of the Turtle Master,33000.0,33000.0
+2026-08-27,19:12:16,listed,flipper_D,1,Splash Potion of the Turtle Master,33000.0,33000.0
+2026-08-27,19:12:17,listed,flipper_D,1,Splash Potion of Strength,33000.0,33000.0
+2026-08-27,19:12:50,bought,me,64,Cobblestone,1000.0,15.625
+2026-08-27,19:12:54,listed,flipper_D,1,Bow,855000.0,855000.0
+2026-08-27,19:13:16,listed,flipper_D,1,Enchanted Book,28000.0,28000.0
+2026-08-27,19:13:48,listed,flipper_D,1,Diamond Helmet,65000.0,65000.0
+2026-08-27,19:14:22,bought,me,64,Cobblestone,1500.0,23.4375
+2026-08-27,19:14:22,listed,flipper_D,1,Diamond Helmet,299000.0,299000.0
+2026-08-27,19:14:24,listed,flipper_D,1,Diamond Helmet,299000.0,299000.0
+2026-08-27,19:14:26,listed,flipper_D,1,Diamond Helmet,299000.0,299000.0
+2026-08-27,19:14:28,listed,flipper_D,1,Diamond Helmet,299000.0,299000.0
+2026-08-27,19:15:04,listed,flipper_D,1,Diamond Leggings,349000.0,349000.0
+2026-08-27,19:15:06,listed,flipper_D,1,Diamond Leggings,349000.0,349000.0
+2026-08-27,19:15:07,listed,flipper_D,1,Diamond Leggings,349000.0,349000.0
+2026-08-27,19:15:09,listed,flipper_D,1,Diamond Leggings,349000.0,349000.0
+2026-08-27,19:15:46,listed,flipper_D,1,Diamond Boots,326000.0,326000.0
+2026-08-27,19:16:27,listed,flipper_D,1,Diamond Chestplate,290000.0,290000.0
+2026-08-27,19:19:31,listed,flipper_D,1,Netherite Chestplate,6900000.0,6900000.0
+2026-08-27,19:19:38,listed,flipper_D,46,Block of Emerald,1300000.0,28260.869565217392
+2026-08-27,19:21:08,listed,flipper_D,1,Wind Charge,59000.0,59000.0
+2026-08-27,19:21:08,listed,flipper_D,1,Wind Charge,59000.0,59000.0
+2026-08-27,19:21:27,listed,flipper_D,1,Wind Charge,59000.0,59000.0
+2026-08-27,19:21:47,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:21:52,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:21:57,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:22:02,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:22:27,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:22:30,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:22:31,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:22:33,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:03,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:06,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:48,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:53,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:55,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:57,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:24:59,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:00,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:02,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:09,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:11,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:13,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:15,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:17,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:19,sold_to,player_148,,Shield,190000.0,
+2026-08-27,19:25:20,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:25,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:27,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:28,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:30,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:33,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:34,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-27,19:25:49,listed,flipper_D,64,Emerald,185000.0,2890.625
+2026-08-27,19:25:51,listed,flipper_D,64,Emerald,185000.0,2890.625
+2026-08-27,19:25:53,listed,flipper_D,64,Emerald,185000.0,2890.625
+2026-08-27,19:25:54,listed,flipper_D,64,Emerald,185000.0,2890.625
+2026-08-27,19:25:57,listed,flipper_D,64,Emerald,185000.0,2890.625
+2026-08-27,19:26:06,listed,flipper_D,30,Emerald,92000.0,3066.6666666666665
+2026-08-27,19:26:32,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:34,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:35,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:37,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:39,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:41,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:43,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:45,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:26:46,listed,flipper_D,1,End Crystal,29000.0,29000.0
+2026-08-27,19:27:03,listed,flipper_D,1,Crying Obsidian,13000.0,13000.0
+2026-08-27,19:27:05,listed,flipper_D,1,Crying Obsidian,13000.0,13000.0
+2026-08-27,19:27:07,listed,flipper_D,1,Crying Obsidian,13000.0,13000.0
+2026-08-27,19:27:59,listed,flipper_D,64,Golden Apple,1200000.0,18750.0
+2026-08-27,19:28:09,listed,flipper_D,64,Golden Apple,1200000.0,18750.0
+2026-08-27,19:28:23,sold_multi,flipper_D,,(multiple),63100.0,
+2026-08-27,19:28:39,listed,flipper_D,15,Golden Apple,295000.0,19666.666666666668
+2026-08-27,19:29:09,listed,flipper_D,1,Diamond Helmet,75000.0,75000.0
+2026-08-27,19:29:49,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:03,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:05,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:06,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:08,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:10,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:12,listed,flipper_D,1,Wind Charge,55000.0,55000.0
+2026-08-27,19:30:46,sold_multi,flipper_D,,(multiple),26800.0,
+2026-08-27,19:31:12,sold_multi,flipper_D,,(multiple),292000.0,
+2026-08-27,19:31:38,listed,flipper_D,1,Water Bucket,3000.0,3000.0
+2026-08-27,19:31:40,listed,flipper_D,1,Water Bucket,3000.0,3000.0
+2026-08-27,19:31:41,listed,flipper_D,1,Water Bucket,3000.0,3000.0
+2026-08-27,19:31:43,listed,flipper_D,1,Water Bucket,3000.0,3000.0
+2026-08-27,19:31:46,listed,flipper_D,1,Water Bucket,3000.0,3000.0
+2026-08-27,19:31:51,listed,flipper_D,1,Water Bucket,3000.0,3000.0
+2026-08-27,19:32:26,sold_multi,flipper_D,,(multiple),55800.0,
+2026-08-27,19:32:36,listed,flipper_D,1,Diamond Axe,28000.0,28000.0
+2026-08-27,19:32:42,listed,flipper_D,4,Emerald,35000.0,8750.0
+2026-08-27,19:32:44,balance,me,,(balance),3300.0,
+2026-08-27,19:33:14,listed,flipper_D,1,Diamond Boots,318000.0,318000.0
+2026-08-27,19:33:40,listed,flipper_D,1,Diamond Helmet,292000.0,292000.0
+2026-08-27,19:34:23,listed,flipper_D,64,End Crystal,1200000.0,18750.0
+2026-08-27,19:37:25,bought,flipper_D,1,Enchanted Book,68700.0,68700.0
+2026-08-27,19:37:25,bought,flipper_D,1,Enchanted Book,69700.0,69700.0
+2026-08-27,19:37:26,bought,flipper_D,1,Enchanted Book,69700.0,69700.0
+2026-08-27,19:37:43,bought,flipper_D,1,Iron Sword,15000.0,15000.0
+2026-08-27,19:38:34,listed,flipper_D,1,Diamond Pickaxe,30000000000.0,30000000000.0
+2026-08-27,19:38:52,bought,flipper_D,1,Splash Potion of Invisibility,13900.0,13900.0
+2026-08-27,19:45:36,bought,flipper_D,16,Ender Pearls,2000.0,125.0
+2026-08-27,19:45:53,bought,me,16,Ender Pearls,2500.0,156.25
+2026-08-27,19:45:56,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-27,19:47:30,bought,flipper_D,16,Ender Pearls,2500.0,156.25
+2026-08-27,19:47:46,bought,flipper_D,16,Ender Pearls,1200.0,75.0
+2026-08-27,19:48:40,bought,me,64,Cobblestone,890.0,13.90625
+2026-08-27,19:52:06,bought,flipper_D,1,Potion of Invisibility,16000.0,16000.0
+2026-08-27,19:52:43,bought,flipper_D,1,Water Bucket,4200.0,4200.0
+2026-08-27,19:56:07,bought,flipper_D,16,Ender Pearls,2500.0,156.25
+2026-08-27,19:57:39,listed,flipper_D,1,Diamond Pickaxe,10000000000.0,10000000000.0
+2026-08-27,19:58:30,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-27,20:00:23,bought,flipper_D,1,Potion of Invisibility,15000.0,15000.0
+2026-08-27,20:01:37,bought,flipper_D,64,Cobblestone,2000.0,31.25
+2026-08-27,20:01:47,bought,flipper_D,64,Cooked Porkchops,17500.0,273.4375
+2026-08-27,20:02:58,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-27,20:03:36,bought,flipper_D,1,Potion of Invisibility,16000.0,16000.0
+2026-08-27,20:03:46,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,20:03:47,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,20:05:47,bought,flipper_D,11,Chorus Fruits,1200.0,109.0909090909091
+2026-08-27,20:06:07,bought,flipper_D,16,Ender Pearls,1800.0,112.5
+2026-08-27,20:07:21,bought,flipper_D,1,Potion of Invisibility,18000.0,18000.0
+2026-08-27,20:08:11,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,20:08:45,bought,flipper_D,16,Ender Pearls,2500.0,156.25
+2026-08-27,20:09:29,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,20:09:37,balance,me,,(balance),44900.0,
+2026-08-27,20:10:10,bought,flipper_D,64,Chorus Fruits,6000.0,93.75
+2026-08-27,20:10:53,bought,me,16,Ender Pearls,1800.0,112.5
+2026-08-27,20:10:56,bought,me,16,Ender Pearls,1800.0,112.5
+2026-08-27,20:10:59,bought,me,16,Ender Pearls,1700.0,106.25
+2026-08-27,20:14:41,bought,flipper_D,1,Splash Potion of Invisibility,13900.0,13900.0
+2026-08-27,20:15:54,bought,flipper_D,1,Lava Bucket,17000.0,17000.0
+2026-08-27,20:15:55,bought,flipper_D,64,Cooked Porkchops,42300.0,660.9375
+2026-08-27,20:17:44,bought,flipper_D,64,Chorus Fruits,6000.0,93.75
+2026-08-27,20:17:46,bought,flipper_D,16,Ender Pearls,1200.0,75.0
+2026-08-27,20:17:49,bought,me,16,Ender Pearls,2500.0,156.25
+2026-08-27,20:17:51,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-27,20:17:58,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-27,20:18:03,bought,me,16,Ender Pearls,5000.0,312.5
+2026-08-27,20:18:51,bought,me,64,TNT,176000.0,2750.0
+2026-08-27,20:19:07,bought,flipper_D,64,Chorus Fruits,6000.0,93.75
+2026-08-27,20:20:43,bought,flipper_D,63,Chorus Fruits,6000.0,95.23809523809524
+2026-08-27,20:21:36,bought,flipper_D,60,Chorus Fruits,9300.0,155.0
+2026-08-27,20:21:44,bought,flipper_D,16,Ender Pearls,2900.0,181.25
+2026-08-27,20:24:22,bought,flipper_D,19,Chorus Fruits,9000.0,473.6842105263158
+2026-08-27,20:24:27,bought,flipper_D,9,Ender Pearls,1200.0,133.33333333333334
+2026-08-27,20:24:27,bought,flipper_D,7,Ender Pearls,1200.0,171.42857142857142
+2026-08-27,20:26:02,bought,flipper_D,17,Chorus Fruits,7900.0,464.70588235294116
+2026-08-27,20:26:07,bought,flipper_D,16,Ender Pearls,2500.0,156.25
+2026-08-27,20:27:06,bought,flipper_D,1,Potion of Invisibility,25000.0,25000.0
+2026-08-27,20:27:39,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,20:28:02,balance,me,,(balance),1600.0,
+2026-08-27,20:29:50,balance,me,,(balance),28.8,
+2026-08-27,20:29:51,balance,me,,(balance),7300.0,
+2026-08-27,20:38:22,balance,me,,(balance),1300.0,
+2026-08-27,20:43:13,bought,me,16,Ender Pearls,7900.0,493.75
+2026-08-27,20:43:16,bought,me,16,Ender Pearls,8000.0,500.0
+2026-08-27,20:43:48,listed,me,45,TNT,150000.0,3333.3333333333335
+2026-08-27,20:44:50,balance,me,,(balance),7700.0,
+2026-08-27,23:03:26,earned_away,me,,(auction),450000.0,
+2026-08-27,23:04:36,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,23:05:23,bought,flipper_D,1,Splash Potion of Invisibility,29000.0,29000.0
+2026-08-27,23:06:27,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,23:07:09,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,23:07:51,bought,me,16,Ender Pearls,1000.0,62.5
+2026-08-27,23:07:53,bought,me,16,Ender Pearls,1000.0,62.5
+2026-08-27,23:07:57,bought,me,16,Ender Pearls,1200.0,75.0
+2026-08-27,23:08:00,bought,me,16,Ender Pearls,1800.0,112.5
+2026-08-27,23:08:04,bought,me,16,Ender Pearls,1200.0,75.0
+2026-08-27,23:08:28,bought,me,64,Cooked Porkchops,48000.0,750.0
+2026-08-27,23:09:43,bought,flipper_D,64,Cobblestone,8100.0,126.5625
+2026-08-27,23:12:42,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,23:14:51,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-27,23:15:41,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:43,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:47,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:49,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:51,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:52,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:55,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:57,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:15:59,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:41,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:42,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:43,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:43,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:44,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:45,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:47,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:47,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:48,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:49,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:49,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:50,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:51,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:51,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:52,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:52,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:53,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:16:54,listed,flipper_D,1,Totem of Undying,105000.0,105000.0
+2026-08-27,23:17:09,listed,flipper_D,11,Arrow of Harming,70000.0,6363.636363636364
+2026-08-27,23:17:37,listed,flipper_D,33,Obsidian,82000.0,2484.848484848485
+2026-08-27,23:18:46,listed,flipper_D,30,Golden Apple,688000.0,22933.333333333332
+2026-08-27,23:19:45,bought,me,64,Cobblestone,4800.0,75.0
+2026-08-27,23:20:27,listed,flipper_D,18,Arrow of Harming,100000.0,5555.555555555556
+2026-08-27,23:20:55,sold_multi,flipper_D,,(multiple),4000.0,
+2026-08-27,23:43:46,balance,me,,(balance),31700.0,
+2026-08-27,23:47:54,bought,me,16,Ender Pearls,1200.0,75.0
+2026-08-27,23:47:55,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-27,23:47:57,bought,me,16,Ender Pearls,2000.0,125.0
+2026-08-28,00:00:53,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-28,00:00:55,bought,me,16,Ender Pearls,2400.0,150.0
+2026-08-28,00:00:59,bought,me,16,Ender Pearls,1800.0,112.5
+2026-08-28,00:01:00,bought,me,16,Ender Pearls,2400.0,150.0
+2026-08-28,00:01:02,bought,me,16,Ender Pearls,2400.0,150.0
+2026-08-28,00:05:56,balance,me,,(balance),8400.0,
+2026-08-28,00:09:08,balance,me,,(balance),5900.0,
+2026-08-28,00:09:27,balance,me,,(balance),1800.0,
+2026-08-28,00:10:17,balance,me,,(balance),880.0,
+2026-08-28,00:10:19,balance,me,,(balance),36.0,
+2026-08-28,00:10:22,balance,me,,(balance),66.9,
+2026-08-28,00:16:31,bought,me,64,Cobbled Deepslate,4700.0,73.4375
+2026-08-28,00:19:21,balance,me,,(balance),12500.0,
+2026-08-28,00:19:22,balance,me,,(balance),120.8,
+2026-08-28,00:19:25,balance,me,,(balance),1600.0,
+2026-08-28,00:19:27,balance,me,,(balance),80.0,
+2026-08-28,00:31:06,bought,me,1,Ominous Bottle,48800.0,48800.0
+2026-08-28,00:31:23,bought,me,1,Water Bucket,10000.0,10000.0
+2026-08-28,00:33:09,bought,me,1,Shulker Box,4000.0,4000.0
+2026-08-28,00:35:16,balance,me,,(balance),12.0,
+2026-08-28,00:38:39,bought,me,1,Shulker Box,5600.0,5600.0
+2026-08-28,00:39:44,balance,me,,(balance),17100.0,
+2026-08-28,00:39:55,balance,me,,(balance),48.0,
+2026-08-28,00:41:20,bought,flipper_D,64,Cobblestone,4600.0,71.875
+2026-08-28,00:43:31,listed,me,1,Leather Tunic,2000.0,2000.0
+2026-08-28,00:43:38,sold_to,player_262,,Leather Tunic,2000.0,
+2026-08-28,00:50:29,bought,flipper_D,16,Ender Pearls,2300.0,143.75
+2026-08-28,00:52:27,bought,flipper_D,64,Cooked Porkchops,8900.0,139.0625
+2026-08-28,00:52:31,balance,me,,(balance),47300.0,
+2026-08-28,00:52:41,bought,flipper_D,1,Golden Apple,19800.0,19800.0
+2026-08-28,00:59:42,bought,me,64,Cooked Porkchops,8900.0,139.0625
+2026-08-28,01:02:56,bought,me,64,Ladders,9800.0,153.125
+2026-08-28,01:03:27,bought,flipper_D,16,Ender Pearls,3000.0,187.5
+2026-08-28,01:05:10,bought,flipper_D,64,Cooked Porkchops,8900.0,139.0625
+2026-08-28,01:08:42,listed,flipper_D,1,Diamond Pickaxe,20000000000.0,20000000000.0
+2026-08-28,01:09:15,bought,flipper_D,1,Flint and Steel,6200.0,6200.0
+2026-08-28,01:09:26,listed,me,1,Diamond Axe,150000.0,150000.0
+2026-08-28,01:10:09,balance,me,,(balance),1900.0,
+2026-08-28,01:10:12,balance,me,,(balance),345.0,
+2026-08-28,01:10:13,balance,me,,(balance),850.0,
+2026-08-28,01:10:18,sold_to,player_024,,Diamond Axe,150000.0,
+2026-08-28,01:14:11,bought,flipper_D,64,Cobblestone,4000.0,62.5
+2026-08-28,01:15:51,bought,flipper_D,1,Splash Potion of Invisibility,20000.0,20000.0
+2026-08-28,01:16:02,bought,flipper_D,64,Cobblestone,6800.0,106.25
+2026-08-28,01:16:02,bought,flipper_D,64,Cobblestone,6900.0,107.8125
+2026-08-28,01:20:32,balance,me,,(balance),4300.0,
+2026-08-28,01:23:14,balance,me,,(balance),9100.0,
+2026-08-28,01:25:07,bought,me,64,Ladders,10000.0,156.25
+2026-08-28,01:26:35,bought,flipper_D,16,Snowballs,4800.0,300.0
+2026-08-28,01:27:21,bought,flipper_D,64,Iron Ingots,24000.0,375.0
+2026-08-28,01:33:22,bought,flipper_D,16,Snowballs,3000.0,187.5
+2026-08-28,01:33:40,bought,flipper_D,16,Snowballs,1000.0,62.5
+2026-08-28,01:34:52,bought,flipper_D,16,Snowballs,1000.0,62.5
+2026-08-28,01:36:08,balance,me,,(balance),1700.0,
+2026-08-28,01:36:11,balance,me,,(balance),1500.0,
+2026-08-28,16:57:50,earned_away,me,,(auction),1500000.0,
+2026-08-28,16:59:14,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:17,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:20,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:23,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:23,sold_to,player_175,,Ominous Trial Key,440000.0,
+2026-08-28,16:59:26,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:29,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:31,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:34,listed,me,1,Ominous Trial Key,440000.0,440000.0
+2026-08-28,16:59:37,sold_to,player_359,,Ominous Trial Key,440000.0,
+2026-08-28,16:59:39,sold_to,player_073,,Ominous Trial Key,440000.0,
+2026-08-28,16:59:42,sold_to,player_146,,Ominous Trial Key,440000.0,
+2026-08-28,16:59:49,listed,me,7,Fire Charge,99000.0,14142.857142857143
+2026-08-28,17:00:04,sold_to,player_311,,Steak,350.0,
+2026-08-28,17:00:21,listed,me,7,Red Candle,40000.0,5714.285714285715
+2026-08-28,17:00:24,sold_to,player_325,,Ominous Trial Key,440000.0,
+2026-08-28,17:00:38,sold_to,player_302,,Ominous Trial Key,440000.0,
+2026-08-28,17:00:43,sold_to,player_322,,Ominous Trial Key,440000.0,
+2026-08-28,17:01:45,listed,me,1,Lingering Potion of Poison,90000.0,90000.0
+2026-08-28,17:01:48,listed,me,1,Lingering Potion of Poison,90000.0,90000.0
+2026-08-28,17:01:51,listed,me,1,Lingering Potion of Poison,90000.0,90000.0
+2026-08-28,17:02:34,listed,me,1,Decorated Pot,40000.0,40000.0
+2026-08-28,17:03:00,sold_to,player_286,,Decorated Pot,40000.0,
+2026-08-28,17:05:01,listed,me,1,Mace,5000000.0,5000000.0
+2026-08-28,17:09:40,sold_to,player_264,,Red Candle,40000.0,
+2026-08-28,17:10:08,listed,me,1,Crossbow,50000.0,50000.0
+2026-08-28,17:11:26,balance,me,,(balance),73700.0,
+2026-08-28,17:11:48,listed,me,2,Waxed Exposed Copper Bulb,40000.0,20000.0
+2026-08-28,17:12:23,listed,me,31,Waxed Block of Copper,50000.0,1612.9032258064517
+2026-08-28,17:12:35,listed,me,64,Tuff Bricks,48000.0,750.0
+2026-08-28,17:12:43,listed,me,1,Waxed Oxidized Copper Bulb,50000.0,50000.0
+2026-08-28,17:12:45,listed,me,1,Waxed Weathered Copper Bulb,50000.0,50000.0
+2026-08-28,17:12:55,listed,me,8,Chiseled Tuff Bricks,20000.0,2500.0
+2026-08-28,17:13:27,sold_to,player_360,,Waxed Oxidized Copper Bulb,50000.0,
+2026-08-28,17:13:37,sold_to,player_339,,Tuff Bricks,48000.0,
+2026-08-28,17:13:49,listed,me,38,Waxed Block of Copper,50000.0,1315.7894736842106
+2026-08-28,17:13:56,listed,me,2,Iron Ingot,2000.0,1000.0
+2026-08-28,17:14:14,listed,me,1,Guster Banner Pattern,10000.0,10000.0
+2026-08-28,17:15:28,listed,me,1,Waxed Copper Grate,5000.0,5000.0
+2026-08-28,17:15:46,listed,me,2,Decorated Pot,100000.0,50000.0
+2026-08-28,17:16:07,listed,me,1,Flow Pottery Sherd,50000.0,50000.0
+2026-08-28,17:16:20,listed,me,3,Flower Pot,50000.0,16666.666666666668
+2026-08-28,17:16:36,sold_to,player_308,,Flower Pot,50000.0,
+2026-08-28,17:17:28,sold_to,player_232,,Waxed Exposed Copper Bulb,40000.0,
+2026-08-28,17:18:12,sold_to,player_160,,Chiseled Tuff Bricks,20000.0,
+2026-08-28,18:07:43,earned_away,me,,(auction),205000.0,
+2026-08-28,18:14:57,bought,me,1,Ender Pearl,1800.0,1800.0
+2026-08-28,18:15:07,bought,me,16,Ender Pearls,2000.0,125.0
+2026-08-28,18:15:12,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-28,18:15:14,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-28,18:15:15,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-28,18:15:15,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-28,18:15:16,bought,me,16,Ender Pearls,2000.0,125.0
+2026-08-28,18:15:17,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-28,18:15:18,bought,me,16,Ender Pearls,2000.0,125.0
+2026-08-28,18:17:36,listed,me,1,Enchanted Golden Apple,1600000.0,1600000.0
+2026-08-28,18:22:09,listed,me,32,Flow Armor Trim,3200000.0,100000.0
+2026-08-28,18:22:18,listed,me,32,Flow Armor Trim,3200000.0,100000.0
+2026-08-28,18:22:37,listed,me,1,Enchanted Golden Apple,1900000.0,1900000.0
+2026-08-28,18:23:08,listed,me,14,Red Candle,200000.0,14285.714285714286
+2026-08-28,18:23:30,listed,me,1,Diamond Chestplate,100000.0,100000.0
+2026-08-28,18:23:45,listed,me,1,Diamond Chestplate,150000.0,150000.0
+2026-08-28,18:24:16,listed,me,3,Glow Berries,50000.0,16666.666666666668
+2026-08-28,18:24:32,sold_to,player_131,,Diamond Chestplate,150000.0,
+2026-08-28,18:24:38,listed,me,1,Golden Apple,30000.0,30000.0
+2026-08-28,18:25:20,sold_to,player_067,,Golden Apple,30000.0,
+2026-08-28,18:26:09,listed,me,20,Emerald,89000.0,4450.0
+2026-08-28,18:28:18,sold_to,player_240,,Guster Banner Pattern,10000.0,
+2026-08-28,18:28:34,listed,me,7,Dead Bush,40000.0,5714.285714285715
+2026-08-28,18:29:09,listed,me,4,Flower Pot,80000.0,20000.0
+2026-08-28,18:29:13,sold_to,player_303,,Dead Bush,40000.0,
+2026-08-28,18:29:30,listed,me,1,Diamond Horse Armor,111000.0,111000.0
+2026-08-28,18:30:15,listed,me,2,Decorated Pot,60000.0,30000.0
+2026-08-28,18:30:21,listed,me,5,Leather,20000.0,4000.0
+2026-08-28,18:32:46,balance,me,,(balance),71200.0,
+2026-08-28,18:33:36,listed,me,64,Bone Meal,9000.0,140.625
+2026-08-28,18:33:39,sold_to,player_355,,Bone Meal,9000.0,
+2026-08-28,18:34:15,listed,me,6,Dispenser,70000.0,11666.666666666666
+2026-08-28,18:34:39,sold_to,player_150,,Oak Button,33.0,
+2026-08-28,18:34:44,listed,me,4,Candle,50000.0,12500.0
+2026-08-28,18:34:48,sold_to,player_334,,Bone Meal,116.0,
+2026-08-28,18:34:54,listed,me,6,Fire Charge,20000.0,3333.3333333333335
+2026-08-28,18:35:14,sold_to,player_191,,Fire Charge,20000.0,
+2026-08-28,18:36:06,sold_to,player_312,,Leather,20000.0,
+2026-08-28,18:36:28,balance,me,,(balance),2400.0,
+2026-08-28,18:36:44,listed,me,2,Flower Pot,50000.0,25000.0
+2026-08-28,18:36:47,listed,me,13,Candle,50000.0,3846.153846153846
+2026-08-28,18:36:48,sold_to,player_284,,Dispenser,70000.0,
+2026-08-28,18:36:57,sold_to,player_155,,Bone,987.0,
+2026-08-28,18:37:39,listed,me,1,Yellow Shulker Box,1000000.0,1000000.0
+2026-08-28,18:37:50,sold_to,player_063,,Candle,50000.0,
+2026-08-28,18:38:12,listed,me,7,Red Candle,89000.0,12714.285714285714
+2026-08-28,18:38:24,listed,me,9,Snowball,2000.0,222.22222222222223
+2026-08-28,18:38:51,balance,me,,(balance),28500.0,
+2026-08-28,18:38:53,balance,me,,(balance),1900.0,
+2026-08-28,18:40:52,balance,me,,(balance),5700.0,
+2026-08-28,18:41:00,balance,me,,(balance),1200.0,
+2026-08-28,18:41:12,sold_to,player_130,,Snowball,2000.0,
+2026-08-28,18:41:16,balance,me,,(balance),101.2,
+2026-08-28,18:41:26,sold_to,player_094,,Candle,50000.0,
+2026-08-28,18:43:51,sold_to,player_019,,Glow Berries,50000.0,
+2026-08-28,18:44:09,sold_to,player_026,,Flower Pot,50000.0,
+2026-08-28,18:44:48,listed,me,1,Music Disc,179000.0,179000.0
+2026-08-28,18:44:53,listed,me,3,Decorated Pot,40000.0,13333.333333333334
+2026-08-28,18:45:23,listed,me,1,Music Disc,159000.0,159000.0
+2026-08-28,18:45:27,sold_to,player_199,,Music Disc,159000.0,
+2026-08-28,18:45:48,listed,me,1,Music Disc,199000.0,199000.0
+2026-08-28,18:46:06,listed,me,5,Candle,40000.0,8000.0
+2026-08-28,18:46:15,balance,me,,(balance),3200.0,
+2026-08-28,18:46:19,listed,me,1,Dead Bush,20000.0,20000.0
+2026-08-28,18:46:46,sold_to,player_098,,Red Candle,89000.0,
+2026-08-28,18:46:50,listed,me,1,Enchanted Book,22000.0,22000.0
+2026-08-28,18:46:53,sold_to,player_057,,Enchanted Book,22000.0,
+2026-08-28,18:47:02,listed,me,1,Flower Pot,46000.0,46000.0
+2026-08-28,18:47:13,sold_to,player_018,,Candle,40000.0,
+2026-08-28,18:47:19,listed,me,1,Golden Apple,36000.0,36000.0
+2026-08-28,18:47:48,balance,me,,(balance),17900.0,
+2026-08-28,18:48:34,sold_to,player_358,,Flower Pot,46000.0,
+2026-08-28,18:50:50,sold_to,player_152,,Lingering Potion of Poison,90000.0,
+2026-08-28,18:51:18,bought,me,1,Enchanted Book,49900.0,49900.0
+2026-08-28,18:51:29,balance,me,,(balance),500.0,
+2026-08-28,19:04:11,earned_away,me,,(auction),335000.0,
+2026-08-28,19:19:54,sold_to,player_249,,Lingering Potion of Poison,90000.0,
+2026-08-28,19:20:53,sold_to,player_040,,Decorated Pot,60000.0,
+2026-08-28,19:45:40,sold_to,player_052,,Fire Charge,99000.0,
+2026-08-28,19:48:16,bought,me,1,Flint and Steel,8200.0,8200.0
+2026-08-28,20:00:36,balance,me,,(balance),43800.0,
+2026-08-28,20:55:14,balance,me,,(balance),159000.0,
+2026-08-28,20:55:17,balance,me,,(balance),1400.0,
+2026-08-28,20:55:31,bought,me,64,Spruce Logs,6000.0,93.75
+2026-08-29,00:38:22,balance,me,,(balance),1200.0,
+2026-08-29,00:39:37,bought,flipper_D,1,Enchanted Book,98000.0,98000.0
+2026-08-29,00:39:46,bought,flipper_D,1,Enchanted Book,175000.0,175000.0
+2026-08-29,00:41:57,balance,me,,(balance),66600.0,
+2026-08-29,00:44:32,balance,me,,(balance),24600.0,
+2026-08-29,00:51:59,listed,me,1,Spore Blossom,80000.0,80000.0
+2026-08-29,00:52:28,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,00:52:30,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:52:32,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:52:33,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:52:35,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:52:37,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:52:38,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:52:40,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:53:28,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:53:30,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:53:31,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:53:33,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,00:53:35,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,00:53:52,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,00:53:54,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,00:53:56,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,00:56:59,balance,me,,(balance),4400.0,
+2026-08-29,00:57:23,balance,me,,(balance),13000.0,
+2026-08-29,01:00:19,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,01:00:20,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,01:00:22,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,01:00:24,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,01:00:43,sold_multi,flipper_D,,(multiple),1200.0,
+2026-08-29,01:04:44,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,01:04:46,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,01:04:47,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,01:04:49,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,01:04:57,bought,me,16,Ender Pearls,1800.0,112.5
+2026-08-29,01:04:57,bought,me,16,Ender Pearls,1900.0,118.75
+2026-08-29,01:04:57,bought,me,16,Ender Pearls,2300.0,143.75
+2026-08-29,01:04:57,bought,me,16,Ender Pearls,1800.0,112.5
+2026-08-29,01:04:58,bought,me,16,Ender Pearls,2300.0,143.75
+2026-08-29,01:04:58,bought,me,16,Ender Pearls,2300.0,143.75
+2026-08-29,01:04:58,bought,me,16,Ender Pearls,2300.0,143.75
+2026-08-29,01:04:58,bought,me,16,Ender Pearls,2300.0,143.75
+2026-08-29,01:05:18,balance,me,,(balance),276.0,
+2026-08-29,01:05:30,listed,flipper_D,16,Ominous Banner,3000.0,187.5
+2026-08-29,01:05:31,listed,flipper_D,16,Ominous Banner,3000.0,187.5
+2026-08-29,01:05:33,listed,flipper_D,1,Iron Axe,3000.0,3000.0
+2026-08-29,01:05:35,listed,flipper_D,1,Crossbow,3000.0,3000.0
+2026-08-29,01:06:37,bought,flipper_D,1,Ominous Bottle,90000.0,90000.0
+2026-08-29,01:06:38,bought,flipper_D,1,Ominous Bottle,99000.0,99000.0
+2026-08-29,01:06:39,bought,flipper_D,1,Ominous Bottle,99000.0,99000.0
+2026-08-29,01:06:40,bought,flipper_D,1,Ominous Bottle,99000.0,99000.0
+2026-08-29,01:06:41,bought,flipper_D,1,Ominous Bottle,100000.0,100000.0
+2026-08-29,01:06:41,bought,flipper_D,1,Ominous Bottle,100000.0,100000.0
+2026-08-29,01:06:42,bought,flipper_D,1,Ominous Bottle,150000.0,150000.0
+2026-08-29,01:06:43,bought,flipper_D,1,Ominous Bottle,150000.0,150000.0
+2026-08-29,01:06:43,bought,flipper_D,1,Ominous Bottle,150000.0,150000.0
+2026-08-29,01:06:44,bought,flipper_D,1,Ominous Bottle,150000.0,150000.0
+2026-08-29,01:06:46,bought,flipper_D,1,Ominous Bottle,150000.0,150000.0
+2026-08-29,01:06:47,bought,flipper_D,1,Ominous Bottle,150000.0,150000.0
+2026-08-29,01:12:14,bought,flipper_D,64,Spruce Logs,6000.0,93.75
+2026-08-29,01:12:43,balance,me,,(balance),20500.0,
+2026-08-29,01:12:45,balance,me,,(balance),375.0,
+2026-08-29,01:13:23,sold_multi,flipper_D,,(multiple),2000.0,
+2026-08-29,01:19:32,balance,me,,(balance),120000.0,
+2026-08-29,01:19:35,balance,me,,(balance),50.0,
+2026-08-29,01:19:54,sold_multi,flipper_D,,(multiple),2900.0,
+2026-08-29,01:24:15,listed,flipper_D,64,Obsidian,200000.0,3125.0
+2026-08-29,01:24:24,listed,flipper_D,18,Obsidian,85000.0,4722.222222222223
+2026-08-29,01:24:49,listed,flipper_D,64,Arrow of Harming,185000.0,2890.625
+2026-08-29,01:25:28,listed,flipper_D,1,Diamond Helmet,44000.0,44000.0
+2026-08-29,01:28:06,listed,flipper_D,9,Arrow of Harming,55000.0,6111.111111111111
+2026-08-29,01:29:22,sold_multi,flipper_D,,(multiple),27600.0,
+2026-08-29,01:29:56,listed,flipper_D,1,Potion of Healing,35000.0,35000.0
+2026-08-29,01:29:58,listed,flipper_D,1,Potion of Healing,35000.0,35000.0
+2026-08-29,01:30:00,listed,flipper_D,1,Potion of Healing,35000.0,35000.0
+2026-08-29,01:42:44,balance,me,,(balance),68700.0,
+2026-08-29,01:42:57,listed,me,1,Enchanted Book,20000.0,20000.0
+2026-08-29,01:43:09,listed,me,6,Glow Berries,30000.0,5000.0
+2026-08-29,01:43:18,balance,me,,(balance),100.0,
+2026-08-29,01:43:22,sold_to,player_049,,Spore Blossom,80000.0,
+2026-08-29,01:50:53,bought,me,64,Cooked Porkchops,12000.0,187.5
+2026-08-29,01:50:54,bought,me,64,Cooked Porkchops,12000.0,187.5
+2026-08-29,01:51:04,sold_multi,flipper_D,,(multiple),4600.0,
+2026-08-29,01:51:09,balance,me,,(balance),18100.0,
+2026-08-29,01:58:58,bought,flipper_M,1,White Bed,55000.0,55000.0
+2026-08-29,01:59:28,balance,me,,(balance),71000.0,
+2026-08-29,02:00:47,bought,flipper_M,1,Glowstone,15500.0,15500.0
+2026-08-29,02:01:27,sold_multi,flipper_M,,(multiple),15900.0,
+2026-08-29,02:02:38,sold_multi,flipper_M,,(multiple),17800.0,
+2026-08-29,02:03:44,sold_multi,flipper_D,,(multiple),14400.0,
+2026-08-29,02:05:25,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,02:05:54,bought,flipper_D,1,Shulker Box,2600.0,2600.0
+2026-08-29,02:06:47,listed,flipper_D,64,Block of Emerald,1500000.0,23437.5
+2026-08-29,02:07:00,listed,flipper_D,22,Block of Emerald,725000.0,32954.545454545456
+2026-08-29,02:21:10,bought,flipper_M,16,Steaks,21800.0,1362.5
+2026-08-29,02:21:12,bought,flipper_D,1,Enchanted Book,53000.0,53000.0
+2026-08-29,02:21:13,bought,flipper_D,1,Enchanted Book,53600.0,53600.0
+2026-08-29,02:21:13,bought,flipper_D,1,Enchanted Book,54600.0,54600.0
+2026-08-29,02:21:14,bought,flipper_D,1,Enchanted Book,54600.0,54600.0
+2026-08-29,02:21:14,bought,flipper_D,1,Enchanted Book,54600.0,54600.0
+2026-08-29,02:21:18,listed,flipper_M,4,Vines,39000.0,9750.0
+2026-08-29,02:21:22,bought,flipper_D,1,Enchanted Book,54600.0,54600.0
+2026-08-29,02:21:22,bought,flipper_D,1,Enchanted Book,54700.0,54700.0
+2026-08-29,02:31:59,balance,me,,(balance),97100.0,
+2026-08-29,02:32:08,balance,me,,(balance),57700.0,
+2026-08-29,02:42:11,balance,me,,(balance),15400.0,
+2026-08-29,02:43:48,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,02:43:49,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,02:43:49,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,02:43:49,bought,me,16,Ender Pearls,1700.0,106.25
+2026-08-29,02:43:49,bought,me,16,Ender Pearls,2800.0,175.0
+2026-08-29,02:43:50,bought,me,16,Ender Pearls,2000.0,125.0
+2026-08-29,02:43:50,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,02:44:45,listed,me,1,Candle,20000.0,20000.0
+2026-08-29,02:44:58,listed,me,1,Name Tag,19800.0,19800.0
+2026-08-29,02:45:12,listed,me,1,Minecart with Chest,2000.0,2000.0
+2026-08-29,02:45:28,balance,me,,(balance),19000.0,
+2026-08-29,02:46:23,sold_to,player_141,,Minecart with Chest,2000.0,
+2026-08-29,02:48:53,bought,me,1,Ender Chest,14400.0,14400.0
+2026-08-29,02:48:54,bought,me,1,Ender Chest,14500.0,14500.0
+2026-08-29,02:48:54,bought,me,1,Ender Chest,14400.0,14400.0
+2026-08-29,02:49:42,listed,me,4,Wind Charge,50000.0,12500.0
+2026-08-29,02:50:24,balance,me,,(balance),10100.0,
+2026-08-29,02:50:37,balance,me,,(balance),107.0,
+2026-08-29,02:50:44,sold_to,player_353,,Candle,20000.0,
+2026-08-29,02:50:44,listed,me,9,Glow Berries,50000.0,5555.555555555556
+2026-08-29,02:51:00,balance,me,,(balance),30.0,
+2026-08-29,02:58:01,bought,flipper_M,64,Cobblestone,4000.0,62.5
+2026-08-29,02:58:02,bought,flipper_M,1,Ender Chest,14900.0,14900.0
+2026-08-29,03:00:26,sold_multi,flipper_M,,(multiple),67200.0,
+2026-08-29,03:01:10,bought,me,64,Cobblestone,999.0,15.609375
+2026-08-29,03:01:41,bought,flipper_M,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:01:45,bought,flipper_D,16,Ender Pearls,1200.0,75.0
+2026-08-29,03:03:04,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:06,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:06,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:07,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:07,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:08,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:09,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:09,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:10,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:10,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:12,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:13,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:14,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:14,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:15,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:16,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:16,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:17,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:44,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:45,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:45,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:46,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:47,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:47,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:48,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:49,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:49,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:50,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:51,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:51,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:52,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:52,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:03:53,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:36,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:37,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:37,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:38,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:38,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:39,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:04:54,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:02,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:03,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:04,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:04,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:05,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:06,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:06,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:07,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:08,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:06:08,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:18,bought,flipper_M,16,Ender Pearls,5500.0,343.75
+2026-08-29,03:07:30,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:31,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:32,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:32,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:33,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:33,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:34,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:35,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:36,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:36,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:37,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:38,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:07:38,listed,flipper_D,1,Totem of Undying,110000.0,110000.0
+2026-08-29,03:08:09,bought,flipper_M,1,Potion of Invisibility,20000.0,20000.0
+2026-08-29,03:08:25,bought,flipper_M,64,Ladders,19000.0,296.875
+2026-08-29,03:08:56,bought,flipper_M,1,Diamond Pickaxe,497000.0,497000.0
+2026-08-29,03:11:34,sold_multi,flipper_M,,(multiple),120000.0,
+2026-08-29,03:15:46,bought,flipper_D,64,Cobblestone,999.0,15.609375
+2026-08-29,03:16:15,listed,me,33,Honeycomb,100000.0,3030.3030303030305
+2026-08-29,03:16:19,listed,me,1,Wind Charge,10000.0,10000.0
+2026-08-29,03:16:33,sold_to,player_025,,Wind Charge,10000.0,
+2026-08-29,03:16:40,listed,me,64,String,230000.0,3593.75
+2026-08-29,03:16:46,listed,me,16,Arrow,20000.0,1250.0
+2026-08-29,03:16:54,bought,flipper_M,32,Spruce Logs,3900.0,121.875
+2026-08-29,03:16:55,listed,me,18,Arrow of Slowness,20000.0,1111.111111111111
+2026-08-29,03:16:58,listed,me,13,Arrow of Poison,20000.0,1538.4615384615386
+2026-08-29,03:17:04,listed,me,56,Bone,20000.0,357.14285714285717
+2026-08-29,03:17:06,listed,me,64,Arrow,20000.0,312.5
+2026-08-29,03:17:08,listed,me,1,Bow,20000.0,20000.0
+2026-08-29,03:17:12,listed,me,22,Spider Eye,20000.0,909.0909090909091
+2026-08-29,03:17:15,sold_to,player_036,,Bow,20000.0,
+2026-08-29,03:17:21,listed,me,8,String,20000.0,2500.0
+2026-08-29,03:17:23,listed,me,1,Glass Bottle,20000.0,20000.0
+2026-08-29,03:17:40,sold_to,player_204,,String,230000.0,
+2026-08-29,03:18:21,bought,flipper_D,16,Ender Pearls,2000.0,125.0
+2026-08-29,03:19:48,bought,flipper_M,1,Water Bucket,1900.0,1900.0
+2026-08-29,03:20:04,bought,flipper_M,1,Ender Chest,14400.0,14400.0
+2026-08-29,03:20:16,listed,me,35,Spider Eye,50000.0,1428.5714285714287
+2026-08-29,03:20:31,bought,flipper_M,32,Spruce Logs,3900.0,121.875
+2026-08-29,03:20:32,bought,flipper_M,32,Spruce Logs,3900.0,121.875
+2026-08-29,03:20:33,bought,flipper_M,32,Spruce Logs,3900.0,121.875
+2026-08-29,03:23:40,bought,flipper_M,1,Diamond Sword,790000.0,790000.0
+2026-08-29,03:23:42,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:44,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:46,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:46,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:46,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:47,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:47,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:48,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:48,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:49,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:49,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:49,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:50,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:50,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:51,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:23:55,sold_to,player_217,,Arrow of Poison,20000.0,
+2026-08-29,03:24:48,bought,flipper_M,1,Honey Block,49000.0,49000.0
+2026-08-29,03:24:54,bought,flipper_M,1,Anvil,19400.0,19400.0
+2026-08-29,03:25:03,bought,flipper_M,1,Soul Sand,109.0,109.0
+2026-08-29,03:25:07,bought,flipper_M,1,Water Bucket,1800.0,1800.0
+2026-08-29,03:25:25,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:26,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:26,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:27,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:28,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:28,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:29,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:29,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:30,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:47,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:47,bought,flipper_M,1,Spruce Trapdoor,7200.0,7200.0
+2026-08-29,03:25:47,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:48,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:49,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:25:49,listed,flipper_D,1,Totem of Undying,100000.0,100000.0
+2026-08-29,03:26:24,bought,flipper_D,64,Obsidian,47000.0,734.375
+2026-08-29,03:26:25,bought,flipper_D,3,Obsidian,11000.0,3666.6666666666665
+2026-08-29,03:26:25,bought,flipper_D,5,Obsidian,11000.0,2200.0
+2026-08-29,03:26:26,bought,flipper_D,64,Obsidian,47000.0,734.375
+2026-08-29,03:26:29,bought,flipper_D,64,Obsidian,46900.0,732.8125
+2026-08-29,03:26:32,bought,flipper_D,64,Obsidian,47000.0,734.375
+2026-08-29,03:26:35,bought,flipper_D,64,Obsidian,46900.0,732.8125
+2026-08-29,03:26:36,bought,flipper_D,64,Obsidian,47000.0,734.375
+2026-08-29,03:26:37,bought,flipper_D,64,Obsidian,47000.0,734.375
+2026-08-29,03:28:53,bought,flipper_D,64,Cooked Porkchops,14000.0,218.75
+2026-08-29,03:29:20,bought,flipper_D,64,Cobblestone,999.0,15.609375
+2026-08-29,03:30:33,bought,me,1,Shulker Box,2800.0,2800.0
+2026-08-29,03:30:34,bought,me,1,Shulker Box,2800.0,2800.0
+2026-08-29,03:30:34,bought,me,1,Shulker Box,2900.0,2900.0
+2026-08-29,03:30:34,bought,me,1,Shulker Box,2900.0,2900.0
+2026-08-29,03:31:42,bought,flipper_D,64,Cobblestone,999.0,15.609375
+2026-08-29,03:32:21,bought,me,64,Cobblestone,999.0,15.609375
+2026-08-29,03:33:53,listed,flipper_D,11,Brown Mushroom,1000000000.0,90909090.9090909
+2026-08-29,03:34:18,bought,flipper_M,16,Ender Pearls,990.0,61.875
+2026-08-29,03:35:05,bought,flipper_D,64,Spruce Logs,5400.0,84.375
+2026-08-29,03:35:36,sold_multi,flipper_M,,(multiple),18200.0,
+2026-08-29,03:35:55,bought,flipper_D,1,Totem of Undying,99600.0,99600.0
+2026-08-29,03:36:30,bought,flipper_D,64,Cobblestone,8000.0,125.0
+2026-08-29,03:36:34,bought,flipper_M,1,Diamond Sword,24900.0,24900.0
+2026-08-29,03:36:55,bought,flipper_D,1,Ender Chest,13900.0,13900.0
+2026-08-29,03:38:07,bought,flipper_D,64,Spruce Logs,5100.0,79.6875
+2026-08-29,03:38:08,bought,me,1,Shulker Box,5000.0,5000.0
+2026-08-29,03:38:08,bought,me,1,Shulker Box,5000.0,5000.0
+2026-08-29,03:38:59,bought,flipper_M,16,Steaks,19000.0,1187.5
+2026-08-29,03:40:12,sold_multi,flipper_M,,(multiple),12000.0,
+2026-08-29,03:41:53,bought,me,16,Ender Pearls,1400.0,87.5
+2026-08-29,03:41:53,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,03:41:53,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,03:41:53,bought,me,16,Ender Pearls,3000.0,187.5
+2026-08-29,03:43:05,bought,flipper_D,1,Ender Chest,13200.0,13200.0
+2026-08-29,03:43:49,listed,flipper_D,1,Enchanted Book,389000.0,389000.0
+2026-08-29,03:44:22,bought,flipper_D,44,Gold Ingots,100000.0,2272.7272727272725
+2026-08-29,03:44:33,bought,flipper_M,16,Ender Pearls,1800.0,112.5
+2026-08-29,03:44:54,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:44:56,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:46:28,listed,flipper_D,1,Crying Obsidian,9900.0,9900.0
+2026-08-29,03:46:30,listed,flipper_D,1,Crying Obsidian,9900.0,9900.0
+2026-08-29,03:46:32,listed,flipper_D,1,Crying Obsidian,9900.0,9900.0
+2026-08-29,03:46:34,listed,flipper_D,1,Crying Obsidian,9900.0,9900.0
+2026-08-29,03:50:01,sold_to,player_348,,Arrow of Slowness,20000.0,
+2026-08-29,03:50:14,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:50:15,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:50:17,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:50:19,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:50:22,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:50:29,listed,flipper_D,1,Crying Obsidian,9900.0,9900.0
+2026-08-29,03:51:04,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,03:52:30,sold_multi,flipper_M,,(multiple),35400.0,
+2026-08-29,03:52:38,listed,flipper_M,1,Block of Diamond,60000.0,60000.0
+2026-08-29,03:52:47,listed,flipper_D,1,Iron Boots,44000.0,44000.0
+2026-08-29,03:54:03,sold_multi,flipper_M,,(multiple),2500.0,
+2026-08-29,03:59:43,bought,me,6,Ender Pearls,1200.0,200.0
+2026-08-29,03:59:45,bought,me,16,Ender Pearls,1200.0,75.0
+2026-08-29,03:59:46,bought,me,16,Ender Pearls,980.0,61.25
+2026-08-29,03:59:46,bought,me,16,Ender Pearls,1100.0,68.75
+2026-08-29,04:03:13,bought,flipper_D,1,Ender Chest,11800.0,11800.0
+2026-08-29,04:03:40,bought,me,64,Cobblestone,2000.0,31.25
+2026-08-29,04:06:56,bought,flipper_D,64,Gold Ingots,137000.0,2140.625
+2026-08-29,04:09:51,sold_to,player_078,,Spider Eye,50000.0,
+2026-08-29,04:10:51,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,04:10:53,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,04:10:56,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,04:11:31,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,04:11:33,listed,flipper_D,1,Fire Charge,75000.0,75000.0
+2026-08-29,04:12:15,bought,flipper_D,1,Respawn Anchor,30000.0,30000.0
+2026-08-29,04:12:30,bought,flipper_D,1,Glowstone,11500.0,11500.0
+2026-08-29,04:17:33,bought,flipper_D,1,Ender Chest,14500.0,14500.0
+2026-08-29,04:21:01,bought,flipper_D,16,Ender Pearls,1100.0,68.75
+2026-08-29,04:23:20,bought,flipper_D,1,Trident,1300000.0,1300000.0
+2026-08-29,04:23:58,listed,flipper_D,1,Trident,1300000.0,1300000.0
+2026-08-29,04:24:35,listed,flipper_D,1,Trident,1300000.0,1300000.0
+2026-08-29,04:25:44,listed,flipper_D,1,Trident,1300000.0,1300000.0
+2026-08-29,04:27:31,listed,flipper_D,1,Diamond Boots,800000.0,800000.0
+2026-08-29,04:28:02,listed,flipper_D,1,Diamond Leggings,485000.0,485000.0
+2026-08-29,04:28:28,listed,flipper_D,1,Diamond Chestplate,294000.0,294000.0
+2026-08-29,04:28:58,listed,flipper_D,1,Diamond Helmet,599000.0,599000.0
+2026-08-29,04:29:25,sold_to,player_118,,Honeycomb,100000.0,
+2026-08-29,04:29:26,listed,flipper_D,1,Diamond Sword,960000.0,960000.0
+2026-08-29,04:29:45,sold_multi,flipper_D,,(multiple),102000.0,
+2026-08-29,04:34:46,bought,me,3,Ender Pearls,1200.0,400.0
+2026-08-29,04:35:03,bought,me,16,Ender Pearls,1100.0,68.75
+2026-08-29,04:35:19,bought,flipper_D,1,Golden Apple,19900.0,19900.0
+2026-08-29,04:36:03,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:36:05,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:36:12,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:36:13,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:36:15,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:36:17,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:37:02,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:37:03,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:37:08,listed,flipper_D,1,Respawn Anchor,30000.0,30000.0
+2026-08-29,04:37:20,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-29,04:37:22,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-29,04:37:24,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-29,04:37:25,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-29,04:37:27,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-29,04:37:34,listed,flipper_D,1,Respawn Anchor,29000.0,29000.0
+2026-08-29,04:37:43,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:37:45,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:37:47,listed,flipper_D,1,Wind Charge,21000.0,21000.0
+2026-08-29,04:39:35,bought,flipper_D,1,Spruce Sign,1000.0,1000.0
+2026-08-29,04:39:35,bought,flipper_D,1,Spruce Sign,1000.0,1000.0
+2026-08-29,04:46:33,listed,me,1,Ominous Bottle,230000.0,230000.0
+2026-08-29,04:47:31,bought,me,1,Shulker Box,3600.0,3600.0
+2026-08-29,04:48:02,bought,me,1,Shulker Box,3400.0,3400.0
+2026-08-29,04:51:42,bought,me,1,Enchanted Book,75000.0,75000.0
+2026-08-29,04:52:11,bought,me,1,Enchanted Book,60000.0,60000.0
+2026-08-29,04:52:36,bought,flipper_D,16,Ender Pearls,1200.0,75.0
+2026-08-29,04:56:04,sold_to,player_343,,Ominous Bottle,230000.0,
+2026-08-29,04:56:37,bought,me,1,Mace,5500000.0,5500000.0
+2026-08-29,04:57:21,listed,me,1,Mace,6000000.0,6000000.0
+2026-08-29,04:57:26,listed,me,1,Mace,4000000.0,4000000.0
