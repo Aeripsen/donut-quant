@@ -1,0 +1,629 @@
+{
+  "cards": [
+    {
+      "name": "Spruce log to slab mega farm (underground autocrafter, sell axe AFK)",
+      "category": "craft_arbitrage",
+      "source": "videos/L5oVTgYM4Zg.txt - Bubsy, uploaded 2026-08-28 (spruce slab mega farm)",
+      "claim_date": "2026-08-28",
+      "claimed_gross_per_hour": "'$200 million an hour' at full fill ('almost 300,000 slabs every minute' x $12); '5 billion every day' at the end of the video, 'over 3 billion a day' earlier in the same video; 1-hour AFK test: 'made 198 million, and it wasn't even fully filled' (balance delta while running, logs already paid for)",
+      "claimed_profit_per_hour": "Not stated per hour. Video states 'over $20 profit per log'. Derived (not in video): 1 log = 4 planks = 8 slabs = $96 at base price vs 72-74 per log on /orders = $22-24 per log; at the stated full-fill rate (4,680 slabs/s = ~585 logs/s = ~2.1M logs/h) net is roughly $46-50M/h, so the $200M/h and 5B/day figures are gross before ~$155M/h of log cost.",
+      "capital_required": "Drill 195M on /ah (used for digging); sell axe 24M for 18 hours remaining on /ah; log float 74M per 1M logs; crafters, hoppers, chests and ice for a farm holding 10-11M logs (not priced); golden carrot stack from /ah",
+      "setup_time": "About 5 days ('I've been doing this video for 5 days') with teammates digging and placing chest layers; Bubsy's Discord builder team sells the build delivered in under 48 hours",
+      "inputs": [
+        {"item": "spruce log", "qty": "1,000,000 ordered in one order, plus 'two pages of logs' already held; farm holds 10-11M", "unit_price": "74 (order: '$74 million for a million logs'); highest existing buy order was 72.1", "channel": "orders"},
+        {"item": "sell axe (shard tool)", "qty": "1 per 24h", "unit_price": "24M for a listing with 18 hours left", "channel": "ah"},
+        {"item": "drill (3x3 shard pickaxe)", "qty": "1", "unit_price": "195M", "channel": "ah"},
+        {"item": "golden carrot", "qty": "1 stack", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "spruce slab", "qty": "'4,68 slabs every second' (likely 4,680/s), 'almost 300,000 slabs every minute' at full fill", "unit_price": "$12 each, '$768' per stack (base price via sell axe)", "channel": "sell"}
+      ],
+      "process": "1) Chain per line: input chest -> hoppers -> crafter with planks recipe -> hopper -> crafter with slab recipe; crafters are pulsed by a redstone clock; a note block / lever power switch with an indicator lamp shows whether the clock runs. 2) Tested with two stacks of spruce bought on /ah, then scaled to many crafters fed from one input chest by a hopper distribution system so all crafters fill themselves. 3) Dug a large underground room with the 3x3 drill (195M on /ah); bottom layer is ice, then layers that are almost 100% chests for slab storage, plus an AFK area with a water stream. 4) Buy logs by placing /orders spruce log above the highest existing order (72.1 -> 74; 1M logs for 74M), open the order and drop the delivered logs into the input hopper. 5) Turn the farm on; slabs flow down and fill the chest layers ('each stack of slabs is $768'). 6) Cash out AFK: buy a sell axe on /ah (sells a chest's contents at base price instead of breaking it, self-destructs 24h after purchase), golden carrots in the off hand, Options > Controls: sneak = toggle, attack/destroy = toggle, use item/place block = toggle; click the note block to start, walk into the water stream, crouch once, look straight up, right click once, left click once, wear no armor. The stream cycles you past the chests while the sell axe keeps selling.",
+      "tricks": [
+        "Beat the highest existing buy order by a small margin to get logs delivered (72.1 -> 74)",
+        "Place a single 1,000,000-log order at 74 ($74M); farm storage takes 10-11M logs",
+        "Sell axe from /ah: pick the listing with the most time left (24M for 18 hours); it self-destructs 24 hours after purchase",
+        "AFK toggle setup: golden carrots in off hand, Options > Controls: sneak, attack/destroy, use item/place block all set to toggle; crouch once, look straight up, right click once, left click once",
+        "No armor while AFKing: 'otherwise it'll break the water flow'",
+        "Note block / lever power switch wired to a lamp so you can see whether the clock is running",
+        "Hopper distribution system so every crafter fills from one input chest",
+        "Bottom layer of the farm is ice",
+        "Pick good coordinates and fill in caves so the base is not found (builder team does this)",
+        "Expect a few pressure plates and buttons to be crafted on first start from partial grids; it stops once the crafters are full",
+        "Check whether you were raided on login before continuing to build",
+        "Buy a 3x3 drill on /ah to dig the room (195M)"
+      ],
+      "quotes": [
+        "if you just chop down a spruce tree, craft all of the logs into planks, and then craft all those planks into slabs, you make an insane amount of profit",
+        "195 mil. Let's buy that one. And if you guys don't know what this does, and it breaks nine blocks at once.",
+        "slash orders spruce log. And then you try and beat out the highest one. So this one's 72.1.",
+        "This farm can hold up to 10 million logs. And this farm makes over 3 billion a day.",
+        "Each stack of slabs is $768, which means you're making over $20 profit per log.",
+        "ah sell axe. And this axe, whenever you mine a chest, it actually doesn't mine it, but instead sells everything in it.",
+        "They self-destruct after 24 hours. So, I'm going to find a good one. This one's pretty good. 24 mil for 18 hours.",
+        "we're going to make this order for $74 million for a million logs",
+        "you guys cannot have any armor on otherwise it'll break the water flow",
+        "AFK for that 1 hour made 198 million, and it wasn't even fully filled",
+        "The farm can hold almost 11 million logs. And when it's fully filled, it makes 4,68 slabs every second, which means almost 300,000 slabs every minute. With slabs being $12 per, this farm makes $200 million an hour or 5 billion every day.",
+        "There's nothing else being crafted except for a couple pressure plates and buttons whenever we first started it.",
+        "for a small price, our builder team will build it for you in less than 48 hours at good coordinates and fill in all the caves for you"
+      ],
+      "risks": "Gross and profit are conflated: $200M/h is slab revenue at $12 before ~74/log input cost; the video's own 'over $20 profit per log' implies net around a quarter of that. Two daily figures given (over 3B vs 5B). Sell axe expires 24h after purchase, so an idle day wastes ~24M. Base discovery and raids (teammate joked about seeing a nametag through the wall / X-ray). Log supply: a farm eating ~2M logs/h will move the /orders price. Crafters make junk (buttons, pressure plates) when partially filled. Armor breaks the water AFK loop. Lag at thousands of crafts per second.",
+      "scalability": "Bounded by spruce log supply on /orders (full fill needs ~2.1M logs/h; the creator had 1M plus two pages), sell axe cost and 24h timer (one axe per day), crafter and hopper counts (block limits), and drill cost for digging. Output sells to the server at base price, so AH slots do not matter.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-28, after the June update; inputs via /orders and output via sell axe at base price, no /shop or sell multiplier involved",
+      "verification_items": [
+        "/worth spruce slab = 12 (and /worth spruce log, spruce planks)",
+        "Current /orders spruce log price (72.1-74 on 2026-08-28) and fill speed for 1M-log orders",
+        "Sell axe /ah price and remaining-time distribution (24M for 18h)",
+        "Drill /ah price (195M on 2026-08-28 vs 20M on 2026-03-22)",
+        "Actual crafts per second per crafter (4,680 slabs/s claim at full fill)",
+        "Whether the 198M one-hour test was a balance delta gross of log cost"
+      ]
+    },
+    {
+      "name": "Compact spruce slab farm (50k-log test, free schematic)",
+      "category": "craft_arbitrage",
+      "source": "videos/jfmqSLQgAeg.txt - Bubsy, uploaded 2026-08-13 (compact slab farm)",
+      "claim_date": "2026-08-13",
+      "claimed_gross_per_hour": "'8.3 million every 5 minutes' when fully filled = 'over 100 million dollars an hour' (gross at $12/slab); 5-minute test: 'I made 2 mil in less than 5 minutes' on 50k logs",
+      "claimed_profit_per_hour": "Not stated. Derived (not in video): 50k logs at 74 = 3.7M cost -> 400k slabs x $12 = 4.8M gross -> ~1.1M net per 50k logs (video says 'made 2 mil'). At the full-fill rate (8.3M per 5 min gross = ~86.5k logs per 5 min = ~1.04M logs/h) log cost is ~$77M/h, so net is on the order of $23M/h, not $100M/h.",
+      "capital_required": "3.7M for 50k logs (order at 74); sell axe from /ah (price not stated here; 24M in the 08-28 video); compact crafter farm materials; golden carrots",
+      "setup_time": "~15 minutes to dig out the area, plus building the compact farm from a free schematic (discord.gg/bubzy); the 50k-log order at 74 filled quickly",
+      "inputs": [
+        {"item": "spruce log", "qty": "50,000", "unit_price": "74 (market was 73.5; total 3.7 million)", "channel": "orders"},
+        {"item": "sell axe (shard tool)", "qty": "1", "unit_price": "not stated", "channel": "ah"},
+        {"item": "golden carrot", "qty": "1 stack", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "spruce slab", "qty": "derived: 400k slabs per 50k logs", "unit_price": "12 each per /worth; video also says '96 per stack' and 'each stack is worth $500', both inconsistent with 12 x 64 = 768", "channel": "sell"}
+      ],
+      "process": "Find hidden coordinates, dig down and cover tracks; destroy any budding amethyst near the base so clusters cannot regrow and give the base away, /sell the amethyst. Dig out the area (~15 min), build the compact crafter farm (planks recipe then slabs recipe) with a lever, AFK area beside it. Order 50k spruce logs at 74 on /orders; face the input wall, open /orders and drop the logs into the hopper input; hoppers carry logs up to the crafters. Turn on; slabs fill the output chest column ('a lot of slabs just for running for like 2 seconds'). AFK with sell axe: /ah sell axe, a stack of golden carrots, Options > Controls: sneak, attack/destroy and use item/place block all to toggle; turn the farm on, you auto-eat, crouch, look straight up, press break once. 5-minute test consumed all 50k logs.",
+      "tricks": [
+        "Check /worth spruce slab (12) first; 8 slabs per log means ~96 per log of output",
+        "Order 50k logs at 74 when the market is 73.5 (small overbid fills fast)",
+        "Drop logs straight from the /orders claim screen into the input hopper while facing the wall",
+        "Destroy budding amethyst near the base so clusters cannot regrow and reveal it; /sell the amethyst shards",
+        "Same AFK toggle setup as the mega farm (sneak / attack / use to toggle, golden carrots, look straight up, break once)",
+        "Free schematic via Discord"
+      ],
+      "quotes": [
+        "if you do /worth spruce slab, they go for 12 each, which means they're 96 per stack, which means that if you order spruce logs and you're making a huge profit",
+        "spruce logs are going for 73.5 each. So, we're going to create a new order. Spruce logs, we'll order 50k, and then we're going to do 74 for the price for total 3.7 million.",
+        "each stack is worth $500, so we're going to go ahead and run this with a sell axe",
+        "it actually used all 50k logs in less than 5 minutes, and I made 2 mil in less than 5 minutes",
+        "when it's fully filled, it makes 8.3 million every 5 minutes, which means it makes over 100 million dollars an hour",
+        "I just finished digging out the whole entire area. It only took about 15 minutes",
+        "I just went ahead and destroyed the bud so no clusters can grow here anymore. So, now I'm just going to go ahead and /sell this for some money."
+      ],
+      "risks": "Throughput outruns supply: 50k logs gone in under 5 minutes, so continuous running needs ~1M logs/h of order fills. 100M/h is gross before log cost. Inconsistent stack values quoted ($500 vs $768). Sell axe daily cost. Base discovery.",
+      "scalability": "Log supply on /orders; sell axe 24h timer; crafter count. Output goes to the server at base price, so AH slots do not matter.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-13 after the June update; uses /worth base price and /orders",
+      "verification_items": [
+        "/worth spruce slab (12)",
+        "spruce log /orders price (73.5-74 on 2026-08-13)",
+        "whether 'made 2 mil' was net of the 3.7M log cost"
+      ]
+    },
+    {
+      "name": "IKEA V1 kelp farm (Mishkat schematic) - bone meal kelp with auto smelter and dried kelp block crafter",
+      "category": "farm_sell",
+      "source": "videos/8p26PQQR-00.txt - Bubsy, uploaded 2025-11-08 (IKEA V1 kelp, farm by Mishkat)",
+      "claim_date": "2025-11-08",
+      "claimed_gross_per_hour": "Not in money. ~600 kelp per minute observed; 'about an hour' at raised tick speed filled an inventory (2,304 kelp). No price given.",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "Bone blocks (bone meal) as the consumable; farm materials (crafters, dispensers, pistons, hoppers, water); schematic free via link",
+      "setup_time": "not stated (schematic install)",
+      "inputs": [
+        {"item": "bone block", "qty": "fills the top chests", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "kelp (dried kelp block if smelter + crafter are added)", "qty": "~600 per minute observed; 2,304 (full inventory) in about an hour at raised tick speed", "unit_price": "not stated", "channel": "sell (implied, not stated)"}
+      ],
+      "process": "Bone blocks go into the top chests -> flow down to a crafter that turns them into bone meal ('once it overfills, it'll detect it and stop crafting') -> bone meal is distributed to dispensers -> dispensers bone meal the kelp -> pistons break the grown kelp -> water carries the kelp to the collection end. A button toggles the farm on/off. Recommended add-ons: an auto smelter and an autocrafter after the collection point (dried kelp -> dried kelp blocks). Bubsy overfilled with bone meal and it spilled out.",
+      "tricks": [
+        "Put an auto smelter and an autocrafter after the collection point to turn kelp into dried kelp blocks",
+        "The bone meal crafter stops when the output overfills, so bone meal does not clog the line",
+        "Button start/stop",
+        "Speed tested in a test world by raising tick speed (not possible on the server)"
+      ],
+      "quotes": [
+        "in about a minute's time, we've made 600 kelp",
+        "I set the tick speed to speed it up and we're going to see how much I made in about an hour... 2,34. That is a full inventory.",
+        "you put bone blocks in these chests and it comes all the way down to this crafter. And this crafter is very smart. Once it overfills, it'll detect it and stop crafting. And it'll go through all of these and go into the dispensers. And the dispenser will spit out bone meal onto the kelp. And once the kelp grows, the pistons break and it goes down the water all the way to the end.",
+        "you should put an auto smelter and an autocrafter after this farm"
+      ],
+      "risks": "No prices at all; predates the June 2026 removal of the sell multiplier. Bone meal input cost is not accounted. Bubsy's 2026-08-28 video says 'most people think that the meta is dried kelp blocks' but presents slabs as better.",
+      "scalability": "Bone/bone meal supply, dispenser and piston counts, smelter throughput",
+      "still_valid_after_june_2026_update": "unknown - farm mechanics unaffected, but the video predates the sell multiplier removal and gives no prices; kelp economics must be re-priced with /worth dried kelp block and bone meal cost",
+      "verification_items": [
+        "/worth kelp, dried kelp, dried kelp block",
+        "bone block / bone meal price on /orders",
+        "Melton (2026-03-22) claim that kelp farms make 40M/h"
+      ]
+    },
+    {
+      "name": "Flower Bunker V2 (56 Flower Power V7 modules) - bones to bone meal to pink petals or wildflowers, sell axe cash-out",
+      "category": "farm_sell",
+      "source": "videos/l2ZmBRfjPPQ.txt - SadBonker, uploaded 2026-06-29 (flower bunker V2)",
+      "claim_date": "2026-06-29",
+      "claimed_gross_per_hour": "'about 50 to 60 million per hour'",
+      "claimed_profit_per_hour": "'nets you around 30 to 40 million' at bone = $90 ('this is subject to change')",
+      "capital_required": "Bones at $90 each; storage holds ~900,000 bones (derived: ~81M to fill it); sell axe; 56-module build (schematic in Discord)",
+      "setup_time": "not stated",
+      "inputs": [
+        {"item": "bone", "qty": "up to ~900,000 stored", "unit_price": "$90 (derived: bone meal $30 at 3 per bone, as the video states 'a bone meal is worth $30')", "channel": "unknown (not stated)"},
+        {"item": "sell axe (shard tool)", "qty": "1 per 24h", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "pink petals (cherry grove) or wildflowers (birch forest)", "qty": "not stated", "unit_price": "'an average of 60 to 70 per bone meal' of output value at base price", "channel": "sell"}
+      ],
+      "process": "Build in a cherry grove (pink petals) or a birch forest (wildflowers), since bone meal on grass there generates that flower. Drop bones into the input; they become bone meal and feed 56 Flower Power V7 modules. Flick the lever (the light turns off and the farm produces). Output chests sit above a water stream: sit in the stream with a sell axe breaking the chests above, which sells the flowers at base price. Sell axe was chosen over a shulker loader because 'shulker prices will take away a good proportion of the profits'.",
+      "tricks": [
+        "Biome choice sets the product: cherry grove -> pink petals, birch forest -> wildflowers",
+        "Sell axe water stream under the output chests instead of a shulker loader, to avoid shulker box cost",
+        "Bone meal math: bone $90 -> bone meal $30; petals or wildflowers yield 60-70 per bone meal, 'over two times the profit per bone'",
+        "Build a bigger bone storage if you want to AFK longer than the ~900k-bone buffer",
+        "Buy bones while they are cheap before others switch back to bone-powered farms"
+      ],
+      "quotes": [
+        "After the recent nerf on cobblestone, people have been going crazy trying to find something just as profitable",
+        "Bones were already super low in price while people were too busy with cobblestone farms, and right now, they're at $90, which is really cheap.",
+        "a bone meal is worth $30, and with pink petals or wildflowers, you can make an average of 60 to 70 per bone meal. That's literally over two times the profit per bone",
+        "back in the day before the nerf, pink petals used to be making like 60 million per hour",
+        "The farm has 56 flower power V7 modules.",
+        "The farm generates about 50 to 60 million per hour, and I believe with current bone prices, this nets you around 30 to 40 million, but this is subject to change",
+        "The farm can hold around 900,000 bones",
+        "we have the sell axe area, where you can just sit in the water stream with a sell axe breaking the chests above. The reason we did this is because shulker prices will take away a good proportion of the profits."
+      ],
+      "risks": "Margin depends on bone price, which the creator expects to rise as players move back to bone farms. The server nerfs metas (cobblestone, and pink petals before that: 'before the nerf'). Output per bone meal is an average (petal count RNG). Sell axe daily cost.",
+      "scalability": "Bone supply and price on /orders; sell axe 24h timer; bone storage buffer (900k bones lasts a few hours at this rate); module count",
+      "still_valid_after_june_2026_update": "yes - published 2026-06-29, after the June 2-3 update, and cashes out with a sell axe at base price",
+      "verification_items": [
+        "/worth pink petals and /worth wildflowers",
+        "bone price on /orders (was $90 on 2026-06-29)",
+        "petals generated per bone meal in a cherry grove"
+      ]
+    },
+    {
+      "name": "Bone price speculation (buy bones at $90 ahead of the bone-farm comeback)",
+      "category": "investment_hold",
+      "source": "videos/l2ZmBRfjPPQ.txt - SadBonker, uploaded 2026-06-29 (flower bunker V2)",
+      "claim_date": "2026-06-29",
+      "claimed_gross_per_hour": "n/a (hold)",
+      "claimed_profit_per_hour": "not stated; thesis is price appreciation as demand returns",
+      "capital_required": "any; bones at $90 each",
+      "setup_time": "none",
+      "inputs": [
+        {"item": "bone", "qty": "not stated", "unit_price": "$90", "channel": "unknown (orders or ah)"}
+      ],
+      "outputs": [
+        {"item": "bone (resold later)", "qty": "not stated", "unit_price": "higher, not stated", "channel": "orders or ah"}
+      ],
+      "process": "Buy bones while cobblestone-farm players have left them cheap ($90), hold, sell once the farm meta shifts back to bone-powered farms (pink petals, wildflowers, kelp).",
+      "tricks": [
+        "The input of the current schematic wave drives its price; front-run the input, not the output"
+      ],
+      "quotes": [
+        "it might also be worthwhile to invest into bones right now because as more people transition back to bone powered farms, the prices are going to go up"
+      ],
+      "risks": "Meta may not shift; skeleton spawners keep bone supply elastic; resale through 18 AH slots or into buy orders; capital locked",
+      "scalability": "Capital and resale liquidity (buy-order depth on /orders, 18 AH slots)",
+      "still_valid_after_june_2026_update": "yes - stated after the update; whether bones actually rose since is unknown",
+      "verification_items": [
+        "bone price trend since 2026-06-29 on /orders and /ah"
+      ]
+    },
+    {
+      "name": "Basalt generator farm (nether lava flow) - the stated 'meta' after the cobblestone nerf",
+      "category": "farm_sell",
+      "source": "videos/l2ZmBRfjPPQ.txt - SadBonker, uploaded 2026-06-29 (flower bunker V2)",
+      "claim_date": "2026-06-29",
+      "claimed_gross_per_hour": "not stated",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "not stated; 'complex redstone', large build in the nether",
+      "setup_time": "not stated; described as hard for a casual player",
+      "inputs": [],
+      "outputs": [
+        {"item": "basalt", "qty": "not stated", "unit_price": "not stated", "channel": "sell (implied)"}
+      ],
+      "process": "Not described beyond: basalt generators only run efficiently in the nether because lava flows faster there, and the build needs a lot of complex redstone.",
+      "tricks": [
+        "Build basalt generators in the nether because lava flows faster there"
+      ],
+      "quotes": [
+        "Right now, basalt is considered the meta, but honestly, I think this is just cope. Basalt farms will only run efficiently in the nether, as lava flows faster there, and the amount of building and complex redstone needed to make a good farm makes it really hard to get into as a casual player."
+      ],
+      "risks": "Creator calls the basalt meta 'cope'; nether builds are exposed; may be nerfed like cobblestone",
+      "scalability": "unknown",
+      "still_valid_after_june_2026_update": "yes as of 2026-06-29 (post-update mention) but no numbers given",
+      "verification_items": [
+        "/worth basalt",
+        "whether basalt has been nerfed since June 2026"
+      ]
+    },
+    {
+      "name": "Sand mining with an Efficiency III shovel, sold with /sell",
+      "category": "farm_sell",
+      "source": "videos/P42kTHIit-s.txt - SadBonker, uploaded 2026-04-28 (three beginner farms)",
+      "claim_date": "2026-04-28",
+      "claimed_gross_per_hour": "'240,000 in just 2 minutes' (derived: ~7.2M/h if sustained)",
+      "claimed_profit_per_hour": "same as gross (no input cost beyond shovel durability)",
+      "capital_required": "an Efficiency III shovel (any shovel works)",
+      "setup_time": "none",
+      "inputs": [],
+      "outputs": [
+        {"item": "sand", "qty": "not stated (1-2 minutes of insta-mining)", "unit_price": "not stated (240k total)", "channel": "sell"}
+      ],
+      "process": "Insta-mine sand with an Efficiency III shovel for a couple of minutes, then sell it all (/sell).",
+      "tricks": [
+        "Efficiency III insta-mines sand; 'you can use any shovel'"
+      ],
+      "quotes": [
+        "I just spent around 1 to 2 minutes mining some sand, and I'm going to sell it all now to see how much we made. And we made 240,000 in just 2 minutes."
+      ],
+      "risks": "Pre-update numbers: the sell multiplier was removed in June 2026, so the per-sand base price may differ. Manual, not AFK.",
+      "scalability": "Player time only; sells to the server, so no market limit",
+      "still_valid_after_june_2026_update": "unknown - /sell exists but the sell multiplier was removed; check /worth sand",
+      "verification_items": [
+        "/worth sand",
+        "sand per minute with Efficiency III"
+      ]
+    },
+    {
+      "name": "Crafter-crafting autocrafter (crafters that craft crafters)",
+      "category": "craft_arbitrage",
+      "source": "videos/P42kTHIit-s.txt - SadBonker, uploaded 2026-04-28 (three beginner farms)",
+      "claim_date": "2026-04-28",
+      "claimed_gross_per_hour": "'1.1 million dollars' from one run (duration not stated)",
+      "claimed_profit_per_hour": "~300k per run (1.1M revenue vs 'about 800k' of resources); not stated per hour",
+      "capital_required": "about 800k of resources per run",
+      "setup_time": "small build; 'a decent profit if you make a bigger version'",
+      "inputs": [
+        {"item": "crafter ingredients ('the needed materials', not itemized; the recipe is iron ingots, redstone, crafting table, dropper)", "qty": "one run", "unit_price": "about 800k total", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "crafter", "qty": "not stated", "unit_price": "not stated (1.1M total)", "channel": "unknown (not stated)"}
+      ],
+      "process": "Small array of crafters each set to the crafter recipe, with hoppers feeding the ingredients in; turn on, collect the crafters, sell them.",
+      "tricks": [
+        "Crafters have order demand from farm builders (Melton ordered 256 crafters for his farm in March 2026)"
+      ],
+      "quotes": [
+        "the crafters are set up to craft more crafters with these hoppers leading into them with the needed materials",
+        "we made 1.1 million dollars, and the resources only costed about 800k, if I'm not wrong"
+      ],
+      "risks": "Thin margin (~37%) that depends on iron/redstone vs crafter prices; demand limited to farm builders",
+      "scalability": "'if you make a bigger version'; crafter demand on /orders and /ah",
+      "still_valid_after_june_2026_update": "unknown - pre-update; margin must be re-checked against current ingredient and crafter prices",
+      "verification_items": [
+        "crafter price on /orders and /ah",
+        "iron ingot, redstone, dropper, crafting table prices"
+      ]
+    },
+    {
+      "name": "Manual spruce log chopping",
+      "category": "farm_orders",
+      "source": "videos/P42kTHIit-s.txt - SadBonker, uploaded 2026-04-28 (three beginner farms)",
+      "claim_date": "2026-04-28",
+      "claimed_gross_per_hour": "'around 50,000 dollars' per 1 minute of cutting (derived: ~3M/h if sustained)",
+      "claimed_profit_per_hour": "same as gross",
+      "capital_required": "an axe",
+      "setup_time": "none",
+      "inputs": [],
+      "outputs": [
+        {"item": "spruce log", "qty": "not stated (1 minute of chopping)", "unit_price": "not stated (50k total); logs traded at 72-74 on /orders in Aug 2026 per Bubsy", "channel": "unknown (not stated)"}
+      ],
+      "process": "Cut spruce trees for a minute and sell the logs (sale channel not stated).",
+      "tricks": [],
+      "quotes": [
+        "after cutting down trees for 1 minute, we made around 50,000 dollars, which is not a lot, but this process can be automated"
+      ],
+      "risks": "50k per minute at ~74 per log would be ~680 logs a minute, more than hand chopping yields, so this is either a loose estimate or a different pre-update price/channel",
+      "scalability": "Player time; log demand on /orders is deep (1M-log orders filled in Aug 2026)",
+      "still_valid_after_june_2026_update": "yes for the item (spruce logs are what the Aug 2026 slab farms buy at 72-74 on /orders); the stated rate is unverified",
+      "verification_items": [
+        "spruce log /orders price",
+        "/worth spruce log"
+      ]
+    },
+    {
+      "name": "Board tree farm - AFK spruce log farm (needs two accounts)",
+      "category": "farm_orders",
+      "source": "videos/P42kTHIit-s.txt - SadBonker, uploaded 2026-04-28 (three beginner farms)",
+      "claim_date": "2026-04-28",
+      "claimed_gross_per_hour": "not stated (video frames its best beginner farm as 'makes millions per hour')",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "a second account; schematic from Board's video or the creator's Discord",
+      "setup_time": "not stated",
+      "inputs": [],
+      "outputs": [
+        {"item": "spruce log", "qty": "not stated", "unit_price": "not stated", "channel": "unknown (not stated)"}
+      ],
+      "process": "Automatic spruce tree farm ('the board tree farm') that farms spruce logs fully AFK; requires two accounts. Schematic linked in Board's video or in the Discord.",
+      "tricks": [
+        "Two-account AFK setup for a tree farm"
+      ],
+      "quotes": [
+        "This is the board tree farm, and it lets you farm spruce logs completely AFK. Although you do need two accounts"
+      ],
+      "risks": "Second account needed; no numbers given",
+      "scalability": "unknown",
+      "still_valid_after_june_2026_update": "unknown - pre-update video; log demand still exists (Aug 2026 slab farms buy logs at 72-74)",
+      "verification_items": [
+        "Board tree farm schematic and its logs per hour",
+        "spruce log /orders price"
+      ]
+    },
+    {
+      "name": "Log to plank to chest crafter farm with shulker loader (Tomax chest crafter, Melton expansion) - sold into chest buy orders",
+      "category": "craft_arbitrage",
+      "source": "videos/oDqWI0oNPtE.txt - Melton, uploaded 2026-03-22 (750M/h chest farm)",
+      "claim_date": "2026-03-22",
+      "claimed_gross_per_hour": "Tomax's original: 'This makes 750 million dollars an hour' (also said to make 'only' 'around 100 mil an hour'); Melton's 5-minute test: chests valued at '$10 million' (at $200 per chest), 'not even half capacity', scaled x6 and x12 = '720 million dollars' per hour; 'with mine you can make up to 400 million dollars an hour profit'",
+      "claimed_profit_per_hour": "'about 3 to 400 million dollars an hour of profit' ('half of this is not profit'); with the realistic hourly operating cycle 'around 300 mil of profit an hour'",
+      "capital_required": "Drill 20M on /ah (March 2026); 256 crafters plus hoppers and cyan stained glass ordered on /orders; shulker boxes ordered at 850 each; log float (spent 200M on a log order by mistake); schematic free in the description",
+      "setup_time": "Many days: full schematic build, plank-stage expansion (4 crafters stacked per column), water streams, soul sand water elevator, shulker loader expanded to ~20 ('That took an hour' alone)",
+      "inputs": [
+        {"item": "spruce log", "qty": "'like 500k' loaded to reach max capacity; 2 logs per chest", "unit_price": "not stated (one order cost 200M)", "channel": "orders"},
+        {"item": "shulker box ('shulkers')", "qty": "not stated", "unit_price": "800 market, ordered at 850", "channel": "orders"},
+        {"item": "crafter", "qty": "256", "unit_price": "not stated", "channel": "orders"},
+        {"item": "hopper, cyan stained glass", "qty": "not stated", "unit_price": "not stated", "channel": "orders"},
+        {"item": "drill (3x3 shard pickaxe)", "qty": "1", "unit_price": "20M", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "chest (shulker-loaded)", "qty": "'around half a million planks' from 25 s of plank crafting (= ~62.5k chests); ~21,000 planks/s at max capacity", "unit_price": "'$200 per, but normally they're $400' on /orders", "channel": "orders"}
+      ],
+      "process": "Stage 1 (Melton's addition): logs dropped into the input; crafters stacked 4 high craft logs -> planks; planks ride two water streams (plus a soul sand water elevator) into the chest farm. Stage 2 (Tomax's chest crafter): planks -> chests (8 planks = 2 logs per chest). Stage 3: chests pass through a shulker loader (expanded to ~20 loaders) into shulker boxes, which go to a storage/control room. Sell the chests by filling player buy orders on /orders (chest $200, normally $400). The clock had to be slowed because a too-fast clock made the crafters produce buttons from partial grids and lost money. Max capacity ~21,000 planks/s needs ~500k logs loaded. Hourly operating cycle: fill with logs, run the plank crafters 15 s, turn on the chest crafters, wait until the planks are gone, turn the plank stage off, then the chest stage off, check the shulker loader, repeat.",
+      "tricks": [
+        "Buy logs and craft planks yourself: 'planks are so high on orders, and logs are way lower. And plus, planks take way longer to get delivered'",
+        "Slow the clock when crafters start making buttons (partial recipe from a clock faster than the hoppers)",
+        "Size the shulker loader to the chest rate (expanded to about 20)",
+        "Stack 4 crafters per column for the plank stage",
+        "Soul sand water elevator to move items up; two parallel water streams feed the chest stage",
+        "Order shulkers slightly above market (800 -> 850) to get filled",
+        "Order 256 crafters, hoppers and stained glass on /orders instead of buying on /ah",
+        "Read the recipe before ordering (ordered logs instead of planks, 'wasted 200 mil', which led to the log->plank stage)",
+        "Use the drill to clear whole layers (20M)",
+        "Run in bursts: 15 s of planks, then chests, then check the loader, repeat every hour"
+      ],
+      "quotes": [
+        "kelp farms are so good for making 40 mil an hour",
+        "This right here is Tomax's chest crafter. And this is the new meta on the Donut SMP. This makes 700 50 million dollars an hour, and I'm not even joking.",
+        "You'd only be making around 100 mil an hour this farm, but with mine you can make up to 400 million dollars an hour profit.",
+        "1 day 18 hours. Come on, that's good. So, I got to order 256 crafters.",
+        "Just going to order some shulkers. 800 I'll just order for 850.",
+        "I ordered logs. Oh my gosh, what am I doing? Just wasted 200 mil.",
+        "changing logs into planks, so I can make more money because planks are so high on orders, and logs are way lower. And plus, planks take way longer to get delivered",
+        "I need two logs for each chest",
+        "What the drill's at 20 mil.",
+        "it's creating buttons because the the clock is so fast that it just can't handle. So, I might need to make the clock slower.",
+        "make the shulker loader bigger because it cannot keep up with how many chests being made. Think I'm going to make it around 20",
+        "it makes around 21,000 planks per second. If it's max capacity, but you need to put so many logs right there to be max capacity. Like maybe like 500 or like I'm pretty sure it's like 500k.",
+        "Only 25 seconds of crafting, by the way, and that created around half a million planks.",
+        "If you do {slash} order chest, right? They're $200 per, but normally they're $400",
+        "this is $10 million. So, if we calculate 10 million times six, that is $60 million... if you multiply 60 million by 12, that is 720 million dollars",
+        "But half of this is not profit. Makes around double profit. So, we're looking at about 3 to 400 million dollars an hour of profit",
+        "If you do that every hour, you'll make around Let's say like 300 mil of profit an hour"
+      ],
+      "risks": "Output is sold into player buy orders for chests, which were already depressed ($200 vs a normal $400); a farm at this rate would exhaust chest orders fast. Shulker box cost per 1,728 chests. Heavy client lag ('My PC can't handle this farm' on an RTX 3080). Junk crafts from a fast clock. Very rough extrapolation (5 minutes x 6 x 12). Log cost: 2 logs per chest is ~148 at Aug 2026 log prices, so at a $200 chest the margin is thin once shulkers are paid; the whole method rides on the log/chest spread.",
+      "scalability": "Depth of chest buy orders on /orders (player demand), shulker supply and price, log supply (500k+ loaded), crafter count (256) and clock/lag",
+      "still_valid_after_june_2026_update": "unknown - pre-update video; needs a re-check of chest order price vs 2 x log price and shulker price; drill price rose from 20M to 195M by Aug 2026",
+      "verification_items": [
+        "chest /orders price (200 vs 400 in March 2026)",
+        "spruce log and spruce plank /orders prices and fill times",
+        "shulker box /orders price (800-850 in March 2026)",
+        "crafts per second per crafter and clock rate"
+      ]
+    },
+    {
+      "name": "Concrete processing (buy sand and gravel, craft powder, harden, sell by color)",
+      "category": "craft_arbitrage",
+      "source": "videos/0BqJTW0Firw.txt - Letokosa, uploaded 2026-03-28 (300M/h method)",
+      "claim_date": "2026-03-28",
+      "claimed_gross_per_hour": "Not per hour. Sells 'around 60k per stack' (cheapest colors, 'pretty rare'), 'between 70 and 90k, usually around 80k per stack', and '90k, sometimes even 100k per stack' for the current meta color",
+      "claimed_profit_per_hour": "not stated; 'consistent, it builds starting capital'",
+      "capital_required": "small (sand, gravel, dye)",
+      "setup_time": "minutes",
+      "inputs": [
+        {"item": "sand", "qty": "not stated", "unit_price": "not stated", "channel": "unknown (bought)"},
+        {"item": "gravel", "qty": "not stated", "unit_price": "not stated", "channel": "unknown (bought)"},
+        {"item": "dye", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "concrete (by color)", "qty": "not stated", "unit_price": "60k per stack (cheapest, rare); 70-90k typical, ~80k usual; 90-100k per stack for the meta color", "channel": "unknown (player market: ah or orders, not stated)"}
+      ],
+      "process": "Buy sand and gravel, craft concrete powder with dye, harden it in water, mine the concrete, sell finished concrete. Choose the color the current farm schematic or meta uses.",
+      "tricks": [
+        "Most players skip the hardening step ('too lazy to actually process the concrete'); doing that one extra step captures the spread",
+        "When a new schematic or farm meta uses a specific concrete color, that color spikes instantly to 90-100k per stack; be stocked before others react",
+        "Price depends heavily on color"
+      ],
+      "quotes": [
+        "The absolute cheapest colors can go for around 60k per stack, but that's pretty rare. Most of the time you're selling between 70 and 90k, usually around 80k per stack.",
+        "Every time a new farm meta drops, or someone releases a schematic, and that build uses a specific concrete color, that color spikes instantly.",
+        "when that happens, you can sell for 90k, sometimes even 100k per stack"
+      ],
+      "risks": "Color-specific demand; listings capped by AH slots (18 default); pre-update prices",
+      "scalability": "18 AH slots or buy-order depth per color; sand and gravel supply",
+      "still_valid_after_june_2026_update": "unknown - pre-update player-market prices",
+      "verification_items": [
+        "concrete /ah and /orders prices by color",
+        "sand and gravel /orders prices"
+      ]
+    },
+    {
+      "name": "Piglin bartering (gold blocks to ingots, sell lever and blackstone)",
+      "category": "other",
+      "source": "videos/0BqJTW0Firw.txt - Letokosa, uploaded 2026-03-28 (300M/h method)",
+      "claim_date": "2026-03-28",
+      "claimed_gross_per_hour": "1 million in gold blocks -> 'more than quadrupled my money' in about 20 minutes; worst runs 'still doubled the money'",
+      "claimed_profit_per_hour": "not stated per hour; derived: +3M on 1M in ~20 minutes on the lucky run (~9M/h), +1M on 1M worst case",
+      "capital_required": "1M+ in gold blocks",
+      "setup_time": "a piglin pen in the nether; 'More piglins, faster trades'",
+      "inputs": [
+        {"item": "gold block (crafted to ingots)", "qty": "1M worth", "unit_price": "not stated", "channel": "unknown (bought)"}
+      ],
+      "outputs": [
+        {"item": "lever", "qty": "not stated", "unit_price": "'insane prices' (not stated)", "channel": "unknown (player market)"},
+        {"item": "blackstone", "qty": "not stated", "unit_price": "'moves consistently' (not stated)", "channel": "unknown (player market)"},
+        {"item": "soul sand, gravel, spectral arrows (bonus)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "process": "Buy gold blocks, craft them into ingots, barter with piglins, sort the loot into chests, sell lever and blackstone (soul sand, gravel and spectral arrows as bonus).",
+      "tricks": [
+        "Lever and blackstone carry the whole method; everything else is bonus",
+        "More gold and more piglins scale it: 'There's no hard cap. The only limit is how much gold you're willing to invest.'"
+      ],
+      "quotes": [
+        "two items carry this entire method, lever and blackstone. Lever sells for insane prices. Blackstone moves consistently.",
+        "I invested 1 million into gold blocks, traded all of it, sorted the loot into chests, and added up the values. That run more than quadrupled my money.",
+        "Even on my worst runs though, I still doubled the money.",
+        "What took me 20 minutes could theoretically happen in seconds, with a big enough setup"
+      ],
+      "risks": "RNG ('I definitely got lucky on that run'); lever price is the whole edge and is unstated; pre-update; nether exposure",
+      "scalability": "'infinitely scalable' per creator (gold supply, piglin count); resale limited by AH slots and order depth for lever and blackstone",
+      "still_valid_after_june_2026_update": "unknown - pre-update; lever, blackstone and gold block prices must be re-checked",
+      "verification_items": [
+        "lever price on /ah and /orders",
+        "blackstone price",
+        "gold block price"
+      ]
+    },
+    {
+      "name": "Villager librarian hall with 1-emerald book trades (zombify and cure), selling enchanted books",
+      "category": "enchant_arbitrage",
+      "source": "videos/0BqJTW0Firw.txt - Letokosa, uploaded 2026-03-28 (300M/h method)",
+      "claim_date": "2026-03-28",
+      "claimed_gross_per_hour": "'the 2050 to 300 million per hour range' as transcribed (likely 250 to 300 million per hour); 'This is what got me to 1 billion.'",
+      "claimed_profit_per_hour": "per book: mending bought for 1 emerald sells 'for around 25k'; other books '70k or even 80k sometimes'",
+      "capital_required": "2 zombie villagers to cure, a breeder, lecterns, a zombie, emeralds (source not stated)",
+      "setup_time": "hours to days: breed villagers, reroll lecterns until the book starts at 24 emeralds or less, zombify and cure each villager once",
+      "inputs": [
+        {"item": "emerald", "qty": "1 per book", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "lectern (rerolled), zombie villagers, one zombie", "qty": "20-30 villagers", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "mending book", "qty": "not stated", "unit_price": "around 25k ('sells consistently')", "channel": "unknown (player market)"},
+        {"item": "other enchanted books", "qty": "not stated", "unit_price": "70k-80k sometimes (fluctuate)", "channel": "unknown (player market)"}
+      ],
+      "process": "Cure two zombie villagers, build a villager breeder, place and break lecterns until the librarian's book trade starts at 24 emeralds or less, build one long wall of villagers, keep one zombie at the back, zombify each villager once and cure it to lock the trade at 1 emerald, then walk down the line trading emeralds for books and sell the books.",
+      "tricks": [
+        "Only trades with a base price of 24 emeralds or less drop to 1 emerald after one zombify and cure",
+        "20-30 villagers so that trade resets do not matter: 'You're always moving'",
+        "Build the trade set around what sells fast (mending is the most consistent)"
+      ],
+      "quotes": [
+        "breaking lecterns until you get books that start at 24 emeralds or less. Because that's the key. Once you zombie fire and cure a villager one time, the price drops to one emerald. But only if the base price is low enough.",
+        "Take mending as an example. You buy it for one emerald, and you can sell it for around 25k. And mending is stable.",
+        "that's how you end up in the 2050 to 300 million per hour range. Not in some perfect scenario, just with a solid setup and enough villagers.",
+        "Other books can go for 70k or even 80k sometimes, but those prices fluctuate more."
+      ],
+      "risks": "250-300M/h at 25k-80k per book needs 3,000-12,000 books an hour, far beyond what 20-30 villagers can restock, so the hourly claim looks inflated. Emerald sourcing cost is not addressed. Listings are capped by AH slots (18 default); book demand fluctuates.",
+      "scalability": "Villager restock limits, villager count, AH slots (18 default), book demand",
+      "still_valid_after_june_2026_update": "unknown - pre-update; villager mechanics are untouched by the June update, but book prices and the AH slot cut to 18 matter",
+      "verification_items": [
+        "mending book /ah price (25k in March 2026)",
+        "other enchanted book prices (70-80k)",
+        "emerald price",
+        "whether the zombify/cure discount works on the server"
+      ]
+    },
+    {
+      "name": "Farm-building service for a fee (Discord builder teams)",
+      "category": "service",
+      "source": "videos/L5oVTgYM4Zg.txt - Bubsy, 2026-08-28 (#ordfarm builder team) and videos/l2ZmBRfjPPQ.txt - SadBonker, 2026-06-29 (Discord building service, skelly spawner trading)",
+      "claim_date": "2026-08-28 / 2026-06-29",
+      "claimed_gross_per_hour": "not stated ('for a small price')",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "build materials and a builder team",
+      "setup_time": "under 48 hours per farm delivered (Bubsy)",
+      "inputs": [
+        {"item": "builder labor and build materials", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "built farm at good coordinates with caves filled", "qty": "per order", "unit_price": "'a small price' (not stated)", "channel": "service (Discord, off-market)"}
+      ],
+      "process": "Advertise in Discord (Bubsy: discord.gg/bubsy, #ordfarm); the builder team builds the farm at good coordinates, fills the surrounding caves and delivers in under 48 hours. SadBonker's Discord also offers a building service and skeleton spawner trading.",
+      "tricks": [
+        "Bundle coordinates, cave filling and the build with a sub-48h delivery",
+        "Spawner trading runs through the same Discord channels (skelly spawners)"
+      ],
+      "quotes": [
+        "for a small price, our builder team will build it for you in less than 48 hours at good coordinates and fill in all the caves for you",
+        "We also host frequent giveaways, offer a building service, skelly spawner trading, and much more."
+      ],
+      "risks": "Trust (builders know the coordinates), payment enforcement",
+      "scalability": "builder labor",
+      "still_valid_after_june_2026_update": "yes - both advertisements are post-update",
+      "verification_items": [
+        "going rate for farm build services"
+      ]
+    }
+  ],
+  "mechanics_facts": [
+    {"fact": "Autocrafter chain log -> planks -> slabs: crafter with planks recipe, hopper, crafter with slab recipe, all pulsed by a redstone clock behind a lever or note block power switch; a hopper distribution system fills every crafter from one input chest.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28"},
+    {"fact": "Crafters with partially filled grids craft unintended items (pressure plates and buttons at startup; buttons when the clock is faster than the hoppers). Fix: let crafters fill before clocking, or slow the clock.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28; videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "Sell axe: bought with /ah sell axe; 'whenever you mine a chest, it actually doesn't mine it, but instead sells everything in it'; 'They self-destruct after 24 hours'; listings show remaining time (24 mil for 18 hours).", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28"},
+    {"fact": "Drill (shard pickaxe) 'breaks nine blocks at once' (3x3), bought with /ah drill; 195M on 2026-08-28, 20M on 2026-03-22.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28; videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "/orders fill tactic: bid just above the highest existing buy order (72.1 -> 74 on spruce logs; 73.5 -> 74 two weeks earlier). A 1,000,000-log order at 74 ($74M) was filled.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28; videos/jfmqSLQgAeg.txt - Bubsy 2026-08-13"},
+    {"fact": "AFK sell-axe loop: golden carrots in the off hand (auto-eat), Options > Controls set sneak, attack/destroy and use item/place block to toggle; crouch once, look straight up, right click once, left click once; stand in a water stream under the output chests; no armor or the water flow breaks.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28; videos/jfmqSLQgAeg.txt - Bubsy 2026-08-13"},
+    {"fact": "/worth spruce slab = 12 (base price); a stack of slabs is $768; 1 log = 8 slabs = $96, so 'over $20 profit per log' at a 72-74 log price.", "source": "videos/jfmqSLQgAeg.txt - Bubsy 2026-08-13; videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28"},
+    {"fact": "Sell-axe area design: output chests above a water stream so the AFK player keeps breaking (selling) chests; used instead of a shulker loader because 'shulker prices will take away a good proportion of the profits'.", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "Cobblestone farms were nerfed before 2026-06-29; basalt was 'considered the meta' after that; basalt farms only run efficiently in the nether because lava flows faster there.", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "Bone economics on 2026-06-29: bones $90, so bone meal $30 (3 per bone); pink petals or wildflowers yield 60-70 per bone meal at base price ('over two times the profit per bone').", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "Pink petal farms 'used to be making like 60 million per hour' before a nerf (metas get nerfed).", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "Bone-meal flower farms produce pink petals in a cherry grove and wildflowers in a birch forest; biome sets the product.", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "Flower Bunker V2: 56 Flower Power V7 modules, ~900,000 bone storage, 50-60M/h gross, 30-40M/h net at $90 bones; lever with light (light off = producing).", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "IKEA V1 kelp farm (Mishkat): bone blocks -> crafter (stops when output overfills) -> dispensers -> kelp -> pistons -> water collection; ~600 kelp/min observed; add an auto smelter and autocrafter for dried kelp blocks.", "source": "videos/8p26PQQR-00.txt - Bubsy 2025-11-08"},
+    {"fact": "Kelp farms claimed at 40M/h (pre-update); Bubsy on 2026-08-28 says most people think the meta is dried kelp blocks or cobblestone.", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22; videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28"},
+    {"fact": "Chest crafter economics (March 2026): 8 planks = 2 logs per chest; chests sell into /orders at $200 ('normally $400'); chests are shulker-loaded before selling.", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "Planks are priced much higher than logs on /orders and plank orders take far longer to fill, so buy logs and craft planks in-farm.", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "An /orders entry for crafters showed '1 day 18 hours' remaining in March 2026 (order lifetime appeared longer than 24h pre-update).", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "Melton's plank stage: ~21,000 planks/s at max capacity, which needs ~500k logs loaded; 25 s of crafting made ~500k planks; the shulker loader had to be expanded to ~20 to keep up; the farm lagged an RTX 3080 client.", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "Shulker boxes were ordered on /orders at 850 with the market at 800 (March 2026).", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22"},
+    {"fact": "Concrete prices by color: 60k/stack cheapest (rare), 70-90k typical (~80k), 90-100k for the color the current schematic/meta uses; the meta color spikes instantly when a schematic drops.", "source": "videos/0BqJTW0Firw.txt - Letokosa 2026-03-28"},
+    {"fact": "Piglin bartering: lever and blackstone are the profitable drops; 1M of gold blocks more than quadrupled in ~20 minutes on a lucky run, worst runs doubled.", "source": "videos/0BqJTW0Firw.txt - Letokosa 2026-03-28"},
+    {"fact": "Villager discount: reroll lecterns until the book trade starts at 24 emeralds or less; zombify and cure once and the price drops to 1 emerald; mending sells ~25k, other books 70-80k.", "source": "videos/0BqJTW0Firw.txt - Letokosa 2026-03-28"},
+    {"fact": "Sand insta-mined with an Efficiency III shovel and sold with /sell made 240,000 in about 2 minutes (pre-update).", "source": "videos/P42kTHIit-s.txt - SadBonker 2026-04-28"},
+    {"fact": "Hand-chopping spruce made 'around 50,000 dollars' in 1 minute (pre-update, channel not stated); the Board tree farm makes spruce logs AFK but needs two accounts.", "source": "videos/P42kTHIit-s.txt - SadBonker 2026-04-28"},
+    {"fact": "Crafters crafting crafters returned 1.1M on ~800k of ingredients in a small test build (pre-update).", "source": "videos/P42kTHIit-s.txt - SadBonker 2026-04-28"},
+    {"fact": "Base opsec: an amethyst cluster near a base can reveal it; destroy the budding amethyst so clusters cannot regrow, and /sell the amethyst.", "source": "videos/jfmqSLQgAeg.txt - Bubsy 2026-08-13"},
+    {"fact": "Builder services exist: Bubsy's Discord #ordfarm builds a farm in under 48 hours at good coordinates with caves filled; SadBonker's Discord offers a building service and skeleton spawner trading.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28; videos/l2ZmBRfjPPQ.txt - SadBonker 2026-06-29"},
+    {"fact": "Bubsy mega farm: bottom layer is ice; storage layers are almost 100% chests; capacity stated as 'up to 10 million logs' and 'almost 11 million logs'; daily figure stated both as 'over 3 billion a day' and '5 billion every day'.", "source": "videos/L5oVTgYM4Zg.txt - Bubsy 2026-08-28"},
+    {"fact": "Melton's max-capacity operating cycle: fill with logs, plank crafters on for 15 s, then chest crafters on, wait for planks to run out, plank stage off, chest stage off, check shulker loader, repeat hourly for ~300M/h profit (claimed).", "source": "videos/oDqWI0oNPtE.txt - Melton 2026-03-22"}
+  ],
+  "prices_mentioned": [
+    {"item": "spruce log (highest existing buy order)", "price": "72.1 each", "channel": "orders", "date": "2026-08-28", "source": "videos/L5oVTgYM4Zg.txt - Bubsy"},
+    {"item": "spruce log (Bubsy's own order, 1,000,000 logs)", "price": "74 each ($74M total)", "channel": "orders", "date": "2026-08-28", "source": "videos/L5oVTgYM4Zg.txt - Bubsy"},
+    {"item": "spruce slab", "price": "$12 each, $768 per stack", "channel": "sell (base price via sell axe)", "date": "2026-08-28", "source": "videos/L5oVTgYM4Zg.txt - Bubsy"},
+    {"item": "sell axe (18 hours remaining)", "price": "24M", "channel": "ah", "date": "2026-08-28", "source": "videos/L5oVTgYM4Zg.txt - Bubsy"},
+    {"item": "drill (3x3 shard pickaxe)", "price": "195M", "channel": "ah", "date": "2026-08-28", "source": "videos/L5oVTgYM4Zg.txt - Bubsy"},
+    {"item": "spruce slab (/worth)", "price": "12 each ('96 per stack' as spoken, i.e. 96 per log)", "channel": "sell", "date": "2026-08-13", "source": "videos/jfmqSLQgAeg.txt - Bubsy"},
+    {"item": "spruce log (market)", "price": "73.5 each", "channel": "orders", "date": "2026-08-13", "source": "videos/jfmqSLQgAeg.txt - Bubsy"},
+    {"item": "spruce log (Bubsy's order, 50,000 logs)", "price": "74 each (3.7M total)", "channel": "orders", "date": "2026-08-13", "source": "videos/jfmqSLQgAeg.txt - Bubsy"},
+    {"item": "spruce slab stack (as spoken, inconsistent with 768)", "price": "$500 per stack", "channel": "sell", "date": "2026-08-13", "source": "videos/jfmqSLQgAeg.txt - Bubsy"},
+    {"item": "bone", "price": "$90", "channel": "unknown (player market)", "date": "2026-06-29", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker"},
+    {"item": "bone meal", "price": "$30 (implied from bone price)", "channel": "unknown", "date": "2026-06-29", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker"},
+    {"item": "pink petals / wildflowers (output per bone meal)", "price": "60 to 70 per bone meal", "channel": "sell", "date": "2026-06-29", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker"},
+    {"item": "Flower Bunker V2 throughput", "price": "50-60M/h gross, 30-40M/h net", "channel": "sell", "date": "2026-06-29", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker"},
+    {"item": "pink petal farms (before nerf)", "price": "~60M/h", "channel": "sell", "date": "before 2026-06-29 (historical)", "source": "videos/l2ZmBRfjPPQ.txt - SadBonker"},
+    {"item": "sand (1-2 minutes of Efficiency III mining)", "price": "240,000 total", "channel": "sell", "date": "2026-04-28", "source": "videos/P42kTHIit-s.txt - SadBonker"},
+    {"item": "crafters (one small autocrafter run)", "price": "1.1M revenue vs ~800k ingredients", "channel": "unknown", "date": "2026-04-28", "source": "videos/P42kTHIit-s.txt - SadBonker"},
+    {"item": "spruce logs (1 minute hand chopping)", "price": "~50,000 total", "channel": "unknown", "date": "2026-04-28", "source": "videos/P42kTHIit-s.txt - SadBonker"},
+    {"item": "kelp farm throughput", "price": "40M/h", "channel": "unknown", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "Tomax chest crafter throughput", "price": "750M/h claimed (also 'around 100 mil an hour')", "channel": "orders", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "drill (3x3 shard pickaxe)", "price": "20M", "channel": "ah", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "chest", "price": "$200 each ('normally $400')", "channel": "orders", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "shulker box ('shulkers')", "price": "800 market, ordered at 850", "channel": "orders", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "spruce log order (mistaken order)", "price": "200M total spent", "channel": "orders", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "Melton chest farm 5-minute output", "price": "$10M of chests at $200; extrapolated 720M/h gross, 300-400M/h profit", "channel": "orders", "date": "2026-03-22", "source": "videos/oDqWI0oNPtE.txt - Melton"},
+    {"item": "concrete (cheapest colors)", "price": "~60k per stack", "channel": "unknown (player market)", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "concrete (typical)", "price": "70-90k per stack, usually ~80k", "channel": "unknown (player market)", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "concrete (current meta color)", "price": "90k, sometimes 100k per stack", "channel": "unknown (player market)", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "gold blocks -> piglin loot", "price": "1M in -> more than 4x out (worst case 2x)", "channel": "unknown", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "mending book", "price": "~25k (bought for 1 emerald)", "channel": "unknown (player market)", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "other enchanted books", "price": "70k-80k sometimes", "channel": "unknown (player market)", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "villager book hall throughput", "price": "'2050 to 300 million per hour' as transcribed (likely 250-300M/h)", "channel": "unknown", "date": "2026-03-28", "source": "videos/0BqJTW0Firw.txt - Letokosa"},
+    {"item": "Bubsy mega farm throughput", "price": "$200M/h gross at full fill, 198M in a 1-hour partial test, 3B or 5B per day", "channel": "sell", "date": "2026-08-28", "source": "videos/L5oVTgYM4Zg.txt - Bubsy"},
+    {"item": "Bubsy compact farm throughput", "price": "8.3M per 5 min gross (over 100M/h); 2M in under 5 min on 50k logs", "channel": "sell", "date": "2026-08-13", "source": "videos/jfmqSLQgAeg.txt - Bubsy"}
+  ]
+}

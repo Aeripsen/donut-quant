@@ -1,0 +1,702 @@
+{
+  "cards": [
+    {
+      "name": "Order diamonds -> craft diamond pickaxes -> anvil Efficiency V with enderman-farm XP -> sell on /ah (DrSteve)",
+      "category": "enchant_arbitrage",
+      "source": "videos/zJSfjgfi5Vo.txt - DrSteve, uploaded 2026-08-06 (Hindi-transliterated auto-captions of an English video; quotes below are my re-transliteration into English)",
+      "claim_date": "2026-08-06",
+      "claimed_gross_per_hour": "not stated (creator only states profit)",
+      "claimed_profit_per_hour": "40 to 50 million profit per hour (creator extrapolates from 18 to 19 million profit in 20 to 25 minutes)",
+      "capital_required": "not stated; you must pre-buy diamonds and Efficiency V (books, implied) on /orders for 100+ pickaxes",
+      "setup_time": "enderman XP farm build (time-lapsed, duration not stated) + a small enchanting setup; enchanting the 100+ pickaxes took 15 to 20 minutes; whole cycle incl. selling 20 to 25 minutes",
+      "inputs": [
+        {"item": "diamonds", "qty": "not stated (3 per pickaxe -> 300+ for 100+ pickaxes)", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Efficiency V (transcript says 'order Efficiency Five pickaxe'; almost certainly Efficiency V books to anvil onto the pickaxes)", "qty": "not stated (1 per pickaxe)", "unit_price": "not stated", "channel": "orders"},
+        {"item": "sticks", "qty": "2 per pickaxe (not mentioned)", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "XP levels for the anvil", "qty": "enough for 100+ anvil operations", "unit_price": "free", "channel": "farmed (enderman farm)"}
+      ],
+      "outputs": [
+        {"item": "Efficiency V diamond pickaxe", "qty": "100+", "unit_price": "not stated (implied profit ~180k to 190k per pickaxe from 18-19M / 100+)", "channel": "ah"}
+      ],
+      "process": "1) Build an enderman farm (End) as the XP source. 2) Build a small enchanting/anvil setup next to it. 3) Place /orders for diamonds; craft them into diamond pickaxes. 4) Place /orders for Efficiency V (books). 5) Stand at the farm, gain levels, anvil the Efficiency V book onto each pickaxe (100+ pickaxes in 15-20 minutes). 6) List every pickaxe on /ah. Creator forgot to record the selling and instead shows his auction history: 18-19M profit in 20-25 minutes. No machines beyond the enderman farm and an anvil; no AFK toggle.",
+      "tricks": [
+        "Buy raw diamonds on /orders and craft the pickaxes yourself instead of buying pickaxes; buy the Efficiency V books on /orders too (both sides bought on the cheap channel, sold on the expensive channel).",
+        "Use an enderman farm as the XP source so the anvil cost of 100+ combines is free and fast (15-20 min for 100+).",
+        "Batch the whole thing: enchant 100+ pickaxes in one sitting, then dump all of them on /ah; the auction history is used as proof of sales.",
+        "Creator frames auction flipping, gambling and base raiding as the low-money methods to move away from."
+      ],
+      "quotes": [
+        "[transliterated] 'today I found a method that makes over 40 to 50 million profit per hour'",
+        "[transliterated] 'to enchant this 100 plus pickaxes it took me like 15 to 20 minutes'",
+        "[transliterated] 'after selling all the pickaxes I made around 18 to 19 million profit in just like 20 to 25 minutes'",
+        "[transliterated] 'just order diamonds and convert into pickaxes and order Efficiency Five [books] and build enderman farm and just enchant pickaxes and sell it on auction house, that's it'"
+      ],
+      "risks": "Profit figure is shown only from auction history, not recorded live; captions are auto-generated transliterations so numbers may be misheard; Efficiency V pickaxes do not stack, so 100+ listings need many /ah slot cycles (18 default) unless the creator has Donut+/++; the /ah price of Eff V pickaxes can collapse once copied; Efficiency V book supply on /orders may dry up or reprice.",
+      "scalability": "Bounded by Efficiency V book supply on /orders, diamond order fill speed, /ah slots (18 default, one per pickaxe, 45 Donut+, 90 Donut++) and how fast /ah buyers absorb enchanted pickaxes; XP is effectively unlimited with an enderman farm.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-06 (after the update); uses only /orders, /ah, a vanilla XP farm and an anvil; no /shop, no sell multiplier, no shards; re-check the current /orders price of Efficiency V books and diamonds vs the /ah price of Eff V diamond pickaxes",
+      "verification_items": [
+        "current /orders price of diamonds",
+        "current /orders price of Efficiency V books (and whether he meant books or pre-enchanted pickaxes)",
+        "current /ah sale price of Efficiency V diamond pickaxes (his implied ~180-190k profit each)",
+        "whether 100+ single-slot pickaxes can be moved in 20-25 minutes with 18 slots (Donut+/++ slot count of the creator)",
+        "/worth diamond pickaxe and /worth diamond for the base-price floor"
+      ]
+    },
+    {
+      "name": "Order 100 leggings + Unbreaking/Mending/Blast Protection books -> anvil with XP farm -> sell (DrSteve)",
+      "category": "enchant_arbitrage",
+      "source": "videos/_rCCyUBze1Q.txt - DrSteve, uploaded 2026-08-18",
+      "claim_date": "2026-08-18",
+      "claimed_gross_per_hour": "29 mil in 39 minutes (~44.6M/h gross if linear); headline claim 'around 40 million in profit every single hour'",
+      "claimed_profit_per_hour": "23.2 mil net in 39 minutes (~35.7M/h if linear); headline 40 mil/h",
+      "capital_required": "5.8 mil total for 100 leggings + 100 Unbreaking books + Mending + Blast Protection books",
+      "setup_time": "XP farm build (Discord tutorial, time-lapsed) + enchanting area; enchanting 100 leggings took 39 minutes",
+      "inputs": [
+        {"item": "'normal' leggings (material not stated; 5.8M total budget implies diamond leggings, not netherite)", "qty": "100", "unit_price": "not stated individually (bundle 5.8M total)", "channel": "orders"},
+        {"item": "Unbreaking book (level not stated, presumably III)", "qty": "100", "unit_price": "not stated (bundle)", "channel": "orders"},
+        {"item": "Mending book", "qty": "implied 100", "unit_price": "not stated (bundle)", "channel": "orders"},
+        {"item": "Blast Protection book (level not stated, presumably IV)", "qty": "implied 100", "unit_price": "not stated (bundle)", "channel": "orders"},
+        {"item": "XP levels", "qty": "3 anvil combines per legging", "unit_price": "free", "channel": "farmed (XP farm)"}
+      ],
+      "outputs": [
+        {"item": "leggings with Unbreaking + Mending + Blast Protection", "qty": "100", "unit_price": "not stated (implied ~290k gross each = 29M/100; ~232k profit each)", "channel": "ah (implied; sale channel not named in the transcript, DrSteve's previous method sold on /ah)"}
+      ],
+      "process": "1) Build the XP farm (tutorial on his Discord). 2) Build an enchanting area with anvils. 3) /orders: 100 leggings, 100 Unbreaking books, Mending books, Blast Protection books ('according to your need'). 4) At the farm, anvil the three books onto each pair of leggings. 5) Sell the 100 enchanted leggings; 39 minutes of enchanting, 29 mil gross, 5.8 mil inputs, 23.2 mil profit. No redstone machines; manual anvil work.",
+      "tricks": [
+        "Buy unenchanted armour and the books separately on /orders (bulk, cheap), combine with free XP, and sell the finished piece where enchanted gear is priced per piece.",
+        "Order 'according to your need' - match book counts to legging counts (100/100).",
+        "The specific enchant set chosen is Unbreaking + Mending + Blast Protection on leggings (not Protection), i.e. the combination that is cheap in books but sells as a finished item.",
+        "Batch of 100 to amortise the XP-farm trip and the listing session."
+      ],
+      "quotes": [
+        "'this method can make around 40 million in profit every single hour'",
+        "'it took me 39 minutes to enchant all the leggings and we made 29 mil in just 39 minutes'",
+        "'We ordered 100 normal leggings. Then, we ordered 100 unbreaking book. Then, we ordered mending and blast protection. Total is 5.8 mil. So, we made total 23.2 mil in just 39 minutes.'"
+      ],
+      "risks": "Sale channel and per-item sale price are not stated; leggings do not stack so 100 listings need many /ah slot cycles at 18 slots; a cheap-book/expensive-armour gap closes fast when copied; Mending book supply on /orders is the likely bottleneck; the 40M/h headline is above the measured 35.7M/h.",
+      "scalability": "Bounded by book supply on /orders (Mending especially), /ah slots (one per leggings; 18 default), buyer demand for that exact enchant set, and manual anvil time (39 min per 100).",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-18 (after the update); uses only /orders, an XP farm, anvils and the AH/orders; no removed feature involved",
+      "verification_items": [
+        "which leggings (diamond vs netherite) - back out from the 5.8M bundle",
+        "current /orders prices of Unbreaking III, Mending, Blast Protection IV books and plain leggings",
+        "current /ah price of Unbreaking/Mending/Blast Protection leggings",
+        "/worth diamond leggings and /worth netherite leggings",
+        "whether he sold on /ah or into /orders"
+      ]
+    },
+    {
+      "name": "Order Knockback I netherite swords at ~4M, resell on /ah at ~6M (KingOostin)",
+      "category": "order_to_ah_flip",
+      "source": "videos/zJp6Fn4N5K4.txt - KingOostin, uploaded 2026-08-15",
+      "claim_date": "2026-08-15",
+      "claimed_gross_per_hour": "not stated per hour; 289 mil gross from one 50-sword cycle (58 mil first batch + 231 mil second batch); 'probably played a total of 5 minutes'",
+      "claimed_profit_per_hour": "not stated per hour; 'almost 100 mil profit' on the cycle (289M gross - ~200M order cost = ~89M); ~2 million profit per sword",
+      "capital_required": "~200 mil (50 swords x ~4 mil order price)",
+      "setup_time": "minutes to place the order; order filled 'in a couple hours'; AH sales took a while (checked back later)",
+      "inputs": [
+        {"item": "netherite sword with Knockback I", "qty": "50", "unit_price": "around 4 million", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "netherite sword with Knockback I", "qty": "50", "unit_price": "around 6 million (realised average ~5.78M = 289M/50)", "channel": "ah"}
+      ],
+      "process": "1) Scan for an item with a large gap between /orders price and /ah price ('something you can sell way more than you order them for'). 2) Place a /orders buy order for 50 KB1 netherite swords at ~4M. 3) Do nothing; the order fills in a couple of hours. 4) List all 50 on /ah at ~6M. 5) Two collection rounds: 58 mil then 231 mil = 289 mil. No farms, no machines, no AFK.",
+      "tricks": [
+        "Pick items with a large market gap between /orders and /ah, not the most expensive item.",
+        "Avoid ordering cheap items (bone meal, gunpowder, paper) - they cannot be resold on /ah and their prices rarely change.",
+        "Avoid super expensive items (elytra, netherite blocks, dragon heads) - their prices move millions every day, which turns the flip into investing.",
+        "Find your own item so you have less competition; he tested netherite swords, pickaxes, maces and spears before settling on KB1 netherite swords.",
+        "The specific enchant (Knockback I) is what creates the gap: cheap to fill on /orders, priced as a netherite sword on /ah.",
+        "Explicitly not: AFK skeleton spawners, AFK big farms, investing in elytra."
+      ],
+      "quotes": [
+        "'I found knockback one netherite swords to be really good as you could order them for around 4 million and sell them for around 6 million. That means you would make 2 million profit on every single netherite sword.'",
+        "'I'm going to order 50 swords'",
+        "'It looks like my order got finished in a couple hours.'",
+        "'The first time I got 58 mil and the second time I got 231 mil. That gives us a total of 289 mil which is almost 100 mil profit'",
+        "'I probably played a total of 5 minutes.'"
+      ],
+      "risks": "Needs ~200M float; swords do not stack so 50 listings cycle through 18 /ah slots; the /orders-vs-/ah gap can close once others copy; AH sell-through is slow (two collection rounds); order may fill only partially; the ~4M/~6M numbers are from mid-August 2026.",
+      "scalability": "Bounded by supply of KB1 netherite swords into /orders (how many players have them to sell), /ah demand at ~6M, and /ah slots (18 default). He suggests finding your own item to avoid competition, which implies the gap is per-item and shrinks with copies.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-15 (after the update); pure /orders -> /ah flip; the only update effect is 18 slots instead of 25 for listing the swords",
+      "verification_items": [
+        "current /orders price of Knockback I netherite swords vs current /ah price",
+        "/worth netherite sword (base price floor)",
+        "fill time of a 50-unit order at ~4M",
+        "whether other enchant/item combos (pickaxes, maces, spears) still show a gap"
+      ]
+    },
+    {
+      "name": "/shop -> /orders micro-flips from a 1k start: blaze rods, shulker boxes, sweet berries (TierBlue, pre-update)",
+      "category": "other",
+      "source": "videos/qeuCBTQwsH4.txt - TierBlue, uploaded 2025-12-30 ('100M in 1 hour using only orders' challenge, stuck in a box)",
+      "claim_date": "2025-12-30",
+      "claimed_gross_per_hour": "challenge target 100 mil in 1 hour; actual result 134k in 1 hour from 1k start",
+      "claimed_profit_per_hour": "~133k in 1 hour (134k end - 1k start); shulker box flip was the main driver ('Shulker boxes are definitely meta')",
+      "capital_required": "1k starting money; scales with whatever you can buy from /shop",
+      "setup_time": "none; instant buy/fill loops",
+      "inputs": [
+        {"item": "blaze rod", "qty": "as many as affordable", "unit_price": "$150 each", "channel": "shop (server /shop, removed June 2026)"},
+        {"item": "shulker box", "qty": "one at a time at first", "unit_price": "implied ~$800 (order $810 = '$10 profit')", "channel": "shop (server /shop, removed June 2026)"},
+        {"item": "sweet berries", "qty": "many", "unit_price": "implied ~$31 ('we'll only make $20' vs $51 order)", "channel": "shop (server /shop, removed June 2026)"}
+      ],
+      "outputs": [
+        {"item": "blaze rod", "qty": "6 at a time", "unit_price": "$153 each (later $151, then $152)", "channel": "orders"},
+        {"item": "shulker box", "qty": "many", "unit_price": "$810 each; later 'so high' (unstated); later 'went back up to $910 each'", "channel": "orders"},
+        {"item": "sweet berries", "qty": "many", "unit_price": "$51 each", "channel": "orders"}
+      ],
+      "process": "1) Open /orders and find items whose top buy order is above the /shop price. 2) Buy from /shop, fill the order ('order them away'). 3) Repeat page by page. Blaze rods gave $3 each ('only making like $6 at a time'), shulker boxes $10 each at 810 then more when the order price spiked to 910, sweet berries $20 each. Ran from 1k to 134k in the hour, mostly on shulker boxes. No machines.",
+      "tricks": [
+        "Compare /orders top price against /shop price item by item; anything above shop price is a riskless fill.",
+        "Prefer items with a small unit price and big order quantity so you can buy more units per dollar (sweet berries reasoning: 'we can buy a lot more of these and make a lot more money').",
+        "Watch for order-price spikes: shulker box orders jumped from $810 to 'so high' and later $910, which made the flip pay ~100/unit instead of 10.",
+        "Order pages get exhausted ('finish out this page') and prices fall as you fill them; move to the next item.",
+        "Order books can be dropped by your own filling: quartz-block orders 'suddenly dropped down in prices' and he lost money continuing to sell."
+      ],
+      "quotes": [
+        "'Blaze rods are $153 each. Now, let me check how much they are on Slash Shop. They're $150 each.'",
+        "'Shulker boxes are $810 each, which is $10 profit.'",
+        "'Sweet berries are $51 each... We'll only make $20'",
+        "'Oh, they went back up to $910 each.'",
+        "'We made it to 134k. Shulker boxes are definitely meta'"
+      ],
+      "risks": "Dead: /shop was removed on 2026-06-02/03, so the shop leg no longer exists. Also margins were $3-$100 per unit and the order price collapses as you fill it.",
+      "scalability": "Was bounded by order depth per item and click speed; irrelevant now.",
+      "still_valid_after_june_2026_update": "no - relies on buying from /shop, which was removed in the June 2026 update; the price-gap-scanning habit (orders vs another channel) is the only reusable part",
+      "verification_items": [
+        "none for the method itself (dead); if anything, check whether any /worth sell price ever exceeds a top /orders price, which would be the post-update analogue"
+      ]
+    },
+    {
+      "name": "Craft/smelt arbitrage inside /orders: ingots<->blocks and quartz block -> smooth quartz (TierBlue, pre-update)",
+      "category": "craft_arbitrage",
+      "source": "videos/qeuCBTQwsH4.txt - TierBlue, uploaded 2025-12-30",
+      "claim_date": "2025-12-30",
+      "claimed_gross_per_hour": "not stated; part of a 1k -> 134k hour; smooth quartz batch 'makes me $920', later 'should make us 4K'",
+      "claimed_profit_per_hour": "not stated; several of the loops were found to lose money once recomputed",
+      "capital_required": "1k-13k in the video (needed 10k to try the iron-block loop; furnace 253, coal 530 x 5 = 2.65k, crafting table 90)",
+      "setup_time": "minutes; one furnace + crafting table ordered at 253 / 90",
+      "inputs": [
+        {"item": "iron ingot", "qty": "9 per block", "unit_price": "120 each (his own order placed at 176 'so it's above this raw iron'); later '200'", "channel": "orders"},
+        {"item": "block of iron", "qty": "4", "unit_price": "1.37k (later quote)", "channel": "orders"},
+        {"item": "gold ingot", "qty": "9 per block", "unit_price": "1k each ('gold ingots sell for 1.25k' earlier)", "channel": "orders"},
+        {"item": "raw gold", "qty": "-", "unit_price": "$739 each, then '1k each', then '1.15k each'", "channel": "orders"},
+        {"item": "block of quartz", "qty": "8 per furnace batch", "unit_price": "$170", "channel": "unknown (shop or orders)"},
+        {"item": "coal", "qty": "1 then 5", "unit_price": "$520 each (order placed at 530)", "channel": "orders"},
+        {"item": "furnace", "qty": "1", "unit_price": "$252 each (order placed at 253)", "channel": "orders"},
+        {"item": "crafting table", "qty": "1", "unit_price": "90 each", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "block of iron", "qty": "-", "unit_price": "1.5k each", "channel": "orders"},
+        {"item": "iron ingot (from uncrafting blocks)", "qty": "9 per block", "unit_price": "200 each", "channel": "orders"},
+        {"item": "gold block", "qty": "-", "unit_price": "11k per block ('9.9k' for the 9 ingots, '2k per' block profit)", "channel": "orders"},
+        {"item": "quartz", "qty": "-", "unit_price": "$211 each", "channel": "orders"},
+        {"item": "smooth quartz", "qty": "8 per batch", "unit_price": "not stated ('makes me $920')", "channel": "orders"}
+      ],
+      "process": "Loops tried: (a) order iron ingots at 120-176, craft 9 into a block, fill the 1.5k block order (1,080 in -> 1,500 out); (b) order blocks of iron at 1.37k, uncraft to 9 ingots, fill 200-each ingot orders (1,370 in -> 1,800 out), later judged a loss after recompute; (c) order 9 gold ingots at ~1k, craft a block, fill the 11k gold-block order ('spending 10k and only making 2k per'); (d) order a furnace (253) and coal (530), craft quartz into blocks of quartz, smelt to smooth quartz, fill smooth-quartz orders ('$920', 'should make us 4K'). Machines: one furnace, one crafting table, no automation.",
+      "tricks": [
+        "Place your order 1 above the current top order (iron at 176 above raw iron; furnace 253 vs 252; coal 530 vs 520) so you are 'the number one order' and get filled first.",
+        "Only price and fill orders after doing the 9x multiplication; two loops (iron block -> ingots, and a quartz loop) lost money when he skipped the math.",
+        "Smelting adds value: block of quartz -> smooth quartz sells into a separate order.",
+        "Order the tools themselves (furnace, coal, crafting table) rather than mining anything."
+      ],
+      "quotes": [
+        "'iron ingots... they are 120 each. But then if I craft them into blocks of iron, I can sell it for 1.5k each.'",
+        "'Furnaces are $252 each. So I'm going to set one for $253 each.'",
+        "'coal is $520 each. I'm going to set an order for $530 each.'",
+        "'iron blocks are 1.37k, but iron itself is 200.'",
+        "'Gold is 1k each still and 11k per block. That's 9.9k... I would be spending 10k and then only making 2k per.'",
+        "'quarts sell for $211 each... Block of quartz is $170'"
+      ],
+      "risks": "Tiny margins, prices in the video are from Dec 2025; filling your own crafted output into orders moves the order price against you fast; several loops were net negative.",
+      "scalability": "Bounded by order depth on both legs and by crafting/smelting time; ~24h order lifetime.",
+      "still_valid_after_june_2026_update": "unknown - the mechanism (buy ingots on /orders, craft, sell blocks to /orders, or the reverse) does not depend on /shop, but every price here is pre-update and must be re-pulled; the /shop leg used for quartz blocks is gone",
+      "verification_items": [
+        "current /orders prices: iron ingot, block of iron, gold ingot, gold block, quartz, block of quartz, smooth quartz",
+        "/worth for each of those (base-price floor after the sell-multiplier removal)",
+        "whether smelting/uncrafting spreads still exist post-update"
+      ]
+    },
+    {
+      "name": "Fill mispriced buy orders (sweet berries at 1.5k each, one unit) (TierBlue anecdote)",
+      "category": "other",
+      "source": "videos/qeuCBTQwsH4.txt - TierBlue, uploaded 2025-12-30",
+      "claim_date": "2025-12-30",
+      "claimed_gross_per_hour": "one-off: 1.5k from a single sweet berry (took him from ~1k to 2.5k)",
+      "claimed_profit_per_hour": "not a rate; single lucky fill",
+      "capital_required": "one sweet berry",
+      "setup_time": "none",
+      "inputs": [
+        {"item": "sweet berries", "qty": "1", "unit_price": "~$31 (shop, implied)", "channel": "shop (server /shop, removed June 2026)"}
+      ],
+      "outputs": [
+        {"item": "sweet berries", "qty": "1", "unit_price": "1.5k each", "channel": "orders"}
+      ],
+      "process": "Someone posted a buy order for 1 sweet berry at 1.5k (30x the going rate); he happened to be selling berries into orders and filled it. Shows that badly priced single-unit buy orders exist and can be picked off by anyone holding the item.",
+      "tricks": [
+        "Scan /orders for outlier buy orders (price far above the rest) with small quantities and fill them immediately.",
+        "Keep a few units of common items on hand so an outlier order can be filled instantly."
+      ],
+      "quotes": [
+        "'Sweet berries for 1.5k each. What? Somebody just said an order for one and I just got it. So, I just made... We're at 2.5K.'"
+      ],
+      "risks": "Random and rare; not a plan.",
+      "scalability": "None; depends on other players' mistakes.",
+      "still_valid_after_june_2026_update": "yes for the mechanism (mispriced orders still exist); the shop source of the berry is gone",
+      "verification_items": [
+        "none; opportunistic"
+      ]
+    },
+    {
+      "name": "AH price-history investing: candlestick patterns and a neural-net forecaster on elytra / gilded blackstone (numen)",
+      "category": "investment_hold",
+      "source": "videos/qK_7ByDtBbM.txt - numen, uploaded 2025-11-24",
+      "claim_date": "2025-11-24",
+      "claimed_gross_per_hour": "none; the trade made '$0 and probably lost some money'",
+      "claimed_profit_per_hour": "none; creator says 'a very small chance any of this actually works in the long term'",
+      "capital_required": "price of the items bought ('a few gilded blackstone off AH'); infrastructure: a server running a scraper for days",
+      "setup_time": "wrote a TypeScript AH-window scraper, collected ~2 days of data (later 7 days), built a React charting app, trained two models for ~2 hours each",
+      "inputs": [
+        {"item": "gilded blackstone", "qty": "a few (plus some from his ender chest)", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "gilded blackstone", "qty": "same", "unit_price": "not stated; did not sell ('no one wants to buy my gilded blackstone')", "channel": "ah"}
+      ],
+      "process": "1) Get price history: either the Donut SMP API (/api gives developers a key) or a program that reads the AH window text and parses prices (he chose the scraper because the API 'seems to be inaccurate at times, and sometimes it misses a full entry'). 2) Render 5-minute candlesticks. 3) Look for bearish/bullish engulfing patterns. 4) Alternatively train a deep-learning model: 60 price points in, next 60 points out (60 points ~ 30 minutes), trained on elytra and gilded blackstone data. 5) Buy when the model says up, wait 30 minutes, relist. Result: $0.",
+      "tricks": [
+        "Sellers check the cheapest listing and undercut it so their item sells first; finite items trend up because of rarity.",
+        "Candle wicks far below the close are snipes: someone lists low and it is bought instantly, then price returns.",
+        "Insider trading and price manipulation are legal on Donut SMP, so patterns are unreliable; players move prices on purpose.",
+        "Only invest when you can see a spike coming (e.g. a YouTuber about to talk about an item).",
+        "Public websites exist that show AH prices; his scraper source is on GitHub."
+      ],
+      "quotes": [
+        "'I'm going to give it 60 price points, and it will generate what it thinks will be the next 60 points.'",
+        "'I waited for 30 minutes, which was around how long 60 points was'",
+        "'I made a grand total of $0 and probably lost some money.'",
+        "'I only used like 7 days of training data, so my model isn't perfect.'"
+      ],
+      "risks": "No edge demonstrated; illiquid items can simply not sell; manipulation is allowed; API data gaps.",
+      "scalability": "Data pipeline scales; the strategy did not.",
+      "still_valid_after_june_2026_update": "unknown - the API and price-tracking sites are infrastructure, not a method; nothing here depended on removed features, but nothing here worked either",
+      "verification_items": [
+        "whether the Donut SMP API (/api key) still exposes AH data and how complete it is",
+        "which public AH price sites are live",
+        "current elytra and gilded blackstone price series"
+      ]
+    },
+    {
+      "name": "AFK shards on two accounts -> prime keys -> netherite helmet on /ah (Logix method 1, pre-update)",
+      "category": "other",
+      "source": "videos/ahFclI9zgcg.txt - Logix, uploaded 2026-02-21 ('4 best no-farm methods, 10B')",
+      "claim_date": "2026-02-21",
+      "claimed_gross_per_hour": "2 shards/min with two accounts = 120 shards/h; at $3.8k per shard ~ 456k/h implied; creator frames it as 'your first 50 to 100 mil' while AFK",
+      "claimed_profit_per_hour": "~$3,800 per shard via prime keys vs ~$3,000 per shard via amethyst keys",
+      "capital_required": "none (time only)",
+      "setup_time": "none; /warp afk on Java and its linked Bedrock account at the same time",
+      "inputs": [
+        {"item": "shards from /warp afk", "qty": "1 per minute per account (2/min with Java + Bedrock)", "unit_price": "free", "channel": "farmed (AFK, removed June 2026)"},
+        {"item": "prime key", "qty": "3 per 4,500 shards", "unit_price": "1,500 shards", "channel": "shard_shop (crates removed June 2026)"},
+        {"item": "amethyst key (rejected alternative)", "qty": "1", "unit_price": "4,000 shards", "channel": "shard_shop"}
+      ],
+      "outputs": [
+        {"item": "netherite helmet / netherite armor from prime key", "qty": "1 per key", "unit_price": "5.75 mil (listed at 5.75M, sold within a couple minutes)", "channel": "ah"},
+        {"item": "amethyst pickaxe from amethyst key", "qty": "1", "unit_price": "11 to 12 mil", "channel": "ah"},
+        {"item": "shulker of diamond helmets (from hourly common crate key)", "qty": "1 shulker", "unit_price": "$900,000 a shulker", "channel": "ah"}
+      ],
+      "process": "AFK at /warp afk on both the Java account and its Bedrock account (2 shards/min). Go to /warp crates, open /shop -> shard shop, buy prime keys (1,500 shards) rather than amethyst keys (4,000). Math: amethyst pickaxe 12M / 4,000 = ~$3,000 per shard; 3 prime keys = 4,500 shards -> 3 x 5.75M = 17.25M -> ~$3,800 per shard. Sell the helmet on /ah at 5.75M. Side loop: hourly 'key all' gives a common crate key -> diamond armor; a full shulker of diamond helmets sells for $900,000.",
+      "tricks": [
+        "Run the Java account and its Bedrock account at the same time to double AFK income.",
+        "Value crate keys per shard, not per key: prime keys beat amethyst keys ($3.8k vs $3k per shard).",
+        "Collect the hourly common key and stockpile diamond helmets into a shulker to sell as one 900k lot."
+      ],
+      "quotes": [
+        "'in the AFK area, you earn one shard every minute, but with this method, you're going to be earning two shards every minute'",
+        "'the prime key is 1.5,000 shards and the amethyst is 4,000 shards'",
+        "'amethyst pickaxe, which goes for around 11 to 12 mil per. And the prime key, you get netherite armor, which is going for about 5.75 mil.'",
+        "'if you get enough to where you can fill an entire Shulker full of these diamond helmets, you can sell them for $900,000 a Shulker'"
+      ],
+      "risks": "Dead: AFK shards, crates and /shop were removed 2026-06-02/03.",
+      "scalability": "Was bounded by 2 accounts x 1 shard/min.",
+      "still_valid_after_june_2026_update": "no - AFK shards removed, crates removed, /shop removed; only the dual-account (Java + Bedrock) fact survives",
+      "verification_items": [
+        "whether the Java+Bedrock dual-login is still allowed and useful for anything else (e.g. AFK farms, extra AH slots)"
+      ]
+    },
+    {
+      "name": "Overnight undercut buy orders on blocks/heads/gilded, hold until order prices recover (Logix method 2)",
+      "category": "investment_hold",
+      "source": "videos/ahFclI9zgcg.txt - Logix, uploaded 2026-02-21",
+      "claim_date": "2026-02-21",
+      "claimed_gross_per_hour": "not per hour; overnight positions: 1,000 diamond blocks at 29.3K (resell 50k), 1,000 emerald blocks at 14.5K (resell 25k), 32 netherite blocks at 35M (now ~41M), 32 dragon heads at 25.1M (now 32.89M), 1,000 gilded blackstone at 910,000 (now ~1.2M)",
+      "claimed_profit_per_hour": "not per hour; stated position profits: ~$180 million (netherite blocks), ~$250 million (dragon heads), ~$290 million (gilded); diamond/emerald blocks 'almost doubling your money'",
+      "capital_required": "29.3M + 14.5M for the block orders; 1.12B for 32 netherite blocks; 803M for 32 dragon heads; 910M for 1,000 gilded ('the more money you have, the more money you can make')",
+      "setup_time": "seconds to place; fills overnight",
+      "inputs": [
+        {"item": "diamond block", "qty": "1,000", "unit_price": "29.3K (market orders 50K down to ~30,000)", "channel": "orders"},
+        {"item": "emerald block", "qty": "1,000", "unit_price": "14.5K (market orders 25K to 15K)", "channel": "orders"},
+        {"item": "netherite block", "qty": "32", "unit_price": "35 million each", "channel": "orders"},
+        {"item": "dragon head", "qty": "32", "unit_price": "25.1 mil each", "channel": "orders"},
+        {"item": "gilded blackstone", "qty": "1,000", "unit_price": "910,000 each", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "diamond block", "qty": "1,000", "unit_price": "50k each (once order prices go back up)", "channel": "orders"},
+        {"item": "emerald block", "qty": "1,000", "unit_price": "25k each", "channel": "orders"},
+        {"item": "netherite block", "qty": "32", "unit_price": "about 41 mil", "channel": "orders"},
+        {"item": "dragon head", "qty": "32", "unit_price": "32.89 (mil)", "channel": "orders"},
+        {"item": "gilded blackstone", "qty": "1,000", "unit_price": "about 1.2 mil", "channel": "orders"}
+      ],
+      "process": "Look at the /orders book for an item whose buy orders span a wide range (emerald blocks 25K to 15K, diamond blocks 50K to 30K). Place a large order at the bottom of that range (29.3K / 14.5K). Because you are undercutting, it fills overnight from sellers who need liquidity. When the order book recovers, sell to the top orders (50k / 25k). Same with 32 netherite blocks at 35M, 32 dragon heads at 25.1M, 1,000 gilded at 910K. No machines; pure balance sheet.",
+      "tricks": [
+        "Place the buy order at the low end of the existing order range rather than the top; accept overnight fill in exchange for price.",
+        "Use round lots (1,000 blocks, 32 = half a stack of heads/netherite blocks).",
+        "Resell into the order book when the top order price returns, not on /ah.",
+        "Size scales with bankroll: 'the more money you have, the more money you can make off this method'."
+      ],
+      "quotes": [
+        "'emerald blocks are from like 25K to 15K... the orders are either from 50K all the way down to like 30,000'",
+        "'I'm going to order 1,000 diamond blocks at 29.3K... Emerald Block... a thousand at 14.5K'",
+        "'I placed an order for 32 Netherite blocks at 35 million each. And right now, they're going for about 41 mil. And so that's about $180 million profit.'",
+        "'I bought 32 dragon heads at 25.1 mil each. And right now they're going for 32.89. And that's about $250 million profit.'",
+        "'I placed an order for a,000 gilded at 910,000 each. And right now they're going for about 1.2 mil. And this is another $290 million profit.'"
+      ],
+      "risks": "Capital locked overnight; ~24h order lifetime means the order may expire unfilled; prices can keep falling (KingOostin: expensive items move millions daily); Feb-2026 prices predate the June update.",
+      "scalability": "Scales with bankroll and with how many sellers dump into low orders overnight; bounded by 18 order slots post-update (25 before).",
+      "still_valid_after_june_2026_update": "unknown - mechanism (undercut orders, hold, resell to orders) survives; all prices are pre-update and the sell-multiplier removal changed base-price floors, so ranges must be re-pulled",
+      "verification_items": [
+        "current /orders ranges for diamond block, emerald block, netherite block, dragon head, gilded blackstone",
+        "/worth diamond block, /worth emerald block, /worth netherite block (floor after multiplier removal)",
+        "actual order lifetime (~24h) vs 'overnight' fill claim",
+        "post-update order slot count (18) for running several of these at once"
+      ]
+    },
+    {
+      "name": "Order at the top of /orders, relist just under the cheapest /ah listing: dragon heads, elytra, redstone blocks, honey blocks (Logix method 3)",
+      "category": "order_to_ah_flip",
+      "source": "videos/ahFclI9zgcg.txt - Logix, uploaded 2026-02-21",
+      "claim_date": "2026-02-21",
+      "claimed_gross_per_hour": "not per hour; per flip: dragon head bought 28.4M sold 28.99M; elytra bought 282.3M sold 283.49M; redstone blocks ~165K/stack; honey blocks 'almost 900,000 a stack'",
+      "claimed_profit_per_hour": "not per hour; ~600k per dragon head, ~1.5M per elytra, ~20k (sometimes 100k) per stack of redstone blocks, 'over 700k' per stack of honey blocks",
+      "capital_required": "'anywhere between 30 million and 300 million' for heads/elytra; redstone/honey blocks for players without hundreds of millions",
+      "setup_time": "minutes; orders 'delivered' quickly when placed at the top; /ah sales 'within a couple of minutes'",
+      "inputs": [
+        {"item": "dragon head", "qty": "1", "unit_price": "28.4 mil (orders were 'around 28.4 mil'; placed 'right below the cheapest one')", "channel": "orders"},
+        {"item": "elytra (with enchantments)", "qty": "1", "unit_price": "282.3 mil (orders at 282.2 mil)", "channel": "orders"},
+        {"item": "redstone block", "qty": "stacks", "unit_price": "not stated (order price)", "channel": "orders"},
+        {"item": "honey block", "qty": "stacks", "unit_price": "2.6k each", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "dragon head", "qty": "1", "unit_price": "28.99 mil (AH was 29 mil)", "channel": "ah"},
+        {"item": "elytra", "qty": "1", "unit_price": "283.49 mil (AH was 283.7 then 284 mil)", "channel": "ah"},
+        {"item": "redstone block", "qty": "stacks", "unit_price": "164K per stack (AH ~165K)", "channel": "ah"},
+        {"item": "honey block", "qty": "stack", "unit_price": "almost 900,000 a stack", "channel": "ah"}
+      ],
+      "process": "1) Read the top /orders price and the cheapest /ah listing for the item. 2) Place a buy order a hair above the current top order (28.4M for dragon heads; 282.3M vs 282.2M for elytra, 'make sure that it has the enchantments'). 3) When delivered, list on /ah a hair under the cheapest listing (28.99M vs 29M; 283.49M vs 284M; 164K vs 165K per stack of redstone blocks). 4) Sells within minutes. Honey blocks: order at 2.6k each and sell at almost 900k per stack.",
+      "tricks": [
+        "Order placement rule: 'place an order right below the cheapest one. That way, mine gets delivered' - i.e. sit at the top of the order book by a hair so sellers hit you first.",
+        "Listing rule: 'just barely undercutting. So, mine sells first' - 28.99 vs 29, 283.49 vs 284, 164K vs 165K.",
+        "For elytra, specify the enchantments on the order so you receive a sellable one.",
+        "Stackable items (redstone blocks, honey blocks) are priced per stack on /ah but per piece on /orders; the per-stack AH price is the target.",
+        "Low-capital variant: redstone blocks (~20k per stack, sometimes 100k when an order fills cheap); honey blocks (2.6k each -> ~900k per stack)."
+      ],
+      "quotes": [
+        "'I check order prices on the dragon heads and they're going for around 28.4 mil... on auction house... it's 29. So, that's easily a 600k profit.'",
+        "'I'm going to resell this for 28.99 mil. Just barely undercutting. So, mine sells first.'",
+        "'on orders, they're going for 282.2 mil. And on auction house, they're going for 283.7... I'm going to place an order for 282.3 mil... sell it for 283.49 mil'",
+        "'these ones are going for like 165K, so I'm going to sell mine for like 164. I'm only making like 20k profit per stack, but sometimes... 100k profit per stack.'",
+        "'honey blocks. So, you can order them at 2.6k each and sell them at almost 900,000 a stack. That's a profit of over 700k each.'"
+      ],
+      "risks": "Thin margins on the expensive items (0.2-0.5%); a 1-2% move wipes the flip; needs 30-300M float; /ah slots (18) and ~24h order lifetime cap how many flips run at once; Feb-2026 prices.",
+      "scalability": "Bounded by order-book depth at your price and /ah demand at the undercut price; each non-stacking item is one /ah slot; honey/redstone by the stack.",
+      "still_valid_after_june_2026_update": "unknown - mechanism survives (orders -> ah); all quoted prices are pre-update; DrSteve/KingOostin August videos confirm the orders-vs-ah gap still exists for enchanted gear",
+      "verification_items": [
+        "current top /orders vs cheapest /ah for dragon head, elytra, redstone block (per stack), honey block (per piece vs per stack)",
+        "/worth honey block, /worth redstone block, /worth dragon head",
+        "how fast an order placed 0.1M above the top order actually fills now"
+      ]
+    },
+    {
+      "name": "Order a netherite block, uncraft to 9 ingots, sell each ingot on /ah (Logix)",
+      "category": "craft_arbitrage",
+      "source": "videos/ahFclI9zgcg.txt - Logix, uploaded 2026-02-21",
+      "claim_date": "2026-02-21",
+      "claimed_gross_per_hour": "not per hour; per block: 9 x 5.09 mil = 45.81 mil gross",
+      "claimed_profit_per_hour": "not per hour; '290k profit each ingot' / '300k profit for each ingot' -> ~2.6-2.7M per block",
+      "capital_required": "43.3 mil per block",
+      "setup_time": "seconds; order 'doesn't take very long to get fulfilled'; ingots 'all ended up selling'",
+      "inputs": [
+        {"item": "netherite block", "qty": "1", "unit_price": "43.3 mil (= 4.8 mil per ingot)", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "netherite ingot", "qty": "9", "unit_price": "5.09 mil (AH ~5.1 mil)", "channel": "ah"}
+      ],
+      "process": "Order a netherite block at 43.3M (43.3/9 = 4.8M per ingot). Break it into 9 ingots at a crafting table. List each ingot individually on /ah at 5.09M under the 5.1M market. All sold.",
+      "tricks": [
+        "Compare block price / 9 against the per-ingot /ah price; the block market and the ingot market are priced separately.",
+        "Sell ingots one per listing at 5.09M (barely under 5.1M) rather than as a batch."
+      ],
+      "quotes": [
+        "'it's 43.3 mil and we're going to divide that by 9... it's going to be 4.8 mil that we're paying each ingot. And on the auction house, they're going for about 5.1 mil each ingot.'",
+        "'I'm going to put each of them on the auction house for 5.09 mil. And as you can see, they all ended up selling'"
+      ],
+      "risks": "9 /ah slots per block (half of the 18 default); 43M float per block; spread of ~6% can vanish; pre-update prices.",
+      "scalability": "Bounded by /ah slots (9 listings per block) and ingot demand at ~5.1M.",
+      "still_valid_after_june_2026_update": "unknown - mechanism survives; re-check block vs ingot prices post-update",
+      "verification_items": [
+        "current /orders price of netherite block vs /ah price of netherite ingot",
+        "/worth netherite ingot and /worth netherite block"
+      ]
+    },
+    {
+      "name": "AH sniping: refresh /ah for underpriced amethyst pickaxes, elytra, tridents, gilded blackstone, deepslate emerald ore (Logix method 4)",
+      "category": "ah_flip",
+      "source": "videos/ahFclI9zgcg.txt - Logix, uploaded 2026-02-21",
+      "claim_date": "2026-02-21",
+      "claimed_gross_per_hour": "not per hour; per snipe: amethyst pickaxe 9M -> 12.5M; elytra 281M -> 283.5M and 280M -> 283.5M (missed 200M -> 280M); trident 7M -> 7.49M",
+      "claimed_profit_per_hour": "not per hour; 3.5 mil (pickaxe), 2.5 mil and 3.5 mil (elytra), would-be 80 mil (elytra at 200M), ~500k (trident), ~80k per gilded blackstone; 'the easiest and the fastest way to actually make money'",
+      "capital_required": "9-13M for amethyst pickaxes; ~280M for elytra; 7M for tridents; under 1M for gilded / deepslate emerald ore",
+      "setup_time": "none; 'sit here and refresh'",
+      "inputs": [
+        {"item": "amethyst pickaxe", "qty": "1", "unit_price": "9 million (market ~13 million)", "channel": "ah"},
+        {"item": "elytra", "qty": "1 each", "unit_price": "281 mil; 280 mil; (missed one at 200 million)", "channel": "ah"},
+        {"item": "trident", "qty": "1", "unit_price": "7 mil", "channel": "ah"},
+        {"item": "gilded blackstone", "qty": "-", "unit_price": "not stated ('like 80k profit per')", "channel": "ah"},
+        {"item": "deepslate emerald ore", "qty": "-", "unit_price": "950 (units garbled; likely 950k)", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "amethyst pickaxe", "qty": "1", "unit_price": "12.5 (mil)", "channel": "ah"},
+        {"item": "elytra", "qty": "1 each", "unit_price": "283.5 mil", "channel": "ah"},
+        {"item": "trident", "qty": "1", "unit_price": "7.49 mil", "channel": "ah"},
+        {"item": "deepslate emerald ore", "qty": "-", "unit_price": "9.95 (garbled; likely 995k)", "channel": "ah"}
+      ],
+      "process": "Sit on the /ah page of a high-value item and refresh until someone lists well under market; buy, relist just under the going price. Amethyst pickaxe bought 9M, relisted 12.5M, sold 'within a couple seconds'. Elytra bought 281M, listed 283.5M; another 280M -> 283.5M; both sold within minutes. Trident 7M -> 7.49M. Gilded blackstone ~80k per snipe. Deepslate emerald ore 950 -> 9.95 (units unclear).",
+      "tricks": [
+        "Target items with high unit price and frequent listings (amethyst pickaxes ~13M, elytra ~280-283.5M) so a single mislist pays millions.",
+        "Relist at a price just under the market, not at the market (12.5 vs 13; 283.5 vs 283.7; 7.49 vs 7.5).",
+        "Cheap snipe targets for small bankrolls: gilded blackstone (~80k per), tridents (~500k), deepslate emerald ore.",
+        "Speed matters: the 200M elytra (80M profit) was gone before he could buy."
+      ],
+      "quotes": [
+        "'amethyst pickaxes right now are going for around 13 million... somebody ends up putting one on the auction house for 9 million whenever I can easily sell it for 12.5'",
+        "'somebody put one up for 200 million whenever they're normally going for 280 million... that would have been the easiest 80 million'",
+        "'Somebody sold one though for 281 mil whenever they're going for about 283.5. So, I'm going to throw that up for 283.5.'",
+        "'I bought this one for 7 mil and I'm going to sell it for 7.49 mil'",
+        "'deep slate emerald ore... snipe these for 950 and resell them for like $9.95'"
+      ],
+      "risks": "Competition from other snipers and bots; needs the float for elytra; pre-update prices; scams are legal on the server ('scamming is actually legal on the Donut SMP').",
+      "scalability": "Bounded by how often mislists appear and by refresh speed; capital for elytra-tier snipes.",
+      "still_valid_after_june_2026_update": "unknown - /ah sniping itself is unaffected; amethyst pickaxes came from crates (removed), so their supply/price may have changed; all prices pre-update",
+      "verification_items": [
+        "current /ah prices of amethyst pickaxe, elytra, trident, gilded blackstone, deepslate emerald ore",
+        "whether amethyst pickaxes are still obtainable post-crates",
+        "clarify the deepslate emerald ore 950 / 9.95 units"
+      ]
+    },
+    {
+      "name": "Order buckets, fill lava in the nether, list lava buckets on /ah (Voidrik phase 1)",
+      "category": "farm_ah",
+      "source": "videos/ESm94gshRJY.txt - Voidrik, uploaded 2026-08-27 ('doubling money every hour from 10,000')",
+      "claim_date": "2026-08-27",
+      "claimed_gross_per_hour": "first 100k in about 5 minutes; over half a million in under 30 minutes; 1.6 million by the end of hour 1; creator's summary: 'the lava farm made about a million an hour'",
+      "claimed_profit_per_hour": "~1 million an hour (bucket cost is ~8% of sale price)",
+      "capital_required": "10,000 start (5 buckets); reinvested 100k then 200k into buckets",
+      "setup_time": "none; walk to a nether lava pit",
+      "inputs": [
+        {"item": "bucket", "qty": "5 at first, then 100k and 200k worth", "unit_price": "1,600 each (his order at 1,700 each filled 'straight away')", "channel": "orders"},
+        {"item": "lava", "qty": "one source block per bucket", "unit_price": "free", "channel": "farmed (nether lava pit)"}
+      ],
+      "outputs": [
+        {"item": "lava bucket", "qty": "5, then hundreds", "unit_price": "about 20,000 each (listed at 20,000 each)", "channel": "ah"}
+      ],
+      "process": "1) /orders: buy buckets (market 1,600; he bids 1,700 for instant fill). 2) Go to the nether, find a lava pit, fill all buckets. 3) List each lava bucket on /ah at 20,000. 4) Reinvest everything into more buckets; leave listings up while AFK/editing (195k came in while away). No machines.",
+      "tricks": [
+        "Bid ~6% over the top order (1,700 vs 1,600) to fill instantly instead of waiting.",
+        "Lava buckets do not stack, so each is one /ah slot; he listed in batches and let them sell while off-server.",
+        "Reinvest 100% of proceeds into buckets until ~1M, then switch method."
+      ],
+      "quotes": [
+        "'buckets right now are currently going for 1,600 each... I'm just going to buy five at 1,700 each... complete straight away'",
+        "'they're currently selling for about uh 20,000 each on auction. So, let's list them for 20,000 each'",
+        "'our first 100k was made in about 5 minutes'",
+        "'195,000 now puts us over half a million dollars in less than 30 minutes'",
+        "'the first hour is coming to a close. We have made 1.6 million dollars'",
+        "'the lava farm made about a million an hour'"
+      ],
+      "risks": "Lava buckets are single-slot listings (18 slots default caps throughput); price will fall if the AH gets flooded; requires nether travel with buckets of lava (death risk).",
+      "scalability": "Hard cap: /ah slots (18 default, 45/90 with ranks) x sell-through time; bucket supply on /orders is deep.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-27, well after the update; uses /orders and /ah only",
+      "verification_items": [
+        "current /orders bucket price and /ah lava bucket price",
+        "/worth lava bucket (base price)",
+        "who buys lava buckets at 20k (demand source, e.g. obsidian/lava farms)"
+      ]
+    },
+    {
+      "name": "Auto-brewer modules -> Turtle Master potions from ordered turtle shells, sold on /ah (Voidrik phase 2)",
+      "category": "potion",
+      "source": "videos/ESm94gshRJY.txt - Voidrik, uploaded 2026-08-27",
+      "claim_date": "2026-08-27",
+      "claimed_gross_per_hour": "from 1 million to just under 6 million in about 1h15m of selling; creator: 'ranges from about 5 million to 15 million [per hour], depending on how hard you actually use it'; reached 22 million total incl. ~8M refunded from a cancelled turtle-shell order",
+      "claimed_profit_per_hour": "~130,000 profit per turtle shell (3 potions x 60,000 = 180,000 minus 50,000 shell); 5-15M/h with 8 modules; 'my number one money-making method right now'",
+      "capital_required": "~200,000 for nether wart, blaze powder, glowstone dust, gunpowder, glass bottles + a ~1 million turtle-shell order for one module; more shells as money grows",
+      "setup_time": "dig out the area + 8 modules; one module 'took me about 40 seconds' once practised; all 8 in 'no less than 10 minutes'",
+      "inputs": [
+        {"item": "turtle shell", "qty": "1 per 3 potions", "unit_price": "about 50,000 each", "channel": "orders"},
+        {"item": "nether wart, blaze powder, glowstone dust, gunpowder, glass bottles", "qty": "bulk", "unit_price": "about 200,000 total", "channel": "orders"},
+        {"item": "water bottles", "qty": "chest full", "unit_price": "-", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Turtle Master potion (splash, level II implied by glowstone + gunpowder)", "qty": "3 per shell", "unit_price": "60,000 each at first; later 47,000 (listed at 46,000 each, 'all sold within 10 seconds')", "channel": "ah"}
+      ],
+      "process": "Schematic = the brewing part of his turtle farm (Discord). Per module: a chest of water bottles hopper-fed into a brewing stand; blaze powder in the stand; four droppers feeding one hopper in order: bottom = nether wart, second = turtle shells, third = glowstone, fourth = gunpowder. Press the button, check the item order in the hopper (turtle shell, glowstone, gunpowder); if glowstone and gunpowder come out swapped, swap those two droppers. Manual loop: refill droppers, hit buttons, pull potions, list on /ah. Built 8 modules.",
+      "tricks": [
+        "Dropper order must be nether wart -> turtle shell -> glowstone -> gunpowder; test with one button press and swap the last two droppers if the hopper shows them reversed.",
+        "The turtle shell is the only expensive input (~50k) and yields 3 potions, so profit is ~130k per shell.",
+        "List slightly under market (46,000 vs 47,000) and potions sell in seconds.",
+        "Cancel unfilled bulk orders to get capital back ('I made another 8 million just from canceling that order').",
+        "Scale by adding modules as cash allows (1 -> 8)."
+      ],
+      "quotes": [
+        "'the most expensive item is the turtle shell. They are costing me about 50,000 each. But with 50,000 for one turtle shell, you are making three turtle master potions... one turtle master potion is currently going for 60,000. So, times that by three is 180,000, which means you're making about 130,000 profit per three'",
+        "'They are currently selling for 47,000. Let's list them for 46,000 each... All sold within 10 seconds.'",
+        "'in about an hour, we've gone from 1 million to just under 6 million'",
+        "'This farm ranges from about 5 million to 15 million, depending on how hard you actually use it. The only issue is it's all manual'"
+      ],
+      "risks": "Fully manual (buttons, droppers, listing); potion price fell from 60k to 47k during the video; turtle-shell supply on /orders limits volume (his ~1M order never filled); potions are single-slot listings? (potions stack to 1 in vanilla, so 18 slots cap listing speed).",
+      "scalability": "Bounded by turtle-shell supply on /orders, /ah slots (potions do not stack), and manual labour per module; 8 modules ran at 5-15M/h.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-27; /orders + brewing + /ah only",
+      "verification_items": [
+        "current /orders price of turtle shells and the brewing consumables",
+        "current /ah price of Turtle Master (splash II) potions",
+        "/worth turtle shell and /worth potion (base floor)",
+        "whether potions can be listed as a stack on /ah"
+      ]
+    },
+    {
+      "name": "Sky obsidian farm with withers (with Romka), obsidian sold by the inventory (Voidrik phase 3)",
+      "category": "farm_sell",
+      "source": "videos/ESm94gshRJY.txt - Voidrik, uploaded 2026-08-27",
+      "claim_date": "2026-08-27",
+      "claimed_gross_per_hour": "'150 million dollars' an hour; 30 million in about 10-15 minutes of AFK; '5 minutes of AFK. 10 million dollars'; each partner made 'just over a billion' over the session",
+      "claimed_profit_per_hour": "150 million an hour ('You don't have to put any money into it other than building it'); split 50/50 with the helper",
+      "capital_required": "build materials only (first farm attempt failed; ~22M banked before building); 'a fair bit of money and a fair bit of time to build'",
+      "setup_time": "creative-world testing for hours; on-server build 'about 40-50 minutes'; schematic on his Discord",
+      "inputs": [
+        {"item": "obsidian farm build (lava, water, withers; schematic)", "qty": "1", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "obsidian", "qty": "10 to 20 per second in creative test; an inventory per ~10-15 min", "unit_price": "'Each one is selling for 125,000' and 'an inventory goes for 5 million' (only consistent if 125,000 is per stack: 36 stacks x 125k = 4.5M ~ 5M; ~1,950 per piece)", "channel": "sell (implied: whole inventories converted to cash instantly; channel not named)"}
+      ],
+      "process": "Farm designed in a creative world with a Discord helper; first obsidian farm attempt failed, second worked: 10-20 obsidian/second. Built on-server in the sky in 40-50 minutes. Runs while AFK ('This farm has been up for about 2 and 1/2 minutes, and look at all of this obsidian'). Four withers are part of it (the vanilla renewable-obsidian design: dripstone-renewed lava turned to obsidian by water, broken by wither blue skulls since pistons cannot move obsidian). Sell inventories: 60.5M -> after 10-15 min of AFK about 30M more; 5 min AFK = 10M; ~150M/h. Two raiders found the base within an hour.",
+      "tricks": [
+        "Test every farm in a creative world first; the first on-server obsidian design failed.",
+        "Split build cost and profit 50/50 with a builder to keep it legit and halve the setup time.",
+        "Sell by the inventory (about 5M each) rather than listing.",
+        "Sky bases with loud farms get found: two players arrived within an hour; keep totems and be ready to relocate.",
+        "The farm needs no consumables; money in is build cost only."
+      ],
+      "quotes": [
+        "'We're talking 10 to 20 obsidian every single seconds.'",
+        "'Each one is selling for 125,000 dollars, and look how quickly it's filling up.'",
+        "'we start at 60.5 million. And an inventory goes for 5 million.'",
+        "'in about 10 to 15 minutes, we made, let's say about 30 million... In about an hour, this farm will make 150 million dollars.'",
+        "'This is 5 minutes of AFK. 10 million dollars.'",
+        "'We each made just over a billion.'"
+      ],
+      "risks": "Base found and raided within an hour (loud, sky-visible); wither-based farms are dangerous and may break; the 125,000 figure is ambiguous (per piece vs per stack); if obsidian is sold to the server at base price, a /worth change kills it; hopper/block limits for a large collection system.",
+      "scalability": "Bounded by farm rate (10-20/s), collection (hopper limit 20k per player), sell channel (instant if /sell; 18 slots if /ah), and raid exposure.",
+      "still_valid_after_june_2026_update": "yes - published 2026-08-27; but the exact sell channel and price per obsidian must be confirmed with /worth obsidian, since the sell multiplier removal changed base prices",
+      "verification_items": [
+        "/worth obsidian (base price) and current /orders / /ah obsidian prices - resolve whether 125,000 is per piece or per stack",
+        "whether obsidian is sold via /sell, a sell axe, or /orders in the video",
+        "renewable obsidian farm design (dripstone lava + water + withers) block counts vs the 20k hopper limit",
+        "the schematic on Voidrik's Discord"
+      ]
+    }
+  ],
+  "mechanics_facts": [
+    {"fact": "An /orders buy order placed a little above the current top order fills instantly: buckets market 1,600, order at 1,700 'complete straight away'.", "source": "videos/ESm94gshRJY.txt (Voidrik 2026-08-27)"},
+    {"fact": "Cancelling an unfilled buy order refunds the escrowed cash: 'a load of turtle shells on order that never got fulfilled, so I think I made another 8 million just from canceling that order'.", "source": "videos/ESm94gshRJY.txt (Voidrik 2026-08-27)"},
+    {"fact": "A 50-unit order for KB1 netherite swords at ~4M 'got finished in a couple hours'.", "source": "videos/zJp6Fn4N5K4.txt (KingOostin 2026-08-15)"},
+    {"fact": "Orders placed at the bottom of the existing order range (diamond blocks 29.3K vs 30-50K) take overnight to fill.", "source": "videos/ahFclI9zgcg.txt (Logix 2026-02-21)"},
+    {"fact": "Orders can specify enchantments on the requested item ('make sure that it has the enchantments' on an elytra order).", "source": "videos/ahFclI9zgcg.txt (Logix 2026-02-21)"},
+    {"fact": "Order book is price-sorted; being 'the number one order' gets you filled first; standard play is to bid 1 unit above the top order (176 vs raw iron, 253 vs 252, 530 vs 520).", "source": "videos/qeuCBTQwsH4.txt (TierBlue 2025-12-30)"},
+    {"fact": "Filling orders with your own output drops the order price quickly; TierBlue lost money on quartz blocks when 'they suddenly dropped down in prices'.", "source": "videos/qeuCBTQwsH4.txt (TierBlue 2025-12-30)"},
+    {"fact": "AH sellers check the cheapest listing and undercut it so theirs sells first; standard undercut is one tick (28.99 vs 29, 283.49 vs 284, 164K vs 165K, 46,000 vs 47,000).", "source": "videos/ahFclI9zgcg.txt (Logix), videos/ESm94gshRJY.txt (Voidrik), videos/qK_7ByDtBbM.txt (numen)"},
+    {"fact": "AH listings expire ('if it hasn't expired before then').", "source": "videos/qK_7ByDtBbM.txt (numen 2025-11-24)"},
+    {"fact": "Donut SMP has a public API; the /api command gives developers a key; the API 'seems to be inaccurate at times, and sometimes it misses a full entry'. Public websites also show AH prices.", "source": "videos/qK_7ByDtBbM.txt (numen 2025-11-24)"},
+    {"fact": "Low wicks on 5-minute AH candles are instant snipes: a low listing is bought immediately and price returns.", "source": "videos/qK_7ByDtBbM.txt (numen 2025-11-24)"},
+    {"fact": "Insider trading and price manipulation are allowed on Donut SMP; scamming is legal ('scamming is actually legal on the Donut S&P').", "source": "videos/qK_7ByDtBbM.txt (numen), videos/ahFclI9zgcg.txt (Logix)"},
+    {"fact": "A Java account has a separate Bedrock account and both can be online at the same time (was used to double AFK shards).", "source": "videos/ahFclI9zgcg.txt (Logix 2026-02-21)"},
+    {"fact": "Pre-update economy features quoted: /warp afk gave 1 shard/min; /shop had a shard shop; prime key 1,500 shards, amethyst key 4,000 shards; hourly 'key all' common crate key -> diamond armor. All removed 2026-06-02/03 (AFK shards, crates, /shop).", "source": "videos/ahFclI9zgcg.txt (Logix 2026-02-21)"},
+    {"fact": "Pre-update /shop prices: blaze rod $150, shulker box ~$800 (order 810 = '$10 profit'), sweet berries ~$31 (order 51 = 'only make $20'). /shop removed June 2026.", "source": "videos/qeuCBTQwsH4.txt (TierBlue 2025-12-30)"},
+    {"fact": "Cheap bulk items (bone meal, gunpowder, paper) cannot realistically be resold on /ah and their prices rarely change; expensive items (elytra, netherite blocks, dragon heads) move by millions every day.", "source": "videos/zJp6Fn4N5K4.txt (KingOostin 2026-08-15)"},
+    {"fact": "Auto-brewer: one turtle shell yields 3 Turtle Master potions; dropper feed order nether wart -> turtle shell -> glowstone -> gunpowder; swap the last two droppers if the hopper shows them reversed.", "source": "videos/ESm94gshRJY.txt (Voidrik 2026-08-27)"},
+    {"fact": "Auction/transaction history is viewable in-game and used as proof of sales ('I'm showing you my auction history'; 'If we look on my transactions').", "source": "videos/zJSfjgfi5Vo.txt (DrSteve), videos/ESm94gshRJY.txt (Voidrik)"},
+    {"fact": "Enchanting with a mob XP farm: 100+ Efficiency V pickaxes anvilled in 15-20 minutes; 100 leggings with three books each in 39 minutes.", "source": "videos/zJSfjgfi5Vo.txt and videos/_rCCyUBze1Q.txt (DrSteve 2026-08)"},
+    {"fact": "Netherite blocks uncraft to 9 ingots, and the ingot /ah market prices separately from the block /orders market.", "source": "videos/ahFclI9zgcg.txt (Logix 2026-02-21)"},
+    {"fact": "Stackable commodities (redstone blocks, honey blocks) trade per stack on /ah (165K, ~900K) while /orders quotes per piece (honey 2.6k).", "source": "videos/ahFclI9zgcg.txt (Logix 2026-02-21)"},
+    {"fact": "A renewable obsidian farm is possible on the server (10-20 obsidian/s, withers involved) and sky bases with loud farms get found within an hour.", "source": "videos/ESm94gshRJY.txt (Voidrik 2026-08-27)"},
+    {"fact": "Lava buckets sold on /ah for ~20,000 each in Aug 2026 while buckets cost 1,600 on /orders.", "source": "videos/ESm94gshRJY.txt (Voidrik 2026-08-27)"}
+  ],
+  "prices_mentioned": [
+    {"item": "leggings (100) + Unbreaking books (100) + Mending + Blast Protection books, bundle", "price": "5.8 mil total", "channel": "orders", "date": "2026-08-18", "source": "videos/_rCCyUBze1Q.txt (DrSteve)"},
+    {"item": "enchanted leggings (Unbreaking/Mending/Blast Protection), 100 units", "price": "29 mil total (~290k each implied)", "channel": "ah (implied)", "date": "2026-08-18", "source": "videos/_rCCyUBze1Q.txt (DrSteve)"},
+    {"item": "Efficiency V diamond pickaxes, 100+ units", "price": "18 to 19 million profit total (sale price not stated)", "channel": "ah", "date": "2026-08-06", "source": "videos/zJSfjgfi5Vo.txt (DrSteve)"},
+    {"item": "netherite sword, Knockback I", "price": "around 4 million", "channel": "orders", "date": "2026-08-15", "source": "videos/zJp6Fn4N5K4.txt (KingOostin)"},
+    {"item": "netherite sword, Knockback I", "price": "around 6 million (realised 289 mil for 50 = ~5.78M avg)", "channel": "ah", "date": "2026-08-15", "source": "videos/zJp6Fn4N5K4.txt (KingOostin)"},
+    {"item": "oak log", "price": "$300 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "chest", "price": "$260 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "acacia log ('quaca')", "price": "$150 each (long-running order)", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "mangrove log", "price": "most expensive log (number not stated)", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "dirt", "price": "$50 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "emerald", "price": "2.5k each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "iron ingot", "price": "120 each; later '200'", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "block of iron", "price": "1.5k each; later 1.37k", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "raw gold", "price": "$739 each; then '1k each'; then '1.15k each'", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "gold ingot", "price": "1.25k each (garbled '1.25k 24k'); later 'Gold is 1k each'", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "gold block", "price": "11k per block", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "furnace", "price": "$252 each (order set at 253)", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "coal", "price": "$520 each (order set at 530)", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "crafting table", "price": "90 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "blaze rod", "price": "$153 each; later 151; later 152", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "blaze rod", "price": "$150 each", "channel": "/shop (removed June 2026)", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "shulker box", "price": "$810 each; later 'so high'; later $910 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "shulker box", "price": "~$800 (implied from '$10 profit')", "channel": "/shop (removed June 2026)", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "sweet berries", "price": "$51 each; one outlier order at 1.5k each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "sweet berries", "price": "~$31 (implied from 'only make $20')", "channel": "/shop (removed June 2026)", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "iron axe", "price": "$100 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "quartz", "price": "$211 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "block of quartz", "price": "$170", "channel": "unknown (shop or orders)", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "smooth quartz", "price": "not stated per unit ('makes me $920' per batch; 'should make us 4K')", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "totem of undying", "price": "1.51 (unit unclear, 'not very good')", "channel": "unknown (he was in the auction house by mistake)", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "ender pearl", "price": "$80 each", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "golden apple", "price": "110", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "glowstone / end crystal / obsidian", "price": "'trash' (no number)", "channel": "orders", "date": "2025-12-30", "source": "videos/qeuCBTQwsH4.txt (TierBlue)"},
+    {"item": "amethyst pickaxe", "price": "11 to 12 mil; later 'around 13 million'; sniped at 9 million, resold 12.5", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "netherite helmet / armor (prime key)", "price": "5.75 mil", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "prime key", "price": "1,500 shards", "channel": "shard_shop (removed)", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "amethyst key", "price": "4,000 shards", "channel": "shard_shop (removed)", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "shulker of diamond helmets", "price": "$900,000 a shulker", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "emerald block", "price": "orders range 25K to 15K; his order 14.5K; resell 25k", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "diamond block", "price": "orders range 50K down to ~30,000; his order 29.3K; resell 50k", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "netherite block", "price": "35 million each (his order); 'about 41 mil' now; 43.3 mil (later order)", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "dragon head", "price": "25.1 mil each (his order); 32.89 now; 28.4 mil (later order)", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "dragon head", "price": "29 mil; resold at 28.99 mil", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "gilded blackstone", "price": "910,000 each (his order); 'about 1.2 mil' now", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "gilded blackstone", "price": "snipe margin ~80k per", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "elytra (enchanted)", "price": "282.2 mil; his order 282.3 mil", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "elytra", "price": "283.7 mil; then 284 mil; sold 283.49 mil; 'normally 280 million'; sniped 281 and 280, sold 283.5; one listed at 200 million", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "redstone block (per stack)", "price": "~165K; sold at 164", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "honey block", "price": "2.6k each", "channel": "orders", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "honey block (per stack)", "price": "almost 900,000 a stack", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "netherite ingot", "price": "about 5.1 mil; sold at 5.09 mil", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "trident", "price": "bought 7 mil, sold 7.49 mil", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "deepslate emerald ore", "price": "snipe at 950, resell 9.95 (units garbled; likely 950k -> 995k)", "channel": "ah", "date": "2026-02-21", "source": "videos/ahFclI9zgcg.txt (Logix)"},
+    {"item": "bucket", "price": "1,600 each; his order 1,700 each", "channel": "orders", "date": "2026-08-27", "source": "videos/ESm94gshRJY.txt (Voidrik)"},
+    {"item": "lava bucket", "price": "about 20,000 each", "channel": "ah", "date": "2026-08-27", "source": "videos/ESm94gshRJY.txt (Voidrik)"},
+    {"item": "turtle shell", "price": "about 50,000 each", "channel": "orders", "date": "2026-08-27", "source": "videos/ESm94gshRJY.txt (Voidrik)"},
+    {"item": "brewing consumables (nether wart, blaze powder, glowstone dust, gunpowder, glass bottles)", "price": "about 200,000 total", "channel": "orders (implied)", "date": "2026-08-27", "source": "videos/ESm94gshRJY.txt (Voidrik)"},
+    {"item": "Turtle Master potion", "price": "60,000; later 47,000 (listed 46,000)", "channel": "ah", "date": "2026-08-27", "source": "videos/ESm94gshRJY.txt (Voidrik)"},
+    {"item": "obsidian", "price": "'125,000 each' (likely per stack); 'an inventory goes for 5 million'", "channel": "unknown (instant inventory sales; likely sell)", "date": "2026-08-27", "source": "videos/ESm94gshRJY.txt (Voidrik)"}
+  ]
+}

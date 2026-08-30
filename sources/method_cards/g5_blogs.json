@@ -1,0 +1,1702 @@
+{
+  "cards": [
+    {
+      "name": "TNT cobblestone wall farm (autocraft walls, shulker-load, bulk sell)",
+      "category": "farm_sell",
+      "source": "web/p1.txt | ggwtb blog 'Donut SMP Money Guide: Best Cobblestone Farm Meta After the Update' | author SMITH | posted 06/23/26",
+      "claim_date": "2026-06-23 (article dated 06/23/26)",
+      "setup_time": "Not stated in hours. Phased: build 1 TNT test module and run it 10 minutes, then scale to 6–9 modules, then to a full 16-module bunker.",
+      "capital_required": "Not stated in money ('cheap to build'). Needs TNT dupers, water+lava generators, hoppers or water streams, crafters, shulker loaders, a supply of empty shulker boxes, buffer storage, hidden base, safe AFK platform, sell setup.",
+      "claimed_gross_per_hour": "Clean setup 40M–60M per hour. Starter (1–2 modules) 5M–15M/hour; mid-size farm 25M–45M/hour; large 16-module bunker 45M–60M+/hour; full-day AFK 'hundreds of millions to 1B+' only if storage and uptime are clean.",
+      "claimed_profit_per_hour": "Same as gross (no per-unit input cost is stated; TNT is duped, cobble is generated).",
+      "inputs": [
+        {"item": "TNT (duper) + water + lava generator", "qty": "1–16 modules", "unit_price": "not stated", "channel": "farmed"},
+        {"item": "Empty shulker boxes (for loaders)", "qty": "continuous supply", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Crafters, hoppers, redstone repair materials", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Cobblestone walls (in shulker boxes)", "qty": "count shulkers per 10 min x6", "unit_price": "not stated", "channel": "sell (implied: article says 'sell in bulk' and lists 'sell tools or sell access' as first reinvestment; exact channel not named)"}
+      ],
+      "process": "1. Water + lava generate cobblestone. 2. TNT dupers break it. 3. Drops move through hoppers or water streams. 4. Crafters turn cobble into walls. 5. Walls load into shulker boxes (shulker loader). 6. Full shulkers eject and move into storage. 7. Sell in bulk. Build order: Phase 1 one test module (confirm TNT breaks cobble, add collection, add crafting, add shulker loading, run 10 minutes to find jams). Phase 2 scale to 6–9 modules with checklist (enough empty shulkers, no item buildup, crafters never jam, full shulkers eject cleanly, output chests have space, TNT dupers stay synced, safe AFK spot). Phase 3 16-module bunker with buffer storage, multiple shulker loaders, hidden entrance, repair kit, safe AFK platform, sell setup. AFK-friendly: 'Makes money while you are not actively grinding'.",
+      "quotes": [
+        "A clean setup can hit 40M–60M per hour.",
+        "Starter 1–2 modules 5M–15M | Mid-size farm 25M–45M | Large 16-module bunker 45M–60M+ | Full-day AFK Hundreds of millions to 1B+",
+        "Do not trust one lucky minute of output. Test for 10 minutes, count the shulkers, then multiply by six.",
+        "If your farm is not crafting or loading fast enough, more TNT modules will not fix it. They will just create overflow.",
+        "Once the test module works, expand to 6–9 modules. This is the sweet spot for most players."
+      ],
+      "tricks": [
+        "Timed test: run 10 minutes, count shulkers, multiply by six for an honest hourly number.",
+        "Build stable, then scale: one test module first; 'If one module breaks, sixteen modules will break louder.'",
+        "Item transport by hoppers or water streams (also 'water or ice path'); walls go through a shulker loader; full shulkers must eject into storage automatically.",
+        "Before 16 modules add buffer storage, multiple shulker loaders, hidden entrance, repair kit, safe AFK platform, sell setup.",
+        "Check water before every serious test: 'One missing water source can turn your money machine into a crater.'",
+        "Overflow: stop the farm immediately, then check crafters, shulker loader, empty shulker supply, output chests, water or ice path, hopper lines.",
+        "Loader diagnostics: empty shulkers present? output chest full? full shulkers ejecting? loader receiving items too fast? redstone failed to reset? 'If the loader only breaks during AFK, your input speed is too high or your storage is too small.'",
+        "Chests fill unevenly = bad distribution, rework hopper/water routing. TNT blows up farm = missing water or bad TNT path.",
+        "Raid defense: move deeper, hide access, split storage; hidden underground base first (progression stage 1).",
+        "Reinvest first profits into: shulker boxes, storage chests, redstone repair materials, TNT module supplies, PvP gear for defense, hidden base materials, extra loaders, 'sell tools or sell access'."
+      ],
+      "risks": "Overflow (lost money, lag, makes farm noticeable), TNT destroying the farm when water is missing, shulker loader failing during AFK, chests filling unevenly, server lag, raids ('Farm gets raided: poor location security'). Profit depends on module count, server lag, TNT timing, crafter speed, loader reliability, chest space, sell access, raid safety, AFK uptime.",
+      "scalability": "Limited by crafter speed and shulker-loader throughput, empty shulker supply, chest space, server lag, and 'sell access'. Article says adding modules beyond what loaders/crafters handle only creates overflow. Sell-axe cost and its 24h self-destruct timer would bound bulk-sell throughput if the sell axe is the channel (not stated in article).",
+      "still_valid_after_june_2026_update": "yes (article is post-update, 06/23/26, and calls cobble walls 'now one of the best ways to print money'). Caveat: sell channel and per-wall price never stated; with the sell multiplier removed, the /worth base price of cobblestone walls decides the real number.",
+      "verification_items": [
+        "/worth cobblestone_wall (base price) and whether walls are sellable via /sell or sell axe",
+        "Value of one shulker box (27 stacks) of cobblestone walls at base price",
+        "Per-module cobble output per hour vs crafter throughput (walls: 6 cobble per 6 walls)",
+        "Sell axe price (3000 shards or /ah price) and whether 40M–60M/hour is net of sell-axe cost",
+        "Whether TNT dupers are allowed/working on 1.21.11 DonutSMP"
+      ]
+    },
+    {
+      "name": "Trapping players (PvP trap for loot, side income)",
+      "category": "pvp_trap",
+      "source": "web/p1.txt | ggwtb blog 'Donut SMP Money Guide: Best Cobblestone Farm Meta After the Update' | author SMITH | posted 06/23/26",
+      "claim_date": "2026-06-23",
+      "setup_time": "Not stated.",
+      "capital_required": "Not stated; needs PvP gear for defense and a trap.",
+      "claimed_gross_per_hour": "Not per hour. 'trapping around 50 players made about 12M–13M after selling loot' (one practical run). Table: trapping random players 5M–15M/session; targeted trapping 'Variable, can spike'.",
+      "claimed_profit_per_hour": "5M–15M per session (not hourly); 'lucky kills can pay more'.",
+      "inputs": [
+        {"item": "Trap build + PvP gear", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Totems (value High)", "qty": "loot", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Diamond/Netherite armor (Medium–High)", "qty": "loot", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Crystals/anchors (High, PvP demand)", "qty": "loot", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Food (Medium–High, 'Can spike after updates')", "qty": "loot", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Shulkers (Medium, storage demand)", "qty": "loot", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Tools/weapons (Variable, depends on enchants)", "qty": "loot", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Trap random or targeted players, kill, collect kit, sell loot (channel not named; loot items are player-demand items so AH implied). Article positions it as side income while a cobble farm is the bank.",
+      "quotes": [
+        "In one practical run, trapping around 50 players made about 12M–13M after selling loot.",
+        "Trapping random players 5M–15M/session High risk Side income; Targeted trapping Variable, can spike Very high risk Experienced PvPers",
+        "Use trapping as a side hustle. Use cobble farming as the bank."
+      ],
+      "tricks": [
+        "Beginners should build a small cobble farm first, then trap once they have gear and backup cash.",
+        "Best loot to target: totems, diamond/netherite armor, crystals/anchors, food, shulkers."
+      ],
+      "risks": "Inconsistent: 'players escape, pearl pull, set homes, bring teammates, or show up with junk'. Very high risk for targeted trapping.",
+      "scalability": "Bounded by player traffic and loot quality; 50 players trapped yielded only 12M–13M.",
+      "still_valid_after_june_2026_update": "yes (post-update article), but p6 notes home teleport is now instant with no cooldown, which helps trapped players escape (see mechanics).",
+      "verification_items": [
+        "Current AH prices of totems, netherite armor, crystals, respawn anchors, shulkers",
+        "Whether instant /home (p6) lets trapped players escape traps"
+      ]
+    },
+    {
+      "name": "Bookshelf autocrafter flip (books + logs -> bookshelves into /orders)",
+      "category": "craft_arbitrage",
+      "source": "web/p2.txt | ggwtb blog 'Donut SMP Money Guide: Best Auto Crafter Flips, Bookshelf Profit, and Pumpkin Farm Strategy' | author SMITH | posted 05/09/26 (pre-update)",
+      "claim_date": "2026-05-09 (pre-update)",
+      "setup_time": "Not stated; 'a short crafting session'.",
+      "capital_required": "1.4M for one batch (books 1.2M + logs 200k) producing ~650 bookshelves.",
+      "claimed_gross_per_hour": "Not hourly. Per batch: sale revenue 2.05M at 3.15k each (~650 bookshelves). Scaling table: 4k each -> 2.6M; 4.6k -> 2.99M; 8k -> 5.2M.",
+      "claimed_profit_per_hour": "Per batch: ~650k profit (~46% return) at 3.15k; 1.2M at 4k; 1.59M at 4.6k; 3.8M at 8k (all after 1.4M cost).",
+      "inputs": [
+        {"item": "Books (for ~650 bookshelves, i.e. ~1950 books)", "qty": "batch", "unit_price": "1.2M total for the batch", "channel": "unknown (AH or player market)"},
+        {"item": "Logs (planks for ~650 bookshelves)", "qty": "batch", "unit_price": "200k total for the batch", "channel": "unknown"},
+        {"item": "Leather, paper, logs (stock before spikes if crafting books yourself)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Bookshelves", "qty": "~650 per batch", "unit_price": "3.15k each (example); watch at 4k+; craft fast at 8k", "channel": "orders (first, if prices are high); ah only if demand is slow but prices better"}
+      ],
+      "process": "Check /orders for expensive items, check material prices in AH/player market, compute cost per craft, compare to sell price, craft a small batch, scale only if it sells fast. Craft books yourself when possible (buying finished bookshelves kills margin). Use a multi-item auto crafter that stops when one input runs out. Sell into /orders first if prices are high; use AH only if demand is slow but prices are better. Stop crafting the moment material cost rises too high.",
+      "quotes": [
+        "Books cost 1.2M | Logs cost 200k | Total material cost 1.4M | Bookshelves crafted ~650 | Sale revenue 2.05M | Profit ~650k",
+        "That is around a 46% return from one batch.",
+        "3.15k 2.05M 650k | 4k 2.6M 1.2M | 4.6k 2.99M 1.59M | 8k 5.2M 3.8M",
+        "If bookshelves hit 4k+, we start watching hard. If they hit 8k, we craft fast and sell before the market floods.",
+        "If bookshelves sell for 4k+ and your crafting cost is around 2.2k, the margin is strong."
+      ],
+      "tricks": [
+        "Stock leather, paper, and logs before prices spike.",
+        "Use an auto crafter that stops when one input runs out; otherwise 'it can craft the wrong item and jam the system. Build safety into the design.'",
+        "Sell into /orders first if prices are high; AH only if demand is slow but prices are better.",
+        "Margin rule: good margin 25%+ after costs, great margin 40%+ especially if items sell instantly; skip tiny margins.",
+        "Sell when prices spike; 'Waiting for a little more often ends with everyone dumping the same item.'",
+        "Reliability over speed: 'A fast crafter that clogs is worse than a slower one that runs clean.'"
+      ],
+      "risks": "Price crashes fast after order spikes; ingredient costs can rise ('A bookshelf selling for 4k is not profit if materials cost 3.9k'); holding too long.",
+      "scalability": "Limited by /orders volume for bookshelves and by material supply (books/leather/paper); AH fallback is slot-limited (18 default).",
+      "still_valid_after_june_2026_update": "unknown. Pre-update source (05/09/26). The mechanics (orders + autocrafter) still exist; prices of books/logs/bookshelves and order volume must be rechecked. No /sell or multiplier dependency, so the method is structurally intact.",
+      "verification_items": [
+        "Current /orders price for bookshelves and open order quantity",
+        "Current price of books, leather, paper, logs on /orders and /ah",
+        "Crafting cost per bookshelf (~2.2k claimed in May 2026)"
+      ]
+    },
+    {
+      "name": "Redstone block / gold block arbitrage (dust<->block, ingot<->block conversion)",
+      "category": "craft_arbitrage",
+      "source": "web/p2.txt | ggwtb blog 'Donut SMP Money Guide: Best Auto Crafter Flips, Bookshelf Profit, and Pumpkin Farm Strategy' | author SMITH | posted 05/09/26 (pre-update)",
+      "claim_date": "2026-05-09 (pre-update)",
+      "setup_time": "Minutes; 'It does not need a giant farm. It just needs price awareness.'",
+      "capital_required": "Not stated; 'low risk if you test small first'.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated ('Margin can be thin' for redstone blocks; gold 'Depends on timing').",
+      "inputs": [
+        {"item": "Redstone dust or redstone blocks (whichever is cheaper per unit)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Gold ingots or gold blocks (whichever is cheaper per unit)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Redstone blocks / redstone dust", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Gold blocks / gold ingots", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "process": "Compare per-unit price of dust vs block (9 dust = 1 block) and ingot vs block. Dust cheap + blocks expensive -> craft redstone blocks. Blocks cheap + dust expensive -> break blocks into dust. Ingots cheap + blocks expensive -> craft gold blocks. Blocks cheap + ingots expensive -> break blocks into ingots. Auto crafter optional.",
+      "quotes": [
+        "Sometimes redstone dust is cheaper than redstone blocks. Sometimes blocks are cheaper than dust. Same idea with gold ingots and gold blocks.",
+        "This method is fast. It does not need a giant farm. It just needs price awareness."
+      ],
+      "tricks": [
+        "Four-way conversion table (craft or uncraft depending on which side is cheaper).",
+        "Test small first; watch redstone/gold block prices daily."
+      ],
+      "risks": "Thin margins; timing.",
+      "scalability": "Limited by price gap and volume available on /orders and /ah.",
+      "still_valid_after_june_2026_update": "unknown (pre-update source), but mechanically independent of /shop and multiplier; p4 notes gold ingots dropped in price after the update.",
+      "verification_items": [
+        "Live per-unit prices: redstone dust vs redstone block, gold ingot vs gold block on /orders and /ah",
+        "/worth for redstone block and gold block (base price floor)"
+      ]
+    },
+    {
+      "name": "Autocrafter watchlist flips (pistons, droppers, smokers, crafters)",
+      "category": "craft_arbitrage",
+      "source": "web/p2.txt | ggwtb blog 'Donut SMP Money Guide: Best Auto Crafter Flips, Bookshelf Profit, and Pumpkin Farm Strategy' | author SMITH | posted 05/09/26 (pre-update)",
+      "claim_date": "2026-05-09 (pre-update)",
+      "setup_time": "Not stated.",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Piston ingredients (more ingredients)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Dropper ingredients (cobble + redstone)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Smoker ingredients (two-item craft)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Crafter (block) ingredients ('may rise')", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Pistons ('Always useful for farms')", "qty": "not stated", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Droppers ('Demand varies')", "qty": "not stated", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Smokers ('Can get oversupplied')", "qty": "not stated", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Crafters ('High utility item')", "qty": "not stated", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "process": "Same loop as bookshelves: check /orders for expensive crafted items, price ingredients, compute margin, craft small, scale. Crafter types: multi-item crafter (bookshelves, pistons, crafters), two-item crafter (smokers, dyed glass), chained crafter (recipes using crafted sub-items, needs clean routing), manual + storage setup for fast spikes.",
+      "quotes": [
+        "Bookshelves, redstone blocks, gold blocks, droppers, and pistons are the first items to check.",
+        "Auto crafters are best when an item has high demand, cheap ingredients, and repeatable crafting."
+      ],
+      "tricks": [
+        "'The goal is not to automate every recipe. The goal is to automate whatever is profitable right now.'",
+        "Build compact auto crafters; use farms only to reduce material costs."
+      ],
+      "risks": "Oversupply (smokers), ingredient price rises (crafters), varying demand (droppers).",
+      "scalability": "Bounded by /orders demand for each crafted item.",
+      "still_valid_after_june_2026_update": "unknown (pre-update source); method is orders-based so structurally intact.",
+      "verification_items": [
+        "/orders prices and quantities for pistons, droppers, smokers, crafters",
+        "Ingredient prices for each recipe"
+      ]
+    },
+    {
+      "name": "Pumpkin farm (flying machines, /sell multiplier or orders)",
+      "category": "farm_sell",
+      "source": "web/p2.txt | ggwtb blog 'Donut SMP Money Guide: Best Auto Crafter Flips, Bookshelf Profit, and Pumpkin Farm Strategy' | author SMITH | posted 05/09/26 (pre-update)",
+      "claim_date": "2026-05-09 (pre-update)",
+      "setup_time": "Not stated; 'serious space, time, and maintenance', 'massive dug-out area'.",
+      "capital_required": "Large setup around 3.5M in materials.",
+      "claimed_gross_per_hour": "Small module ~16k/hour; large factory ~2M/hour; event multiplier farm 'Much higher'.",
+      "claimed_profit_per_hour": "Same as gross (no input cost stated).",
+      "inputs": [
+        {"item": "Build materials (pumpkin layers, dirt rows, lighting, flying machines, minecart pickup, water streams, dropper elevators, shulker storage)", "qty": "large factory", "unit_price": "~3.5M total", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Pumpkins", "qty": "not stated", "unit_price": "not stated", "channel": "sell (if sell multiplier is high) or orders (if order price beats sell value); AH if players overpay; event selling when server boosts crop prices"}
+      ],
+      "process": "Multi-layer pumpkin factory: many pumpkin layers, dirt rows, lighting, flying machines to break pumpkins, minecart pickup, water streams, dropper elevators, shulker storage, repair access to every layer. Sell via /sell when multiplier is high, otherwise fill orders.",
+      "quotes": [
+        "Small module ~16k/hour Not worth serious grinding | Large factory ~2M/hour Good, but build-heavy | Event multiplier farm Much higher Best time to use pumpkins",
+        "A large setup can cost around 3.5M in materials and require a massive dug-out area.",
+        "Pumpkins and crop items may be better through /sell if our sell multiplier is high. Crafted items are often better through /orders when demand spikes."
+      ],
+      "tricks": [
+        "Do not build a pumpkin factory unless you can access every layer (flying machines desync or stop on multiplayer).",
+        "Lighting: use glowstone, sea lanterns, shroomlights or other non-flammable light blocks; avoid lava near flammable blocks.",
+        "Selling choice table: /orders when order price > normal sell value; /sell when your multiplier beats orders; AH when players overpay; event selling when server boosts crop prices.",
+        "Treat pumpkins as passive income during high multiplier periods, not the main grind."
+      ],
+      "risks": "Flying machines desync/stop on multiplayer; one broken machine stops a whole layer; build-heavy and fragile.",
+      "scalability": "Space, maintenance, and flying-machine reliability; sell-multiplier dependency.",
+      "still_valid_after_june_2026_update": "no/unknown: the sell multiplier the article relies on was removed 2026-06-02/03, so the /sell path is weaker; only the /orders path and event boosts remain. ~16k/hour and ~2M/hour figures are pre-update.",
+      "verification_items": [
+        "/worth pumpkin (base price without multiplier)",
+        "/orders price and volume for pumpkins",
+        "Whether server crop-price events still exist post-update"
+      ]
+    },
+    {
+      "name": "80-module bonemeal farm -> bone blocks (10 shulkers/hour)",
+      "category": "farm_sell",
+      "source": "web/p3.txt | ggwtb blog 'Donut SMP Money Farm Guide: Bonemeal Farm vs Chest Auto Crafter Profit Test' | author 'Gamer' | posted 05/08/26 (pre-update)",
+      "claim_date": "2026-05-08 (pre-update)",
+      "setup_time": "Not stated; large mined room at deep slate level; 'not a starter build'.",
+      "capital_required": "Fuel: ~80K bonemeal per 20 modules, ~320K bonemeal for 80 modules (price not stated). Build size large; needs good PC/helper account.",
+      "claimed_gross_per_hour": "~9M/hour (1-hour output = 10 shulker boxes of bone blocks, sell value ~9M).",
+      "claimed_profit_per_hour": "~9M/hour stated as 'Hourly result' (fuel cost not netted).",
+      "inputs": [
+        {"item": "Bonemeal (fuel)", "qty": "~80K per 20 modules; ~320K for 80 modules", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Dispensers, water, hoppers, shulker loaders, redstone", "qty": "80 modules (20 x 4)", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Bone blocks", "qty": "10 shulker boxes per hour", "unit_price": "~9M per 10 shulkers (~900k per shulker)", "channel": "unknown ('output sells cleanly'; pre-update so likely /sell)"}
+      ],
+      "process": "Bonemeal-fed module farm scaled 20 -> 40 -> 80 modules (80 = 20 x 4). Water in all required dispensers, bonemeal loaded evenly, a signal dispenser controlling linked modules, hoppers not clogged, shulker loaders ready, chunk stays loaded, overflow hopper line to stop despawn. Output crafted into bone blocks and stored in shulkers; sold (channel unstated).",
+      "quotes": [
+        "Farm size 80 modules | Base scale 20 modules x 4 | Fuel per 20 modules ~80K bonemeal | Fuel for 80 modules ~320K bonemeal | 1-hour output 10 shulker boxes of bone blocks | Sell value ~9M | Hourly result ~9M/hour | Main weakness Lag + build size",
+        "Best practical size for most players: 40 modules.",
+        "A farm that makes 9M/hour is worth hiding properly."
+      ],
+      "tricks": [
+        "Scale plan: 20 modules test (timing and lag), 40 modules stable build, 80 modules max scale.",
+        "Signal dispenser controls the next modules: 'one bad dispenser can kill output across the whole line.'",
+        "Build at deep slate level, low-traffic region, hidden entrance; shulker storage plus overflow hopper line so items do not despawn.",
+        "If output looks uneven check: missing water, empty dispenser, hopper backup, bad timing, server lag, chunk loading.",
+        "Use a good PC or a helper account for large farms; 'If your bonemeal farm lags at 20 modules, do not build 80.'"
+      ],
+      "risks": "Lag, fuel cost, raid protection; client performance at 80 modules.",
+      "scalability": "Module count vs lag/PC; fuel supply (bonemeal); shulker loader throughput.",
+      "still_valid_after_june_2026_update": "unknown. Pre-update (05/08/26). p4 (06/15/26) says bone block crafters from bought bones now lose money and 'skeleton access nerfed'; but this farm generates its own bone blocks from bonemeal fuel. Without the sell multiplier, ~9M/hour must be rechecked against /worth bone_block.",
+      "verification_items": [
+        "/worth bone_block and current /orders price for bone blocks",
+        "Bonemeal price on /orders (p4 gives $17–$20 trigger for kelp)",
+        "Whether the farm design (dispenser/bonemeal modules) still functions on 1.21.11"
+      ]
+    },
+    {
+      "name": "Chest autocrafter (spruce logs -> planks -> chests), tested at a ~26M loss",
+      "category": "craft_arbitrage",
+      "source": "web/p3.txt | ggwtb blog 'Donut SMP Money Farm Guide: Bonemeal Farm vs Chest Auto Crafter Profit Test' | author 'Gamer' | posted 05/08/26 (pre-update)",
+      "claim_date": "2026-05-08 (pre-update)",
+      "setup_time": "Not stated; farm size 14 x 16 x 23.",
+      "capital_required": "Input cost ~54M for ~600K spruce logs at ~85 each (test run).",
+      "claimed_gross_per_hour": "Not hourly. Test: chest sell return ~28M on ~54M input.",
+      "claimed_profit_per_hour": "Net result ~26M loss (test). Profitable only when chest price > 2 x log price.",
+      "inputs": [
+        {"item": "Spruce logs", "qty": "~600K", "unit_price": "~85 each", "channel": "unknown (bought from players)"},
+        {"item": "Shulkers (for input/output)", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Chests", "qty": "~300K implied (600K logs / 2)", "unit_price": "example 125 each (loses 45 per chest at log price 85); test return ~28M total", "channel": "orders ('Chest orders are high -> Sell fast')"}
+      ],
+      "process": "Auto crafters convert spruce logs -> planks -> chests (8 planks per chest; 1 spruce log = 4 planks; 2 logs per chest). Buy logs when cheap and store; craft and sell into chest orders when chest price > 2 x log price; stop immediately when below.",
+      "quotes": [
+        "Farm size 14 x 16 x 23 | Logs used ~600K spruce logs | Log price ~85 each | Input cost ~54M | Chest sell return ~28M | Net result ~26M loss | Main issue Chest price too low",
+        "Minimum profitable chest price = 2 x log price",
+        "Log Price 60 -> Cost Per Chest 120 -> Chest Sell Price Needed Above 120 | 70 -> 140 | 80 -> 160 | 85 -> 170 | 100 -> 200",
+        "If logs cost 85, your material cost per chest is 170. If chests sell for 125, you lose 45 per chest before storage or market delays."
+      ],
+      "tricks": [
+        "Rule: chest price > 2 x log price -> craft and sell; chest price < 2 x log price -> stop immediately.",
+        "Logs are cheap -> buy and store; chest orders are high -> sell fast; everyone is crafting chests -> wait; cannot sell instantly -> do not overproduce.",
+        "'Chest crafters are closer to market flipping than farming.'"
+      ],
+      "risks": "High market risk; input cost above output value; unsold stock.",
+      "scalability": "Chest order volume; log supply price.",
+      "still_valid_after_june_2026_update": "unknown (pre-update). Formula (2 logs per chest) is timeless; prices must be rechecked. p4 (post-update) lists chests among inputs to buy through orders, implying chests are cheap on orders.",
+      "verification_items": [
+        "Spruce log price on /orders (p6 quotes $75 each on 06/05/26)",
+        "Chest price on /orders and /ah",
+        "/worth chest"
+      ]
+    },
+    {
+      "name": "Sugar cane / starter crop farm (p3 comparison table)",
+      "category": "farm_sell",
+      "source": "web/p3.txt | ggwtb blog 'Donut SMP Money Farm Guide: Bonemeal Farm vs Chest Auto Crafter Profit Test' | author 'Gamer' | posted 05/08/26 (pre-update)",
+      "claim_date": "2026-05-08 (pre-update)",
+      "setup_time": "Not stated.",
+      "capital_required": "Low ('Low balance -> Starter crop farm').",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Sugar cane farm build", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Sugar cane (sellable crop)", "qty": "not stated", "unit_price": "not stated", "channel": "sell (implied, pre-update)"}
+      ],
+      "process": "Standard sugar cane farm producing a sellable crop; recommended only as the 'Low balance' starter choice.",
+      "quotes": [
+        "Sugar Cane Farm | Sugar cane | Sellable crop | High raid risk | Risky if exposed",
+        "Kelp Farm | Kelp setup | Sellable crop | Weaker now | Less competitive"
+      ],
+      "tricks": [
+        "Hide the farm; 'If your farm is easy to find, move before it gets raided.'"
+      ],
+      "risks": "High raid risk if exposed.",
+      "scalability": "Not stated.",
+      "still_valid_after_june_2026_update": "unknown; pre-update; crop /sell farms lost the sell multiplier.",
+      "verification_items": [
+        "/worth sugar_cane",
+        "/orders price for sugar cane"
+      ]
+    },
+    {
+      "name": "Kelp farm (beginner only; needs cheap bone meal from orders)",
+      "category": "farm_orders",
+      "source": "web/p4.txt | ggwtb blog 'Donut SMP Money Methods After the Update: Best Farms That Still Work' | author SMITH | posted 06/15/26; also web/p3.txt (05/08/26) table 'Kelp Farm ... Weaker now'",
+      "claim_date": "2026-06-15",
+      "setup_time": "Not stated ('Difficulty Easy').",
+      "capital_required": "Build cost around $1M.",
+      "claimed_gross_per_hour": "Not stated ('Profit Low').",
+      "claimed_profit_per_hour": "Not stated. Bone meal from AH: bad margin; bone meal from orders: slight profit.",
+      "inputs": [
+        {"item": "Bone meal", "qty": "not stated", "unit_price": "trigger: around $17–$20 test it; higher skip", "channel": "orders (AH gives bad margin)"},
+        {"item": "Build materials", "qty": "not stated", "unit_price": "~$1M total", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Kelp", "qty": "not stated", "unit_price": "'low value unless sold into good orders'", "channel": "orders"}
+      ],
+      "process": "Bone-meal-driven kelp farm; buy bone meal through orders only when it is around $17–$20; sell kelp into good orders. Beginner only; 'not a serious late-game money farm anymore'.",
+      "quotes": [
+        "Build cost: around $1M | Bone meal from Auction House: bad margin | Bone meal from orders: slight profit | Kelp output: low value unless sold into good orders",
+        "If bone meal is around $17–$20, test it. If bone meal is higher, skip it. If you must buy all build materials, profit takes too long."
+      ],
+      "tricks": [
+        "Only run when bone meal is cheap on /orders.",
+        "Do not buy every build material at inflated prices as a beginner."
+      ],
+      "risks": "Bone meal price; long payback if all materials are bought.",
+      "scalability": "Bone meal supply price; kelp order volume.",
+      "still_valid_after_june_2026_update": "yes (post-update source) but rated low profit, beginner only.",
+      "verification_items": [
+        "Bone meal /orders price vs $17–$20 trigger",
+        "Kelp /orders price and /worth kelp"
+      ]
+    },
+    {
+      "name": "Bone block crafter from bought bones (tested loss post-update)",
+      "category": "craft_arbitrage",
+      "source": "web/p4.txt | ggwtb blog 'Donut SMP Money Methods After the Update: Best Farms That Still Work' | author SMITH | posted 06/15/26",
+      "claim_date": "2026-06-15",
+      "setup_time": "Not stated; build cost around $1.1M.",
+      "capital_required": "Input ~$1.5M+ for 30,000 bones plus ~$1.1M build.",
+      "claimed_gross_per_hour": "Not hourly. Output sold around $1.4M for 30,000 bones of input.",
+      "claimed_profit_per_hour": "Loss (~-$0.1M on inputs before build, ~-$1.2M including build).",
+      "inputs": [
+        {"item": "Bones", "qty": "30,000", "unit_price": "~$50 each implied (Around $1.5M+ total)", "channel": "orders (recommended input channel)"}
+      ],
+      "outputs": [
+        {"item": "Bone blocks", "qty": "~3,333 implied (9 bone meal per block)", "unit_price": "~$420 each implied (Around $1.4M total)", "channel": "unknown"}
+      ],
+      "process": "Buy bones, craft bone meal -> bone blocks with auto crafter, sell. Article verdict: skip unless bones crash hard, bone blocks spike, you already own the setup, and you test a small batch first.",
+      "quotes": [
+        "Bones bought 30,000 | Input cost Around $1.5M+ | Output sold Around $1.4M | Build cost Around $1.1M | Result Loss",
+        "Without easy skeleton access, the farm depends on buying bones from other players. That usually kills the margin."
+      ],
+      "tricks": [
+        "Build only if bones crash hard or bone blocks spike; test a small batch first."
+      ],
+      "risks": "Input cost exceeds output; skeleton access nerfed by the update.",
+      "scalability": "Bone supply on /orders.",
+      "still_valid_after_june_2026_update": "no under normal prices (post-update test lost money).",
+      "verification_items": [
+        "Bone price on /orders; bone block price on /orders and /worth bone_block"
+      ]
+    },
+    {
+      "name": "Sweet berry farm (dead: 50% loss on bone meal)",
+      "category": "farm_sell",
+      "source": "web/p4.txt | ggwtb blog 'Donut SMP Money Methods After the Update: Best Farms That Still Work' | author SMITH | posted 06/15/26",
+      "claim_date": "2026-06-15",
+      "setup_time": "Not stated.",
+      "capital_required": "Bone meal spent around $110K in the test.",
+      "claimed_gross_per_hour": "Not hourly; berry output sold around $55K.",
+      "claimed_profit_per_hour": "50% loss.",
+      "inputs": [
+        {"item": "Bone meal", "qty": "not stated", "unit_price": "Around $110K total spent", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Sweet berries", "qty": "not stated", "unit_price": "Around $55K total", "channel": "unknown"}
+      ],
+      "process": "Bone meal sweet berry bushes, harvest, sell. Result: bone meal loses value. 'Avoid sweet berries unless the economy changes hard.'",
+      "quotes": [
+        "Bone meal spent Around $110K | Berry output sold Around $55K | Result 50% loss",
+        "That is not a farm. That is burning money with extra clicks."
+      ],
+      "tricks": [],
+      "risks": "Guaranteed loss at tested prices.",
+      "scalability": "n/a",
+      "still_valid_after_june_2026_update": "no (post-update test shows 50% loss).",
+      "verification_items": [
+        "/worth sweet_berries vs bone meal /orders price"
+      ]
+    },
+    {
+      "name": "Piglin bartering farm (buy gold on orders, sell drops on AH/orders)",
+      "category": "craft_arbitrage",
+      "source": "web/p4.txt (06/15/26, 'Piglin Bartering Farm: Best Stable Money Method', test numbers); web/p5.txt (06/20/26, '14. Piglin Bartering', target drops); web/p6.txt (06/05/26, 'Piglin Trading: Buffed on Paper, Slow in Practice') | ggwtb blog | author SMITH",
+      "claim_date": "2026-06-15 (p4 test); 2026-06-05 (p6 caution); 2026-06-20 (p5)",
+      "setup_time": "Not stated. p6: build one piglin first, test trade speed, then decide.",
+      "capital_required": "Test run: gold spent around $900K. p4 'Test small before scaling: buy $100K–$500K of input'.",
+      "claimed_gross_per_hour": "Not hourly. Test: direct return around $1.5M + extra AH value around $400K = gross $1.9M on $900K gold.",
+      "claimed_profit_per_hour": "Estimated profit $1M per test run before build recovery ('Strong profit').",
+      "inputs": [
+        {"item": "Gold ingots", "qty": "not stated", "unit_price": "Around $900K spent per run; 'Gold ingots dropped in price'", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "Piglin drops (varied)", "qty": "not stated", "unit_price": "Direct return ~$1.5M + extra AH value ~$400K per $900K gold", "channel": "orders + ah ('Sell high-demand drops fast')"},
+        {"item": "Soul Speed III books, fire resistance potions, obsidian, crying obsidian (p5 best targets); pearls, obsidian, crying obsidian (p6 items no longer in shard shop)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Large piglin count (around 128 piglins if possible), feed gold bought through orders, collect drops, sell high-demand drops fast, recheck gold price before every bulk run. p6: live testing showed piglins may trade slowly on the server; build one piglin first. p5: only do this if gold is cheap; if gold spikes, skip.",
+      "quotes": [
+        "Gold spent Around $900K | Direct return Around $1.5M | Extra AH value Around $400K | Result Strong profit",
+        "Use a large piglin count, around 128 piglins if possible. Buy gold through orders.",
+        "Input cost $900K | Output sold $1.5M | Extra AH value $400K | Gross value $1.9M | Estimated profit $1M before build recovery",
+        "p6: 'live testing showed a problem: piglins may trade slowly on the server.'",
+        "p5: 'Only do this if gold is cheap. If gold spikes, skip it.'"
+      ],
+      "tricks": [
+        "Gold price rule: cheap -> run the farm; rising -> test small batch; expensive -> stop buying; drops selling fast -> scale harder.",
+        "Buy gold through orders, not AH.",
+        "p6: 'Build one piglin first. Test trade speed. Then decide.'",
+        "p5: nether gold ore mined with Silk Touch and smelted feeds this (gold demand 'stays healthy because of piglin trading')."
+      ],
+      "risks": "Gold price rising; slow trade speed on server (p6); 'Large farm safety Not proven'.",
+      "scalability": "Gold supply on /orders; piglin count (~128); trade speed.",
+      "still_valid_after_june_2026_update": "yes (all three sources are post-update; p4 ranks it 'Best stable method', p6 'Unstable, test small first').",
+      "verification_items": [
+        "Gold ingot /orders price",
+        "AH prices for Soul Speed III books, fire res potions, obsidian, crying obsidian, ender pearls",
+        "Actual barter rate per piglin per hour on DonutSMP (p6 says slow)"
+      ]
+    },
+    {
+      "name": "Chest minecart autocrafter (sell to orders; up to $60M/hour claimed)",
+      "category": "craft_arbitrage",
+      "source": "web/p4.txt | ggwtb blog 'Donut SMP Money Methods After the Update: Best Farms That Still Work' | author SMITH | posted 06/15/26",
+      "claim_date": "2026-06-15",
+      "setup_time": "Not stated.",
+      "capital_required": "Not stated (buy or craft chests and minecarts).",
+      "claimed_gross_per_hour": "Potential rate up to $60M/hour.",
+      "claimed_profit_per_hour": "Profit per item around $900; up to $60M/hour 'only if the market supports it'.",
+      "inputs": [
+        {"item": "Chests", "qty": "1 per minecart", "unit_price": "not stated", "channel": "orders (or craft)"},
+        {"item": "Minecarts (5 iron each)", "qty": "1 per item", "unit_price": "not stated", "channel": "orders (or craft; iron via orders)"}
+      ],
+      "outputs": [
+        {"item": "Chest minecarts", "qty": "not stated", "unit_price": "profit ~$900 per item over inputs", "channel": "orders"}
+      ],
+      "process": "1. Buy or craft chests. 2. Buy or craft minecarts. 3. Auto-craft chest minecarts. 4. Sell to orders. Demand comes from players using chest minecarts in traps. Before running check chest price, minecart price, chest minecart order price, order quantity, competition. 'This is not an AFK farm. It is a market play with redstone.'",
+      "quotes": [
+        "Profit per item Around $900 | Potential rate Up to $60M/hour | Main risk Order volume dries up",
+        "If there are only a few orders, do not mass-produce. You will get stuck holding dead stock."
+      ],
+      "tricks": [
+        "Check order quantity before mass-producing; sell fast when the meta is new.",
+        "Chest minecarts are valuable because players use them in traps."
+      ],
+      "risks": "Order volume dries up; dead stock; competition.",
+      "scalability": "Strictly bounded by open /orders quantity for chest minecarts ($60M/hour implies ~66,700 items/hour at $900 profit each).",
+      "still_valid_after_june_2026_update": "yes (post-update source), conditional on order volume.",
+      "verification_items": [
+        "/orders price and open quantity for chest minecarts",
+        "Chest and minecart (iron) prices on /orders",
+        "/worth chest_minecart"
+      ]
+    },
+    {
+      "name": "Wildflower farm (birch forest, bone meal -> 4–6 flowers at ~$10 each)",
+      "category": "farm_sell",
+      "source": "web/p4.txt | ggwtb blog 'Donut SMP Money Methods After the Update: Best Farms That Still Work' | author SMITH | posted 06/15/26",
+      "claim_date": "2026-06-15",
+      "setup_time": "Not stated; must be built in a birch forest biome.",
+      "capital_required": "Not stated; needs auto bone-meal crafting, shulker loaders, hidden storage.",
+      "claimed_gross_per_hour": "Not stated ('Profit potential Very high', 'Extremely high').",
+      "claimed_profit_per_hour": "Value per bone meal around $40–$60 (4–6 flowers x ~$10).",
+      "inputs": [
+        {"item": "Bone meal", "qty": "1 per 4–6 flowers", "unit_price": "not stated (p4 elsewhere: $17–$20 trigger on orders)", "channel": "orders / auto bone-meal crafting"}
+      ],
+      "outputs": [
+        {"item": "Wildflowers", "qty": "4–6 per bone meal", "unit_price": "Around $10 each", "channel": "unknown (sell value stated; channel not named)"}
+      ],
+      "process": "Build in a birch forest, bone meal grass to spawn wildflowers, collect via shulker loaders, auto bone-meal crafting (composters) to make bone meal, protect storage. 'Run wildflowers while the margin is hot.'",
+      "quotes": [
+        "Wildflower sell value Around $10 each | Output per bone meal Around 4–6 flowers | Value per bone meal Around $40–$60 | Required biome Birch forest | Profit potential Very high",
+        "This works because one bone meal creates multiple sellable items."
+      ],
+      "tricks": [
+        "Biome-locked: birch forest only.",
+        "Use auto bone-meal crafting and shulker loaders; hide the farm well.",
+        "Sell fast: 'once everyone builds it, prices can fall.'"
+      ],
+      "risks": "Price crash when copied; high risk rating.",
+      "scalability": "Bone meal supply; birch forest location; buyer demand for wildflowers.",
+      "still_valid_after_june_2026_update": "yes (post-update source; ranked #1 'Best late-game farm'), price-dependent.",
+      "verification_items": [
+        "/worth wildflowers (base price) and /orders price",
+        "Bone meal cost per unit vs $40–$60 output"
+      ]
+    },
+    {
+      "name": "Ender pearl farm (enderman farm; pearl price crashed $1,000+ -> ~$80)",
+      "category": "farm_ah",
+      "source": "web/p4.txt (06/15/26, 'Ender Pearl Farm: Useful, But Not Top Money'); web/p6.txt (06/05/26, 'Ender Pearl Price Crash') | ggwtb blog | author SMITH",
+      "claim_date": "2026-06-15 (p4); 2026-06-05 (p6)",
+      "setup_time": "Not stated ('Difficulty Medium').",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Unoptimized profit around $30K/hour (p4).",
+      "claimed_profit_per_hour": "Around $30K/hour unoptimized (p4). p6: 'At $1,000 each, a basic farm prints money. At $80 each, only efficient farms survive.'",
+      "inputs": [
+        {"item": "Enderman farm build (End platform)", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Ender pearls", "qty": "not stated", "unit_price": "Launch $1,000+; early update ~$300; current (06/05/26) ~$80", "channel": "ah (implied: bulk sellers)"}
+      ],
+      "process": "Enderman farm in the End; clear nearby spawning areas so endermen spawn only on your platform. Sell pearls (p6: pearl farms and bulk sellers matter again since the shard shop no longer sells pearls). p6 rule: farm ender pearls only if your output is high.",
+      "quotes": [
+        "Unoptimized profit Around $30K/hour | Difficulty Medium | Main issue Spawn rates | Best use Pearls + side income",
+        "Launch $1,000+ | Early update ~$300 | Current ~$80 ... Pearls dropped over 90% from launch highs."
+      ],
+      "tricks": [
+        "Clear nearby spawning areas: 'If Endermen spawn outside your platform, your rates tank.'",
+        "Build it if you need pearls anyway; do not expect top-tier profit.",
+        "p6: border expansion may spike pearl demand (travel and base hunting)."
+      ],
+      "risks": "Spawn rates; price crash (over 90% from launch).",
+      "scalability": "Spawn-rate bound; price bound.",
+      "still_valid_after_june_2026_update": "yes but low value (post-update sources; ~$30K/hour unoptimized, pearls ~$80).",
+      "verification_items": [
+        "Current ender pearl price on /ah and /orders",
+        "/worth ender_pearl"
+      ]
+    },
+    {
+      "name": "Generic auction/order flipping (manual price tracking, undercut hunting, bulk shulker flips)",
+      "category": "ah_flip",
+      "source": "web/p6.txt (06/05/26, 'Auction flipping: High strength, High risk, manual price tracking needed'); web/p4.txt (06/15/26, 'Basic order flipping: No redstone needed'); web/p5.txt (06/20/26, 'Bulk flip: Someone underprices shulkers, needs capital') | ggwtb blog | author SMITH",
+      "claim_date": "2026-06-05 / 2026-06-15 / 2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "'Needs capital' (p5); not quantified.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated ('High' strength, 'High' risk in p6).",
+      "inputs": [
+        {"item": "Underpriced AH listings / shulkers; items bought via buy orders", "qty": "not stated", "unit_price": "not stated", "channel": "ah / orders"}
+      ],
+      "outputs": [
+        {"item": "Same items relisted", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Track prices manually (auction purchase history was removed in the update), buy underpriced listings or fill via buy orders, relist on AH. p5 rule: 'Use AH for profit. Use orders for speed.' Turn on Quick Buy Confirmation to avoid expensive misclicks.",
+      "quotes": [
+        "Auction flipping | High | High | Manual price tracking needed",
+        "Purchase history was removed. You can no longer check every item you bought, what you paid, and when. That hurts flippers.",
+        "Bulk flip | Someone underprices shulkers | Needs capital"
+      ],
+      "tricks": [
+        "Enable Auction Quick Buy confirmation in settings (new General tab) to avoid misclick buys.",
+        "Keep your own price log since AH history is gone.",
+        "Profit checklist before selling: is AH higher than orders? is the item actually selling? too many undercuts? can we craft it into something better? sell in bundles? useful for PvP/farms/bases/enchanting -> AH."
+      ],
+      "risks": "Misclick instant buys; no purchase history; undercuts.",
+      "scalability": "AH slots (18 default, 45 Donut+, 90 Donut++), capital.",
+      "still_valid_after_june_2026_update": "yes (post-update sources).",
+      "verification_items": [
+        "Confirm AH purchase history removal and quick-buy confirmation toggle on live server"
+      ]
+    },
+    {
+      "name": "Sell oak leaves (shears, AH stacks 60k–70k)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None beyond shears.",
+      "capital_required": "Almost nothing (shears).",
+      "claimed_gross_per_hour": "Not stated; 'Good stack price: 60k–70k'.",
+      "claimed_profit_per_hour": "Not stated; 'Risk: none'.",
+      "inputs": [
+        {"item": "Shears", "qty": "1", "unit_price": "almost nothing", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Oak leaves", "qty": "stacks", "unit_price": "60k–70k per stack", "channel": "ah"}
+      ],
+      "process": "Cut trees with shears, stack leaves, list on AH; buyers are builders and farm makers. If AH is flooded, wait.",
+      "quotes": [
+        "Good stack price: 60k–70k | Tool cost: almost nothing | Risk: none",
+        "If AH is flooded, wait. Leaves always come back because builders burn through them."
+      ],
+      "tricks": [
+        "Sell by stack on AH; wait out floods."
+      ],
+      "risks": "AH flooding.",
+      "scalability": "AH slots (18 default); demand from builders.",
+      "still_valid_after_june_2026_update": "yes (post-update source; p6 also notes oak wood removed from shard shop so basic materials have more trade value).",
+      "verification_items": [
+        "Current AH price per stack of oak leaves"
+      ]
+    },
+    {
+      "name": "Snow golem snow farm (snowballs -> snow blocks)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "Minutes.",
+      "capital_required": "2 snow blocks + carved pumpkin + shovel.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "2 snow blocks + carved pumpkin (snow golem) + shovel", "qty": "1 golem", "unit_price": "very low", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Snow blocks (from snowballs)", "qty": "infinite", "unit_price": "not stated ('Sells better in stacks')", "channel": "ah"}
+      ],
+      "process": "Trap a snow golem, shovel the snow layer under it, craft snowballs into snow blocks, sell in stacks.",
+      "quotes": [
+        "Infinite resource | No combat | Good for broke players | Sells better in stacks"
+      ],
+      "tricks": [
+        "Sell in stacks."
+      ],
+      "risks": "None stated (boring).",
+      "scalability": "Manual shoveling.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "AH price per stack of snow blocks"
+      ]
+    },
+    {
+      "name": "Squid ink sacs (trident hunting)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Trident recommended.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Trident (recommended)", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Ink sacs", "qty": "not stated", "unit_price": "not stated", "channel": "ah (pays more) or orders (fast)"}
+      ],
+      "process": "Kill squids in rivers/oceans/ponds; sell ink sacs (black dye demand). 'If you only have 10 minutes, this is better than random mining.'",
+      "quotes": [
+        "Orders are fast | AH pays more | Good short-session method"
+      ],
+      "tricks": [
+        "Short-session method; choose orders for speed, AH for price."
+      ],
+      "risks": "None stated.",
+      "scalability": "Squid spawn rate.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Ink sac price on /ah vs /orders"
+      ]
+    },
+    {
+      "name": "Mine packed ice (Silk Touch, ice spikes)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Silk Touch pickaxe.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Silk Touch pickaxe", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Packed ice", "qty": "bulk", "unit_price": "not stated", "channel": "orders (if price strong) or ah (if stacks are moving)"}
+      ],
+      "process": "Mine packed ice in ice spikes biome with Silk Touch; regular ice has weaker demand. Used in farms (ice paths).",
+      "quotes": [
+        "Only mine packed ice. Regular ice is weaker demand.",
+        "Sell to orders if the price is strong. Use AH if stacks are moving."
+      ],
+      "tricks": [
+        "Target packed ice only."
+      ],
+      "risks": "None stated.",
+      "scalability": "Manual mining.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Packed ice price on /orders and /ah"
+      ]
+    },
+    {
+      "name": "Mine coral (Silk Touch, warm ocean, target overpriced color)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Silk Touch tool.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Silk Touch tool", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Coral (red/yellow often sell well)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Mine coral in warm ocean with Silk Touch (without Silk Touch it dies); check AH first; if one color is overpriced, target that color only.",
+      "quotes": [
+        "Red/yellow coral often sells well | Without Silk Touch, it dies | Check AH before mining",
+        "If one color is overpriced, target that color only."
+      ],
+      "tricks": [
+        "Check AH per color and mine only the overpriced color."
+      ],
+      "risks": "None stated.",
+      "scalability": "Manual; decorative demand.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "AH price per coral color"
+      ]
+    },
+    {
+      "name": "Blast sand with TNT (~100k TNT -> 500k+ sand orders)",
+      "category": "farm_orders",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "Minutes.",
+      "capital_required": "Around 100k of TNT per run.",
+      "claimed_gross_per_hour": "Not hourly; 'Often 500k+ revenue' per ~100k TNT.",
+      "claimed_profit_per_hour": "~400k+ per run implied.",
+      "inputs": [
+        {"item": "TNT + pressure plates", "qty": "not stated", "unit_price": "Around 100k total", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Sand", "qty": "not stated", "unit_price": "Often 500k+ revenue per run", "channel": "orders"}
+      ],
+      "process": "In a desert, place TNT, trigger with pressure plates, collect sand, fill sand orders for quick turnover; smelt into glass if glass prices are high.",
+      "quotes": [
+        "Around 100k TNT | Sand orders | Often 500k+ revenue",
+        "Use orders for quick turnover. Smelt into glass if glass prices are high."
+      ],
+      "tricks": [
+        "Sell sand to orders; upgrade to glass when glass price is high."
+      ],
+      "risks": "None stated.",
+      "scalability": "Sand order volume; TNT cost.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "TNT price; sand /orders price and quantity; /worth sand"
+      ]
+    },
+    {
+      "name": "Smelt sand into glass (super smelter, sell by stack on AH)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "Super smelter build (not timed).",
+      "capital_required": "Medium (cheap sand shulkers + fuel).",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated ('Players pay for convenience').",
+      "inputs": [
+        {"item": "Sand (cheap shulkers)", "qty": "shulkers", "unit_price": "not stated", "channel": "ah / orders"},
+        {"item": "Fuel", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Glass", "qty": "stacks", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Buy cheap sand shulkers, smelt in a super smelter, sell glass by stack on AH; keep relisting while stacks sell instantly.",
+      "quotes": [
+        "Glass sells fast because every builder and farm player needs it.",
+        "If glass stacks sell instantly, keep relisting until the market cools."
+      ],
+      "tricks": [
+        "Relist continuously while glass moves."
+      ],
+      "risks": "Market cooling.",
+      "scalability": "AH slots (18 default); smelter throughput.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Sand shulker price vs glass stack price on AH"
+      ]
+    },
+    {
+      "name": "Redstone components crafting (comparators, repeaters, torches, observers, dispensers)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26 (sections 8 and 33)",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Low (mined redstone).",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Redstone dust (mined)", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"},
+        {"item": "Quartz, stone, sticks, glowstone etc. for recipes", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Comparators, repeaters, redstone torches, observers, dispensers", "qty": "not stated", "unit_price": "not stated", "channel": "ah (sell to farm builders)"}
+      ],
+      "process": "Mine redstone underground, craft comparators and other components, sell to farm builders who 'hate crafting small components'.",
+      "quotes": [
+        "Raw redstone sells. Comparators often sell better.",
+        "Do not only sell dust. Check crafted items."
+      ],
+      "tricks": [
+        "Check crafted-item prices vs dust before selling."
+      ],
+      "risks": "None stated.",
+      "scalability": "Demand from technical players.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "AH prices: redstone dust vs comparator/repeater/observer/dispenser"
+      ]
+    },
+    {
+      "name": "Pre-mined tunnels (harvest ores left by base hunters)",
+      "category": "exploration_loot",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Pickaxe.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Pickaxe", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Redstone, lapis, diamonds, nether gold from abandoned tunnels", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Follow tunnels left by players searching for bases and mine the ores they skipped; faster than digging your own.",
+      "quotes": [
+        "This is faster than normal mining because someone already dug the tunnel for you."
+      ],
+      "tricks": [],
+      "risks": "None stated.",
+      "scalability": "Tunnel availability.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": []
+    },
+    {
+      "name": "Strip mine for diamonds (Fortune)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Fortune pickaxe.",
+      "claimed_gross_per_hour": "Not stated ('Still solid. Not flashy.').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Fortune pickaxe", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Diamonds (plus redstone and lapis)", "qty": "not stated", "unit_price": "not stated", "channel": "ah (if orders pay poorly)"}
+      ],
+      "process": "Mine deep with Fortune, collect redstone and lapis too; watch for bases and trial chambers; list diamonds on AH if orders are low.",
+      "quotes": [
+        "If diamonds sell poorly to orders, list on AH."
+      ],
+      "tricks": [],
+      "risks": "None stated.",
+      "scalability": "Manual.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Diamond price on /orders vs /ah; /worth diamond"
+      ]
+    },
+    {
+      "name": "Cow farm for leather (AH bundles 10/32/45) + steak to orders",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "Not stated (Low startup cost).",
+      "capital_required": "Low.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Cow farm", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Leather", "qty": "bundles of 10 / 32 / 45", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Steak", "qty": "not stated", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "process": "Cow farm; sell leather on AH in bundles (10 = cheap impulse buy, 32 = mid-size crafting, 45 = book/enchanting setups); steak to orders.",
+      "quotes": [
+        "10 leather Cheap impulse buy | 32 leather Mid-size crafting | 45 leather Useful for book/enchanting setups",
+        "Steak can go to orders. Leather should usually go AH."
+      ],
+      "tricks": [
+        "Bundle sizes 10/32/45 leather on AH."
+      ],
+      "risks": "None stated.",
+      "scalability": "AH slots.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Leather AH price per bundle vs /orders (p5 order example 350 each)"
+      ]
+    },
+    {
+      "name": "Automatic sheep farm (colored wool passive income)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "Not stated (Medium startup cost).",
+      "capital_required": "Medium.",
+      "claimed_gross_per_hour": "Not stated ('serious passive income').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Observer, dispenser, shears, hopper minecart, chest per module", "qty": "per sheep", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Wool (black, red, white, popular build colors)", "qty": "not stated", "unit_price": "not stated ('Colored wool often beats plain white wool')", "channel": "ah"}
+      ],
+      "process": "Observer detects grass change, dispenser with shears shears the sheep, hopper minecart picks up wool into a chest.",
+      "quotes": [
+        "Observer Detects grass change | Dispenser Uses shears | Shears Collects wool | Hopper minecart Picks up drops | Chest Storage",
+        "Colored wool often beats plain white wool."
+      ],
+      "tricks": [
+        "Farm popular build colors, not plain white."
+      ],
+      "risks": "None stated.",
+      "scalability": "AH slots; sheep count.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "AH price of colored wool vs white wool"
+      ]
+    },
+    {
+      "name": "Villager Mending books (cure librarian, reroll to Mending at 1 emerald)",
+      "category": "enchant_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "'Setup is annoying'.",
+      "capital_required": "Zombie villager, Weakness potion, golden apple, lectern, emeralds.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated ('the margin is ridiculous' at 1 emerald; 'long-term profit is huge').",
+      "inputs": [
+        {"item": "Emeralds (1 per book after curing)", "qty": "1 per book", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "Zombie villager + Weakness + golden apple + lectern", "qty": "1 setup", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Mending books", "qty": "repeatable", "unit_price": "not stated here (p5 book flip example uses 12k per Mending book on AH)", "channel": "ah"}
+      ],
+      "process": "Cure a zombie villager, place lectern, reroll librarian until Mending appears, cure to drop trade to 1 emerald, buy books, sell each on AH.",
+      "quotes": [
+        "If the trade drops to 1 emerald, the margin is ridiculous. Buy books cheap, sell each book on AH.",
+        "A cured librarian with Mending for 1 emerald is still one of the best repeatable money methods."
+      ],
+      "tricks": [
+        "Cure the villager to get the 1-emerald discount; sell books individually on AH."
+      ],
+      "risks": "Setup effort; p6 notes villagers are hard to set up if mob rates or access are bad.",
+      "scalability": "Emerald supply; AH slots; Mending book price.",
+      "still_valid_after_june_2026_update": "yes (post-update source: 'Are villagers still worth it after the update? Yes.').",
+      "verification_items": [
+        "Mending book AH price (p5 example 12k)",
+        "Emerald cost"
+      ]
+    },
+    {
+      "name": "Trial chambers (heavy core, enchanted golden apple, trims, books)",
+      "category": "exploration_loot",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Gear; optional trial/ominous keys (buy only after finding unopened vaults).",
+      "claimed_gross_per_hour": "Not stated ('jackpot content'; 'can make millions').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Keys (only if vaults found)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "Heavy core (Millions)", "qty": "rare", "unit_price": "p5 mace flip example: heavy core 3.0m", "channel": "ah"},
+        {"item": "Enchanted golden apple (Very high)", "qty": "rare", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Armor trims (Medium-high), enchanted books (Medium)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Find trial chambers, open vaults; 'Do not buy expensive keys unless you already found vaults.'",
+      "quotes": [
+        "Heavy core Millions | Enchanted golden apple Very high | Armor trims Medium-high | Enchanted books Medium"
+      ],
+      "tricks": [
+        "Buy keys only after locating unopened vaults."
+      ],
+      "risks": "Inconsistent.",
+      "scalability": "Chamber availability.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Heavy core, enchanted golden apple, trial key AH prices"
+      ]
+    },
+    {
+      "name": "Base raiding",
+      "category": "exploration_loot",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Gear.",
+      "claimed_gross_per_hour": "Not stated ('Most raids are trash. One good raid pays for everything.').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [],
+      "outputs": [
+        {"item": "Raided storage contents", "qty": "variable", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Search far from spawn for random cobblestone, player tunnels, portals, farms, storage rooms, unnatural terrain.",
+      "quotes": [
+        "High risk. High time waste. Sometimes huge payout."
+      ],
+      "tricks": [
+        "Signs of a base: random cobblestone, player tunnels, portals, farms, storage rooms, unnatural terrain."
+      ],
+      "risks": "Time waste; PvP.",
+      "scalability": "n/a",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": []
+    },
+    {
+      "name": "Ocean monuments (sea lanterns, prismarine)",
+      "category": "exploration_loot",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Gear for guardians.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [],
+      "outputs": [
+        {"item": "Sea lanterns (easiest sale), prismarine bricks, dark prismarine, prismarine shards, prismarine crystals", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Mine ocean monument blocks and sell to builders.",
+      "quotes": [
+        "Builders buy these constantly. Sea lanterns are usually the easiest sale."
+      ],
+      "tricks": [],
+      "risks": "None stated.",
+      "scalability": "Monument availability.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Sea lantern AH price"
+      ]
+    },
+    {
+      "name": "Suspicious sand and gravel (collector blocks, AH patience flip)",
+      "category": "exploration_loot",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "None.",
+      "claimed_gross_per_hour": "Not stated ('High price, slow sale').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [],
+      "outputs": [
+        {"item": "Suspicious sand / suspicious gravel", "qty": "rare", "unit_price": "not stated", "channel": "ah (not orders)"}
+      ],
+      "process": "Find ruins, collect suspicious blocks 'if allowed by server mechanics', sell on AH.",
+      "quotes": [
+        "These are not fast flips. They are patience flips."
+      ],
+      "tricks": [],
+      "risks": "Slow sale; collection may not be possible.",
+      "scalability": "n/a",
+      "still_valid_after_june_2026_update": "unknown (depends on whether suspicious blocks can be obtained on the server).",
+      "verification_items": [
+        "Whether suspicious sand/gravel can be silk-touched/obtained on DonutSMP"
+      ]
+    },
+    {
+      "name": "Emerald ore mining (Silk Touch, flex block on AH)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Silk Touch pickaxe.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Silk Touch pickaxe", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Emerald ore", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Mine emerald ore in snowy peaks / mountain caves with Silk Touch; list on AH; do not sell to low orders unless cash is needed now.",
+      "quotes": [
+        "Higher value than many common ores | Slower sale speed | Best listed on AH"
+      ],
+      "tricks": [],
+      "risks": "Slow sale.",
+      "scalability": "AH slots.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Emerald ore AH price"
+      ]
+    },
+    {
+      "name": "Nether gold ore (Silk Touch in old debris tunnels, smelt, sell gold)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Silk Touch pickaxe.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Silk Touch pickaxe", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Gold ingots (smelted nether gold ore)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "1. Find old Nether mining tunnels. 2. Mine nether gold ore. 3. Smelt into gold ingots. 4. Sell gold on AH. Demand from piglin trading.",
+      "quotes": [
+        "Players mining for ancient debris ignore nether gold.",
+        "Gold demand stays healthy because of piglin trading."
+      ],
+      "tricks": [],
+      "risks": "None stated.",
+      "scalability": "Manual.",
+      "still_valid_after_june_2026_update": "yes (post-update source; p4 notes gold ingot price dropped).",
+      "verification_items": [
+        "Gold ingot price on /ah and /orders"
+      ]
+    },
+    {
+      "name": "Flip shulkers of enchanted books (buy bulk, sell individually)",
+      "category": "ah_flip",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Example shulker 200k.",
+      "claimed_gross_per_hour": "Not hourly. Example: 27 Mending books x 12k = 324k.",
+      "claimed_profit_per_hour": "Example ~124k profit per shulker before undercuts.",
+      "inputs": [
+        {"item": "Shulker of 27 Mending books", "qty": "1", "unit_price": "200k", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "Mending books", "qty": "27", "unit_price": "12k each", "channel": "ah"}
+      ],
+      "process": "Search AH for bulk enchanted book shulkers, buy, list books individually.",
+      "quotes": [
+        "Mending books 27 12k 324k",
+        "If the shulker costs 200k, that is about 124k profit before undercuts."
+      ],
+      "tricks": [
+        "Buy bulk, sell individually."
+      ],
+      "risks": "Undercuts.",
+      "scalability": "AH slots (27 listings per shulker vs 18 default slots).",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Mending book AH price; bulk shulker listings"
+      ]
+    },
+    {
+      "name": "Leather order flip (buy order 350 each, resell AH bundles)",
+      "category": "order_to_ah_flip",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated ('AH pays far more').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Leather", "qty": "not stated", "unit_price": "350 each (buy order slightly above current buyers)", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "Leather bundles", "qty": "bundles", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Place a buy order slightly above current buyers, resell on AH in bundles; if AH leather drops, hold.",
+      "quotes": [
+        "350 each | AH bundles | AH pays far more",
+        "If AH leather drops, hold. Leather demand always returns."
+      ],
+      "tricks": [
+        "Order-filling trick: set your buy order slightly above the current top buyer to get filled first."
+      ],
+      "risks": "AH price drop (hold).",
+      "scalability": "Order fill rate; AH slots.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Leather /orders top buy price vs AH bundle price"
+      ]
+    },
+    {
+      "name": "Dye white wool (cheap white wool + cheap dye -> overpriced colored wool)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "White wool", "qty": "not stated", "unit_price": "not stated", "channel": "ah / orders"},
+        {"item": "Dye (red/black/magenta)", "qty": "not stated", "unit_price": "not stated", "channel": "ah / orders"}
+      ],
+      "outputs": [
+        {"item": "Colored wool (red/black/magenta)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Buy cheap white wool and cheap dye, craft colored wool, sell when colored wool is overpriced.",
+      "quotes": [
+        "This is one of the easiest crafting flips."
+      ],
+      "tricks": [],
+      "risks": "Price convergence.",
+      "scalability": "AH slots.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "White wool, dye, colored wool AH prices"
+      ]
+    },
+    {
+      "name": "Concrete powder -> concrete (30k/stack -> 150k/stack)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "30k per stack of powder.",
+      "claimed_gross_per_hour": "Not hourly; 150k per stack of concrete.",
+      "claimed_profit_per_hour": "~120k per stack ('Strong' margin).",
+      "inputs": [
+        {"item": "Concrete powder", "qty": "1 stack", "unit_price": "30k/stack", "channel": "ah / orders"}
+      ],
+      "outputs": [
+        {"item": "Concrete", "qty": "1 stack", "unit_price": "150k/stack", "channel": "ah"}
+      ],
+      "process": "1. Buy cheap concrete powder. 2. Drop/place near water. 3. Mine hardened concrete. 4. Sell by stack.",
+      "quotes": [
+        "30k/stack | 150k/stack | Strong"
+      ],
+      "tricks": [
+        "Players pay extra for finished concrete."
+      ],
+      "risks": "None stated.",
+      "scalability": "AH slots; powder supply.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Concrete powder vs concrete AH prices per stack"
+      ]
+    },
+    {
+      "name": "Heavy core -> mace flip (3.0m -> 3.2m)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Very high: heavy core 3.0m plus breeze rod.",
+      "claimed_gross_per_hour": "Not hourly; mace sale 3.2m.",
+      "claimed_profit_per_hour": "Around 200k per flip; skip if gap under 100k.",
+      "inputs": [
+        {"item": "Heavy core", "qty": "1", "unit_price": "3.0m", "channel": "ah"},
+        {"item": "Breeze rod", "qty": "1", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "Mace", "qty": "1", "unit_price": "3.2m", "channel": "ah"}
+      ],
+      "process": "Buy heavy core, craft mace with breeze rod, sell.",
+      "quotes": [
+        "3.0m | 3.2m | Around 200k",
+        "If the gap is under 100k, skip it."
+      ],
+      "tricks": [
+        "Minimum gap rule 100k."
+      ],
+      "risks": "High capital per flip.",
+      "scalability": "Heavy core supply.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Heavy core and mace AH prices"
+      ]
+    },
+    {
+      "name": "Armor trim copying (buy one trim, copy with diamonds + block, sell copies)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "High (trim + 7 diamonds + block per copy).",
+      "claimed_gross_per_hour": "Not stated ('can almost double money').",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Armor trim template", "qty": "1", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Diamonds + required block per copy", "qty": "per copy", "unit_price": "not stated", "channel": "ah / orders"}
+      ],
+      "outputs": [
+        {"item": "Trim copies", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Check trim buy price, diamond cost, required block cost, current AH trim price; copy and sell if each copy sells fast.",
+      "quotes": [
+        "If each copy sells fast, this can almost double money."
+      ],
+      "tricks": [],
+      "risks": "Slow sales of copies.",
+      "scalability": "AH slots; diamond cost.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Trim AH prices; diamond price"
+      ]
+    },
+    {
+      "name": "Craft anvils from cheap iron (1 stack iron blocks ~158k -> ~18 anvils -> ~540k)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "~158k per stack of iron blocks.",
+      "claimed_gross_per_hour": "Not hourly; ~540k per stack of iron blocks.",
+      "claimed_profit_per_hour": "~382k per stack implied.",
+      "inputs": [
+        {"item": "Iron blocks", "qty": "1 stack (64)", "unit_price": "around 158k per stack", "channel": "orders (p4: buy iron through orders)"}
+      ],
+      "outputs": [
+        {"item": "Anvils", "qty": "around 18", "unit_price": "30k each", "channel": "ah (sell individually)"}
+      ],
+      "process": "Buy iron blocks, craft anvils (3 iron blocks + 4 ingots), sell individually on AH.",
+      "quotes": [
+        "1 stack iron blocks around 158k | Around 18 anvils | Around 540k at 30k each",
+        "Sell anvils individually. They move faster that way."
+      ],
+      "tricks": [
+        "List anvils individually."
+      ],
+      "risks": "None stated.",
+      "scalability": "AH slots (18 anvils vs 18 default slots).",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Iron block/ingot /orders price; anvil AH price"
+      ]
+    },
+    {
+      "name": "Craft torches (cheap coal + logs -> torch stacks)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Low.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Coal", "qty": "not stated", "unit_price": "not stated", "channel": "ah / orders"},
+        {"item": "Logs", "qty": "not stated", "unit_price": "not stated", "channel": "ah / orders"}
+      ],
+      "outputs": [
+        {"item": "Torches", "qty": "stacks", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Craft torches and sell stacks when AH has no cheap torches listed.",
+      "quotes": [
+        "Good when AH has no cheap torches listed."
+      ],
+      "tricks": [],
+      "risks": "Low.",
+      "scalability": "AH slots.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Torch stack AH price"
+      ]
+    },
+    {
+      "name": "Sell filled buckets (water/lava/milk at 3k–4k each)",
+      "category": "craft_arbitrage",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Cheap iron blocks.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated ('If each bucket sells for 3k–4k, margins can be excellent').",
+      "inputs": [
+        {"item": "Iron (3 ingots per bucket, from cheap iron blocks)", "qty": "not stated", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "Water bucket / lava bucket / milk bucket", "qty": "individually", "unit_price": "3k–4k each", "channel": "ah"}
+      ],
+      "process": "Craft buckets from cheap iron blocks, fill (water for farms/clutching, lava for fuel/traps, milk for PvP effect clear), sell individually.",
+      "quotes": [
+        "If each bucket sells for 3k–4k, margins can be excellent."
+      ],
+      "tricks": [
+        "Sell individually; lazy-player convenience premium."
+      ],
+      "risks": "None stated.",
+      "scalability": "AH slots (18 default) cap individual listings.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Bucket AH prices; iron cost per bucket"
+      ]
+    },
+    {
+      "name": "Brew Speed II splash potions for PvP",
+      "category": "potion",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Nether wart, sugar, glowstone, gunpowder, bottles", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Speed II splash potions", "qty": "small batches", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Brew speed potions, upgrade with glowstone to Speed II, splash with gunpowder; list in small batches.",
+      "quotes": [
+        "List in small batches to avoid AH slot waste."
+      ],
+      "tricks": [
+        "Listing tactic: small batches to conserve AH slots."
+      ],
+      "risks": "None stated.",
+      "scalability": "AH slots.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Speed II splash potion AH price"
+      ]
+    },
+    {
+      "name": "Grow valuable wood with bone meal (sell logs + extra saplings)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Bone meal + saplings.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Bone meal", "qty": "not stated", "unit_price": "not stated", "channel": "orders"},
+        {"item": "High-demand saplings", "qty": "not stated", "unit_price": "not stated ('If saplings cost too much, find the biome yourself')", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "Logs + extra saplings", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Bone meal high-demand saplings when logs sell high and bone meal is cheap; sell logs and surplus saplings.",
+      "quotes": [
+        "Best when: Logs sell high, Bone meal is cheap, Saplings are not overpriced"
+      ],
+      "tricks": [],
+      "risks": "Input price.",
+      "scalability": "Manual.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Log prices by wood type; bone meal price"
+      ]
+    },
+    {
+      "name": "Bone meal tall flowers for dye (lilac/rose bush/peony/sunflower)",
+      "category": "farm_ah",
+      "source": "web/p5.txt | ggwtb blog 'Donut SMP Money-Making Guide: Best Methods After the Update' | author SMITH | posted 06/20/26",
+      "claim_date": "2026-06-20",
+      "setup_time": "None.",
+      "capital_required": "Bone meal.",
+      "claimed_gross_per_hour": "Not stated ('free money' if dye stacks sell high).",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Bone meal", "qty": "1 per duplicated flower", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "Magenta dye (lilac), red dye (rose bush), pink dye (peony), yellow dye (sunflower)", "qty": "stacks", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Tall flowers duplicate with bone meal; craft into dye; sell dye stacks.",
+      "quotes": [
+        "Lilac Magenta | Rose bush Red | Peony Pink | Sunflower Yellow"
+      ],
+      "tricks": [],
+      "risks": "None stated.",
+      "scalability": "Bone meal.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Dye stack AH prices"
+      ]
+    },
+    {
+      "name": "Shulker shell bulk selling (shell ~$850 -> ~$350)",
+      "category": "farm_ah",
+      "source": "web/p6.txt | ggwtb blog 'Donut SMP Update: Best Money Meta, Shard Shop Changes, Home Teleport Tricks' | author SMITH | posted 06/05/26",
+      "claim_date": "2026-06-05",
+      "setup_time": "Not stated (shulker farm implied).",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated ('Medium-high' strength).",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Shulker farm", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Shulker shells", "qty": "bulk", "unit_price": "early update ~$850; current (06/05/26) ~$350", "channel": "ah"}
+      ],
+      "process": "Farm shulker shells and bulk sell; demand persists because players always need storage; margin is thinner after price drop.",
+      "quotes": [
+        "Early update ~$850 | Current ~$350",
+        "Shulker shells | Medium-high | Medium | Bulk selling"
+      ],
+      "tricks": [
+        "Falling market rule: sell faster, do not hoard, build cheaper, scale only after testing, track demand not just price."
+      ],
+      "risks": "Falling price.",
+      "scalability": "Farm rate; demand.",
+      "still_valid_after_june_2026_update": "yes (post-update source, listed among safest options).",
+      "verification_items": [
+        "Current shulker shell AH price"
+      ]
+    },
+    {
+      "name": "Golden carrot villager trading (4 spruce logs -> 1 emerald -> 3 golden carrots)",
+      "category": "craft_arbitrage",
+      "source": "web/p6.txt | ggwtb blog 'Donut SMP Update: Best Money Meta, Shard Shop Changes, Home Teleport Tricks' | author SMITH | posted 06/05/26",
+      "claim_date": "2026-06-05",
+      "setup_time": "'Hard setup': requires cured villagers (curing needed for best value).",
+      "capital_required": "$300 per cycle (4 spruce logs x $75) plus villager setup.",
+      "claimed_gross_per_hour": "Not hourly. Per cycle: 3 golden carrots x ~$500–$550 = gross ~$1,500+.",
+      "claimed_profit_per_hour": "~$1,200+ per $300 cycle implied ('a strong margin on paper').",
+      "inputs": [
+        {"item": "Spruce logs", "qty": "4 per emerald", "unit_price": "$75 each ($300 per 4)", "channel": "unknown (orders implied)"},
+        {"item": "Cured villagers (fletcher-style log trade + farmer golden carrot trade)", "qty": "setup", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Golden carrots", "qty": "3 per emerald", "unit_price": "~$500–$550 each", "channel": "ah (implied; 'sell volume')"}
+      ],
+      "process": "Buy 4 spruce logs ($300), trade to villager for 1 emerald, farmer trade 1 emerald -> 3 golden carrots, sell carrots ~$500–$550 each (gross ~$1,500+). Use only if you already have villagers, can cure safely, carrot prices stay high, wood prices stay low, and you can sell volume.",
+      "quotes": [
+        "Buy 4 spruce logs 4 x $75 = $300 | Convert to emerald 1 emerald | Farmer trade 3 golden carrots | Sell carrots ~$500–$550 each | Gross return ~$1,500+",
+        "Golden carrots became more interesting after shop removal."
+      ],
+      "tricks": [
+        "Watch golden carrot prices daily; sell consumables fast when prices spike.",
+        "Border expansion may spike golden carrot demand (exploration food)."
+      ],
+      "risks": "Villager setup difficulty if mob rates or access are bad; carrot price fall; wood price rise.",
+      "scalability": "Villager trade limits; carrot demand.",
+      "still_valid_after_june_2026_update": "yes (post-update source; golden carrots removed from shard shop).",
+      "verification_items": [
+        "Golden carrot AH price; spruce log price; villager trade rates"
+      ]
+    },
+    {
+      "name": "Food supply (steady demand consumables after shard shop removal)",
+      "category": "farm_ah",
+      "source": "web/p6.txt | ggwtb blog 'Donut SMP Update: Best Money Meta, Shard Shop Changes, Home Teleport Tricks' | author SMITH | posted 06/05/26",
+      "claim_date": "2026-06-05",
+      "setup_time": "Not stated.",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated ('Medium' strength, 'Low' risk).",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Food farms", "qty": "not stated", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Food (golden carrots etc.)", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Farm and sell food; demand rose because the shard shop no longer sells golden carrots.",
+      "quotes": [
+        "Food supply | Medium | Low | Steady demand"
+      ],
+      "tricks": [],
+      "risks": "Low.",
+      "scalability": "Not stated.",
+      "still_valid_after_june_2026_update": "yes (post-update source).",
+      "verification_items": [
+        "Food item AH prices"
+      ]
+    },
+    {
+      "name": "Border expansion prep (stockpile pearls, golden carrots, shulkers, totems, obsidian, tools)",
+      "category": "investment_hold",
+      "source": "web/p6.txt | ggwtb blog 'Donut SMP Update: Best Money Meta, Shard Shop Changes, Home Teleport Tricks' | author SMITH | posted 06/05/26",
+      "claim_date": "2026-06-05",
+      "setup_time": "None.",
+      "capital_required": "Not stated.",
+      "claimed_gross_per_hour": "Not stated.",
+      "claimed_profit_per_hour": "Not stated.",
+      "inputs": [
+        {"item": "Ender pearls, golden carrots, shulker boxes, totems, obsidian, tools", "qty": "flexible stock", "unit_price": "not stated", "channel": "ah / orders"}
+      ],
+      "outputs": [
+        {"item": "Same items sold into the border-expansion demand spike", "qty": "not stated", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "Hold flexible stock of items likely to spike when the border expands (travel gear, storage, food, PvP supplies, base materials). 'Do not overbuy one item unless you can exit fast.'",
+      "quotes": [
+        "Ender pearls Travel and base hunting | Golden carrots Exploration food | Shulker boxes Loot transport | Totems PvP and survival | Obsidian Portals and defense | Tools Mining new terrain"
+      ],
+      "tricks": [
+        "Keep flexible stock; avoid concentration in one item."
+      ],
+      "risks": "Event timing; price may not spike.",
+      "scalability": "Capital.",
+      "still_valid_after_june_2026_update": "unknown (depends on whether/when the border expansion happens).",
+      "verification_items": [
+        "Whether the border expansion has occurred and how prices reacted"
+      ]
+    }
+  ],
+  "mechanics_facts": [
+    {"fact": "Cobble wall farm loop: water+lava generate cobblestone, TNT dupers break it, drops move through hoppers or water streams, crafters make walls, walls load into shulkers, full shulkers move to storage, sell in bulk.", "source": "web/p1.txt (06/23/26)"},
+    {"fact": "Honest hourly test: run 10 minutes, count shulkers, multiply by six.", "source": "web/p1.txt (06/23/26)"},
+    {"fact": "Adding TNT modules beyond crafter/loader capacity only creates overflow; overflow is lost money, causes lag and makes the farm easier to notice.", "source": "web/p1.txt (06/23/26)"},
+    {"fact": "Shulker loader failure checklist: empty shulkers present, output chest not full, full shulkers ejecting, input speed not too high, redstone reset; if it only breaks during AFK, input speed too high or storage too small.", "source": "web/p1.txt (06/23/26)"},
+    {"fact": "Reinvestment list includes 'Sell tools or sell access' (implies sell axe / sell tool as the bulk-sell channel for farm output).", "source": "web/p1.txt (06/23/26)"},
+    {"fact": "Profit formula: Profit = sell price minus material cost; good margin 25%+ after costs, great margin 40%+ if items sell instantly.", "source": "web/p2.txt (05/09/26)"},
+    {"fact": "Auto crafter safety: if one ingredient runs out and the crafter keeps firing it can craft the wrong item and jam; use a crafter that stops when one input runs out.", "source": "web/p2.txt (05/09/26)"},
+    {"fact": "Flying machines can desync or stop on multiplayer servers; design pumpkin factories with access to every layer.", "source": "web/p2.txt (05/09/26)"},
+    {"fact": "Pre-update selling choice: /orders when order price > normal sell value; /sell when your sell multiplier beats orders; AH when players overpay; event selling when the server boosts crop prices. (Sell multiplier was removed 2026-06-02/03.)", "source": "web/p2.txt (05/09/26)"},
+    {"fact": "Crafted items are often better through /orders when demand spikes; crop items were better through /sell when the multiplier was high.", "source": "web/p2.txt (05/09/26)"},
+    {"fact": "A chest needs 8 planks; one spruce log gives 4 planks; one chest needs 2 logs; minimum profitable chest price = 2 x log price.", "source": "web/p3.txt (05/08/26)"},
+    {"fact": "Bonemeal farm: a signal dispenser controls linked modules; one bad dispenser can kill output across the whole line. Fuel ~80K bonemeal per 20 modules.", "source": "web/p3.txt (05/08/26)"},
+    {"fact": "Build money farms at deep slate level, low-traffic region, hidden entrance; use shulker storage plus an overflow hopper line to stop item despawn; keep the chunk loaded.", "source": "web/p3.txt (05/08/26)"},
+    {"fact": "Update changes: /shop removed (harder to buy mobs and key resources), sell multiplier removed (old AFK farms make less), orders matter more, skeleton access nerfed (bones and bone meal more important), prices move faster.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "Auction House is usually more expensive than orders; buy gold, bones, bone meal, iron, chests and bulk farm materials through orders; use AH only when speed matters more than margin.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "Test-small rule: buy $100K–$500K of input, run one batch, sell output, check profit, scale only if the math works.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "Profit = Output value minus Input cost minus Build cost; a farm costing $1M making $50K/hour needs 20 hours to break even.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "One bone meal on birch-forest grass yields around 4–6 wildflowers; wildflowers only spawn in birch forest biome.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "Chest minecarts are in demand because players use them in traps.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "Ender pearl farm rates tank if endermen can spawn outside the platform; clear nearby spawning areas.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "New metas crash quickly: supply rises, order prices drop, margins shrink, late builders get stuck.", "source": "web/p4.txt (06/15/26)"},
+    {"fact": "AH vs orders rule: AH = more money, slower sale; orders = faster, usually cheaper; if players need it for PvP, farms, bases or enchanting, AH usually wins; craft then sell gives best margins.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "List potions in small batches to avoid AH slot waste; sell anvils individually because they move faster; sell leather in bundles of 10/32/45.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Order-filling trick: place a buy order slightly above current buyers to get filled, then resell on AH.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Silk Touch needed for packed ice, coral (dies otherwise), emerald ore, nether gold ore.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Snow golem needs 2 snow blocks + carved pumpkin; shovel the snow layer under a trapped golem for infinite snow.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Sheep farm module: observer detects grass change, dispenser with shears, hopper minecart collects, chest stores.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Cured librarian can sell Mending books for 1 emerald.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Trial chambers: do not buy expensive keys unless you already found unopened vaults.", "source": "web/p5.txt (06/20/26)"},
+    {"fact": "Shard shop consumables row removed: ender pearls, golden carrots, totems, ender chests, oak wood, arrows. Weapons, tools and armor stayed with same enchants and prices.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "AFK shard farming removed (because of mass alt farms); Shard Booster removed; standing still for over an hour did not trigger an AFK kick in testing.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Homes menu shows first 5 homes by default (Show More for the rest); old team homes moved into personal home slots; no homes deleted.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Home teleport is instant with no cooldown; RTP is instant with a 14–15 second cooldown and is blocked while moving or falling. Use /home to escape before entering the void.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Auction purchase history removed; Quick Buy Confirmation is a toggle in settings (new General tab) alongside Night Vision and Mob Spawning toggles.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Amethyst pickaxe (shard tool) duration cut from 3 days to 24 hours at the same shard cost, same performance.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Billford daily trade route removed.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Piglin trading buffed on paper (shop no longer sells pearls, obsidian, crying obsidian) but live testing showed piglins may trade slowly on the server.", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Border expansion expected to shake the market (travel gear, storage, food, PvP supplies, base materials).", "source": "web/p6.txt (06/05/26)"},
+    {"fact": "Store (real money) shard packages in GBP, launch -> current: 400 shards £1.20 -> £0.89; 2,500 £4.80 -> £4.45; 5,500 £8.40 -> £8.90; 12,000 £18.00 -> £17.82; 32,000 £44.40 -> £44.57; 70,000 £88.80 -> £89.15. Ranks: Donor+ £4.80 -> £4.45/mo; Donor++ £13.20 -> £13.37/mo; Donut+++ £26.40 -> £26.74/mo.", "source": "web/p6.txt (06/05/26)"}
+  ],
+  "prices_mentioned": [
+    {"item": "Cobblestone wall farm output (clean setup)", "price": "40M–60M per hour", "channel": "sell (implied bulk sell)", "date": "2026-06-23", "source": "web/p1.txt"},
+    {"item": "Trapping loot from ~50 trapped players", "price": "12M–13M total after selling", "channel": "ah (implied)", "date": "2026-06-23", "source": "web/p1.txt"},
+    {"item": "Books for ~650 bookshelves", "price": "1.2M total (batch)", "channel": "unknown (AH/player market)", "date": "2026-05-09", "source": "web/p2.txt"},
+    {"item": "Logs for ~650 bookshelves", "price": "200k total (batch)", "channel": "unknown", "date": "2026-05-09", "source": "web/p2.txt"},
+    {"item": "Bookshelf", "price": "3.15k each (example sale); scenarios 4k, 4.6k, 8k; crafting cost ~2.2k", "channel": "orders (first), ah", "date": "2026-05-09", "source": "web/p2.txt"},
+    {"item": "Pumpkin farm (large) build materials", "price": "~3.5M", "channel": "unknown", "date": "2026-05-09", "source": "web/p2.txt"},
+    {"item": "Pumpkin farm income", "price": "small module ~16k/hour; large factory ~2M/hour", "channel": "sell / orders", "date": "2026-05-09", "source": "web/p2.txt"},
+    {"item": "Spruce log", "price": "~85 each (actual test); table 60/70/80/85/100", "channel": "unknown (bought from players)", "date": "2026-05-08", "source": "web/p3.txt"},
+    {"item": "Chest", "price": "example 125 each (below 170 cost); ~600K logs -> ~28M return", "channel": "orders", "date": "2026-05-08", "source": "web/p3.txt"},
+    {"item": "Bone blocks (10 shulker boxes)", "price": "~9M (~900k per shulker)", "channel": "unknown", "date": "2026-05-08", "source": "web/p3.txt"},
+    {"item": "Kelp farm build", "price": "around $1M", "channel": "unknown", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Bone meal (kelp trigger)", "price": "around $17–$20 test; higher skip", "channel": "orders", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Bones", "price": "30,000 for around $1.5M+ (~$50 each)", "channel": "orders", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Bone blocks (from 30,000 bones)", "price": "around $1.4M total", "channel": "unknown", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Bone block crafter build", "price": "around $1.1M", "channel": "unknown", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Sweet berry test", "price": "bone meal spent ~$110K, berries sold ~$55K", "channel": "unknown", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Gold for piglin bartering", "price": "around $900K spent -> ~$1.5M direct return + ~$400K AH value", "channel": "orders (buy) / ah (sell)", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Chest minecart", "price": "profit around $900 per item; up to $60M/hour", "channel": "orders", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Wildflower", "price": "around $10 each; $40–$60 per bone meal", "channel": "unknown", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Ender pearl farm (unoptimized)", "price": "around $30K/hour", "channel": "unknown", "date": "2026-06-15", "source": "web/p4.txt"},
+    {"item": "Oak leaves", "price": "60k–70k per stack", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "TNT for sand blasting", "price": "around 100k -> 500k+ sand revenue", "channel": "orders (sand)", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Mending book", "price": "12k each (27 per shulker = 324k)", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Shulker of 27 Mending books", "price": "200k", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Leather", "price": "350 each (buy order)", "channel": "orders", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Concrete powder", "price": "30k/stack", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Concrete", "price": "150k/stack", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Heavy core", "price": "3.0m", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Mace", "price": "3.2m", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Iron blocks (1 stack)", "price": "around 158k", "channel": "orders/ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Anvil", "price": "30k each (~18 anvils ~540k)", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Filled bucket (water/lava/milk)", "price": "3k–4k each", "channel": "ah", "date": "2026-06-20", "source": "web/p5.txt"},
+    {"item": "Ender pearl", "price": "launch $1,000+; early update ~$300; current ~$80", "channel": "ah", "date": "2026-06-05", "source": "web/p6.txt"},
+    {"item": "Shulker shell", "price": "early update ~$850; current ~$350", "channel": "ah", "date": "2026-06-05", "source": "web/p6.txt"},
+    {"item": "Spruce log", "price": "$75 each", "channel": "unknown", "date": "2026-06-05", "source": "web/p6.txt"},
+    {"item": "Golden carrot", "price": "~$500–$550 each", "channel": "ah", "date": "2026-06-05", "source": "web/p6.txt"},
+    {"item": "Emerald (via 4 spruce logs)", "price": "$300 in logs per emerald", "channel": "villager trade", "date": "2026-06-05", "source": "web/p6.txt"},
+    {"item": "Shard packages (real money, GBP)", "price": "400 £0.89; 2,500 £4.45; 5,500 £8.90; 12,000 £17.82; 32,000 £44.57; 70,000 £89.15 (launch: £1.20/£4.80/£8.40/£18.00/£44.40/£88.80)", "channel": "store", "date": "2026-06-05", "source": "web/p6.txt"},
+    {"item": "Ranks (real money, GBP per month)", "price": "Donor+ £4.45 (launch £4.80); Donor++ £13.37 (launch £13.20); Donut+++ £26.74 (launch £26.40)", "channel": "store", "date": "2026-06-05", "source": "web/p6.txt"}
+  ]
+}

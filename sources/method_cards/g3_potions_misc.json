@@ -1,0 +1,929 @@
+{
+  "cards": [
+    {
+      "name": "Weakness splash potions from scratch (zero-capital bootstrap)",
+      "category": "potion",
+      "source": "videos/Z-V5gXSVTG0.txt, Camel27, uploaded 2026-06-13 (footage predates the 2026-06-02 update: blaze rods, obsidian and end crystals are bought on /shop)",
+      "claim_date": "2026-06-13",
+      "setup_time": "About one in-game day plus one night of gathering: 56 brown mushrooms, a stack of sand, sugarcane (very scarce, 'where has all the sugarcane gone on this server'), iron for a bucket, one spider eye (roughly a dozen spiders killed for one drop), then gunpowder from creepers the next night.",
+      "capital_required": "$0 in money; started with two blaze rods ('without those we can make zero potions')",
+      "claimed_gross_per_hour": "Not stated per hour. First two potions sold for 160,000 total; after 10 brewing stands and one order cycle 'we're up to $1.2 million'.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "brown mushroom", "qty": "56", "unit_price": "0 (mined from mushroom trees)", "channel": "farmed"},
+        {"item": "sugar cane / sugar", "qty": "a few", "unit_price": "0", "channel": "farmed"},
+        {"item": "spider eye", "qty": "1, later 1 more", "unit_price": "0 (rare spider drop)", "channel": "farmed"},
+        {"item": "sand / glass bottles", "qty": "1 stack sand", "unit_price": "0", "channel": "farmed"},
+        {"item": "gunpowder", "qty": "2 (1 per 3 potions), then 50 ordered", "unit_price": "50 for 10k on orders (200 each)", "channel": "orders"},
+        {"item": "fermented spider eye", "qty": "order of 50 (100 was quoted at 85,000)", "unit_price": "85,000 shown for 100 (about 850 each if that is the total)", "channel": "orders"},
+        {"item": "blaze rod / blaze powder", "qty": "2 starting rods", "unit_price": "not stated; 'blaze rods we can purchase on the shop'", "channel": "shard_shop"},
+        {"item": "brewing stand", "qty": "1 crafted, then 9 more bought", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "splash potion of weakness", "qty": "3 per brew; 6 planned; later dozens", "unit_price": "$50,000 each quoted; listing seen at 90,000; sold 2 at 80k (160,000); later batch listed at $38,000 each", "channel": "ah"}
+      ],
+      "process": "Gather brown mushrooms, sugar cane, one spider eye, sand for bottles, iron for a bucket. Craft fermented spider eye (sugar + spider eye + brown mushroom). Brew 3 water bottles with the fermented spider eye into weakness, add gunpowder to make splash (buyers want splash to cure zombie villagers). List each potion individually on /ah, undercutting the visible price (90k seen, listed at 80k). Use the first 160k to place /orders for fermented spider eyes (skipping the crafting chain) and 50 gunpowder, buy 9 more brewing stands, brew a large batch and list at $38,000 each until $1.2M, which funds the auto brewer.",
+      "tricks": [
+        "Order fermented spider eyes directly on /orders instead of farming sugar, mushrooms and spider eyes: 'that gets rid of all of that process'",
+        "Splash form is what sells: 'people want to cure zombie villagers. Only issue is they need to be splash potions'",
+        "Undercut the visible listing: price seen 90,000, 'Let me sell for 80k', both sold instantly",
+        "Set a home at the brewing spot before going out to farm gunpowder (/sethome)",
+        "Bought 9 extra brewing stands as soon as money came in to parallelize brewing",
+        "Blaze rods bought from /shop at the time (no longer possible after 2026-06-02)"
+      ],
+      "risks": "Early game deaths (no armor, no totem) while hunting spiders and creepers; spider eye drop is rare; weakness price later collapsed to 7,000 a bottle within the same video; 'too many people making weakness potions'.",
+      "scalability": "Manual brewing is throttled by brewing stand count and fermented spider eye supply on /orders; each potion is listed individually so AH slots (18 default now) cap parallel listings.",
+      "still_valid_after_june_2026_update": "unknown - potions still trade on /ah, but blaze rods were bought on /shop in this footage; after the update they must come from /orders or /ah (SlaySlasher 2026-08-05 says blaze rods became 'pretty expensive' after shop removal), and default AH slots are 18 instead of the 3 rows shown.",
+      "verification_items": [
+        "/ah current price of splash weakness potion (50k / 80k / 38k / 37k / 25k / 7k were all seen in June 2026)",
+        "/orders price of fermented spider eye (implied ~850 each from '100 of those. 85,000')",
+        "/orders price of gunpowder (50 for 10k = 200 each)",
+        "Blaze rod / blaze powder price on /orders and /ah now that /shop is gone",
+        "Brewing stand price"
+      ],
+      "quotes": [
+        "six weakness potions, which at the moment are currently going for $50,000 each. That would be $300,000 in our back pocket",
+        "Oh, why is that 90,000? ... Let me sell for 80k. ... I've got 160,000 in two potions",
+        "we can craft an order for fermented spider eyes. ... Get 100 of those. 85,000. Okay, maybe 50 for now",
+        "We'll get 50 gunpowder. That's 10k as well",
+        "we'll sell these for $38,000 each. And now that we sold every single potion and we're up to $1.2 million"
+      ]
+    },
+    {
+      "name": "Auto-brewer potion modules: invisibility, fire resistance, weakness listed on /ah",
+      "category": "potion",
+      "source": "videos/Z-V5gXSVTG0.txt, Camel27, uploaded 2026-06-13 (footage predates the 2026-06-02 update)",
+      "claim_date": "2026-06-13",
+      "setup_time": "Dig a large hole underground with obsidian + end crystals, build one two-sided module (about 100,000 in materials, 20 hoppers is the expensive part). Total play time for the whole 0 to 100M run 'maybe less than 24 hours'. Modules added at $1.2M (first), $5M (second, fire res + invis), then a third and more for invis until 'all of these are set up for invis'.",
+      "capital_required": "About $1M target before building the first module; each module 'should only cost us maybe a 100,000'; glass order 1,000 = 400k; restocking all machines once dropped balance from ~25M to $23M (about 2M of inputs).",
+      "claimed_gross_per_hour": "Peak: $25M in 2 hours 21 minutes (25M to 50M) = about 10.6M/hr. First 25M took about 4.5 hours 'not at full efficiency'. 5.67M to 7M in 6 min 12 s. Final 99M to 100M in about 11 minutes while supply-limited. About 6,750 potions sold for the $100M total (154 pages of AH sales).",
+      "claimed_profit_per_hour": "Not stated; input restock was roughly 2M per full refill against tens of millions of sales, so margin is very high; invis at 9.9k 'seems very low for the price of ingredients'.",
+      "inputs": [
+        {"item": "glass (for bottles)", "qty": "1,000 per order (2,500 quoted at 1 million)", "unit_price": "$42 each on orders; 1,000 = 400k", "channel": "orders"},
+        {"item": "gunpowder", "qty": "repeated orders", "unit_price": "200 each implied (50 for 10k)", "channel": "orders"},
+        {"item": "fermented spider eye", "qty": "2 stacks per invis fill; 1 in the blaze powder slot", "unit_price": "~850 each implied", "channel": "orders"},
+        {"item": "magma cream", "qty": "a few stacks per fire res fill", "unit_price": "not stated", "channel": "orders"},
+        {"item": "nether wart", "qty": "a few stacks / 3 stacks per fill", "unit_price": "not stated", "channel": "orders"},
+        {"item": "redstone dust", "qty": "one dispenser per side", "unit_price": "not stated", "channel": "orders"},
+        {"item": "golden carrot", "qty": "3 stacks per invis fill", "unit_price": "not stated", "channel": "orders"},
+        {"item": "blaze rod / blaze powder", "qty": "1 per stand cycle", "unit_price": "bought on /shop at the time", "channel": "shard_shop"},
+        {"item": "hoppers", "qty": "20 per module", "unit_price": "'the only expensive bit'", "channel": "unknown"},
+        {"item": "obsidian + end crystals (hole digging)", "qty": "a few", "unit_price": "bought on /shop at the time", "channel": "shard_shop"},
+        {"item": "diamond pickaxe efficiency I", "qty": "1", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "splash potion of fire resistance 8 min", "qty": "9 per AH row, continuous", "unit_price": "$10,000 -> listed 9.9k; ~$16,000 (earlier sold at $18,000); 23,000 -> listed $20,000", "channel": "ah"},
+        {"item": "splash potion of weakness", "qty": "9 per AH row", "unit_price": "37,000 -> listed 36; 7,000 at the low; $36,000; 25,000 -> listed 24k", "channel": "ah"},
+        {"item": "splash potion of invisibility 8 min", "qty": "continuous, best seller", "unit_price": "$10,000 -> listed 9.9K; later listed $19,000; 'can be worth like 40,000' then undercut to 38 and down; 7.5k at the low", "channel": "ah"}
+      ],
+      "process": "Dig a pit with end crystals on obsidian. Each module has two sides; each side is a brewing-stand line fed by a dispenser of glass bottles (water), a dropper/hopper chain for ingredients in brew order (fire res: nether wart, magma cream, redstone, gunpowder; invis: nether wart, golden carrot, fermented spider eye, redstone, gunpowder; weakness: fermented spider eye, gunpowder), blaze powder in the stand, about 20 hoppers, and a lever that starts the cycle. Finished splash potions flow through hoppers into a shulker box. Redstone is added because a normal potion is 3 minutes and the 8 minute one is wanted. Operator refills dispensers, flicks the lever, pulls potions from the shulker and lists each one individually on /ah, keeping one row of 9 per potion type, then repeats. Inputs are bulk /orders; glass 1,000 at a time.",
+      "tricks": [
+        "Keep the AH filled with one row (9 listings) each of fire res, weakness and invis at all times",
+        "Sell whichever potion type is priced highest right now: 'when the price is higher than invis, I normally just sell these ones' then 'wait for the invis potion prices to come back up'",
+        "Undercut by a hair: 10,000 -> 9.9k, 37,000 -> 36,000, 90,000 -> 80,000",
+        "Invisibility was the best seller and was instantly bought out, so every new module was set to invis; weakness dropped because 'too many people making weakness potions'",
+        "Fire res 'takes a while to brew and it's currently selling before I can even list the next potion' so build a second module rather than wait",
+        "Use redstone in the chain to get 8 minute potions (3 minute without)",
+        "Order glass in bulk on /orders (1,000 at a time at $42) since bottles are needed the whole run",
+        "Order fermented spider eyes rather than crafting them",
+        "Dig the pit with end crystals on obsidian bought from /shop (pre-update)",
+        "Machines occasionally jam: 'some of the times they mess up ... might be user error'",
+        "Someone buying everything at once ('this guy ... just made me, I think, $300,000') is the upside of many low listings"
+      ],
+      "risks": "Price wars: 'each potion can be worth like 40,000 and then someone will see that go 38 and it'll go down and down' to 7.5k; 'the potion market is very populated'; people list at ridiculously low prices; input stockouts (fermented spider eyes ran out twice); machines misfire; listing each potion individually 'does hurt your fingers after a while'.",
+      "scalability": "Bounded by AH listing labor (one listing per potion, ~6,750 listings for 100M), AH slot count (3 rows of 9 shown pre-update, 18 default now), invis demand, and /orders supply of fermented spider eyes, golden carrots, glass. Module cost (~100k) is negligible so modules can be added freely; 'we're just about keeping up with demand'.",
+      "still_valid_after_june_2026_update": "yes with caveats - the machine and /ah demand are unaffected, but blaze rods, obsidian and end crystals were bought on /shop here and now must come from /orders or /ah at higher cost, and default AH slots fell from 25 to 18 which cuts the 'three rows' listing pattern to two.",
+      "verification_items": [
+        "/ah prices today for splash invisibility, fire resistance and weakness 8 min (June 2026 ranges: invis 7.5k to 40k, fire res 9.9k to 23k, weakness 7k to 90k)",
+        "/orders glass price (was $42)",
+        "/orders prices for nether wart, magma cream, golden carrot, redstone, fermented spider eye, gunpowder, blaze rod",
+        "Hopper price (20 per module)",
+        "Whether the AH potion category still shows strength, fire res and invis demand at similar volume",
+        "AH history page size to validate the ~6,750 potion estimate"
+      ],
+      "quotes": [
+        "Should only cost us maybe a h 100,000. The only expensive bit is going to be the hoppers, and we only need 20 of those",
+        "What's the current price? $42. Wow, that's expensive ... 2,500. 1 million. ... let's get 1,000 instead. 400k",
+        "if we craft them normally without redstone, they are a 3minut potion. Now we want the 8minute ones",
+        "How much are fire resistance currently going for? $10,000 each. Okay, we'll sell those for 9.9k each ... weakness? Those are currently selling for 37,000. So we'll sell those for 36",
+        "nine of these fire resistance potions. They're currently selling for around $16,000 each. What was I selling them for earlier? $18,000 ... nine of these weakness potions and list these for $36,000 each ... invis. These are currently selling for only $10,000 ... we'll list them for 9.9K",
+        "7 million has been hit. That took us 6 and 12 minutes",
+        "passed the $25,000 mark and that took us around 4 and a half hours, but that was not at full efficiency",
+        "we'll get them listed for $19,000 ... we have dropped down to $23 million",
+        "we managed to make $25 million in only 2 hours. and 21 minutes",
+        "each potion can be worth like 40,000 and then someone will see that go 38 and it'll go down ... 7.5,000 is ridiculously low. If we check weakness 25,000 ... Fire resistance 23,000 ... sell six fire rays for $20,000 each ... six sick weakness potions for 24k",
+        "we made that final million dollars within about 11 minutes",
+        "the final amount is page 154 ... we sold around $6,750 potions"
+      ]
+    },
+    {
+      "name": "Selling custom-built bases to players (Smurfi)",
+      "category": "service",
+      "source": "videos/mKvcLvXaPQE.txt, Smurfi, uploaded 2026-08-20",
+      "claim_date": "2026-08-20",
+      "setup_time": "Find a customer in chat, agree on everything, build from a schematic, then rebuild the whole thing on DonutSMP. Time not stated.",
+      "capital_required": "Build materials (not stated)",
+      "claimed_gross_per_hour": "Not per hour. One base: agreed price 13 million dollars plus a 10 million dollar tip; creator says 'in total, I made 40 million dollars from one base' (the stated parts do not add to 40).",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "building blocks for the base", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "custom base (build service)", "qty": "1", "unit_price": "13M agreed + 10M tip ('40 million dollars from one base')", "channel": "orders"}
+      ],
+      "process": "Advertise in public chat until someone wants a custom base. Agree on scope and price first. Design/build with a schematic (mod) to speed up, then rebuild it block by block on DonutSMP since schematics cannot be pasted on the server. Send screenshots to the client, get paid via /pay.",
+      "tricks": [
+        "Recruit customers from public chat: 'I went into chat and started looking for someone who wanted a custom base'",
+        "Agree everything before building",
+        "Use a schematic to make the building process way faster, then rebuild it on the server",
+        "Tips can exceed the agreed price (10M tip on 13M)"
+      ],
+      "risks": "Non-payment/scam since there is no escrow; numbers in the video are inconsistent (13M + 10M described as 40M total).",
+      "scalability": "Limited by builder time and finding customers; no AH or order limits involved.",
+      "still_valid_after_june_2026_update": "yes - player-to-player service unaffected by shop/multiplier removal (video is from August 2026).",
+      "verification_items": [
+        "Whether 13M + 10M or 40M is the real total (transcript inconsistent)",
+        "Going rate for commissioned builds in chat/Discord"
+      ],
+      "quotes": [
+        "There is a lot of ways to get rich in Donut SMP. Gambling, building farms, flipping items, or even scamming people",
+        "we agreed to pay me 13 million dollars. They also gave me a 10 million dollars tip. So, in total, I made 40 million dollars from one base"
+      ]
+    },
+    {
+      "name": "Dirt (and other junk) sold by the stack on /ah instead of /sell",
+      "category": "farm_ah",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "None; two wooden shovels then a diamond shovel",
+      "capital_required": "$0",
+      "claimed_gross_per_hour": "Not stated. /sell of the first dirt pile gave 848 total; on /ah dirt was listed at 16 each, he listed a stack for 15k, it sold, then a stack for 14k.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "dirt", "qty": "several stacks", "unit_price": "0", "channel": "farmed"},
+        {"item": "wooden shovel x2, then diamond shovel", "qty": "3", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "dirt", "qty": "1 stack per listing", "unit_price": "/sell: 848 for the pile; /ah: 16 each, stack listed 15k then 14k", "channel": "ah"}
+      ],
+      "process": "Dig dirt with a shovel, skip /sell (848 for the lot), list full stacks on /ah below the going per-item price (16 each = 1,024/stack; listed 15k and 14k per stack, both bought). Repeat, then experimented with saplings and lily pads.",
+      "tricks": [
+        "Compare /sell vs /ah before dumping: '/sell ... 848, that's not going to be good ... I'll just sell it on the auction for way more'",
+        "List whole stacks a little under the per-unit AH price (16 each -> 15k, then 14k per stack)",
+        "Also tested saplings and lily pads as unknown-value items"
+      ],
+      "risks": "Slow; dirt 'isn't really that good'; demand thin.",
+      "scalability": "AH slots and buyer demand for dirt.",
+      "still_valid_after_june_2026_update": "yes - filmed after the update; /ah stack listings unaffected.",
+      "verification_items": [
+        "/worth dirt vs /ah dirt per-stack price (16 each seen 2026-08-05)"
+      ],
+      "quotes": [
+        "if I slash sell, let's see how much it gives me. Yeah, no, 848, that's not going to be good",
+        "they're going 16 each? I feel like I'll just sell a stack for like 15k ... Oh, let's go ... I guess I'll sell this for maybe like 14k"
+      ]
+    },
+    {
+      "name": "Red dye from bone-mealed rose bushes sold on /ah",
+      "category": "farm_ah",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Minutes: one rose bush plus a redstone clock/dispenser that bone-meals it automatically",
+      "capital_required": "Bone meal supply (not priced)",
+      "claimed_gross_per_hour": "Not per hour. Listings sold at 40k (first), then market fell and he listed at 25k; 'we are now at almost $3 million' after grinding it 'stupidly long'.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "rose bush", "qty": "1 seed plant", "unit_price": "0", "channel": "farmed"},
+        {"item": "bone meal", "qty": "continuous", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "red dye", "qty": "stacks (2 dye per rose bush)", "unit_price": "40k per listing, then 25k when 'it's all low'", "channel": "ah"}
+      ],
+      "process": "Bone meal a rose bush: it drops a duplicate rose bush. Craft each into two red dye. A small redstone build with a dispenser bone-meals the flower automatically; pick up, craft, list red dye on /ah (40k, later 25k per listing) until ~$3M.",
+      "tricks": [
+        "Rose bush + bone meal = duplication; crafting gives two red dye",
+        "Automate bone meal with a redstone dispenser so you only pick up",
+        "Drop the listing price when the market saturates (40k -> 25k)"
+      ],
+      "risks": "Market saturates fast (his own listings drove 40k down to 25k); 'takes stupidly long'.",
+      "scalability": "Demand for red dye and AH slots; bone meal cost.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/ah red dye price per stack (40k and 25k seen)",
+        "Bone meal cost on /orders"
+      ],
+      "quotes": [
+        "this is a rose bush, and if you bone meal it, you can literally duplicate it. And whenever you craft it, it gives you two red dye",
+        "sell it for like 40k. So, I'll do 40k. Oh my gosh, let's go",
+        "AH sell 25k ... All right, it's all low",
+        "we are now at almost $3 million and my red dye is still being bought"
+      ]
+    },
+    {
+      "name": "Charcoal furnace array: order logs, smelt, /sell charcoal",
+      "category": "craft_arbitrage",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Not stated; furnace bank with hoppers feeding logs from a drop chest and planks as fuel, output into chests (extra storage had to be added).",
+      "capital_required": "About 1.9 million for 13,000 logs at 150 each, plus a spruce planks order for fuel; plus a good pickaxe",
+      "claimed_gross_per_hour": "After about one hour: three chests of charcoal, /sell in batches of about 500k, balance 3.4 million; 'almost three mill in profit, maybe two mill ... for an hour'. Then AFK'd 'overnight for a couple of hours' and was at 28 mil on day two (together with cookies).",
+      "claimed_profit_per_hour": "'almost three mill in profit, maybe two mill' for the first hour (from a 1.9M log order)",
+      "inputs": [
+        {"item": "logs (any)", "qty": "13,000", "unit_price": "market 145 each, he ordered at 150 (1.9 mil)", "channel": "orders"},
+        {"item": "spruce planks (fuel)", "qty": "separate order", "unit_price": "not stated", "channel": "orders"},
+        {"item": "furnaces, hoppers, chests", "qty": "not stated", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "charcoal", "qty": "~3 chests per hour", "unit_price": "/sell batches of ~500k each; total ~2.4M+ in first hour", "channel": "sell"}
+      ],
+      "process": "Place a buy order for 13,000 logs at 150 (market 145) and an order for spruce planks. Drop planks into the fuel input and logs into the log input; hoppers route them into a bank of furnaces; charcoal flows into output chests. After ~1 hour collect and /sell everything (each chest-sized batch about 500k). Rationale: after /shop removal blaze rods are expensive so charcoal became a demanded fuel and its base price makes this profitable.",
+      "tricks": [
+        "Overpay the order slightly (150 vs 145) so it fills fast",
+        "Use cheap planks as fuel via a separate hopper line",
+        "Add extra output storage; the furnaces outran the chests",
+        "Run it overnight AFK",
+        "Thesis: 'after the removal of slash shop, blaze rods are actually pretty expensive. So charcoal has slowly been gaining more attention'"
+      ],
+      "risks": "Needs AFK time ('I don't really think I have that much time to be AFKing this all day'); farm was raided and destroyed on day three; margin depends on log order price vs charcoal /sell price.",
+      "scalability": "Log supply on /orders, furnace count and hopper block limit, AFK time; /sell has no slot limit.",
+      "still_valid_after_june_2026_update": "yes - post-update footage; the sell multiplier removal already applied. Check that charcoal /worth still exceeds log cost.",
+      "verification_items": [
+        "/worth charcoal (implied roughly 2.4M+ per 13,000 logs, i.e. ~185+ per charcoal if all logs were smelted)",
+        "/orders log price (145 on 2026-08-05)",
+        "/orders spruce planks price",
+        "Smelt rate per furnace (1 per 10 s) vs claimed 3 chests/hour to size the furnace bank"
+      ],
+      "quotes": [
+        "So they're going for $145 each. I'll go 150 and I'll sell about like 13,000 logs for 150. How much is that? 1.9 mil",
+        "/sell. How much is this? 500k? ... Is this another 500k? Okay, we're at a mill ... we're at two mill ... we're at 3.4 million dollars. So, I guess we made almost three mill in profit, maybe two mill, which I guess is really good for an hour"
+      ]
+    },
+    {
+      "name": "Cookies (wheat + cocoa) filled into /orders",
+      "category": "farm_orders",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "A couple of hours: a wheat farm grown with bone meal from dispensers plus a cocoa bean farm, later expanded",
+      "capital_required": "Bone meal, dispensers (not priced)",
+      "claimed_gross_per_hour": "Not per hour. Two double chests of cookies sold into orders for 1 mil + 1 mil + 1 mil + 415k (about 3.4M) after 'a couple of hours'.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "wheat", "qty": "2 per craft", "unit_price": "0 (bone-mealed)", "channel": "farmed"},
+        {"item": "cocoa beans", "qty": "1 per craft", "unit_price": "0", "channel": "farmed"},
+        {"item": "bone meal", "qty": "continuous", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "cookie", "qty": "2 double chests", "unit_price": "orders paid 1M, 1M, 1M, 415k for the lot", "channel": "orders"}
+      ],
+      "process": "Build a wheat farm with dispenser bone meal and a cocoa farm, craft cookies (2 wheat + 1 cocoa as stated), fill existing player buy orders on /orders. Nobody farms cookies because they are bad food and wheat cannot be fortuned, so the orders stay well paid.",
+      "tricks": [
+        "Look for items nobody farms but people order: 'on orders, people are requesting them for a very good price'",
+        "Bone meal wheat from dispensers; fortune does not work on wheat so bone meal is the throughput lever",
+        "Clear inventory and fill several orders in a row"
+      ],
+      "risks": "Wheat is slow ('a very hard thing to farm'); the farm was raided on day three; order depth unknown.",
+      "scalability": "Depth of cookie buy orders on /orders; bone meal supply.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/orders cookie buy price and depth (about 3.4M for 2 double chests = 6,912 cookies, roughly 490 each if all were cookies)",
+        "Crafting yield per 2 wheat + 1 cocoa"
+      ],
+      "quotes": [
+        "in order to craft a cookie, you need a cocoa bean and two wheat. And wheat is a very hard thing to farm because fortune does not work on it",
+        "we have two double chest worth of cookies ... One mill ... Another one mill ... Another one mill ... 415k"
+      ]
+    },
+    {
+      "name": "Ladders: order sticks, autocraft ladders, sell stacks on /ah",
+      "category": "craft_arbitrage",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Short: one autocrafter fed by a chest/hopper of sticks",
+      "capital_required": "Stick orders ('very very low price')",
+      "claimed_gross_per_hour": "Not per hour. Day two went from 28 mil to 32 mil mostly on ladders (with breaks).",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "sticks", "qty": "bulk orders", "unit_price": "'very very low price'", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "ladder", "qty": "stacks", "unit_price": "'a stack of ladders on the auction for a lot of money' (no number)", "channel": "ah"}
+      ],
+      "process": "Place large stick orders, feed sticks into an autocrafter set to the ladder recipe (7 sticks = 3 ladders), collect ladders, list full stacks on /ah. 'they are going crazy right now'.",
+      "tricks": [
+        "Autocrafter turns a cheap ordered input into a higher-priced AH item with no manual crafting",
+        "Keep re-ordering sticks; the spread is the whole trade"
+      ],
+      "risks": "No prices given; ladder AH price can collapse; raid risk.",
+      "scalability": "Stick supply on /orders, AH slots for ladder stacks.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/orders stick price",
+        "/ah ladder per-stack price vs 7 sticks -> 3 ladders (2.33 sticks per ladder)"
+      ],
+      "quotes": [
+        "it's going to be with ladders because they are going crazy right now",
+        "they're going into an auto crafter that automatically crafts ladders. And all I have to do is just keep on ordering sticks which are very very low price and then I just sell a stack of ladders on the auction for a lot of money",
+        "After doing all that, I got up to $32 million"
+      ]
+    },
+    {
+      "name": "Tall dry grass bone-mealed and sheared into /orders",
+      "category": "farm_orders",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Short: a desert patch, bone meal, shears",
+      "capital_required": "Bone meal and shears",
+      "claimed_gross_per_hour": "Not per hour. 'almost three stacks. If I sell this, I can get $500,000' (about 2,600 each into orders). Reached 50 mil during this phase.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "bone meal", "qty": "continuous", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "shears", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "tall dry grass", "qty": "~3 stacks per batch", "unit_price": "$500,000 for almost three stacks (about 2,600 each)", "channel": "orders"}
+      ],
+      "process": "Deserts are dug out because sand sells high on /orders, so tall dry grass is now rare. Unlike regular tall grass it can be bone-mealed to spread; bone meal the ground, shear each plant, fill the expensive buy orders. It cannot be AFK'd like a sweet berry farm and has a rendering glitch (plants invisible until right-clicked).",
+      "tricks": [
+        "Target items made scarce by other players' farming (deserts stripped for sand)",
+        "Tall dry grass responds to bone meal; regular tall grass farms differently",
+        "Right-click to reveal invisible (ghost) grass before shearing"
+      ],
+      "risks": "Manual labour; rendering glitch; order depth unknown.",
+      "scalability": "Order depth; manual shearing speed.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/orders tall dry grass price (~2,600 each implied on 2026-08-05)",
+        "/orders sand price ('goes for a lot')"
+      ],
+      "quotes": [
+        "almost every single desert on the Donut SMP is destroyed. And the reason why is because sand goes for a lot on orders",
+        "unlike regular tall grass, this grass can be farmed with bone meal. So, I'll be harvesting it with shears and then filling the very expensive orders",
+        "we have almost three stacks. If I sell this, I can get $500,000",
+        "It's not like a sweet berries farm where I can just AFK this and it does get a little bit glitched. See like it's invisible. I have to like right click and it appears"
+      ]
+    },
+    {
+      "name": "Silence armor trim duplication sold on /ah",
+      "category": "craft_arbitrage",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Not stated",
+      "capital_required": "One silence trim template plus duplication ingredients (not stated)",
+      "claimed_gross_per_hour": "Not stated; 'selling them on the auction for 100k each. This method has surprisingly got me a lot of money.'",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "silence armor trim template", "qty": "1 seed", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "duplication ingredients (diamonds + base block)", "qty": "per copy", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "silence armor trim", "qty": "many", "unit_price": "100k each", "channel": "ah"}
+      ],
+      "process": "Duplicate the silence trim template in a crafting table (vanilla duplication recipe) repeatedly and list copies on /ah at 100k each.",
+      "tricks": [
+        "Vanilla trim duplication turns one template into unlimited copies; only the ingredient cost matters"
+      ],
+      "risks": "Demand for cosmetics is thin; price not verified.",
+      "scalability": "AH slots and buyer demand.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/ah silence trim price (100k claimed)",
+        "Diamond and deepslate cost per duplication"
+      ],
+      "quotes": [
+        "duplicating silence armor trims and selling them on the auction for 100k each. This method has surprisingly got me a lot of money"
+      ]
+    },
+    {
+      "name": "Glass farm (sand smelting) sold in bulk",
+      "category": "farm_sell",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Not stated",
+      "capital_required": "Not stated",
+      "claimed_gross_per_hour": "Not per hour. 'I also built myself a glass farm and it got me around 10 million dollars'; each chest sold for about 1 mil ('1 mil ... 1 mil again').",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "sand", "qty": "chests", "unit_price": "not stated (sand 'goes for a lot on orders')", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "glass", "qty": "chest per batch", "unit_price": "about 1 mil per chest", "channel": "sell"}
+      ],
+      "process": "Smelt sand into glass in a furnace array, collect chests, sell (channel ambiguous in the transcript; the phrasing 'I'll sell' and instant payout reads like /sell; Camel27 shows glass buy orders at $42 which is a possible alternative).",
+      "tricks": [
+        "Same furnace-bank pattern as the charcoal farm; glass is a bulk input other players order (Camel27 paid $42 per glass on /orders)"
+      ],
+      "risks": "Sand cost vs glass price; ambiguity about channel.",
+      "scalability": "Sand supply; furnace count.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/worth glass vs /orders glass price ($42 per glass on orders in June 2026)",
+        "/orders sand price"
+      ],
+      "quotes": [
+        "I also built myself a glass farm and it got me around 10 million dollars",
+        "if I just sell all of this, I would get Let's see how much. 1 mil. ... 1 mil again"
+      ]
+    },
+    {
+      "name": "Mangrove swamp mud dug and sold on /ah",
+      "category": "exploration_loot",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "RTP until a mangrove swamp is found (many attempts)",
+      "capital_required": "Efficiency V shovel, axe, shears, later TNT",
+      "claimed_gross_per_hour": "Not per hour. Mud on /ah 'around 70k to 100k each' (unit unclear, likely per stack listing); listed at 80k-85k and sold; digging the swamp took him to $75 million.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "efficiency 5 shovel", "qty": "1", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "TNT", "qty": "many", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "mud", "qty": "stacks", "unit_price": "70k to 100k each on /ah, listed 80k-85k", "channel": "ah"},
+        {"item": "mangrove roots, vines, leaves", "qty": "side loot", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "RTP repeatedly until a mangrove swamp. Insta-break mud with an efficiency 5 shovel (axe for roots/vines, shears for leaves). Mining too fast created ghost blocks so he switched to blowing the mud up with TNT. List mud on /ah in the middle of the visible range (80k-85k).",
+      "tricks": [
+        "RTP hunting for an untouched rare biome",
+        "Price in the middle of the visible range: 'they're going for around 70k to 100k each. So, I'm going to go ahead and go to the middle like 80k and maybe even 85k'",
+        "Switch from shovel to TNT when fast mining causes ghost blocks"
+      ],
+      "risks": "Ghost blocks; biome exhaustion; unit of the 70k-100k quote is unclear.",
+      "scalability": "Finite biome; AH slots.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/ah mud price and whether 70k-100k is per stack",
+        "/worth mud"
+      ],
+      "quotes": [
+        "the main money-making method here is actually the mud. So with an efficiency five shovel, I can just insta break them",
+        "if I do {slash} age mud, they're going for around 70k to 100k each. So, I'm going to go ahead and go to the middle like 80k and maybe even 85k. Oh, and just like that the ring bought",
+        "I ended up getting up to $75 million"
+      ]
+    },
+    {
+      "name": "Wither farming for nether stars (ordered skulls, crystal kills)",
+      "category": "craft_arbitrage",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Order wither skulls, buy full diamond armor, build a small wither chamber",
+      "capital_required": "'an insane amount of wither skulls' on /orders (price not stated) plus diamond armor and end crystals",
+      "claimed_gross_per_hour": "Not per hour. At least 15 nether stars listed took him from 75 mil to 82 million overnight; a second batch (26 skulls left) produced sales of 1.3 mil and 282k and reached 85 mil.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "wither skeleton skull", "qty": "3 per wither; 'insane amount' ordered; 26 left for the last batch", "unit_price": "not stated", "channel": "orders"},
+        {"item": "soul sand", "qty": "4 per wither", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "end crystals", "qty": "per kill", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "full diamond armor", "qty": "1 set", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "nether star", "qty": "15+ then more", "unit_price": "not stated per star; 15+ stars ~7M (75M -> 82M); later 1.3 mil and 282k listings", "channel": "ah"}
+      ],
+      "process": "Buy wither skulls in bulk on /orders, summon several withers at once, kill them with end crystals ('if I just crystal it like this, yeah, it's doing a lot of damage'), collect nether stars, list them on /ah, log off and let them sell overnight. Build a chamber to summon and kill safely.",
+      "tricks": [
+        "End crystals do heavy damage to withers; summon 5 at a time",
+        "List stars and log off; they sold overnight",
+        "Build a wither chamber: 'If I create like a little chamber where I can just summon Withers and kill them, I'm going to be set'"
+      ],
+      "risks": "Wither explosions ('That is all going to explode'); skull cost vs star price not shown.",
+      "scalability": "Wither skull supply/price on /orders; nether star demand on /ah.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "/orders wither skull price",
+        "/ah nether star price (implied ~450k each from 15 stars ~7M; single sales of 1.3M and 282k seen)",
+        "/worth nether star"
+      ],
+      "quotes": [
+        "I ordered an insane amount of wither skulls and I decided to try to killing the Wither for the nether stars",
+        "I sold like at least 15 nether stars ... we're at 82 million dollars, and they're all sold out",
+        "1.3 mil right there. 282k right there. Oh my gosh, someone is buying all of my nether stars ... I'm at 85 mil now"
+      ]
+    },
+    {
+      "name": "AFK fish farm (alt account) to water breathing splash potions plus fish on /ah and /orders",
+      "category": "potion",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "Rest of day five to build the fish farm; about 2 hours brewing 14 shulkers of water breathing",
+      "capital_required": "Fish farm materials, brewing inputs (blaze powder, nether wart, redstone, gunpowder, bottles)",
+      "claimed_gross_per_hour": "Not per hour. Each shulker of 8-min water breathing splash listed at 300k / 295k; 14 shulkers made in ~2 hours; overflow potions listed individually at 40K (later 'the price literally rose. 90K'); '$4.2 million from auction' when he came back; fish on /ah at 100K per (cod, tropical fish), ink sacs 99K; reached 90 mil.",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "pufferfish", "qty": "farmed", "unit_price": "0", "channel": "farmed"},
+        {"item": "nether wart, redstone, gunpowder, blaze powder, bottles", "qty": "per brew", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "shulker boxes", "qty": "14+", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "splash water breathing 8 min (shulker of 27)", "qty": "14 shulkers", "unit_price": "300k per shulker, listed 295k", "channel": "ah"},
+        {"item": "splash water breathing 8 min (single)", "qty": "4 slots' worth", "unit_price": "40K each; later 90K", "channel": "ah"},
+        {"item": "ink sac", "qty": "stacks", "unit_price": "100K per, listed 99K", "channel": "ah"},
+        {"item": "tropical fish", "qty": "stacks", "unit_price": "100K per", "channel": "ah"},
+        {"item": "cod", "qty": "stacks", "unit_price": "100K per", "channel": "ah"},
+        {"item": "other fish", "qty": "rest", "unit_price": "not stated", "channel": "orders"},
+        {"item": "random junk", "qty": "rest", "unit_price": "base price", "channel": "sell"}
+      ],
+      "process": "Build an AFK fish farm where fish spawn and flow down into magma that kills them, park a Bedrock alt there. Brew pufferfish into 8-minute splash water breathing, pack 27 per shulker and list whole shulkers at 295k-300k; when out of AH slots list singles at 40K. Sell leftover fish on /orders and /ah (100K per stack for cod/tropical, 99K ink sacs) and /sell the junk. Also looted a trident from a player killed at the farm ('free 1 mil').",
+      "tricks": [
+        "AFK a Bedrock alt account at the farm so the main can keep playing",
+        "Sell potions by the shulker (27 per box) to get around per-item listing and slot limits; singles when slots run out",
+        "AH slot cap hit: 'I have too many listed items'",
+        "Undercut by a hair: 300k -> 295k, 100K -> 99K",
+        "Leave listings up for ~2 hours and come back to $4.2M",
+        "Prices recovered upward while waiting ('the price literally rose. 90K')"
+      ],
+      "risks": "AH slot limit; potion price volatility; trapper/PvP visitors at the farm.",
+      "scalability": "AH slots (shulker listing helps), water breathing demand, brewing time (2 hours for 14 shulkers).",
+      "still_valid_after_june_2026_update": "yes - post-update footage, though default AH slots are now 18.",
+      "verification_items": [
+        "/ah splash water breathing price (single 40K-90K, shulker 295k-300k on 2026-08-05)",
+        "/ah cod, tropical fish, ink sac per-stack prices (100K quoted)",
+        "/orders fish prices",
+        "Whether shulker-of-potions listings are common and what premium/discount they carry"
+      ],
+      "quotes": [
+        "I have a full shulker full of water breathing and I'm going to go ahead and sell it for 300k",
+        "I have 14 shulkers full of just water breathing splash potions. And they all have like 8 minutes ... each of these are going for 300k. So, I'm going to sell them for 295k",
+        "I only have four more slots left in my auction, so I'm just going to sell these individually. They are going for 40K ... I have too many listed items",
+        "$4.2 million from auction ... the price literally rose. 90K, 90K, 90K, 90K",
+        "ink sacks are going to be very good. 100K per? I'll do 99K ... cod is going for 100K per"
+      ]
+    },
+    {
+      "name": "Selling an existing base with its farms for 10 million (SlaySlasher)",
+      "category": "service",
+      "source": "videos/g5XTRRrMFvs.txt, SlaySlasher, uploaded 2026-08-05",
+      "claim_date": "2026-08-05",
+      "setup_time": "None extra; sold the base he had been using",
+      "capital_required": "The base itself",
+      "claimed_gross_per_hour": "10 million dollars for one base (half up front, half after)",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "existing base with farms", "qty": "1", "unit_price": "sunk", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "base (handover)", "qty": "1", "unit_price": "10 million dollars", "channel": "orders"}
+      ],
+      "process": "Find a buyer, get their IGN, split payment half and half, TP them in, show how the farms work, have them sign, remove your /home so they know it is theirs.",
+      "tricks": [
+        "Half-half payment to limit scam exposure",
+        "Show the buyer the farm mechanics and remove your home as proof of handover"
+      ],
+      "risks": "'I really hope he doesn't scam me'; buyer attacked him after paying.",
+      "scalability": "One-off.",
+      "still_valid_after_june_2026_update": "yes - post-update footage.",
+      "verification_items": [
+        "Typical base sale prices in chat/Discord"
+      ],
+      "quotes": [
+        "I am about to sell this base for 10 million dollars. I have someone, and they're going to send me their IGN. We're doing half half",
+        "They paid it! ... I'm going to show proof that I removed the home"
+      ]
+    },
+    {
+      "name": "Loot drops: teleport to streamer giveaways and mine the blocks",
+      "category": "exploration_loot",
+      "source": "videos/y0VK5q-ze78.txt, Jestica reacting to an unnamed creator's 'strangest methods' video, uploaded 2026-08-17 (original video older, spawner priced 3.5M there vs 6M now)",
+      "claim_date": "2026-08-17",
+      "setup_time": "Waiting for TPs ('TP'ing to the loot drops took forever, since every DonutSMP streamer drags their loot drop')",
+      "capital_required": "A fast pickaxe and TNT",
+      "claimed_gross_per_hour": "'after like 10 loot drops, I put all of the loot in shulker boxes and managed to make a hundred million dollars in like 2 days'",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "sharp pickaxe + TNT", "qty": "1 + some", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "diamond blocks, gilded blackstone and similar high-AH-value blocks", "qty": "shulkers", "unit_price": "100 million total from ~10 drops", "channel": "ah"}
+      ],
+      "process": "Streamers buy blocks that sell high on /ah (diamond blocks, gilded blackstone), place them underwater and TP viewers. TP in, break blocks fast with a good pickaxe and TNT, shulker everything, sell later. Some streamers fake it with texture packs (pumpkins shown as netherite).",
+      "tricks": [
+        "Use a high-efficiency pickaxe plus TNT to break loot-drop blocks before others",
+        "Beware fake drops (texture pack shows pumpkins as netherite blocks)",
+        "Streamers 'drag' (delay) drops; expect long waits"
+      ],
+      "risks": "Fake drops; PvP at drops; time waste.",
+      "scalability": "Depends on streamer schedules.",
+      "still_valid_after_june_2026_update": "unknown - depends on streamers still running loot drops; nothing in the update blocks it.",
+      "verification_items": [
+        "Frequency of loot drops in chat",
+        "/ah prices of diamond block, gilded blackstone"
+      ],
+      "quotes": [
+        "They buy a bunch of blocks that go for a lot on auction like diamond blocks, gilded and stuff like that and place it all underwater and TP all of their viewers",
+        "after like 10 loot drops, I put all of the loot in shulker boxes and managed to make a hundred million dollars in like 2 days"
+      ]
+    },
+    {
+      "name": "AFK 1,000 skeleton spawners in an obsidian box, 'sell all' the drops",
+      "category": "spawner",
+      "source": "videos/y0VK5q-ze78.txt, Jestica reacting to an unnamed creator, uploaded 2026-08-17 (original footage from an earlier season)",
+      "claim_date": "2026-08-17",
+      "setup_time": "About an hour to build a large obsidian box, then place 1,000 spawners",
+      "capital_required": "1,000 skeleton spawners at 'like 3.5 million dollars' each = 3.5 billion (original video); reactor says a skeleton spawner costs $6 million now (Aug 2026)",
+      "claimed_gross_per_hour": "'Sell all and oh, 12.5 million' after 1 hour AFK; 'for every hour I AFK, I make 12 million dollars'; overnight AFK 'made a hundred million dollars' (about 8 hours)",
+      "claimed_profit_per_hour": "12.5M/hr gross on a 3.5B spawner investment (about 0.36%/hr); reactor extrapolation '240 something million in a day'",
+      "inputs": [
+        {"item": "skeleton spawner", "qty": "1,000", "unit_price": "3.5 million (original); $6 million (reactor, Aug 2026)", "channel": "ah"},
+        {"item": "obsidian", "qty": "hundreds", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "bones/arrows from spawner storage", "qty": "1 hour of 1,000 spawners", "unit_price": "12.5 million per hour via 'sell all'", "channel": "sell"}
+      ],
+      "process": "Flatten an area, build a huge obsidian box, fill it solid except a central chamber, place 1,000 skeleton spawners, AFK inside. Drops accumulate inside the spawner's storage GUI which has a 'sell all' button; press it after 1 hour (12.5M) or overnight (100M).",
+      "tricks": [
+        "Spawner GUI 'sell all' button sells the stored drops at server price without moving items",
+        "Reactor: hide spawners in a 1x1 box at bedrock level instead of a giant obsidian cube that advertises itself",
+        "Reactor: hackers see 'spawner in the pie chart' and hunt them; spawners cannot be sold to the server, only traded (Discord servers buy them)"
+      ],
+      "risks": "Hackers/raiders find spawners (worth millions each); reactor: 'they nerfed them to the ground in this season' and 'No one AFK spawners anymore in this season'.",
+      "scalability": "Capital (6M per spawner now), block/entity limits, raid risk.",
+      "still_valid_after_june_2026_update": "unknown - reactor (2026-08-17) says spawner AFK selling was nerfed this season and people only use them for bones; iditity 2026-07-30 still made 1.02B in 6.5h by selling bones to /orders instead of the sell button, so the channel matters.",
+      "verification_items": [
+        "Skeleton spawner /ah or Discord price (3.5M old, 4.3-5M July 2026, 6M Aug 2026)",
+        "/worth bone and arrow vs /orders bone price (~175)",
+        "Whether the spawner GUI 'sell all' still exists and at what rate"
+      ],
+      "quotes": [
+        "these are a 1,000 skeleton spawners. Each spawner going for like 3.5 million dollars ... 1,000 spawners is 3.5 billion dollars",
+        "There's a sell all button ... Sell all and oh, 12.5 million",
+        "knowing that for every hour I AFK, I make 12 million dollars, I AFK'd overnight ... made a hundred million dollars",
+        "One skeleton spawner cost $6 million (reactor)",
+        "No one AFK spawners anymore in this season. Last season all the only money-making method was AFKing spawners but they nerfed them to the ground in this season (reactor)"
+      ]
+    },
+    {
+      "name": "TPA trapping with an entity-cramming minecart trap on the nether roof",
+      "category": "pvp_trap",
+      "source": "videos/y0VK5q-ze78.txt, Jestica reacting to an unnamed creator, uploaded 2026-08-17",
+      "claim_date": "2026-08-17",
+      "setup_time": "Trap 'didn't take me that long'; rebuilt once on the nether roof",
+      "capital_required": "About 900 minecarts and trap blocks",
+      "claimed_gross_per_hour": "Over a couple of hours of trapping: '$20 the first time ... $50 ... in total got $94' (transcript units dropped; reactor sums it as 'like a hundred sixty-five mil from trapping')",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "minecarts", "qty": "~900 entities", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "victims' gear and shulkers", "qty": "a couple hours' worth", "unit_price": "20 + 50 + 94 (M) per the reactor's 165M sum", "channel": "sell"}
+      ],
+      "process": "Turn on TP auto, type 'TPA for free loot' in public chat, victims land in an entity-cramming trap (900 minecarts). Victims escaped with chorus fruit, so the trap was rebuilt on the nether roof where chorus fruit does not work. Loot is sold with /sell or /ah.",
+      "tricks": [
+        "TP auto plus a 'free loot' message in chat pulls victims continuously",
+        "Entity cramming with ~900 minecarts kills instantly",
+        "Build the trap on the nether roof: chorus fruit teleporting does not work there",
+        "Reactor: trappers keep a double chest of loot at the trap"
+      ],
+      "risks": "Scummy; victims escaped and killed the trapper once; lag from 900 entities.",
+      "scalability": "Victim supply from chat.",
+      "still_valid_after_june_2026_update": "unknown - mechanics unchanged by the update, but the reactor notes 'Trapping on the server is not a weird method' (common).",
+      "verification_items": [
+        "Whether chorus fruit is blocked on the nether roof",
+        "Entity cramming limits"
+      ],
+      "quotes": [
+        "when I turn on TP auto and type in chat, Hey guys, TPA for free loot. a bunch of people will TP to me right away",
+        "chorus fruit actually doesn't work in the nether. Not just anywhere in the nether, but the nether roof",
+        "I made $20 the first time, and then did it once again, and got $50, and I did it one more time, and in total got $94"
+      ]
+    },
+    {
+      "name": "Strip mining diamonds with a drill at Y -53",
+      "category": "other",
+      "source": "videos/y0VK5q-ze78.txt, Jestica reacting to an unnamed creator, uploaded 2026-08-17",
+      "claim_date": "2026-08-17",
+      "setup_time": "Buy a drill",
+      "capital_required": "One drill (shard pickaxe)",
+      "claimed_gross_per_hour": "About 4 hours of straight-line mining gave 'three stacks and 42 diamond blocks and six diamonds' worth '11 million' (about 2.75M/hr). Reactor: 'Do not mine for diamonds for money.'",
+      "claimed_profit_per_hour": "not stated; creator called it 'trash'",
+      "inputs": [
+        {"item": "drill (shard pickaxe)", "qty": "1", "unit_price": "not stated", "channel": "shard_shop"}
+      ],
+      "outputs": [
+        {"item": "diamond block", "qty": "3 stacks + 42 blocks + 6 diamonds", "unit_price": "11 million for the lot", "channel": "sell"}
+      ],
+      "process": "Buy a drill, go to Y -53, mine in a straight line for 3-4 hours until the inventory is full of diamonds, craft into blocks, sell.",
+      "tricks": [
+        "Drill (3x3 mining) at Y -53 in a straight line"
+      ],
+      "risks": "Cannot be AFK'd; 'brain-numbingly mining mindlessly'.",
+      "scalability": "Pure player time.",
+      "still_valid_after_june_2026_update": "unknown - drill now costs shards which can no longer be AFK'd; diamonds remain sellable.",
+      "verification_items": [
+        "/worth diamond block (11M for 234 blocks + 6 diamonds implies ~47k per block if /sell)",
+        "Drill shard cost"
+      ],
+      "quotes": [
+        "I bought a drill and I'm at Y level -53, and I'm going to mine in a straight line",
+        "We have three stacks and 42 diamond blocks and six diamonds. And now let's see how much they sell for. 11 million?"
+      ]
+    },
+    {
+      "name": "Counter-trapping: teleport to 'free loot' scammers, kill them, take their stash",
+      "category": "pvp_trap",
+      "source": "videos/y0VK5q-ze78.txt, Jestica reacting to an unnamed creator, uploaded 2026-08-17",
+      "claim_date": "2026-08-17",
+      "setup_time": "A friend on standby as a pearl puller (stasis chamber) for escape",
+      "capital_required": "PvP gear",
+      "claimed_gross_per_hour": "3 to 5 hours yielded several shulkers of diamond and netherite gear; on-screen total read as '110' then '10 mil, yo. Okay, that's low-key not bad' (units garbled); whole challenge ended at 437 million out of 1 billion",
+      "claimed_profit_per_hour": "not stated",
+      "inputs": [
+        {"item": "PvP kit + friend with stasis pearl", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "trappers' loot (diamond/netherite armor, shulkers)", "qty": "several shulkers", "unit_price": "'110' / '10 mil' (garbled)", "channel": "sell"}
+      ],
+      "process": "Accept TP requests from chat scammers advertising free loot, escape/kill the trapper, empty the double chest of loot trappers keep at the trap, shulker it, /sell or /ah it.",
+      "tricks": [
+        "Have a friend hold a stasis pearl ('pearl puller') to yank you out of a trap",
+        "Reactor: trappers keep a double chest of previous victims' loot at the trap site"
+      ],
+      "risks": "Dying in the trap; garbled numbers.",
+      "scalability": "Scammer supply in chat.",
+      "still_valid_after_june_2026_update": "unknown - PvP mechanics unaffected.",
+      "verification_items": [
+        "None numeric; totals are garbled in the transcript"
+      ],
+      "quotes": [
+        "what I'm going to do is TP to these trappers and kill them for their loot and sell it",
+        "I got my friend to be my pearl polar just in case",
+        "After sending the money, we only made $437 million out of the $1 billion"
+      ]
+    },
+    {
+      "name": "Shards to skeleton spawners for resale (AFK zone + shard booster)",
+      "category": "investment_hold",
+      "source": "videos/obXJdP_OEVA.txt, iditity, uploaded 2025-06-19",
+      "claim_date": "2025-06-19",
+      "setup_time": "None",
+      "capital_required": "Shard booster from /ah or crates",
+      "claimed_gross_per_hour": "1 shard per minute in the AFK zone; 4 per minute with a shard booster = 'up to 5,760 shards in a single day'; 10 shards per player kill; Donut+ ('donut clues') keeps earning shards outside the AFK zone",
+      "claimed_profit_per_hour": "not stated; skeleton spawner is 'the best one you can go for' because it resells for a really good price",
+      "inputs": [
+        {"item": "shard booster", "qty": "1 per session", "unit_price": "not stated", "channel": "ah"},
+        {"item": "AFK time", "qty": "24h = 5,760 shards boosted", "unit_price": "0", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "skeleton spawner bought in /shard shop", "qty": "per shard price table (on screen, not in transcript)", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "process": "AFK in the AFK zone (1 shard/min, 4/min with booster), buy skeleton spawners in /shard shop, resell them to players (creator's Discord buys all spawner types). Do not spend shards on keys/crates because crate rewards are worth less than a spawner.",
+      "tricks": [
+        "Shard booster (AH or crates) multiplies AFK shard income 4x",
+        "Buy spawners, not keys: crate items 'are way less valuable than a spawner, which you can resell to other players for way more profit'",
+        "Skeleton spawner is the best shard purchase for utility and resale"
+      ],
+      "risks": "Obsolete mechanics.",
+      "scalability": "Shard income cap (5,760/day boosted).",
+      "still_valid_after_june_2026_update": "no - AFK shards and crates were removed on 2026-06-02/03; shards now come from kills and shard tools cost 3000 shards; the spawner resale idea survives only via /ah or Discord trades.",
+      "verification_items": [
+        "Current shard sources and /shard shop spawner prices",
+        "Skeleton spawner resale price"
+      ],
+      "quotes": [
+        "Killing a player gives you 10 shards, super simple. Or you can just AFK in the AFK zone where you earn one shard every minute",
+        "you will start getting four times more shards than normally ... you could make up to 5,760 shards in a single day just by FKing with a shard booster active",
+        "the skeleton spawner is honestly the best one you can go for ... you can also resell it later for a really good price"
+      ]
+    },
+    {
+      "name": "10,000 skeleton spawner mega farm with shulker loader, bones sold to /orders (iditity + Matas)",
+      "category": "spawner",
+      "source": "videos/vc8btPwcCA8.txt, iditity (IMyLittlePony), uploaded 2026-07-30",
+      "claim_date": "2026-07-30",
+      "setup_time": "Days: base of ~250k obsidian with 50+ layers, farm built by Matas with 48 spawner slots and an automatic shulker loader; buying 4,331 more spawners from players over streams",
+      "capital_required": "10,000 skeleton spawners 'worth around 50 billion dollars'; owned 5,669; budget 10 billion + 5 billion and '15 billion is not even close enough'; bought 251 spawners for 1.2 billion (4.4M each quoted, 4.3M discount), 107 spawners for 460 million",
+      "claimed_gross_per_hour": "'whole amount that we made in these 6 hours and 30 minutes? 1.02 billion' (expected 1.12 billion) = about 157M/hr from about 5,669 spawners (about 27.7k per spawner-hour); '264 million already and we only did 20 spawners' during collection",
+      "claimed_profit_per_hour": "not stated; input cost is only the spawner capital",
+      "inputs": [
+        {"item": "skeleton spawner", "qty": "5,669 owned, 10,000 target", "unit_price": "4.4M (paid 1.2B for 251), 4.3M discount, 460M for 107; 'around 50 billion' for 10,000", "channel": "ah"},
+        {"item": "obsidian", "qty": "~250k", "unit_price": "not stated", "channel": "unknown"},
+        {"item": "shulker boxes", "qty": "continuous", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "bone", "qty": "100k per spawner storage before emptying", "unit_price": "175 average, 177 (orders); 'we are kind of lowering the bone prices'", "channel": "orders"}
+      ],
+      "process": "Place spawners in piles (128 per pile, two stacks) in 48 slots. Drops accumulate in each spawner's storage (100k bones seen). Pull bones out of the spawner GUI and drop them into a water stream feeding an automatic shulker loader (observers, hoppers, wool markers); filled shulkers go to storage. Sell bones into player buy orders at ~175-177 each. AFK inside the base; alarms and a stasis chamber give 2+ minutes to pack spawners into shulkers if raided.",
+      "tricks": [
+        "Spawner storage GUI holds 100k+ bones; you empty it into a shulker loader instead of hoppers under spawners",
+        "Automatic shulker loader so 'everything gets packed up directly into shulkers' instead of chests",
+        "Dropping bones too fast lags the loader ('You're in zero FPS'); the loader overflowed",
+        "Fill /orders for bones at 175-177; watch for accidentally creating an order instead of filling ('Why did I just order them? I swear I said 167')",
+        "Buy spawners from viewers at 4.3-4.4M when they are worth ~5M; pay in bulk via /pay",
+        "Base: 50+ layers of obsidian, note-block alarm, stasis chamber triggered at a 50-block radius, sculk sensors for overnight intrusion detection; 2 minutes to reach the center is enough to pack up",
+        "Keep the current spawners running to fund the remaining purchases"
+      ],
+      "risks": "Raids (spawners worth billions), lag, bone price depression from own volume, 15B budget insufficient, hacker detection.",
+      "scalability": "Spawner supply and price (4.3-6M), bone order depth on /orders (they were lowering the price), loader throughput/lag, base security.",
+      "still_valid_after_june_2026_update": "yes - filmed 2026-07-30 after the update; uses /orders for bones, not the sell multiplier.",
+      "verification_items": [
+        "/orders bone price (175-177 on 2026-07-30) and depth",
+        "/worth bone",
+        "Skeleton spawner price (4.3-4.4M July 2026; 6M per Jestica reactor Aug 2026)",
+        "Bones per spawner-hour implied: ~158 at 175 each for 27.7k per spawner-hour",
+        "Whether spawner storage has a 100k cap"
+      ],
+      "quotes": [
+        "10,000 skeleton spawners worth around 50 billion dollars at this time we're recording. But sadly, right now I only have 5,669 of them",
+        "We will have 48 slots to place the spawners, a fully automatically shulker loader, and its storage",
+        "251 times 4.4. Okay, that's 1.1 billion. 1.2 if you support me",
+        "Buy my skelly for discount 4.3 ... This is 107 skellies, okay? That's 460",
+        "177. I calculated the money we're making with 175 average",
+        "these ones already have 100k bones in it, bro",
+        "264 million already and we only did 20 spawners and you still have to sell more",
+        "Can you pay me the whole amount that we made in these 6 hours and 30 minutes? 1.02 billion ... what we were supposed to make, 1.12 billion",
+        "15 billion is not even close enough"
+      ]
+    }
+  ],
+  "mechanics_facts": [
+    {"fact": "Splash weakness potions are bought to cure zombie villagers; buyers want the splash form, so gunpowder is required.", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Adding redstone in the brew chain turns a 3-minute potion into the 8-minute version that buyers want.", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Auto brewer module: dispenser of bottles, hopper/dropper ingredient chain, ~20 hoppers, lever start, output into a shulker box; about 100,000 in materials.", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Blaze rods, obsidian and end crystals were bought on /shop in the Camel27 footage (pre 2026-06-02 update).", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "AH potion category shows demand for invisibility, strength and fire resistance; invis was the best seller, fire res sold faster than weakness, weakness oversupplied.", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Potions are listed one per AH slot; the creator listed in three rows of 9 (27 visible slots pre-update) and sold ~6,750 potions for 100M.", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Potion prices decay by serial undercutting (40k -> 38k -> ... -> 7.5k) and recover later; sell the highest-priced type at the moment.", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Buy orders on /orders can be created for crafted intermediates (fermented spider eyes) and bulk blocks (glass 1,000 at a time).", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Sugar cane is scarce near spawn ('where has all the sugarcane gone on this server').", "source": "Z-V5gXSVTG0.txt Camel27 2026-06-13"},
+    {"fact": "Ways to get rich listed: gambling, building farms, flipping items, scamming, selling bases.", "source": "mKvcLvXaPQE.txt Smurfi 2026-08-20"},
+    {"fact": "Schematics speed up design but the base must be rebuilt by hand on DonutSMP.", "source": "mKvcLvXaPQE.txt Smurfi 2026-08-20"},
+    {"fact": "/sell pays little for dirt (848 for a pile); stacks on /ah sold for 14k-15k.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Bone meal on a rose bush drops another rose bush (duplication); a rose bush crafts into two red dye; bone meal can be automated with a dispenser.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "After the removal of /shop, blaze rods became expensive, which raised charcoal demand as fuel.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Charcoal is sold to the server with /sell in roughly 500k batches; an hour of a hopper-fed furnace bank filled ~3 chests.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Fortune does not work on wheat; cookies (2 wheat + 1 cocoa) have well-paid buy orders because nobody farms them.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Autocrafters are used to convert ordered sticks into ladders sold by the stack on /ah.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Bases and farms get raided; on day three his charcoal and cookie farms were destroyed.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Deserts are stripped because sand sells high on /orders; tall dry grass is bone-mealable and sheared, and can render invisible until right-clicked.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Silence armor trims can be duplicated and sold on /ah at 100k each.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Mining mud very fast causes ghost blocks; TNT is an alternative harvest method.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Withers can be killed quickly with end crystals in diamond armor; nether stars sell on /ah overnight.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "A Bedrock alt account can AFK a farm; fish flowing into magma die and drop loot; pufferfish -> water breathing potions.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "AH has a listing cap ('I have too many listed items'); listing whole shulkers of potions bypasses per-item slots.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Base sales are done half up front, half after handover, with a sign and removal of the seller's /home.", "source": "g5XTRRrMFvs.txt SlaySlasher 2026-08-05"},
+    {"fact": "Reactor: most of the richest players gamble ('99% of players out of the richest players, they all gamble').", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "Loot drops: streamers place high-AH-value blocks underwater and TP viewers; some fake them with texture packs; 'dragging' delays are common.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "Spawners have a storage GUI with a 'sell all' button.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17 (original creator)"},
+    {"fact": "Reactor: AFK-selling spawner drops was nerfed this season; people now use spawners for the items (bones); a skeleton spawner costs about $6 million (Aug 2026).", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "Spawners cannot be sold to the server; they are traded player to player or through Discord servers, with scam risk.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "Hackers detect spawners ('spawner in the pie chart'); hide them in a 1x1 box at bedrock rather than a visible obsidian cube.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "Chorus fruit teleport does not work on the nether roof, so traps are built there; entity cramming with ~900 minecarts is used as the kill mechanism.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "TP auto plus a 'TPA for free loot' chat message brings victims; trappers keep a double chest of loot at the trap.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "IRL trading gets you banned.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "A drill at Y -53 for ~4 hours yielded 3 stacks + 42 diamond blocks + 6 diamonds worth 11 million; considered trash.", "source": "y0VK5q-ze78.txt Jestica 2026-08-17"},
+    {"fact": "Shards (2025): 10 per player kill, 1 per minute in the AFK zone, Donut+ earns them anywhere, shard booster gives 4x (5,760/day); spent in /shard shop on spawners or keys; skeleton spawner resells best. AFK shards and crates were removed 2026-06-02/03.", "source": "obXJdP_OEVA.txt iditity 2025-06-19"},
+    {"fact": "Spawner storage accumulates 100k+ bones; emptying into a shulker loader too fast causes severe lag.", "source": "vc8btPwcCA8.txt iditity 2026-07-30"},
+    {"fact": "Bones from skeleton spawners are sold into /orders at about 175-177 each and large volume pushes the price down.", "source": "vc8btPwcCA8.txt iditity 2026-07-30"},
+    {"fact": "Skeleton spawners traded between players at 4.3-4.4M in July 2026 with 10,000 valued around 50 billion (5M each).", "source": "vc8btPwcCA8.txt iditity 2026-07-30"},
+    {"fact": "Safe-base kit: 50+ obsidian layers (~250k obsidian), note-block proximity alarm, stasis chamber auto-pull at 50 blocks, sculk sensors for overnight detection; 2 minutes to reach the center lets you shulker the spawners.", "source": "vc8btPwcCA8.txt iditity 2026-07-30"},
+    {"fact": "About 5,669 skeleton spawners produced 1.02 billion in 6.5 hours via bone orders (about 157M/hr).", "source": "vc8btPwcCA8.txt iditity 2026-07-30"}
+  ],
+  "prices_mentioned": [
+    {"item": "splash potion of weakness", "price": "$50,000 each", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash potion of weakness", "price": "90,000 listed; sold 2 at 80k", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash potion of weakness", "price": "$38,000 each (his batch listing)", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash potion of weakness", "price": "37,000 market, listed 36,000", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash potion of weakness", "price": "7,000 a bottle (low)", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash potion of weakness", "price": "25,000 market, listed 24k", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "fermented spider eye", "price": "100 quoted at 85,000 (about 850 each), ordered 50", "channel": "orders", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "gunpowder", "price": "50 for 10k (200 each)", "channel": "orders", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "glass", "price": "$42 each; 2,500 = 1 million; 1,000 = 400k", "channel": "orders", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "auto brewer module materials (20 hoppers)", "price": "about 100,000", "channel": "unknown", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash fire resistance 8 min", "price": "$10,000 market, listed 9.9k", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash fire resistance 8 min", "price": "around $16,000; sold earlier at $18,000", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash fire resistance 8 min", "price": "23,000 market, listed $20,000", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash invisibility 8 min", "price": "$10,000 market, listed 9.9K", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash invisibility 8 min", "price": "listed $19,000", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "splash invisibility 8 min", "price": "40,000 -> 38,000 undercut chain; 7.5k low", "channel": "ah", "date": "2026-06-13", "source": "Z-V5gXSVTG0.txt Camel27"},
+    {"item": "custom base build", "price": "13 million + 10 million tip ('40 million' total stated)", "channel": "player trade", "date": "2026-08-20", "source": "mKvcLvXaPQE.txt Smurfi"},
+    {"item": "dirt", "price": "848 for the mined pile", "channel": "sell", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "dirt", "price": "16 each; stack sold 15k then 14k", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "red dye", "price": "40k per listing, later 25k", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "logs", "price": "$145 each market; ordered 13,000 at 150 = 1.9 mil", "channel": "orders", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "charcoal", "price": "about 500k per /sell batch; ~2.4M for one hour's output", "channel": "sell", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "cookie", "price": "2 double chests = 1M + 1M + 1M + 415k", "channel": "orders", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "sticks", "price": "'very very low price'", "channel": "orders", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "ladders", "price": "'a stack ... for a lot of money' (no number)", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "tall dry grass", "price": "almost 3 stacks = $500,000 (about 2,600 each)", "channel": "orders", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "sand", "price": "'goes for a lot on orders'", "channel": "orders", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "silence armor trim", "price": "100k each", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "glass", "price": "about 1 mil per chest; ~10M total from the farm", "channel": "sell (ambiguous)", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "mud", "price": "70k to 100k each (likely per stack); listed 80k-85k", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "nether star", "price": "15+ stars ~7M (75M -> 82M); later sales 1.3 mil and 282k", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "trident", "price": "'free 1 mil'", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "splash water breathing 8 min (shulker of 27)", "price": "300k, listed 295k", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "splash water breathing 8 min (single)", "price": "40K; later 90K", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "ink sac", "price": "100K per (stack), listed 99K", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "tropical fish", "price": "100K per (stack)", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "cod", "price": "100K per (stack)", "channel": "ah", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "base with farms", "price": "10 million dollars", "channel": "player trade", "date": "2026-08-05", "source": "g5XTRRrMFvs.txt SlaySlasher"},
+    {"item": "skeleton spawner", "price": "$6 million (reactor, current)", "channel": "player trade", "date": "2026-08-17", "source": "y0VK5q-ze78.txt Jestica"},
+    {"item": "skeleton spawner", "price": "3.5 million each; 1,000 = 3.5 billion (original creator, earlier season)", "channel": "player trade", "date": "unknown (before 2026-08-17)", "source": "y0VK5q-ze78.txt Jestica"},
+    {"item": "1,000 skeleton spawners AFK output", "price": "12.5 million per hour (sell all); ~100 million overnight", "channel": "sell", "date": "unknown (before 2026-08-17)", "source": "y0VK5q-ze78.txt Jestica"},
+    {"item": "diamond blocks (3 stacks + 42) + 6 diamonds", "price": "11 million", "channel": "sell", "date": "unknown (before 2026-08-17)", "source": "y0VK5q-ze78.txt Jestica"},
+    {"item": "loot drop haul (10 drops)", "price": "100 million in 2 days", "channel": "ah", "date": "unknown (before 2026-08-17)", "source": "y0VK5q-ze78.txt Jestica"},
+    {"item": "trapping haul", "price": "$20 + $50 + $94 (units dropped; reactor: ~165 mil)", "channel": "sell", "date": "unknown (before 2026-08-17)", "source": "y0VK5q-ze78.txt Jestica"},
+    {"item": "shards", "price": "10 per kill; 1/min AFK zone; 4/min with booster (5,760/day)", "channel": "shard income", "date": "2025-06-19", "source": "obXJdP_OEVA.txt iditity"},
+    {"item": "skeleton spawner", "price": "4.4M each (251 for 1.1B, paid 1.2B); 4.3M discount; 107 for 460M; 10,000 = ~50 billion", "channel": "player trade", "date": "2026-07-30", "source": "vc8btPwcCA8.txt iditity"},
+    {"item": "bone", "price": "175 average, 177 (167 typed by mistake)", "channel": "orders", "date": "2026-07-30", "source": "vc8btPwcCA8.txt iditity"},
+    {"item": "spawner farm output (about 5,669 skeleton spawners)", "price": "1.02 billion in 6h30m (expected 1.12 billion); 264 million after emptying 20 spawners", "channel": "orders", "date": "2026-07-30", "source": "vc8btPwcCA8.txt iditity"},
+    {"item": "obsidian for safe base", "price": "about 250k blocks (cost not stated)", "channel": "unknown", "date": "2026-07-30", "source": "vc8btPwcCA8.txt iditity"}
+  ]
+}

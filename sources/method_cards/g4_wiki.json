@@ -1,0 +1,1005 @@
+{
+  "group": "g4_wiki",
+  "cards": [
+    {
+      "name": "Beginner wood crafts listed on /ah (barrels, crafting tables, boats, buttons, pressure plates, raw wood stacks)",
+      "category": "farm_ah",
+      "source": "fandom/Money_Making_Tutorial.json (DonutSMP Fandom wiki, page 'Money Making Tutorial', pageid 189; anonymous wiki editors; no upload date, later edits reference the sell multiplier being gone so the page was touched after June 2026)",
+      "claim_date": "unknown (page edited after the June 2026 sell-multiplier removal)",
+      "claimed_gross_per_hour": "not stated; per-item prices only",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "$0 (starting balance, wood and stone tools)",
+      "setup_time": "none beyond /rtp and gathering tools",
+      "process": "/rtp from spawn. Get wood and stone tools (/rtp again if no wood nearby). Mine logs and craft them into barrels. Before listing, open /ah and search barrels; list below the lowest current price (if barrels are 10k, list at 9.99k). If barrel prices fall below 10k, craft crafting tables (list for 5-10k), then boats, buttons and pressure plates. If none of these yields 10k+ per item, list individual stacks of wood for 20-100k. Use '/ah sell <price>' with the item in hand instead of listing via the GUI each time.",
+      "inputs": [
+        {"item": "logs / planks", "qty": "as farmed", "unit_price": "0", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Barrel", "qty": "1", "unit_price": "10-20k each (list at 9.99k when lowest is 10k)", "channel": "ah"},
+        {"item": "Crafting Table", "qty": "1", "unit_price": "5-10k", "channel": "ah"},
+        {"item": "Boats, buttons, pressure plates", "qty": "1", "unit_price": "target 10k+ per item, otherwise skip", "channel": "ah"},
+        {"item": "Wood (stack of 64)", "qty": "64", "unit_price": "20-100k per stack", "channel": "ah"}
+      ],
+      "quotes": [
+        "Start mining logs and crafting them into barrels which sell for 10-20k each, BUT check them FIRST on /ah barrels and make sure to list them below the lowest price (e.g. if barrels are 10k, sell them for 9.99k)",
+        "If barrel prices are below 10k, then craft crafting tables which list for 5-10k, then boats, buttons and pressure plates. If none of these methods yield 10k+ per item, you can sell individual stacks of wood for 20-100k. ALWAYS list below the lowest price.",
+        "TIP: Instead of manually listing each item, you can type in /ah sell (desired price) to be more efficent."
+      ],
+      "tricks": [
+        "ALWAYS list below the lowest price on /ah (undercut by a cent-level margin: 10k -> 9.99k)",
+        "Check the /ah price of the product BEFORE crafting it",
+        "Product ladder when one crashes: barrels -> crafting tables -> boats -> buttons -> pressure plates -> raw wood stacks",
+        "/ah sell <price> lists the held item without walking the GUI"
+      ],
+      "risks": "Undercutting wars; AH prices drift; each listing consumes one of the 18 default AH slots.",
+      "scalability": "Limited by 18 default AH slots (45 Donut+, 90 Donut++/+++) and by manual log gathering; a Shard Axe (tree-feller, 3k shards) would multiply wood throughput but self-destructs after 1 day.",
+      "still_valid_after_june_2026_update": "yes - /ah still exists; only change is default slots cut from 25 to 18 (fandom/June_2nd_update.json)",
+      "verification_items": [
+        "Live /ah lowest price for barrels, crafting tables, boats, buttons, pressure plates, wood stacks",
+        "/worth barrel and /worth oak_log base prices as the /sell floor"
+      ]
+    },
+    {
+      "name": "TNT crafting from ordered sand and gunpowder",
+      "category": "craft_arbitrage",
+      "source": "fandom/Money_Making_Tutorial.json (Fandom 'Money Making Tutorial', pageid 189); creeper-spawner note from fandom/Spawner.json (pageid 182)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated; TNT 'sells for 100k-200k for each stack'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "200k (the guide says start this at 200k)",
+      "setup_time": "wait for orders to be delivered (orders stay open about 24 hours)",
+      "process": "With 200k, open /order and place buy orders for four stacks of sand and four stacks of gunpowder. Search each item, set the /orders sort to 'most money per item' and, because you are the buyer, make your offer the HIGHEST (a dollar or even a cent above the existing top offer) so sellers fill yours first. When everything is delivered (claim at any time during the order), craft sand + gunpowder into TNT and sell TNT by the stack. Creeper spawners are an alternative gunpowder source (the spawner tier list places 'Creeper Spawners (tnt)' in tier A).",
+      "inputs": [
+        {"item": "Sand", "qty": "4 stacks (256)", "unit_price": "not stated; bid a cent above top order", "channel": "orders"},
+        {"item": "Gunpowder", "qty": "4 stacks (256)", "unit_price": "not stated; bid a cent above top order", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "TNT", "qty": "per stack of 64", "unit_price": "100k-200k per stack", "channel": "unknown (guide says 'sells for'; likely ah)"}
+      ],
+      "quotes": [
+        "When you get 200k, you should make an order (/order) for four stacks of sand and gunpowder. Search up the individual items, and set the /orders setting to most money per item. However, unlike for the auction house, make sure your offer is the highest rather than the lowest, so make it a dollar or even a cent higher than the existing top offers. After everything is delivered, craft the materials into TNT, which sells for 100k-200k for each stack."
+      ],
+      "tricks": [
+        "Sort /orders by 'most money per item' to see the top bid",
+        "As a buyer, outbid the top order by a dollar or even a cent (the mirror of undercutting on /ah)",
+        "Creeper spawner as a gunpowder source instead of buying it",
+        "Recipe: 5 gunpowder + 4 sand = 1 TNT (vanilla), so 4 stacks of each is gunpowder-limited"
+      ],
+      "risks": "Orders may fill slowly or not at all; TNT price on /ah can be undercut; capital tied up ~24h.",
+      "scalability": "Limited by gunpowder supply on /orders and by 18 default order slots; TNT resale limited by AH slots.",
+      "still_valid_after_june_2026_update": "yes - /orders and /ah unchanged except slot counts (18 default)",
+      "verification_items": [
+        "Live top /orders bid for sand and gunpowder",
+        "Live /ah price of a stack of TNT",
+        "/worth tnt base price"
+      ]
+    },
+    {
+      "name": "Sand blasting at beaches/deserts, delivered to /orders",
+      "category": "farm_orders",
+      "source": "fandom/Money_Making_Tutorial.json (Fandom 'Money Making Tutorial', pageid 189)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "a flint and steel plus TNT (or 200k to start the TNT route)",
+      "setup_time": "minutes (/rtp until a beach or desert)",
+      "process": "Craft a flint and steel, /rtp repeatedly until you land on a beach or desert, blow up the sand (TNT) and collect the drops. Deliver the sand into existing /orders, again searching the item and sorting by 'most money per item' to fill the best-paying order. Repeat until 1m.",
+      "inputs": [
+        {"item": "Flint and steel, TNT", "qty": "as needed", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Sand", "qty": "bulk", "unit_price": "not stated (fill highest 'money per item' order)", "channel": "orders"}
+      ],
+      "quotes": [
+        "OR craft a flint and steel and RTP till you find a beach or a desert, and start blowing up the sand. /order to deliver the sand, again searching for the most money per item.",
+        "Repeat till you gain a million dollars!"
+      ],
+      "tricks": [
+        "/rtp to reach fresh beaches/deserts instead of walking",
+        "Fill orders sorted by 'most money per item'",
+        "Shard Pickaxe/Shovel (3x3, 'drill') would replace TNT for sand gathering (fandom/Shard_Pickaxe.json, Amethyst_Items.json)"
+      ],
+      "risks": "Low unit value; depends on open sand orders; explosion loses some drops.",
+      "scalability": "Limited by open sand order volume and price; one order slot needed per delivery target is not required (delivery fills others' orders).",
+      "still_valid_after_june_2026_update": "yes - /orders unchanged; /rtp is now instant with a 15 second cooldown (wiki Shop removal update)",
+      "verification_items": [
+        "Live /orders top price for sand",
+        "/worth sand"
+      ]
+    },
+    {
+      "name": "Ocean-floor enchanting base: enchant diamond pickaxes and helmets, then book-enchanted helmets",
+      "category": "enchant_arbitrage",
+      "source": "fandom/Money_Making_Tutorial.json (Fandom 'Money Making Tutorial', pageid 189)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "1m to start (guide's 1m-20m bracket)",
+      "setup_time": "build a hidden base under the ocean floor at Y -50 to -55",
+      "process": "At 1m, make a permanent base: /rtp until next to an ocean, boat/swim to the middle of the ocean, dig down to Y -50 to -55 and build there. Buy bookshelves, an enchantment table and a grindstone; order diamonds if you have none. Enchant diamond pickaxes and helmets and sell them. Repeat to 10m. Then mass-order Protection IV, Unbreaking 3 and Mending books and apply them to helmets ('far more efficient'). Repeat to 20m. At 300m+ the guide says to dismantle the enchant system in favour of elytra flipping and kelp farms.",
+      "inputs": [
+        {"item": "Bookshelves, enchantment table, grindstone", "qty": "1 set", "unit_price": "not stated", "channel": "unknown (bought)"},
+        {"item": "Diamonds", "qty": "bulk", "unit_price": "not stated ($3.5k on /orders per fandom/Money_Making_Methods.json)", "channel": "orders"},
+        {"item": "Protection IV books", "qty": "mass order", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Unbreaking 3 books", "qty": "mass order", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Mending books", "qty": "mass order", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "Enchanted diamond pickaxes", "qty": "each", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Enchanted diamond helmets (Prot IV / Unb 3 / Mending)", "qty": "each", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "quotes": [
+        "RTP again until you're next to an ocean. Buy a boat and swim into the ocean. (best to bring cows with you if you have infinite time). Wait till you're in the middle of the ocean, then dig down to Y -50 to -55 to make your new home!",
+        "Buy bookshelves, an enchantment table and a grindstone. If you don't have diamonds, order them. Enchant diamond pickaxes and helmets. Repeat till you're at 10m!",
+        "Mass order protection IV books, unbreaking 3 books and mending books. Enchant helmets now - its far more efficent. Repeat until you're at 20m"
+      ],
+      "tricks": [
+        "Base under mid-ocean floor at Y -50 to -55 to avoid base hunters",
+        "Grindstone to strip bad enchants and retry",
+        "Mass-order the three books (Protection IV, Unbreaking 3, Mending) rather than rolling the table",
+        "Helmets are the efficient target for book enchanting"
+      ],
+      "risks": "Base raids (hackers with ESP), enchanted-book price swings, AH slot limits.",
+      "scalability": "Limited by book supply on /orders, XP, and 18 AH slots.",
+      "still_valid_after_june_2026_update": "yes - nothing in the method depended on removed features",
+      "verification_items": [
+        "Live /orders price of diamonds, Protection IV / Unbreaking 3 / Mending books",
+        "Live /ah price of enchanted diamond helmets and pickaxes"
+      ]
+    },
+    {
+      "name": "Trident enchant flip (Unbreaking 3, Mending, Impaling 5, Riptide) for +1m per trident",
+      "category": "enchant_arbitrage",
+      "source": "fandom/Money_Making_Tutorial.json (pageid 189); price context from fandom/Border_Expansion.json (pageid 173)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated; +1m per trident over purchase price",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "20m bracket (guide's 20m-300m tier)",
+      "setup_time": "none",
+      "process": "Buy a trident, enchant it with Unbreaking 3, Mending, Impaling 5 and Riptide, then relist it for 1m more than you paid. Repeat until 50m. Border Expansion page adds that tridents and diamond items are 'very low rn' and that trial-chamber items (tridents, maces, wind burst books) are expected to rise after the border expansion.",
+      "inputs": [
+        {"item": "Trident", "qty": "1", "unit_price": "not stated", "channel": "ah"},
+        {"item": "Unbreaking 3, Mending, Impaling 5, Riptide books/XP", "qty": "1 set", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Trident (Unb3/Mending/Impaling5/Riptide)", "qty": "1", "unit_price": "purchase price + 1m", "channel": "ah"}
+      ],
+      "quotes": [
+        "Buy a trident and enchant it with unbreaking 3, mending, impaling 5 and riptide. Sell it for 1m more then you bought it from. Repeat until you're at 50m",
+        "Tridents and dms are very low rn, get them while u can"
+      ],
+      "tricks": [
+        "Fixed +1m markup over purchase price",
+        "Riptide + Impaling 5 combination as the sellable spec"
+      ],
+      "risks": "Trident supply is finite (trial chambers / drowned); markup may not clear on a thin market.",
+      "scalability": "Limited by trident supply and buyer demand; 18 AH slots.",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Live /ah unenchanted vs fully enchanted trident prices",
+        "Cost of the four enchant books on /orders"
+      ]
+    },
+    {
+      "name": "Dried kelp farm (RavvixSMP design, 'current meta') selling dried kelp blocks into /orders",
+      "category": "farm_orders",
+      "source": "fandom/Dried_Kelp_Farm.json (pageid 248), fandom/Money_Making_Tutorial.json (pageid 189), fandom/Money_Making_Methods.json (pageid 206), fandom/Border_Expansion.json (pageid 173)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated; '$27.6 on /orders' per item and 'Depends on bone order, usually ~3 times more money' in the methods table",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "not stated (pistons, redstone, hoppers, smokers, observers)",
+      "setup_time": "'~5 to 20 minutes, depends on model (to build)' (per module)",
+      "process": "Grow kelp in vertical water columns; pistons constantly powered by redstone break the kelp when it grows into the piston area; water streams carry the drops to hoppers placed above smokers; smokers smelt kelp into dried kelp; craft dried kelp into dried kelp blocks. Sell dried kelp blocks in bulk through /orders (buyers purchase large quantities at once). AFK the farm; add more modules over time (the tutorial says build more kelp farm modules at 300m-1b). Use the Kelpulator (https://kelpulator.vercel.app/) to estimate kelp production, smelting output, block totals and earnings before building. Removed variant: /sell dried kelp blocks at $300 base with a 2.5x+ sell multiplier (see the sell multiplier card).",
+      "inputs": [
+        {"item": "Kelp (grown)", "qty": "continuous", "unit_price": "0", "channel": "farmed"},
+        {"item": "Pistons, redstone, hoppers, smokers, fuel", "qty": "per module", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Dried kelp (farm output as listed in methods table)", "qty": "bulk", "unit_price": "$27.6", "channel": "orders"},
+        {"item": "Dried Kelp Block", "qty": "bulk", "unit_price": "$300 base at 1.0x (/sell)", "channel": "sell"}
+      ],
+      "quotes": [
+        "Use RavvixSMP's tutorial on a kelp farm (current meta)",
+        "Dried Kelp farm | ~5 to 20 minutes, depends on model (to build) | $27.6 on /orders | Depends on bone order, usually ~3 times more money",
+        "Players commonly sell dried kelp blocks through orders, where buyers purchase large quantities at once.",
+        "Because Dried Kelp Blocks are sold on /sell for $300 each with a 1.0x multiplier. This means that if you have over a 2.5x multi, you will get profit by ordering the blocks and simply clicking sell all. LrexTTV uses this method and has sold $15T worth in dried kelp blocks.",
+        "Build cheap item farming farms (like kelp farms) later, as prices probably won't tank that much after the expansion."
+      ],
+      "tricks": [
+        "Pistons constantly powered by redstone (no observer clock needed) harvest kelp as it grows into the piston",
+        "Water streams carry drops into hoppers placed above smokers",
+        "Smokers, not furnaces, for faster smelting",
+        "Craft dried kelp into blocks (9:1) to compress before delivering to orders",
+        "Kelpulator calculator to size the farm before building",
+        "Build in modules and keep AFKing; add modules as capital grows",
+        "Kelp farms are 'cheap item' farms whose prices should survive the border expansion, so build them later rather than before"
+      ],
+      "risks": "Needs an AFK player; hackers/raids; order price for kelp blocks can fall; '$27.6' is per item and the 'depends on bone order' profit note is ambiguous.",
+      "scalability": "Block limits of 20,000 per type (hoppers, dispensers, barrels; chests unlimited) cap module count; /orders demand for dried kelp blocks; smoker throughput.",
+      "still_valid_after_june_2026_update": "yes for /orders selling; the /sell multiplier variant is dead (sell multiplier removed 2026-06-02)",
+      "verification_items": [
+        "Whether '$27.6 on /orders' is per dried kelp block or per dried kelp",
+        "/worth dried_kelp_block (fandom says $300 base)",
+        "Live /orders top bid for dried kelp blocks",
+        "Kelpulator output for a given module count"
+      ]
+    },
+    {
+      "name": "Elytra auction flipping and mass elytra orders relisted on /ah",
+      "category": "ah_flip",
+      "source": "fandom/Money_Making_Tutorial.json (pageid 189), fandom/Investment_items.json (pageid 201), fandom/Money_Making_Methods.json (pageid 206)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "300m+ (guide's 300m-1b tier); elytras trade at 250m-320m each",
+      "setup_time": "none",
+      "process": "At 300m+ start auction flipping elytras: buy elytras listed below market on /ah, relist higher. At 1b+ the guide says 'Order massive amounts of elytras and list them on /ah', i.e. place large /orders for elytras at the cheaper order price and resell each on /ah. Elytras are described as the most valuable and one of the rarest items, 'increased in value by over 3000x since the past year'.",
+      "inputs": [
+        {"item": "Elytra", "qty": "many", "unit_price": "250m-320m (market range); orders cheaper", "channel": "orders"},
+        {"item": "Elytra (underpriced listing)", "qty": "1", "unit_price": "below market", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "Elytra", "qty": "1", "unit_price": "250m-320m", "channel": "ah"}
+      ],
+      "quotes": [
+        "Start auction flipping elytras",
+        "Order massive amounts of elytras and list them on /ah",
+        "The most valuable item currently in DonutSMP and are also one of the rarest items. They are so expensive (250m-320m) because they can be used to cover large distances quickly",
+        "elytras have increased in value by over 3000x since the past year, making them the most profitable money making source",
+        "$10M~$650M(elytra) for big ones"
+      ],
+      "tricks": [
+        "Buy on /orders (bulk, cheaper), sell on /ah (retail)",
+        "Flip only once capital is 300m+ because each unit is 250m-320m",
+        "Sell before any border expansion announcement: elytras are first on the 'will tank' list"
+      ],
+      "risks": "Border expansion would collapse elytra prices; single-unit capital concentration; scams in third-party trades.",
+      "scalability": "Limited by elytra supply on /orders and by 18 AH slots (each elytra is one slot).",
+      "still_valid_after_june_2026_update": "yes, but exposed to the border expansion (speculated within 2 years per W1zox, 2026-07-24)",
+      "verification_items": [
+        "Live /ah and /orders elytra prices",
+        "Whether the 250m-320m range still holds in Aug 2026"
+      ]
+    },
+    {
+      "name": "Investment holds: elytras, dragon heads, piglin heads, netherite, enchanted golden apples, gilded blackstone, sponges, max gear, diamond horse armour, spawners",
+      "category": "investment_hold",
+      "source": "fandom/Investment_items.json (pageid 201), fandom/Money.json (pageid 202), fandom/Money_Making_Tutorial.json (pageid 189), fandom/Border_Expansion.json (pageid 173)",
+      "claim_date": "Border_Expansion price dated 3/15/2026; others undated",
+      "claimed_gross_per_hour": "n/a (hold)",
+      "claimed_profit_per_hour": "n/a",
+      "capital_required": "500m+ (tutorial: 'Start buying long term stuff' at 500m)",
+      "setup_time": "none",
+      "process": "Because money 'inflates a lot, and holds no actual investment value', convert cash into finite items and hold: elytras (250m-320m), dragon heads (40-50m, stackable), piglin heads (2-4m, stackable, farmable), netherite ingots/blocks (up to 10m per ingot at ATH), enchanted golden apples, gilded blackstone (1.4-3m per block, recently ~1M), sponges (finite), max-enchanted diamond/netherite gear, diamond horse armour, spawners (only via third-party trade). Sell everything expensive BEFORE the border expansion; 'diamond things', music discs and mob heads are expected to hold; spawners, ex-/shop items, trial-chamber items and diamond nautilus shells are expected to rise.",
+      "inputs": [
+        {"item": "Elytra", "qty": "1", "unit_price": "250m-320m", "channel": "ah"},
+        {"item": "Dragon Head", "qty": "1", "unit_price": "40-50m", "channel": "ah"},
+        {"item": "Piglin Head", "qty": "1", "unit_price": "2-4m (3.8m on 3/15/2026)", "channel": "ah"},
+        {"item": "Netherite Ingot", "qty": "1", "unit_price": "up to 10m (all-time high)", "channel": "ah"},
+        {"item": "Gilded Blackstone", "qty": "1", "unit_price": "1.4-3m per block; recently around 1M", "channel": "ah"},
+        {"item": "Enchanted Golden Apple, Sponge, Diamond Horse Armor, max gear", "qty": "1", "unit_price": "not stated", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "same items resold later", "qty": "1", "unit_price": "appreciated price", "channel": "ah"}
+      ],
+      "quotes": [
+        "Money usually inflates a lot, and holds no actual investment value. For this reason, many people choose to buy investment items like enchanted golden apples, gilded blackstone, elytras, dragon heads, diamond horse armour and spawners (only via third party trading, leading to possible scams) to preserve their money value. However, a border expansion may cause everything to drop in value.",
+        "Dragon Heads ... They sell about 10x cheaper then the elytra, being 40-50m each.",
+        "Piglin Heads ... since they are so hard to obtain, they cost 2-4m each. They are also stackable.",
+        "Netherite is currently was recently at its all-time high, being up to 10m for a single ingot.",
+        "Gilded blackstone can cost from 1.4-3m per block ... Note: Recently gilded has dropped ALOT (around 1M a block).",
+        "SELL ALL EXPENSIVE ITEMS BEFORE IT EXPANDS (you have time to do this)",
+        "Start buying long term stuff - netherite ingots, enchanted golden apples, gilded blackstone, dragon heads....."
+      ],
+      "tricks": [
+        "Prefer stackable finite items (dragon heads, piglin heads, gilded blackstone) so one AH slot moves many units",
+        "Rotate out of end/nether items and into diamond items, music discs, mob heads, spawners, trial-chamber items before the expansion",
+        "Price dips before the expansion recover 'once people realize nothings happening'"
+      ],
+      "risks": "Border expansion (225k -> 30m blocks) would make elytras, dragon heads, netherite, gilded blackstone, deepslate emerald, enchanted golden apples 'practically worthless'; scams on spawner trades; gilded already fell from 1.4-3m to ~1M.",
+      "scalability": "Capital-limited; AH slots limit liquidation speed (18 default).",
+      "still_valid_after_june_2026_update": "yes (holding is unaffected), but timing risk from the border expansion",
+      "verification_items": [
+        "Live /ah prices for elytra, dragon head, piglin head, netherite ingot, gilded blackstone, enchanted golden apple",
+        "Any official border-expansion date"
+      ]
+    },
+    {
+      "name": "Sell multiplier arbitrage: /order underpriced items and /sell them at 2.5x-3x (REMOVED 2026-06-02)",
+      "category": "other",
+      "source": "fandom/Sell_Multiplier.json (pageid 197), fandom/Dried_Kelp_Farm.json (pageid 248), fandom/Money_Making_Tutorial.json (pageid 189), fandom/June_2nd_update.json (pageid 289)",
+      "claim_date": "pre-June 2026 (feature removed 2026-06-02)",
+      "claimed_gross_per_hour": "'virtually infinite money'; LrexTTV 'has sold $15T worth in dried kelp blocks'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "billions (2.5x needed $20b of category sales; 3.0x needed $640b)",
+      "setup_time": "grind the multiplier by /selling the category",
+      "process": "Historical: each /sell category had a personal multiplier that rose with cumulative money sold in that category (1.1x at $25k up to 3.0x at $640b). Grind the 'blocks' multiplier by /selling dried kelp blocks from a kelp farm. Once the multiplier was high enough, scroll the sellable items for any that were cheaper on /orders than base x multiplier, /order massive amounts (e.g. amethyst, dried kelp blocks at $300 base, sweet berries at $26 with a 2.7x multi) and click 'sell all'. Warning was not to do it below 2.5x for kelp blocks or you lose money. Removed on 2026-06-02 together with /sellmulti.",
+      "inputs": [
+        {"item": "Dried Kelp Block", "qty": "massive", "unit_price": "below $300 x multiplier", "channel": "orders"},
+        {"item": "Sweet Berries", "qty": "massive", "unit_price": "$26 (order price example at 2.7x)", "channel": "orders"},
+        {"item": "Amethyst (example)", "qty": "massive", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "Dried Kelp Block", "qty": "massive", "unit_price": "$300 base x multiplier (2.5x = $750)", "channel": "sell"}
+      ],
+      "quotes": [
+        "The sell multliplier was a feature in DonutSMP that boosted the /sell value of an item for a player up to 3x of what it originally is, making it considered an infinite money source by many.",
+        "if you had a 2.7x multiplier for sweet berries, you could order sweet berries for $26 while also making profit for the money you put in.",
+        "When the sell multi gets to 3x, scroll through the sellable items to see if any is cheaper on /orders. /order a massive amount of said item and sell it all (e.g. amethyst)",
+        "Abuse the sell multi by ordering billions worth of underrated materials and /selling them",
+        "doesnt work now sell multiplier is gone",
+        "Warning: DO NOT DO THIS IF YOU HAVE BELOW A 2.5X MULTI -- YOU WILL LOSE MONEY"
+      ],
+      "tricks": [
+        "Compare /orders price against base x multiplier for every sellable item; buy anything below it",
+        "Dried kelp blocks as the grind item because a kelp farm produces them free",
+        "Rework table showed buy price 700 needed $13.322b cumulative and 755 needed $52.753b, i.e. breakeven rose steeply"
+      ],
+      "risks": "Feature removed; card kept for historical price and threshold data.",
+      "scalability": "n/a",
+      "still_valid_after_june_2026_update": "no - sell multiplier and /sellmulti removed on 2026-06-02/03 (fandom/June_2nd_update.json, wiki Shop removal update.sgw, web/p9.txt)",
+      "verification_items": [
+        "/worth dried_kelp_block still $300?",
+        "/worth sweet_berries base price"
+      ]
+    },
+    {
+      "name": "Camp coordinates 0,0 and kill elytra flyers",
+      "category": "pvp_trap",
+      "source": "fandom/Money_Making_Tutorial.json (pageid 189), post-sell-multiplier edit",
+      "claim_date": "after June 2026 (written as the alternative once the sell multiplier was gone)",
+      "claimed_gross_per_hour": "not stated; one elytra is 250m-320m",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "cost of buying tpas to 0,0 plus PvP gear",
+      "setup_time": "none",
+      "process": "Buy a teleport (/tpa) from a player at coordinates 0,0, then stay there until a player wearing an elytra arrives and kill them for the elytra and inventory.",
+      "inputs": [
+        {"item": "tpa to 0 0 (service)", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Elytra + victim inventory", "qty": "per kill", "unit_price": "elytra 250m-320m", "channel": "ah"}
+      ],
+      "quotes": [
+        "alternative method, make massive farms or buy tpas to 0 0, spawn then keep staying there until an elytra dude comes and kill him"
+      ],
+      "tricks": [
+        "0,0 is the natural convergence point for flyers; buying a tpa from someone already there is cheaper than travelling 225k blocks",
+        "Shards for kills were removed in June 2026, so the payoff is loot only"
+      ],
+      "risks": "Getting killed yourself; long idle time; /spawn was removed in the June update so the 'spawn' step is unclear.",
+      "scalability": "One kill at a time; not repeatable at scale.",
+      "still_valid_after_june_2026_update": "unknown - /tpa exists; /spawn and spawn lobbies removed; kill shards removed",
+      "verification_items": [
+        "Whether 0,0 is still a hub after spawn removal",
+        "Going rate for a tpa to 0,0"
+      ]
+    },
+    {
+      "name": "Mining ancient debris, sold on /orders",
+      "category": "farm_orders",
+      "source": "fandom/Money_Making_Methods.json (pageid 206); price context fandom/Investment_items.json (pageid 201)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'~10 minutes to 1 hour to find one'; 'Usually $600K~$3.3M, depends on the vein and how you mined it'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "netherite-tier tools; Shard Pickaxe (3k shards) optional",
+      "setup_time": "none",
+      "process": "Strip-mine/blast the nether for ancient debris; deliver to /orders at $1.1M each. A vein yields $600K-$3.3M depending on size and how it was mined (silk touch vs fortune irrelevant, but blast mining loses blocks). The 3x3 Shard Pickaxe ('drill') is 'used to hunt for bases, create holes, mine'.",
+      "inputs": [
+        {"item": "Pickaxe/TNT", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Ancient Debris", "qty": "1", "unit_price": "$1.1M", "channel": "orders"},
+        {"item": "Netherite Ingot (derived)", "qty": "1", "unit_price": "up to 10m (ATH, Investment_items)", "channel": "ah"}
+      ],
+      "quotes": [
+        "Mining Ancient Debris | ~10 minutes to 1 hour to find one | $1.1M on /orders | Usually $600K~$3.3M, depends on the vein and how you mined it"
+      ],
+      "tricks": [
+        "Deliver into /orders rather than /ah for instant bulk liquidity",
+        "Shard Pickaxe 3x3 for faster tunnelling (self-destructs after 1 day)"
+      ],
+      "risks": "Finite resource; border-expansion price collapse listed for ancient debris and netherite.",
+      "scalability": "Limited by find rate (10-60 min per vein) and world exhaustion inside the 225k border.",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Live /orders bid for ancient debris (was $1.1M)",
+        "/worth ancient_debris base price"
+      ]
+    },
+    {
+      "name": "Mining diamonds, sold on /orders",
+      "category": "farm_orders",
+      "source": "fandom/Money_Making_Methods.json (pageid 206)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'~5 to 20 minutes to find some'; 'Usually $50K~$200K, depends on the vein'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "iron/diamond pickaxe",
+      "setup_time": "none",
+      "process": "Mine diamonds at deepslate level; deliver into /orders at $3.5k each. Border Expansion page expects 'all diamond things' to hold value through the expansion.",
+      "inputs": [
+        {"item": "Pickaxe", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Diamond", "qty": "1", "unit_price": "$3.5k", "channel": "orders"}
+      ],
+      "quotes": [
+        "Mining Diamonds | ~5 to 20 minutes to find some | $3.5k on /orders | Usually $50K~$200K, depends on the vein"
+      ],
+      "tricks": [
+        "Fortune pickaxe from shard shop (1k shards, silk touch or fortune) multiplies drops",
+        "Diamond items are on the 'will stay the same' list for the border expansion"
+      ],
+      "risks": "Low value per hour compared to later-game methods.",
+      "scalability": "Find-rate limited.",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Live /orders bid for diamonds (was $3.5k)",
+        "/worth diamond"
+      ]
+    },
+    {
+      "name": "Joining loot drops",
+      "category": "event_trade",
+      "source": "fandom/Money_Making_Methods.json (pageid 206)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'~3 to 6 minutes for everything gone'; small drops $500K-$3.5M, big drops $10M-$650M (elytra)",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "$0",
+      "setup_time": "none",
+      "process": "Join player-hosted loot drops (items dumped for grabs) and pick up what you can within the 3-6 minutes before everything is gone; resell on /ah or /orders.",
+      "inputs": [],
+      "outputs": [
+        {"item": "Loot (varies)", "qty": "per drop", "unit_price": "$500K~$3.5M small; $10M~$650M big (elytra)", "channel": "ah"}
+      ],
+      "quotes": [
+        "Joining Loot Drops | ~3 to 6 minutes for everything gone | Depends on item | Depends, but usually around $500K~$3.5M for small ones and $10M~$650M(elytra) for big ones"
+      ],
+      "tricks": [
+        "Be first: everything is gone within 3-6 minutes"
+      ],
+      "risks": "PvP at the drop; scams/traps; no guarantee of loot.",
+      "scalability": "Opportunistic only.",
+      "still_valid_after_june_2026_update": "unknown - depends on players still hosting drops",
+      "verification_items": [
+        "Where drops are announced (Discord/chat)"
+      ]
+    },
+    {
+      "name": "Gambling (paper game), double or nothing",
+      "category": "other",
+      "source": "fandom/Money_Making_Methods.json (pageid 206); rules from wiki_repo Server rules.sgw and fandom/Economy.json",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'~1 to 3 minutes'; 'if you bet $100M you can get $200M back or you lose it all'",
+      "claimed_profit_per_hour": "zero expected value at best",
+      "capital_required": "the stake",
+      "setup_time": "none",
+      "process": "Player-run paper game: stake money, outcome doubles it or loses all. Listed here only because the wiki lists it; external gambling is against server rules and the Economy page warns external gambling is banned and referral codes should never be used.",
+      "inputs": [
+        {"item": "Stake", "qty": "1", "unit_price": "$100M example", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Stake x2 or 0", "qty": "1", "unit_price": "$200M or $0 on a $100M bet", "channel": "unknown"}
+      ],
+      "quotes": [
+        "Gambling (paper game) | ~1 to 3 minutes | N/A | Your money gets doubled or you lose everything, so if you bet $100M you can get $200M back or you lose it all",
+        "External gambling is banned and so is being in discords about hacks. DO NOT use 'referral codes' for ANY amount of money."
+      ],
+      "tricks": [],
+      "risks": "Negative expectation once the house edge and scams are included; 'No External Gambling' is a bannable rule.",
+      "scalability": "n/a",
+      "still_valid_after_june_2026_update": "unknown",
+      "verification_items": [
+        "Whether in-game paper games are tolerated versus the 'No External Gambling' rule"
+      ]
+    },
+    {
+      "name": "Selling spawners (third-party trades only)",
+      "category": "spawner",
+      "source": "fandom/Money_Making_Methods.json (pageid 206), fandom/Money.json (pageid 202), fandom/Economy.json (pageid 149), fandom/Shop.json (pageid 217), wiki_repo Spawner.sgw, commands.toml (/medal)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'$5.7M~$10M' per spawner, 'Depends on players'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "1,500 shards per spawner from the shard shop (shards now bought with real money), or 3 free skeleton spawners from /medal",
+      "setup_time": "none",
+      "process": "Spawners cannot be listed on /ah, delivered to /orders, or /sold ('Any item (except for spawners) can be sold'). They are traded player-to-player (drop trade / chest trade), which 'leads to possible scams'. Source spawners from the shard shop (1,500 shards each, all types) or the /medal quest (3 skeleton spawners). Skeleton spawners are the S-tier type and 'tend to be among the most valuable'. Spawners are on the 'will definitely rise' list for the border expansion.",
+      "inputs": [
+        {"item": "Spawner (any type)", "qty": "1", "unit_price": "1,500 shards", "channel": "shard_shop"},
+        {"item": "Skeleton spawner x3", "qty": "3", "unit_price": "free via /medal quest", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Spawner", "qty": "1", "unit_price": "$5.7M~$10M", "channel": "third-party trade (not ah/orders/sell)"}
+      ],
+      "quotes": [
+        "Selling spawners | Depends on players | $5.7M~$10M | Depends on sold amount",
+        "Any item (except for spawners) can be sold in the Auction House (/ah), sold through Orders (/orders) or sold to the server using the /sell command.",
+        "spawners (only via third party trading, leading to possible scams)",
+        "Rewards the player with 3 skeleton spawners if the player has completed the medal quest."
+      ],
+      "tricks": [
+        "/medal quest yields 3 skeleton spawners free",
+        "Sell spawners in person; use a trusted middleman because there is no AH escrow"
+      ],
+      "risks": "Scams (no escrow), raids (spawners are 'pie-chartable'), IRL-trading rule if shards are involved.",
+      "scalability": "Limited by buyers and by shard purchases.",
+      "still_valid_after_june_2026_update": "yes - shard shop still sells spawners at 1,500 shards; shards now only purchasable (AFK shards removed)",
+      "verification_items": [
+        "Current shard-shop spawner price (1,500 shards) and USD cost of 1,500 shards",
+        "Whether spawners are still blocked from /ah and /orders"
+      ]
+    },
+    {
+      "name": "Selling enchanted books on the Auction House",
+      "category": "enchant_arbitrage",
+      "source": "fandom/Money_Making_Methods.json (pageid 206)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'Instantly'; '$10K~$650K' per book",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "books, XP, lapis",
+      "setup_time": "none",
+      "process": "Produce enchanted books (enchanting table / villager / loot) and list them on /ah; per-book prices span $10K to $650K depending on enchant. Wind burst books are named as trial-chamber items expected to rise after the border expansion.",
+      "inputs": [
+        {"item": "Book, lapis, XP", "qty": "per book", "unit_price": "not stated", "channel": "farmed"}
+      ],
+      "outputs": [
+        {"item": "Enchanted Book", "qty": "1", "unit_price": "$10K~$650K", "channel": "ah"}
+      ],
+      "quotes": [
+        "Selling enchanted books (on Auction House) | Instantly | $10K~$650K | Same as spawners"
+      ],
+      "tricks": [
+        "Mending, Protection IV and Unbreaking 3 are the books the tutorial says get mass-ordered, so they have order-side demand too"
+      ],
+      "risks": "Wide price dispersion; one AH slot per book.",
+      "scalability": "18 AH slots default.",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Live /ah prices for Mending, Protection IV, Unbreaking 3, Wind Burst books"
+      ]
+    },
+    {
+      "name": "Ender pearl farm, pearls sold into /orders",
+      "category": "farm_orders",
+      "source": "fandom/Money_Making_Methods.json (pageid 206); old shop price from fandom/Shop.json (pageid 217)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated; '$350~$700' per pearl, 'Depends on order'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "not stated",
+      "setup_time": "'~10 to 30 minutes depends on model (to build)'",
+      "process": "Build an enderman farm (10-30 minutes), collect ender pearls and deliver them to /orders at $350-$700 each. Before June 2026 the /shop sold ender pearls for $75, which capped the price; that cap is gone.",
+      "inputs": [
+        {"item": "Farm materials", "qty": "1 farm", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Ender Pearl", "qty": "bulk", "unit_price": "$350~$700", "channel": "orders"}
+      ],
+      "quotes": [
+        "Ender Pearl farm | ~10 to 30 minutes depends on model (to build) | $350~$700 | Depends on order",
+        "Ender Pearl: $75 (old /shop)"
+      ],
+      "tricks": [
+        "Old /shop price ($75) was the ceiling; shop removal on 2026-06-02 removed the server-side supply, so /orders price should be checked afresh"
+      ],
+      "risks": "End access needed; order demand varies.",
+      "scalability": "Farm rate and order demand.",
+      "still_valid_after_june_2026_update": "yes (and possibly better, since the $75 shop supply is gone)",
+      "verification_items": [
+        "Live /orders bid for ender pearls (was $350-$700)",
+        "/worth ender_pearl base price"
+      ]
+    },
+    {
+      "name": "Skeleton spawner bone/arrow farm in many small piles, bones sold into big /orders",
+      "category": "spawner",
+      "source": "fandom/Spawner.json (pageid 182), wiki_repo/wiki/Wikitext/General/Spawner.sgw, fandom/Investment_items.json (pageid 201), fandom/Money_Making_Tutorial.json (pageid 189)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated in money; rate cap 1505.35 bones per minute per pile",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "1,500 shards per skeleton spawner (old price 500 shards); 3 free via /medal",
+      "setup_time": "placement only",
+      "process": "Place skeleton spawners; they produce bones and arrows into an internal inventory opened by right-click (no entities spawn; Smart Spawners plugin). Stacking spawners in one block (shift + right-click) raises output with diminishing returns: bones per minute for x spawners in one pile = -0.39567e^(-0.00134606x+8.24358)+1505.35 (fandom) or approximately -1499.8 e^(-0.00134606x) + 1505.35 (donutpedia), asymptote 1505.35 bones/min. Adding a spawner to a 2-pile adds 2.3 bones/min; adding to a 1,000-pile adds 0.9 bones/min. So spread spawners into many piles: piles only need to be different blocks, even 2 blocks apart. Bones have 'huge orders' (unlike piglin heads). Tutorial warns AFKing spawners is NOT recommended now because ESP hackers find them within a day.",
+      "inputs": [
+        {"item": "Skeleton Spawner", "qty": "n", "unit_price": "1,500 shards (old: 500 shards)", "channel": "shard_shop"}
+      ],
+      "outputs": [
+        {"item": "Bone", "qty": "up to 1505.35/min per pile", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Arrow", "qty": "with bones", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "quotes": [
+        "Keeping spawners in multiple piles give more bones",
+        "There is an equation for how many bones skeleton spawners make per minute. The equation is \"-0.39567e^{\\left(-0.00134606x+8.24358\\right)}+1505.35\". ... The horizontal asymptote (aka how many bones per minute spawners can make in one stack) is at 1505.35",
+        "Visualize two spawner piles - one has only two spawners, so adding another will add 2.3 bones per minute to the total production. If we already have 1,000 spawners in the pile and we add one more, that same spawner we add will only add 0.9 bones per minute",
+        "Spawners are considered as in different piles as long as they aren't in the same block. You don't need them to be many chunks apart, you only need them to be separated. They can just be 2 blocks next to each other.",
+        "The only limitation they have is the fact that there aren't huge orders for them like there are for bones.",
+        "AFKing spawners: Right now, hackers roam the server freely, so if you AFK any spawners, they will most likely be gone within one day."
+      ],
+      "tricks": [
+        "Shift + right-click to stack same-type spawners in one block, up to the signed 32-bit integer limit",
+        "Spread into many piles 2 blocks apart to escape the per-pile diminishing-returns curve",
+        "Use Donut+/Donut++ extra homes (9/27/90) to spread spawners over more locations so a raid does not take everything",
+        "Bones sell into large standing /orders (bulk liquidity)"
+      ],
+      "risks": "Spawners are 'pie-chartable' and ESP-visible below deepslate; raids lose everything; shards cost real money now.",
+      "scalability": "Per-pile asymptote 1505.35 bones/min; number of piles and homes; block limits do not apply to spawners as stated but hoppers/barrels cap at 20,000.",
+      "still_valid_after_june_2026_update": "yes - spawners still sold in shard shop at 1,500 shards; AFK shards gone but spawner output unaffected",
+      "verification_items": [
+        "Live /orders bid for bones and arrows",
+        "/worth bone",
+        "Rate function has a 'ref needed' tag on donutpedia; verify by timing a pile"
+      ]
+    },
+    {
+      "name": "General Auction House flipping (buy undervalued listings, wait, resell)",
+      "category": "ah_flip",
+      "source": "wiki_repo/wiki/Wikitext/Guide/Making money.sgw (Donutpedia guide, stub, undated)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "'multiple millions of dollars from a single flip'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "enough to buy the asset",
+      "setup_time": "none",
+      "process": "Buy an item at a low market price on /ah, wait until the item's price increases, sell it at the higher price. Depends on knowing market prices and spotting undervalued listings (new players 'list a lot of random items').",
+      "inputs": [
+        {"item": "Undervalued listing", "qty": "1", "unit_price": "below market", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "same item", "qty": "1", "unit_price": "market price", "channel": "ah"}
+      ],
+      "quotes": [
+        "If executed correctly, the player can make multiple millions of dollars from a single flip.",
+        "1. Buy an item at a low market price 2. Wait until the item's price increases 3. Sell the item at the higher price",
+        "This is where the majority of player purchasing is located as new players are going to list a lot of random items."
+      ],
+      "tricks": [
+        "Sort /ah by Lowest Price (cauldron) and Recently Listed to catch mispriced new-player listings",
+        "Donut+ gives 'fast auction purchasing' (an edge in sniping)",
+        "Anvil icon reloads the AH view"
+      ],
+      "risks": "Capital tied up; 'the market ... can be volatile'.",
+      "scalability": "Capital and AH slots (18 default).",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Whether Donut+ 'fast auction purchasing' still exists after the Donut+ benefit rework"
+      ]
+    },
+    {
+      "name": "Order flipping: buy redstone/storage components on /orders, resell on /ah",
+      "category": "order_to_ah_flip",
+      "source": "wiki_repo/wiki/Wikitext/Guide/Making money.sgw (Donutpedia guide)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "order deposit",
+      "setup_time": "wait for order fills (~24h window)",
+      "process": "Items on /orders sell for 'significantly cheaper' than on /ah because fulfillers pay for the convenience of dumping multiple shulkers at once. Create an order for observers, repeaters, comparators, target blocks, chests or hoppers, collect the fills, and relist them on /ah at the higher retail price. Works best for cheap items; expensive items 'barely go for any cheaper on orders'.",
+      "inputs": [
+        {"item": "Observer", "qty": "bulk", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Repeater", "qty": "bulk", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Comparator", "qty": "bulk", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Target", "qty": "bulk", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Chest", "qty": "bulk", "unit_price": "not stated", "channel": "orders"},
+        {"item": "Hopper", "qty": "bulk", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "outputs": [
+        {"item": "same items", "qty": "per stack/shulker", "unit_price": "higher AH price", "channel": "ah"}
+      ],
+      "quotes": [
+        "Items on the Orders page sell for significantly cheaper than auction house entries because the players who fulfill orders are paying for the convenience of dragging in multiple shulkers of one item at once, instead of individually selling them on the Auction House.",
+        "Observers, Repeaters, Comparators, Targets, Chests, and Hoppers are high in demand and will sell for less on Orders than they do on the Auction House.",
+        "This method works best with items which aren't high in prices, as those types of items barely go for any cheaper on orders than they do on the auction house."
+      ],
+      "tricks": [
+        "Target cheap, high-demand redstone/storage components where the orders-vs-AH spread is widest",
+        "Bulk shulkers on /ah to move volume through few slots (Money.json: 'you can buy items in bulk via shulker boxes')"
+      ],
+      "risks": "Order may not fill; AH undercutting; slot limits.",
+      "scalability": "18 order slots + 18 AH slots default; spread narrows on expensive items.",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Live orders-vs-AH spread for observers, repeaters, comparators, targets, chests, hoppers"
+      ]
+    },
+    {
+      "name": "Filling lava/water buckets from ordered iron",
+      "category": "craft_arbitrage",
+      "source": "wiki_repo/wiki/Wikitext/Guide/Making money.sgw (Donutpedia guide)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated; ~$55,000 per stack of iron",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "~$50,000 per stack of iron ingots",
+      "setup_time": "none",
+      "process": "A stack of iron ingots costs ~$50,000 and crafts 21 buckets. /rtp to the nether where lava is abundant, fill the buckets, and sell filled buckets at ~$5,000 each (21 x 5,000 = 105,000, i.e. ~$55,000 net per iron stack). Water buckets also sell above the empty bucket.",
+      "inputs": [
+        {"item": "Iron Ingot", "qty": "64 (1 stack)", "unit_price": "~$50,000 per stack", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Lava Bucket", "qty": "21", "unit_price": "~$5,000 each", "channel": "unknown"}
+      ],
+      "quotes": [
+        "Buckets of lava and water sell for more than the bucket itself. A stack of iron ingots cost around $50,000 which makes 21 buckets. You can use the /rtp command to go to the nether where there is an abundance of lava. After filling the buckets they sell for around $5,000 each which means that you can make $55,000 for every stack of iron."
+      ],
+      "tricks": [
+        "/rtp nether for lava",
+        "Iron golem spawner as an iron source removes the $50k input"
+      ],
+      "risks": "Both prices undated; lava bucket demand limited.",
+      "scalability": "Iron price and bucket demand; AH slots.",
+      "still_valid_after_june_2026_update": "yes (nothing removed), prices unverified",
+      "verification_items": [
+        "Live iron ingot price (orders/ah)",
+        "Live lava bucket and water bucket prices",
+        "/worth lava_bucket"
+      ]
+    },
+    {
+      "name": "Shard tool flip: buy Shard Pickaxe/Axe/Shovel/Haste potion with shards, sell on /ah before the 1-day self-destruct",
+      "category": "shard_tool_flip",
+      "source": "fandom/Shard_Pickaxe.json (pageid 186), fandom/Shard_Axe.json (pageid 187), fandom/Amethyst_Items.json (pageid 179), fandom/Shards.json (pageid 180)",
+      "claim_date": "unknown (post-June 2026; references the shard shop)",
+      "claimed_gross_per_hour": "not stated; a shard item lost to the timer costs '15-20 million'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "3k shards per tool (6k for the Haste potion), or an /ah purchase",
+      "setup_time": "none",
+      "process": "Buy a Shard Pickaxe ('drill', breaks up to nine blocks, maxed-netherite speed and durability), Shard Axe (fells the whole tree including leaves, insta-mines any tree), Shard Shovel (same as the pickaxe) or Shard Potion of Haste (Haste 2 for 24 hours) from the shard shop (reached through the /ah or /orders GUI) for 3k shards (6k for the potion), and auction-flip it on /ah. All shard items self-destruct 1 day after purchase (formerly 3), so list immediately; if the timer runs out 'you'll lose 15-20 million'. Shard items can be sold, bought and listed on /ah but can NOT be ordered. Other shard-shop gear (netherite armor 1.5k, mace 2k, spear/sword 1.5k, pickaxe 1k, shovel 800, axe 600, hoe 500, bow/crossbow 500) is the real-money-to-dollars conversion path.",
+      "inputs": [
+        {"item": "Shard Pickaxe", "qty": "1", "unit_price": "3k shards", "channel": "shard_shop"},
+        {"item": "Shard Axe", "qty": "1", "unit_price": "3k shards", "channel": "shard_shop"},
+        {"item": "Shard Shovel", "qty": "1", "unit_price": "3k shards", "channel": "shard_shop"},
+        {"item": "Shard Potion of Haste", "qty": "1", "unit_price": "6k shards", "channel": "shard_shop"}
+      ],
+      "outputs": [
+        {"item": "Shard tool", "qty": "1", "unit_price": "implied 15-20 million ('or you'll lose 15-20 million')", "channel": "ah"}
+      ],
+      "quotes": [
+        "As any shard tool, this item has a self destruction timer of 1 day (formerly 3). Players tend to auction flip gear like this.",
+        "can only be obtained from Auction House or buying from the shard shop for 3k shards",
+        "NOTE: ALL SHARD ITEMS HAVE A SELF-DESTRUCTION TIMER (STARTS ON 1 DAY). MAKE SURE TO SELL THEM ON AUCTION BEFORE THE TIMER GOES OUT, OR YOU'LL LOSE 15-20 MILLION.",
+        "Can be ordered? No",
+        "Their price has been inflated by the recent updates to the Shard Shop."
+      ],
+      "tricks": [
+        "List on /ah the moment you buy; the 24h timer is the whole risk",
+        "Shard items cannot be ordered, so /ah is the only resale venue",
+        "Use the tool for the day (3x3 mining, tree felling) and still resell before expiry"
+      ],
+      "risks": "Timer expiry destroys the item; shards cost real money; AH buyers get a shorter remaining timer.",
+      "scalability": "Shard purchases (USD) and buyer demand; each listing is one AH slot.",
+      "still_valid_after_june_2026_update": "yes - shard shop introduced with the June update; timer cut to 1 day",
+      "verification_items": [
+        "Live /ah price of Shard Pickaxe / Shard Axe / Haste potion",
+        "USD cost of 3,000 shards on the store",
+        "Task context describes a 'sell axe' that sells container contents at base price; the fandom Shard Axe page describes a tree-felling axe. Confirm which shard item does what in-game."
+      ]
+    },
+    {
+      "name": "Border-expansion play: sell expensive items beforehand, then fill stale pre-expansion elytra orders on day one",
+      "category": "event_trade",
+      "source": "fandom/Border_Expansion.json (pageid 173; cites W1zox live stream 2026-07-24; one price dated 3/15/2026)",
+      "claim_date": "2026-07-24 (speculation quote); advice undated",
+      "claimed_gross_per_hour": "'Flying for 20 minutes will get you many elytras'; 'If somebody forgets about orders, you just got free billions.'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "an elytra to fly with",
+      "setup_time": "wait for the expansion (speculated within 2 years)",
+      "process": "Before the expansion (225,000 -> 30,000,000 blocks), sell all expensive items. Build expensive-item farms (mob head farms) now, cheap-item farms (kelp) later. Do not build new bases until the border fully expands (bases become virtually unraidable afterwards). Log in the moment the expansion launches, fly 20 minutes into unexplored end cities for elytras, and instantly deliver them into old /orders whose prices were set pre-expansion; some players will withdraw orders, but some will forget or be on vacation.",
+      "inputs": [
+        {"item": "Elytra (own)", "qty": "1", "unit_price": "250m-320m", "channel": "ah"}
+      ],
+      "outputs": [
+        {"item": "Elytra", "qty": "many", "unit_price": "pre-expansion order price", "channel": "orders"}
+      ],
+      "quotes": [
+        "SELL ALL EXPENSIVE ITEMS BEFORE IT EXPANDS (you have time to do this)",
+        "a good money making strategy will be to join the moment the expansion launches and then to instantly fill old elytra orders at prices that remained the same as pre-expansion. It doesn't have a 100% chance to work as many players are smart and will withdraw orders, but some will forget or be on vacation. Flying for 20 minutes will get you many elytras. If somebody forgets about orders, you just got free billions.",
+        "Build expensive item farming farms (like mob head farms) now though, as prices will tank after the expansion. Build cheap item farming farms (like kelp farms) later",
+        "The current DonutSMP border is 225,000 Blocks away from the coordinates (0,0) in each way (+ and -). It will increase from 225k, -225k to 30m, -30m."
+      ],
+      "tricks": [
+        "Stale buy orders are free money on expansion day",
+        "Price dips before the expansion recover 'once people realize nothings happening', so short-term dips are buying opportunities",
+        "Prices expected to rise: spawners, ex-/shop items, trial-chamber items (tridents, maces, wind burst books), diamond nautilus shells"
+      ],
+      "risks": "Expansion date unknown; orders may be withdrawn; everyone will try the same thing.",
+      "scalability": "One-off event.",
+      "still_valid_after_june_2026_update": "unknown - future event; orders window is ~24h so only orders placed within a day of launch would exist",
+      "verification_items": [
+        "Any official expansion date",
+        "Whether /orders can remain open longer than ~24h (Money.json says orders are open about 24 hours)"
+      ]
+    },
+    {
+      "name": "Piglin head (mob head) farm sold on /ah",
+      "category": "farm_ah",
+      "source": "fandom/Border_Expansion.json (pageid 173, price dated 3/15/2026), fandom/Investment_items.json (pageid 201)",
+      "claim_date": "2026-03-15 (piglin head price)",
+      "claimed_gross_per_hour": "'thousands of Piglin heads worth tens of billions per storm'",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "compact mob head farm 'with complicated nether systems'",
+      "setup_time": "not stated",
+      "process": "Build a compact mob-head farm that supports piglins (charged creeper kills during thunderstorms); each storm yields thousands of piglin heads at ~$3,800,000 each (2-4m range elsewhere). Heads are stackable and sold on /ah because 'there aren't huge orders for them like there are for bones'. Mob heads (piglin, skeleton, zombie, creeper) are on the 'will stay the same' list for the border expansion, but the page also says such farms 'will be useless' after the expansion.",
+      "inputs": [
+        {"item": "Farm (nether systems, charged creepers)", "qty": "1", "unit_price": "not stated", "channel": "unknown"}
+      ],
+      "outputs": [
+        {"item": "Piglin Head", "qty": "thousands per storm", "unit_price": "$3,800,000 (3/15/2026); 2-4m", "channel": "ah"}
+      ],
+      "quotes": [
+        "The method of making money by farming mob heads is currently very good (as there are compact farms which can make thousands of Piglin heads worth tens of billions per storm), but after the expansion, these farms will be useless. Currently (as of 3/15/2026), Piglin heads are holding stable at around $3,800,000 each.",
+        "They are one of the best items to farm, as with a mob head farm that supports piglin use (with complicated nether systems), you can farm thousands. The only limitation they have is the fact that there aren't huge orders for them like there are for bones."
+      ],
+      "tricks": [
+        "Thunderstorm timing: production is per storm",
+        "Heads stack, so a single AH slot can hold a full stack",
+        "Build now, before the border expansion"
+      ],
+      "risks": "Thin order book (AH only); price could fall as more farms come online; expansion.",
+      "scalability": "Storm frequency; AH demand; 18 slots but stackable.",
+      "still_valid_after_june_2026_update": "yes (no removed feature involved)",
+      "verification_items": [
+        "Live /ah piglin head price vs $3.8M",
+        "Whether any bulk /orders for piglin heads exist now"
+      ]
+    },
+    {
+      "name": "Spawner drop farming by type (8 spawner types, tier list, shard prices)",
+      "category": "spawner",
+      "source": "fandom/Spawner.json (pageid 182), wiki_repo/wiki/Wikitext/General/Spawner.sgw, fandom/Shop.json (pageid 217)",
+      "claim_date": "unknown",
+      "claimed_gross_per_hour": "not stated",
+      "claimed_profit_per_hour": "not stated",
+      "capital_required": "1,500 shards per spawner (new price for every type)",
+      "setup_time": "placement",
+      "process": "Spawners produce their mob's drops without spawning entities; right-click to open like a chest. Types and drops: Pig -> raw porkchop; Cow -> raw beef (no leather); Spider -> spider eyes + string; Zombified Piglin (named Zombie Pigman) -> gold nuggets; Skeleton -> bones + arrows; Blaze -> blaze powder (not rods); Creeper -> gunpowder (TNT input); Iron Golem -> iron ingots. Tier list: S Skeleton; A Iron Golem, Creeper (tnt); B Zombified Piglin, Blaze, Spider; C Cow, Pig. Old shop also listed a Zombie spawner. Sell drops into /orders or craft (gunpowder -> TNT, iron -> buckets).",
+      "inputs": [
+        {"item": "Pig / Cow / Spider / Zombified Piglin / Skeleton / Blaze / Creeper / Iron Golem / Zombie Spawner", "qty": "1", "unit_price": "1,500 shards each (old: 250 / 350 / 750 / 400 / 500 / 1000 / 625 / 1500)", "channel": "shard_shop"}
+      ],
+      "outputs": [
+        {"item": "Porkchop, beef, spider eye, string, gold nugget, bone, arrow, blaze powder, gunpowder, iron ingot", "qty": "continuous", "unit_price": "not stated", "channel": "orders"}
+      ],
+      "quotes": [
+        "In DonutSMP, there are items called spawners. These, when placed, will mimic the mob drops of the spawner mob, but won't actually spawn entities to reduce lag. Instead, you can right-click to access the mob drops like opening a chest.",
+        "S Skeleton Spawner | A Iron Golem Spawner, Creeper Spawners (tnt) | B Zombie Piglin Spawner, Blaze Spawner, Spider Spawner | C Cow Spawner, Pig Spawner",
+        "Contrary to popular belief, cow spawners don't actually give leather; you need to kill actual cows for that. Also, blaze spawners don't give blaze rods; rather, they give blaze powder.",
+        "DonutSMP uses a plugin called Smart Spawners for their spawners"
+      ],
+      "tricks": [
+        "Creeper spawner gunpowder feeds the TNT craft",
+        "Iron golem spawner iron feeds the bucket method",
+        "Skeleton is S-tier because bones have deep /orders demand"
+      ],
+      "risks": "Raids; shard cost in USD.",
+      "scalability": "Per-pile asymptote and number of piles/homes.",
+      "still_valid_after_june_2026_update": "yes",
+      "verification_items": [
+        "Whether a Zombie spawner still exists in the shard shop (fandom Shop.json lists 9 types, donutpedia lists 8)",
+        "Live /orders bids for bones, gunpowder, iron ingots, blaze powder, string, gold nuggets"
+      ]
+    }
+  ],
+  "mechanics_facts": [
+    {"fact": "Three sell channels: any item (except spawners) can be sold on the Auction House (/ah), delivered on Orders (/orders) or sold to the server with /sell at a default sell price that usually stays constant (exceptions: events like the carved pumpkin Halloween event, and the now-removed personal sell multiplier).", "source": "fandom/Economy.json, fandom/Money.json"},
+    {"fact": "/sell is marked 'NOT RECOMMENDED' by the wiki; it opens a chest GUI and everything inside is sold at Base price when the GUI is closed. /sellhistory shows previous /sell sales. /worth <item> shows an item's Base price; omitting the item opens a GUI listing all items.", "source": "fandom/Money.json, wiki_repo commands.toml"},
+    {"fact": "Prices are generally cheaper on /orders than on /ah, though not always; /orders is an automated bulk buy/deliver system and fills may take time.", "source": "fandom/Economy.json"},
+    {"fact": "Orders: players list an order for a quantity and a price per item; delivered items can be picked up at any time during the order; orders are open for about 24 hours and after an order concludes the owner has 90 hours to claim the items. Commands: /order or /orders <search>.", "source": "fandom/Money.json, wiki_repo commands.toml"},
+    {"fact": "/orders has a sort setting 'most money per item'; as a buyer your order should be the HIGHEST (a dollar or a cent above the top offer), the mirror of undercutting on /ah.", "source": "fandom/Money_Making_Tutorial.json"},
+    {"fact": "Non-Donut+ players have 18 Auction House slots and 18 Orders slots since the June 2nd 2026 update (previously 25). Donut+: 45 AH and 45 order slots. Donut++ and Donut+++: 90 AH and 90 order slots.", "source": "fandom/June_2nd_update.json, fandom/Ranks.json, fandom/DonutSMP_Memberships.json, fandom/Auction_House.json"},
+    {"fact": "Homes: non-Donut+ 3 (was 2; some ex-team players got 4); Donut+ 9 max (3 default + 6); Donut++ 27; Donut+++ 90. Unsubscribing keeps existing homes but blocks setting new ones.", "source": "fandom/June_2nd_update.json, fandom/Ranks.json, fandom/DonutSMP_Memberships.json"},
+    {"fact": "Rank prices: Donut+ $5.01 USD/month; Donut++ $10.03 USD/month; Donut+++ $15.05 USD/month (30 days per payment). Donut+++ adds priority chunk generation. Media rank lasts 90 days with Donut+++ perks; requirements: 25 avg concurrent viewers on Twitch/YouTube longform live, or 100 on TikTok/YouTube Shorts live, or 5k views on a YouTube video, or 50k views on a TikTok / YouTube Short / Instagram Reel, content about DonutSMP with the server IP on screen, analytics proof, ticket at support.donutsmp.net.", "source": "fandom/Ranks.json, fandom/DonutSMP_Memberships.json"},
+    {"fact": "Donut+ perks listed: /hide (username scramble; command removed June 2026), shards without AFK (must still be online), special name mark, fast auction purchasing, higher tab-list position, lobby flight (/fly removed June 2026), faster tpa/tp cooldowns.", "source": "fandom/Economy.json, fandom/DonutSMP_Memberships.json, wiki_repo Shop removal update.sgw"},
+    {"fact": "Auction House GUI: bottom chest to sell (empty map to pick item, green glass to continue, sign to type the price, green glass to confirm); hopper icon filters by item type; sign icon searches; anvil reloads; cauldron sorts Highest Price / Lowest Price / Recently Listed; arrows page. Commands /ah, /auction, (formerly /shop); '/auction sell <price>' (also written '/ah sell <price>') lists the held item with a confirmation dialog. Items can be sold in bulk via shulker boxes.", "source": "fandom/Auction_House.json, fandom/Money.json, wiki_repo commands.toml, fandom/Money_Making_Tutorial.json"},
+    {"fact": "June 2nd 2026 update (server down ~12 hours): /shop removed, spawn removed, sell multiplier removed, teams removed (replaced by Friends/Following), duels removed, Billford removed, crates/keys removed, AFK lobby and AFK shards removed, shards no longer granted on kills, Donut++ and Donut+++ added, Shard Shop added (accessed through the /ah or /orders GUI), dialog UI replaces chest GUIs (1.21.6 dialogs), new minimal scoreboard (balance, shards, kills, deaths, playtime), RTP and homes teleport instantly instead of a 5-second delay, RTP cooldown 15 seconds, staff shown with a colored star in tab. Removed commands: /billford /fly /hide /sellmulti /spectate /team /warp /world. Donutpedia dates it June 3rd 2026.", "source": "fandom/June_2nd_update.json, wiki_repo Shop removal update.sgw, web/p9.txt"},
+    {"fact": "Shards: originally 1 shard every ten minutes online (AFK) and 10 shards per player kill; both removed. Fandom Shards page says shards now come 'over time by playing the server, and purchased on the Donut SMP store'; Donutpedia says 'Shards can only be obtained through purchase with real currency'. Command /shards <player>.", "source": "fandom/Economy.json, fandom/Shards.json, wiki_repo Shop removal update.sgw, wiki_repo commands.toml"},
+    {"fact": "Shard shop prices: Shard Pickaxe / Shard Axe / Shard Shovel 3k shards each; Shard Potion of Haste 6k (Haste 2 for 24 hours); Mace 2k (density + wind burst); Netherite Spear 1.5k (max enchants); Netherite Sword 1.5k (max); Netherite Pickaxe 1k (silk touch or fortune); Netherite Shovel 800; Netherite Axe 600; Netherite Hoe 500; Bow 500 (mending); Crossbow 500 (piercing); every netherite armor piece 1.5k (leggings and boots lack Blast Protection); every spawner type 1,500 shards.", "source": "fandom/Shards.json, fandom/Shop.json, wiki_repo Spawner.sgw"},
+    {"fact": "Old spawner shard prices before the shard-shop repricing: Pig 250, Cow 350, Spider 750, Zombified Piglin 400, Skeleton 500, Blaze 1000, Creeper 625, Iron Golem 1500; all now 1500.", "source": "wiki_repo Spawner.sgw"},
+    {"fact": "Old shard-shop keys (removed with crates): Common Key 200 shards, Crimson Key 2,500, Prime Key 2,500. Old crate keys: Common (hourly and purchasable), Prime, Gold, Amethyst, Crimson.", "source": "fandom/Shop.json, fandom/Economy.json"},
+    {"fact": "Shard/Amethyst items self-destruct 1 day after purchase (formerly 3 days). They can be sold, purchased and listed on /ah but cannot be ordered. Losing one to the timer is described as losing 15-20 million. Shard Pickaxe ('drill') breaks up to nine blocks at once with maxed-netherite speed and durability; Shard Axe fells the entire tree including leaves; Shard Shovel behaves like the pickaxe; Amethyst Shard Booster gave 4x AFK shards for 24 hours (moot since AFK shards were removed); Amethyst Bucket (drained 27 water) removed. The Amethyst Crate that used to give them is removed.", "source": "fandom/Shard_Pickaxe.json, fandom/Shard_Axe.json, fandom/Amethyst_Items.json, fandom/Economy.json"},
+    {"fact": "Spawners produce drops without spawning entities (Smart Spawners plugin); right-click opens the drop inventory like a chest. Eight types: Pig (porkchop), Cow (beef, no leather), Spider (spider eye + string), Zombified Piglin (gold nugget), Skeleton (bone + arrow), Blaze (blaze powder, not rods), Creeper (gunpowder), Iron Golem (iron ingot); the old shop also listed a Zombie spawner.", "source": "fandom/Spawner.json, wiki_repo Spawner.sgw, fandom/Shop.json"},
+    {"fact": "Spawner stacking: shift + right-click stacks same-type spawners in one block up to the signed 32-bit integer limit; output per pile follows bones/min = -0.39567e^(-0.00134606x+8.24358)+1505.35 (fandom) ~= -1499.8e^(-0.00134606x)+1505.35 (donutpedia, 'ref needed'), x = spawners in the pile, horizontal asymptote 1505.35 bones/min per pile. Marginal spawner adds 2.3 bones/min at a 2-pile and 0.9 bones/min at a 1,000-pile. Separate piles only need to be different blocks (2 blocks apart counts).", "source": "fandom/Spawner.json, wiki_repo Spawner.sgw"},
+    {"fact": "Spawners cannot be sold on /ah, /orders or /sell; they change hands only through third-party trading (scam risk). Wiki price $5.7M-$10M each. Spawners are 'pie-chartable' (findable via the F3 pie chart) and visible to ESP hackers below deepslate; AFKing spawners is 'NOT recommended currently' because they are 'most likely gone within one day'. /medal rewards 3 skeleton spawners for completing the medal quest.", "source": "fandom/Economy.json, fandom/Money.json, fandom/Money_Making_Methods.json, fandom/Money_Making_Tutorial.json, fandom/Spawner.json, wiki_repo commands.toml"},
+    {"fact": "Spawner tier list: S Skeleton; A Iron Golem, Creeper (tnt); B Zombified Piglin, Blaze, Spider; C Cow, Pig.", "source": "fandom/Spawner.json"},
+    {"fact": "Block limits: most blocks capped at 20,000 per player, including hoppers, dispensers and barrels; chests are unlimited.", "source": "fandom/Block_Limits.json"},
+    {"fact": "Server rules (cheats/clients): no hacked clients, movement mods, inventory mods, health indicators, radar, freecam, ESP, auto/easy place, macros or scripts, auto clickers, mouse tweaks/scrollers, crafting modifications. Exploits: no bug abuse, no attempted or actual duplication, no finding/using the seed. Economy: no IRL trading, no external gambling, no cross-server trading, no invite rewards, no Discord boost rewards. Accounts: no staff impersonation, no more than 5 accounts. Punishments: mutes, temp bans, player data wipes for dupers.", "source": "wiki_repo Server rules.sgw"},
+    {"fact": "IRL spending from third-party sites is bannable; only store.donutsmp.net is allowed. External gambling and hack Discords are banned; never use referral codes; use an alt if you must join such a Discord. DrDonut bans accounts suspected of being AFK bots, so Donut+ alts used to AFK farms should be played on.", "source": "fandom/Economy.json, fandom/DonutSMP_Memberships.json"},
+    {"fact": "World border: 225,000 blocks from (0,0) in each direction; expansion to 30,000,000 speculated within the next 2 years (W1zox live stream 2026-07-24). Reason for delay: cost of physical servers, which is why the shard shop / p2w features were added (DrDonutt).", "source": "fandom/Border_Expansion.json"},
+    {"fact": "Border expansion advice: sell all expensive items before it expands; bases become virtually unraidable afterwards so do not build new bases until it fully expands; build expensive-item farms (mob heads) now and cheap-item farms (kelp) later. Expected to tank: elytras, dragon heads, netherite blocks/ingots/scraps, ancient debris, netherite armor/tools/trims, gilded blackstone, deepslate emerald, enchanted golden apples (dips can happen earlier and recover). Expected to hold: all diamond items, music discs, all mob heads. Expected to rise: all spawners, everything from the old /shop, trial-chamber items (tridents, maces, wind burst books), diamond nautilus shells.", "source": "fandom/Border_Expansion.json"},
+    {"fact": "Sell multiplier (removed 2026-06-02) thresholds by cumulative category sales: 1.0x base, 1.1x $25k, 1.2x $150k, 1.3x $500k, 1.4x $1m, 1.5x $5m, 1.6x $25m, 1.7x $250m, 1.8x $550m, 1.9x $850m, 2.0x $1b, 2.1x $2b, 2.2x $4b, 2.3x $8b, 2.4x $10b, 2.5x $20b, 2.6x $40b, 2.7x $80b, 2.8x $160b, 2.9x $320b, 3.0x $640b. Rework table (buy price -> money needed): 700 $13.322b, 710 $18.084b, 720 $22.846b, 730 $29.814b, 735 $34.402b, 740 $38.990b, 745 $43.578b, 750 $48.165b, 755 $52.753b.", "source": "fandom/Sell_Multiplier.json"},
+    {"fact": "Dried kelp block /sell base price was $300 at 1.0x; the profitable sell-multiplier threshold for ordering blocks and selling them was above 2.5x; LrexTTV reportedly sold $15T of dried kelp blocks that way.", "source": "fandom/Dried_Kelp_Farm.json"},
+    {"fact": "Kelp farm mechanics: kelp grows upward in water columns; constantly powered pistons break it; water streams carry drops to hoppers above smokers; smokers produce dried kelp; crafted into dried kelp blocks. Kelpulator (https://kelpulator.vercel.app/) estimates production and earnings.", "source": "fandom/Dried_Kelp_Farm.json"},
+    {"fact": "Money inflates heavily because of the growing player base and demand for rare items; elytras rose over 3000x in a year; money 'holds no actual investment value' so players hold finite items.", "source": "fandom/Economy.json, fandom/Investment_items.json, fandom/Money.json"},
+    {"fact": "Other commands relevant to trading: /pay <player> <amount> (cannot exceed balance); /bounty <player> and /bounty add <player> <amount> (depletes your balance); /baltop <page>; /bal <player>; /tpa, /tpahere, /tpauto (auto-accept teleport requests); /findplayer (/fp) shows a player's dimension; /rtp <region> (instant, 15 s cooldown); /sethome, /home, /delhome; /api and /api revoke for an API key.", "source": "wiki_repo commands.toml, wiki_repo Shop removal update.sgw"},
+    {"fact": "Old /shop (removed 2026-06-02) was described as 'basically just ah quick buy' and had five categories: end, nether, gear, food, shard shop. Many of its items are now purchasable through shards in the new shard shop.", "source": "fandom/Money.json, fandom/Shop.json, wiki_repo Shop removal update.sgw"},
+    {"fact": "Beginner listing rule: always list below the lowest current /ah price (10k -> 9.99k); buyer rule on /orders: bid a cent above the top order.", "source": "fandom/Money_Making_Tutorial.json"},
+    {"fact": "Hidden-base advice: /rtp to an ocean, go to the middle, dig to Y -50 to -55.", "source": "fandom/Money_Making_Tutorial.json"},
+    {"fact": "Loot drops empty out in ~3-6 minutes; a paper-game gamble resolves in 1-3 minutes as double-or-nothing.", "source": "fandom/Money_Making_Methods.json"},
+    {"fact": "Donutpedia notes that item prices on /orders are lower because fulfillers pay for the convenience of dumping multiple shulkers at once; the spread is widest on cheap items and near zero on expensive ones.", "source": "wiki_repo Making money.sgw"}
+  ],
+  "prices_mentioned": [
+    {"item": "Barrel", "price": "10-20k each (list at 9.99k when lowest is 10k)", "channel": "ah", "date": "unknown", "source": "fandom/Money_Making_Tutorial.json"},
+    {"item": "Crafting Table", "price": "5-10k", "channel": "ah", "date": "unknown", "source": "fandom/Money_Making_Tutorial.json"},
+    {"item": "Wood (stack of 64)", "price": "20-100k per stack", "channel": "ah", "date": "unknown", "source": "fandom/Money_Making_Tutorial.json"},
+    {"item": "TNT", "price": "100k-200k per stack", "channel": "unknown (likely ah)", "date": "unknown", "source": "fandom/Money_Making_Tutorial.json"},
+    {"item": "Trident (Unb3/Mending/Impaling5/Riptide)", "price": "purchase price + 1m", "channel": "ah", "date": "unknown", "source": "fandom/Money_Making_Tutorial.json"},
+    {"item": "Dried kelp (farm output, item unspecified)", "price": "$27.6", "channel": "orders", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Dried Kelp Block", "price": "$300 (base at 1.0x)", "channel": "sell", "date": "pre-June 2026", "source": "fandom/Dried_Kelp_Farm.json"},
+    {"item": "Ancient Debris", "price": "$1.1M", "channel": "orders", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Ancient Debris vein", "price": "$600K~$3.3M per vein", "channel": "orders", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Diamond", "price": "$3.5k", "channel": "orders", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Diamond vein", "price": "$50K~$200K per vein", "channel": "orders", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Loot drop (small)", "price": "$500K~$3.5M", "channel": "event", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Loot drop (big, elytra)", "price": "$10M~$650M", "channel": "event", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Spawner", "price": "$5.7M~$10M", "channel": "third-party trade", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Enchanted Book", "price": "$10K~$650K", "channel": "ah", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Ender Pearl", "price": "$350~$700", "channel": "orders", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Paper game stake", "price": "$100M -> $200M or $0", "channel": "gambling", "date": "unknown", "source": "fandom/Money_Making_Methods.json"},
+    {"item": "Elytra", "price": "250m-320m", "channel": "ah", "date": "unknown", "source": "fandom/Investment_items.json"},
+    {"item": "Dragon Head", "price": "40-50m each (about 10x cheaper than elytra)", "channel": "ah", "date": "unknown", "source": "fandom/Investment_items.json"},
+    {"item": "Piglin Head", "price": "2-4m each", "channel": "ah", "date": "unknown", "source": "fandom/Investment_items.json"},
+    {"item": "Piglin Head", "price": "around $3,800,000 each", "channel": "ah", "date": "2026-03-15", "source": "fandom/Border_Expansion.json"},
+    {"item": "Netherite Ingot", "price": "up to 10m (all-time high)", "channel": "ah", "date": "unknown", "source": "fandom/Investment_items.json"},
+    {"item": "Gilded Blackstone", "price": "1.4-3m per block", "channel": "ah", "date": "unknown", "source": "fandom/Investment_items.json"},
+    {"item": "Gilded Blackstone", "price": "around 1M a block (recent drop)", "channel": "ah", "date": "unknown (later edit)", "source": "fandom/Investment_items.json"},
+    {"item": "Shard tool (Pickaxe/Axe) resale value", "price": "15-20 million (implied by 'you'll lose 15-20 million')", "channel": "ah", "date": "unknown", "source": "fandom/Amethyst_Items.json"},
+    {"item": "Sweet Berries", "price": "$26 (order price that was profitable at 2.7x sell multi)", "channel": "orders", "date": "pre-June 2026", "source": "fandom/Sell_Multiplier.json"},
+    {"item": "Sell multiplier rework: buy price 700 / 710 / 720 / 730 / 735 / 740 / 745 / 750 / 755", "price": "money needed $13.322b / $18.084b / $22.846b / $29.814b / $34.402b / $38.990b / $43.578b / $48.165b / $52.753b", "channel": "sell", "date": "pre-June 2026", "source": "fandom/Sell_Multiplier.json"},
+    {"item": "Iron Ingot (stack of 64)", "price": "around $50,000", "channel": "unknown", "date": "unknown", "source": "wiki_repo Making money.sgw"},
+    {"item": "Lava Bucket / Water Bucket (filled)", "price": "around $5,000 each", "channel": "unknown", "date": "unknown", "source": "wiki_repo Making money.sgw"},
+    {"item": "Ender Chest", "price": "$2,500", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Ender Pearl", "price": "$75", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "End Stone (16)", "price": "$128", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Dragon Breath", "price": "$1,000", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "End Rod", "price": "$100", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Chorus Fruit", "price": "$108", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Popped Chorus Fruit", "price": "$24", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Shulker Shell", "price": "$350", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Shulker Box", "price": "$800", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Blaze Rod", "price": "$150", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Nether Wart", "price": "$96", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Glowstone Dust", "price": "$15", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Magma Cream", "price": "$96", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Ghast Tear ('Gas Tear')", "price": "$350", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Nether Quartz", "price": "$30", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Soul Sand", "price": "$50", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Magma Block", "price": "$35", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Crying Obsidian", "price": "$150", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Obsidian", "price": "$100", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "End Crystal", "price": "$350", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Respawn Anchor", "price": "$1,000", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Glowstone", "price": "$100", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Totem of Undying", "price": "$1,500", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Golden Apple", "price": "$250", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Bottle o' Enchanting", "price": "$100", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Arrow of Slow Falling", "price": "$500", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Potato", "price": "$96", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Sweet Berries", "price": "$50", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Melon Slice", "price": "$36", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Carrot", "price": "$96", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Apple", "price": "$25", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Cooked Chicken", "price": "$48", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Steak", "price": "$35", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Golden Carrot", "price": "$120", "channel": "shop (removed 2026-06-02)", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Pig / Cow / Zombie / Spider / Skeleton / Creeper / Zombified Piglin / Blaze / Iron Golem Spawner", "price": "1,500 shards each", "channel": "shard_shop", "date": "post-2026-06-02 (listed on the old Shop page's shard section)", "source": "fandom/Shop.json, wiki_repo Spawner.sgw"},
+    {"item": "Pig Spawner", "price": "250 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Cow Spawner", "price": "350 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Spider Spawner", "price": "750 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Zombified Piglin Spawner", "price": "400 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Skeleton Spawner", "price": "500 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Blaze Spawner", "price": "1000 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Creeper Spawner", "price": "625 shards (old)", "channel": "shard_shop", "date": "pre-shard-shop repricing", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Iron Golem Spawner", "price": "1500 shards (old and new)", "channel": "shard_shop", "date": "unchanged", "source": "wiki_repo Spawner.sgw"},
+    {"item": "Common Key", "price": "200 shards (removed)", "channel": "shard_shop", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Crimson Key", "price": "2,500 shards (removed)", "channel": "shard_shop", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Prime Key", "price": "2,500 shards (removed)", "channel": "shard_shop", "date": "pre-2026-06-02", "source": "fandom/Shop.json"},
+    {"item": "Shard Pickaxe / Shard Axe / Shard Shovel", "price": "3k shards each", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json, fandom/Shard_Pickaxe.json, fandom/Shard_Axe.json"},
+    {"item": "Shard Potion of Haste (Haste 2, 24h)", "price": "6k shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Mace (density + wind burst)", "price": "2k shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite Spear (max enchants)", "price": "1.5k shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite Sword (max enchants)", "price": "1.5k shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite Pickaxe (silk touch or fortune)", "price": "1k shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite Shovel (max enchants)", "price": "800 shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite Axe (max enchants)", "price": "600 shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite Hoe (max enchants)", "price": "500 shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Bow (mending) / Crossbow (piercing)", "price": "500 shards each", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Netherite armor piece (any; leggings/boots lack Blast Protection)", "price": "1.5k shards", "channel": "shard_shop", "date": "post-2026-06-02", "source": "fandom/Shards.json"},
+    {"item": "Donut+ rank", "price": "$5.01 USD per month", "channel": "store (real money)", "date": "post-2026-06-02", "source": "fandom/Ranks.json"},
+    {"item": "Donut++ rank", "price": "$10.03 USD per month", "channel": "store (real money)", "date": "post-2026-06-02", "source": "fandom/Ranks.json"},
+    {"item": "Donut+++ rank", "price": "$15.05 USD per month", "channel": "store (real money)", "date": "post-2026-06-02", "source": "fandom/Ranks.json"},
+    {"item": "Sell multiplier thresholds (cumulative category sales)", "price": "1.1x $25k; 1.2x $150k; 1.3x $500k; 1.4x $1m; 1.5x $5m; 1.6x $25m; 1.7x $250m; 1.8x $550m; 1.9x $850m; 2.0x $1b; 2.1x $2b; 2.2x $4b; 2.3x $8b; 2.4x $10b; 2.5x $20b; 2.6x $40b; 2.7x $80b; 2.8x $160b; 2.9x $320b; 3.0x $640b", "channel": "sell (removed)", "date": "pre-2026-06-02", "source": "fandom/Sell_Multiplier.json"}
+  ]
+}
