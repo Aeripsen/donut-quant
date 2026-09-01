@@ -26,6 +26,7 @@ The full write-up with 40 methods, each re-priced on live data and scored, is in
 - `quant/hoard.py` classifies supply (renewable / structure loot / dead source) and where each price sits in its own range.
 - `quant/accumulation.py` catches rising order bids before the auction floor reprices (the bid moves first, every time).
 - `quant/transform.py` prices the edges recipes.json cannot see: every villager trade and furnace smelt.
+- `quant/frontier.py` prices the mechanisms no recipe file contains: axe-stripping, stonecutter cuts, concrete mixing, shulker dyeing, oxidation, ranches.
 - `quant/engine.py` is the decision machine: every flip, craft, brew and hold on one $/slot-hour scale, allocated against real market depth.
 - `quant/fetch_official.py` talks to the official API (`/api` in game gives you a key) and keeps a local sqlite of sales.
 - `api/` raw snapshots pulled 2026-08-29. `mcdata/` is PrismarineJS minecraft-data for 1.21.11; SMP500 item ids equal these ids.

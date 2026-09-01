@@ -1,0 +1,56 @@
+mech,lane,cost_unit,sell_unit,profit_unit,margin,out_trades_d,out_vol_d,capture_day,note
+MIX,black concrete from raw,743,2125,1382,2.86,7859,466544,128987752,place powder next to water to cure; instamine with an efficiency pick
+MIX,cyan concrete from raw,662,6250,5588,9.43,1516,94026,105074055,place powder next to water to cure; instamine with an efficiency pick
+MIX,red concrete from raw,391,3125,2734,7.99,3253,181723,99366136,place powder next to water to cure; instamine with an efficiency pick
+HAND,water bottle on dirt -> mud,570,2641,2071,4.63,4212,232764,96410849,bottle is returned empty; refill at a water source
+MIX,gray concrete from raw,860,3528,2668,4.1,2847,176123,93988039,place powder next to water to cure; instamine with an efficiency pick
+MIX,purple concrete from raw,469,4359,3890,9.29,1955,120570,93800446,place powder next to water to cure; instamine with an efficiency pick
+FURNACE,sandstone -> smooth sandstone,391,3750,3359,9.59,1955,122906,82571323,a super smelter makes this passive; 15 tight stack sales on the output
+MIX,white concrete from raw,469,1455,986,3.1,6834,409545,80752035,place powder next to water to cure; instamine with an efficiency pick
+MIX,yellow concrete from raw,420,2969,2549,7.06,2410,145814,74325041,place powder next to water to cure; instamine with an efficiency pick
+RANCH,bee farm -> honey blocks,0,5625,5625,0,7113,65103,73240875,4 bottles per block; ~1 bottle/90s per hive AFK. 20 hives ~ 200 blocks/day
+RANCH,turtle beach -> scutes,0,21873,21873,0,993,15955,69796743,babies drop 1 scute on growing up; seagrass speeds it
+RANCH,magma spawner + frogs -> ochre froglight,0,3055,3055,0,2004,97728,59711808,needs a temperate frog; passive once built
+HAND,dye white wool red,1719,3891,2172,2.26,2125,131282,57028901,1 dye does 1 wool in the crafting grid
+HAND,red + yellow -> 2 orange dye,274,3000,2726,10.97,1632,99015,53992880,
+RANCH,sculk catalyst under any mob farm,0,1516,1516,0,2855,174018,52762258,XP becomes sculk blocks; silk touch to harvest
+FURNACE,sand -> glass,391,688,297,1.76,17610,806810,47944684,
+MIX,green concrete from raw,469,3125,2656,6.66,1628,90233,47929514,place powder next to water to cure; instamine with an efficiency pick
+CUTTER,stone -> 2 stone slabs,274,2344,2070,8.57,1791,112900,46751890,
+FURNACE,cobblestone -> stone,233,547,314,2.35,11820,737837,46354610,free input from a cobble generator
+HAND,axe-strip mangrove log,3906,15686,11780,4.02,316,19183,45195148,"right-click with any axe; no automation exists, so nobody supplies bulk"
+MIX,light_blue concrete from raw,527,1563,1036,2.96,3206,197705,40949648,place powder next to water to cure; instamine with an efficiency pick
+MIX,blue concrete from raw,467,1547,1080,3.31,2918,157005,33905230,place powder next to water to cure; instamine with an efficiency pick
+HAND,axe-strip spruce log,328,2313,1985,7.05,1370,84906,33707682,"right-click with any axe; no automation exists, so nobody supplies bulk"
+HAND,axe-strip oak log,625,4688,4063,7.5,686,40678,33054943,"right-click with any axe; no automation exists, so nobody supplies bulk"
+MIX,lime concrete from raw,606,2109,1503,3.48,1832,108282,32552276,place powder next to water to cure; instamine with an efficiency pick
+HAND,recolor shulker box -> black,52869,95000,42131,1.8,3594,3594,30283763,shulkers sell as singles; that IS their market
+CUTTER,cobblestone -> stairs,155,1250,1095,8.06,2114,133875,29318625,
+CUTTER,cobbled deepslate -> bricks,313,719,406,2.3,5621,353645,28715974,
+HAND,axe-strip dark_oak log,312,6016,5704,19.28,400,25009,28530267,"right-click with any axe; no automation exists, so nobody supplies bulk"
+MIX,orange concrete from raw,895,2500,1605,2.79,1321,81795,26256195,place powder next to water to cure; instamine with an efficiency pick
+HAND,green + white -> 2 lime dye,781,1719,938,2.2,1837,115827,21729145,
+FURNACE,spruce log -> charcoal,406,625,219,1.54,7819,494965,21691841,
+HAND,blue + green -> 2 cyan dye,774,2273,1500,2.94,1278,68518,20548548,
+RANCH,bone meal spam -> moss,0,187,187,0,7930,494994,18512776,composter loop feeds itself: moss -> bone meal -> moss
+CUTTER,cobbled deepslate -> brick stairs,313,1172,859,3.74,1599,101277,17399389,
+CUTTER,tuff -> polished tuff,750,1875,1125,2.5,1219,75186,16916850,
+RANCH,glow squid farm -> glow ink,0,1328,1328,0,4531,59963,15926173,
+CUTTER,stone -> stone stairs,547,1094,547,2.0,2147,135183,14789020,
+RANCH,sniffer ranch -> torchflower,0,12500,12500,0,428,4924,12310000,"grown from the seeds; n=3 stacks only, price less certain"
+CUTTER,cobblestone -> wall,155,313,158,2.02,5824,369449,11674588,
+FURNACE,cactus -> green dye,500,781,281,1.56,2676,165745,9319013,
+HAND,axe-strip birch log,859,1923,1064,2.24,660,38798,8256214,"right-click with any axe; no automation exists, so nobody supplies bulk"
+HAND,recolor shulker box -> blue,50666,75000,24334,1.48,1619,1619,7879349,shulkers sell as singles; that IS their market
+RANCH,sniffer ranch -> torchflower seeds,0,2344,2344,0,358,14145,6631176,sniffers dig seeds passively; also breeds more sniffers
+CUTTER,cobblestone -> 2 slabs,78,156,78,2.01,4664,292692,4595264,
+RANCH,snow golem in a box,0,219,219,0,6497,103131,4517138,"infinite snowballs, zero input"
+CUTTER,cobbled deepslate -> polished,313,391,78,1.25,4587,287797,4489633,
+HAND,recolor shulker box -> red,50056,60000,9944,1.2,2033,2033,4043230,shulkers sell as singles; that IS their market
+CUTTER,stone -> chiseled stone bricks,469,766,297,1.63,961,60212,3576593,
+HAND,axe-strip cherry log,1500,2586,1086,1.72,252,11538,2506054,"right-click with any axe; no automation exists, so nobody supplies bulk"
+TIME,"copper block, one wait stage",4688,5000,312,1.07,41,1013,63211,"thin market, wide spread; treat as a side bet, not a lane"
+HAND,recolor shulker box -> yellow,50291,40000,-10291,0.8,1342,1342,-2762104,shulkers sell as singles; that IS their market
+HAND,packed mud (mud + wheat),4890,3906,-984,0.8,725,44923,-8840846,
+HAND,recolor shulker box -> white,50681,29900,-20781,0.59,2530,2530,-10515186,shulkers sell as singles; that IS their market
+TIME,"copper block, full oxidation + wax",6243,1887,-4356,0.3,1537,70111,-61080703,
