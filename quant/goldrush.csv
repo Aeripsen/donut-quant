@@ -1,0 +1,18 @@
+lane,cost,sells,profit,margin,out_trades_d,note
+mace = heavy core + breeze rod,3927959,4190000,262041,1.1,11164,THE PvP weapon. You already hold the rods; a core turns one into a mace
+bundle = 1 string + 1 leather,2344,99000,96656,42.2,4165,does not stack; 15 single sales at 99K. The recipe is two of the cheapest mob drops in the game
+harness from scratch (white),8096,60000,51904,7.4,639,"happy ghast saddle, 16 colors, every color has 15 single sales. Craft any color, recolor to the priciest"
+harness recolor: yellow + blue dye,40766,500000,459234,12.3,56,
+harness recolor: yellow + black dye,42969,100000,57031,2.3,160,
+6 stripped spruce -> 6 shelves,2344,6250,3906,2.7,1086,for most woods the STRIPPED LOG outsells the shelf; spruce is the exception. Check before crafting
+6 pale planks -> 4 stairs,1172,3906,2734,3.3,743,
+3 pale planks -> 6 slabs,390,3125,2734,8.0,724,
+harness recolor: yellow + magenta dye,40155,60000,19845,1.5,89,
+firework x3 = gunpowder + paper,297,469,172,1.6,9410,"elytra fuel, burned constantly; 532K units of daily flow. A creeper farm makes the input free"
+pale oak log -> 4 planks,195,764,569,3.9,2773,"pale gardens are rare, the wood market is young"
+harness recolor: yellow + red dye,40156,60000,19844,1.5,78,
+resin clump -> smelt -> brick,1094,2252,1158,2.1,1325,
+harness recolor: yellow + purple dye,40781,70000,29219,1.7,27,
+harness recolor: yellow + lime dye,41875,60000,18125,1.4,31,
+copper bars x16 = 6 copper,234,1094,860,4.7,191,
+lantern = 8 iron nuggets + torch,13051,2344,-10707,0.2,4204,
