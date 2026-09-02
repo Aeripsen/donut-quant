@@ -30,6 +30,7 @@ The full write-up with 40 methods, each re-priced on live data and scored, is in
 - `quant/goldrush.py` prices the young markets: new-content recipes (bundles, harnesses, maces), the disc-farm drop table EV, retail-split leads.
 - `quant/farms.py` ranks 101 buildable production systems (spawner, mob, breeding, plant, tree, villager, raid, storm, processing) by absorption-capped profit per day.
 - `quant/whale.py` sizes the capital plays: accumulation trades, market making, thin-book takeovers, buy-order outsourcing.
+- `quant/sellchannel.py` compares the uncapped /sell channel against the auction house, and prints the /worth break-even for every bulk block.
 - `quant/engine.py` is the decision machine: every flip, craft, brew and hold on one $/slot-hour scale, allocated against real market depth.
 - `quant/fetch_official.py` talks to the official API (`/api` in game gives you a key) and keeps a local sqlite of sales.
 - `api/` raw snapshots pulled 2026-08-29. `mcdata/` is PrismarineJS minecraft-data for 1.21.11; SMP500 item ids equal these ids.
