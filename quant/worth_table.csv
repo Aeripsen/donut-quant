@@ -62,6 +62,7 @@ jukebox,300,Jukebox
 lodestone,300,Lodestone
 respawn_anchor,300,Respawn Anchor
 sticky_piston,300,Sticky Piston
+glass,300,Glass (64 stack @ 19.2K)
 piston,255,Piston
 black_shulker_box,225,Black Shulker Box
 blue_ice,225,Blue Ice
@@ -101,6 +102,7 @@ stripped_spruce_log,48,Stripped Spruce Log
 stripped_birch_log,48,Stripped Birch Log
 wooden_sword,30,Wooden Sword
 stone_sword,30,Stone Sword
+pale_oak_planks,30,Pale Oak Planks
 dark_oak_wood,24,Dark Oak Wood
 dead_tube_coral_block,24,Dead Tube Coral Block
 crimson_hyphae,24,Crimson Hyphae
