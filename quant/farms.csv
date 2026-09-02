@@ -1,0 +1,102 @@
+farm,cat,mode,conf,rev_day,cost_day,profit_day,capped,crowd,note
+super smelter: sandstone -> smooth,process,afk,high,92179500,15599980,76579520,yes,,
+"gold farm, nether roof (ingots)",mobfarm,afk,high,55488350,0,55488350,yes,"raid video era; sell gold raw, never barter",
+"drowned farm (tridents, copper, shells)",mobfarm,afk,med,48755000,0,48755000,,,ONE trident an hour at 1.79M carries the whole farm
+sculk catalyst room (sculk),blockgen,afk,med,45480000,0,45480000,,,"bolt on under any mob farm; XP you were wasting becomes 1,516 a block"
+raid farm (totems + emeralds),raid,afk,high,42376800,0,42376800,,THE video meta; totem bid fell 220K to 103K,
+bundle line (string + leather),process,active,high,35640000,843840,34796160,,,
+"enderman farm, end (pearls)",mobfarm,afk,high,33768000,0,33768000,,video-common,
+"zombie spawner (flesh, cleric fodder)",spawner,afk,high,31080000,0,31080000,,,
+outpost captain farm (ominous bottles),raid,afk,med,28125000,0,28125000,,,"18,773 trades a day; feeds the ominous-trial and mace economy"
+"strip station (buy dark oak, click, sell)",process,active,high,30090829,2340000,27750829,yes,,
+stonecutter line: stone slabs,process,active,high,28128000,3282000,24846000,,,
+"auto sheep shearing, dyed colors",breeding,afk,high,24613600,0,24613600,,,
+squid farm (ink),breeding,afk,med,23590000,0,23590000,,,
+cobble generator + super smelter (stone),blockgen,afk,high,27350000,3899980,23450020,,,
+magma cube spawner (cream),spawner,afk,med,23148699,0,23148699,yes,,
+hoglin farm (porkchops + leather),mobfarm,afk,med,22083230,0,22083230,yes,,leather feeds the bundle printer
+dark oak farm + hand-strip,tree,active,high,21657600,0,21657600,,,"312 raw becomes 6,016 stripped; the axe click is the farm"
+TNT autocraft (sand + gunpowder),process,afk,high,62496000,41312000,21184000,,,"871K units a day of flow, the deepest craft market on the server"
+potato farm,plant,afk,high,21096000,0,21096000,,,
+rabbit farm (hide + feet),breeding,afk,low,20500000,0,20500000,yes,,
+ghast farm (tears + gunpowder),mobfarm,afk,med,20050000,0,20050000,,,
+skeleton spawner (bones + arrows),spawner,afk,high,18500000,0,18500000,,,
+husk farm (flesh + sand),mobfarm,afk,low,18288000,0,18288000,,,
+general dark-room mob farm,mobfarm,afk,high,17990000,0,17990000,,,
+oak tree farm + hand-strip,tree,active,high,17134935,0,17134935,,,
+cave spider spawner,spawner,afk,high,16874000,0,16874000,,,
+pale oak farm -> slab line,tree,active,med,15000000,0,15000000,,,"1 log = 4 planks = 8 slabs at 3,125 p25; rare-biome wood, young market"
+"auto sheep shearing, white (wool)",breeding,afk,high,14067000,0,14067000,,,
+cow crusher (beef + leather),breeding,afk,high,14691000,937800,13753200,,,"sell beef RAW, it outsells cooked; leather feeds bundles"
+"bogged spawner, trial chamber (bones)",spawner,afk,med,13750000,0,13750000,,,
+spider spawner (string + eyes),spawner,afk,high,12968000,0,12968000,,,
+carrot farm,plant,afk,high,12654000,0,12654000,,,
+mason hall x20 (bricks for emeralds),villager,daily,high,14756013,2200320,12555693,yes,,"numbers per day, not per hour: 32 trades x 10 bricks x 20 heads"
+glow berry farm,plant,afk,med,12376000,0,12376000,,,
+blaze spawner (rods),spawner,afk,high,12368000,0,12368000,,,
+froglight farm (ochre),breeding,afk,med,12220000,0,12220000,,,
+firework autocraft,process,afk,high,22512000,10512000,12000000,,,
+"witch farm (redstone, glowstone, sugar)",mobfarm,afk,med,11892800,0,11892800,,,
+turtle beach (scutes),breeding,afk,med,10936500,0,10936500,,,
+mud-to-clay + smelt line (bricks),blockgen,afk,med,14756013,3902500,10853513,yes,,"same converter, clay balls smelted: dirt to bricks is about 18x through the chain"
+spruce mega farm + hand-strip,tree,active,high,10408500,0,10408500,,,
+cactus farm,plant,afk,high,10128000,0,10128000,,,
+mangrove propagule farm (raw logs),tree,active,med,10125000,0,10125000,,,
+slime farm (slimeballs),mobfarm,afk,high,10106856,0,10106856,yes,,
+"shulker farm, end (shells)",mobfarm,afk,med,9938400,0,9938400,,,"shells are unwinding post-video, but boxes feed the recolor lane"
+observer sugar cane farm,plant,afk,high,9846000,0,9846000,,,"sell the CANE: cane at 1,250 outsells both sugar and paper"
+tool bench: flint and steel,process,active,med,9900000,311400,9588600,,,"55K p25 on 14,523 trades a day; check enchant pollution with one test sale"
+"breeze spawner, trial chamber (rods)",spawner,active,med,9562680,0,9562680,,,your current lane; rods also convert to maces via heavy cores
+moss bonemeal loop,plant,afk,high,9350000,0,9350000,,,composter feeds itself; moss is cheap but the volume is huge
+glow squid farm (glow ink),breeding,afk,med,9296000,0,9296000,,,
+trial chamber route (keys + rods),raid,active,med,9025650,0,9025650,,,
+villager wheat farm,plant,afk,high,8752800,0,8752800,,,
+"concrete line, mixed colors",process,active,high,10218750,1726038,8492712,,,
+melon farm (blocks),plant,afk,high,8310400,0,8310400,,,
+ominous trial route (cores + keys),raid,active,med,8064375,0,8064375,,,your lane; cores at 3.9M make this the best active hourly in the game
+chicken cooker (meat + feathers),breeding,afk,high,7180000,0,7180000,,,
+pumpkin farm,plant,afk,high,6563200,0,6563200,,,
+guardian farm (prismarine + cod),mobfarm,afk,med,6358626,0,6358626,yes,video-common,
+chicken egg pen (eggs),breeding,afk,high,6250000,0,6250000,,,
+disc farm (skeleton shoots creeper),raid,afk,med,6000000,0,6000000,,,EV 121K per disc across 12 discs; priced here via one mid disc as proxy
+pig cooker (porkchops),breeding,afk,high,6640000,843600,5796400,,,raw porkchop outsells cooked too
+kelp farm,plant,afk,high,5616000,0,5616000,,,
+thunder trident overdrive (drowned),storm,storm,low,5412210,0,5412210,,,
+cherry farm (raw logs),tree,active,high,5400000,0,5400000,,,
+snow golem snowball line,blockgen,afk,high,4517138,0,4517138,yes,,
+charged creeper head farm,storm,storm,med,4489598,0,4489598,,,"lightning rod flips creepers, punch mobs into the blast; heads are 200-450K singles"
+creeper-only farm (gunpowder),mobfarm,afk,high,4256000,0,4256000,,video-common,
+mace bench (core + rod),process,active,med,25140000,21159378,3980622,,,
+phantom farm (membranes),mobfarm,afk,low,3770060,0,3770060,yes,,
+bamboo farm,plant,afk,high,3375000,0,3375000,,,
+amethyst geode array (shards),blockgen,afk,med,3125000,0,3125000,,,
+fire charge craft,process,active,high,4220100,1149750,3070350,,,
+dripstone farm (pointed),blockgen,afk,med,2814000,0,2814000,,,
+sniffer ranch (seeds + torchflowers),breeding,afk,low,2703200,0,2703200,,,"young market, thin book, price it before scaling"
+wither skeleton farm (skulls + coal),mobfarm,active,med,2610000,0,2610000,,,"skulls have no clean price row; value flows through stars, see wither farm"
+tool bench: shears,process,active,med,2700000,243720,2456280,,,
+goat ram station (horns),breeding,active,low,2400000,0,2400000,,,horns at 200K as singles; rams charging a block drop them
+ice farm (silk touch),blockgen,active,high,2343000,0,2343000,,,sell plain ice; packing to packed or blue ice LOSES money
+beetroot farm,plant,afk,med,2280243,0,2280243,yes,,
+harness bench (craft + recolor),process,active,med,2400000,126171,2273829,,,
+end city raiding (shells + purpur),raid,active,med,2248290,0,2248290,,"border-bound loot, sell before expansion",
+resin farm (creaking heart),blockgen,afk,low,2069998,0,2069998,yes,,
+cleric hall x20 cured (xp bottles),villager,daily,high,3600000,1650240,1949760,,,"cured to 1 emerald per bottle; fills standing 7,500 buy orders, no AH slot"
+nether wart farm (piston cycle),plant,active,high,1875600,0,1875600,,,
+sweet berry farm (fox picked),plant,afk,med,1638000,0,1638000,,,
+glow lichen spread (bone meal),plant,active,med,1593600,0,1593600,,,
+bee farm (honey blocks),breeding,afk,med,1350000,0,1350000,,,
+dragon respawn cycle (breath + xp),boss,active,med,1331280,231000,1100280,,,
+bee farm (honeycomb),breeding,afk,med,928200,0,928200,,,
+automated wither killer (nether stars),boss,active,med,2040000,1153488,886512,,,skull input priced 0 (no clean row): pair with your own wither skeleton farm
+vine wall (shears),plant,active,low,843600,0,843600,,,
+obsidian farm (portal cycling),blockgen,active,med,820500,0,820500,,"unwinding post-video; sell into strength, do not stockpile",
+chorus farm + smelt (popped),plant,afk,med,1237561,548240,689321,yes,,"popped at 1,406 p25 versus 234 raw; the smelt is the whole margin"
+sea pickle farm,plant,afk,med,625000,0,625000,,,
+iron to nuggets uncraft,process,active,med,894708,406200,488508,yes,,"nuggets at 522 p25 versus ingot 677: 7x, thin book, test first"
+armorer iron loop x20 (iron to emeralds),villager,daily,high,1650240,1299840,350400,,,"cheapest emerald source at 2,708 each; feeds the other halls"
+fletcher hall x20 (arrows),villager,daily,high,1920000,1650240,269760,,,
+mud-to-clay dripstone converter,blockgen,afk,med,2548000,2626400,-78400,,,"dirt 570 in, clay 3,125 out, fully automatic; the sleeper build of this whole file"
+librarian hall x20 (glass),villager,daily,high,1320960,1650240,-329280,,,
+bone to bone meal uncraft,process,active,high,1269000,1875000,-606000,,,
+farmer hall x20 (golden carrots),villager,daily,high,4252320,4950720,-698400,,,
