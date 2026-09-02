@@ -1,0 +1,142 @@
+Dragon Egg | 6.4B
+Block of Netherite | 675K
+Elytra | 90K
+Netherite Ingot | 75K
+Trident | 30K
+Beacon | 22.5K
+Netherite Scrap | 9K
+Netherite Chestplate | 4.2K
+Netherite Leggings | 3.9K
+Wither Skeleton Skull | 3K
+Heavy Core | 3K
+Skeleton Skull | 3K
+Dragon Head | 3K
+Creeper Head | 3K
+Netherite Boots | 3K
+Deepslate Emerald Ore | 3K
+Netherite Helmet | 3.3K
+Block of Diamond | 3.3K
+Zombie Head | 3K
+Ancient Debris | 1.8K
+Conduit | 1.6K
+Saddle | 1.5K
+Diamond Horse Armor | 1.5K
+Netherite Upgrade Smithing Template | 1.5K
+Enchanting Table | 1.5K
+Block of Raw Iron | 1K
+Block of Raw Gold | 1K
+Block of Raw Copper | 1K
+Heart of the Sea | 1.2K
+Wet Sponge | 1.2K
+Block of Redstone | 1.3K
+Sponge | 1.5K
+Golden Horse Armor | 900
+Netherite Pickaxe | 900
+Netherite Axe | 900
+Target | 810
+Totem of Undying | 750
+Name Tag | 600
+Turtle Shell | 600
+Dried Kelp Block | 750
+Block of Amethyst | 600
+Piglin Head | 600
+Cake | 540
+Hay Bale | 510
+Glow Ink Sac | 450
+Diamond | 360
+Observer | 375
+Redstone Repeater | 390
+Ender Chest | 450
+Anvil | 360
+Sea Lantern | 330
+Block of Coal | 330
+Nautilus Shell | 300
+Netherite Shovel | 300
+Iron Horse Armor | 300
+Diamond Ore | 300
+Bee Nest | 300
+Beehive | 300
+Bookshelf | 300
+Creaking Heart | 300
+Jukebox | 300
+Lodestone | 300
+Respawn Anchor | 300
+Sticky Piston | 300
+Piston | 255
+Black Shulker Box | 225
+Blue Ice | 225
+Magenta Shulker Box | 225
+Lime Shulker Box | 225
+Block of Emerald | 216
+Block of Lapis Lazuli | 216
+Slime Block | 180
+Recovery Compass | 150
+Spyglass | 150
+Ink Sac | 150
+Redstone Dust | 150
+Shulker Shell | 150
+Dispenser | 150
+Black Banner | 150
+Lightning Rod | 150
+Lime Banner | 150
+Sculk Sensor | 150
+Blue Bed | 135
+Carved Pumpkin | 144
+TNT | 130
+Deepslate Gold Ore | 102
+Chiseled Bookshelf | 120
+Bell | 120
+Block of Resin | 108
+Deepslate Lapis Lazuli Ore | 108
+Coal Ore | 84
+Sniffer Egg | 90
+Redstone Lamp | 90
+Note Block | 90
+Compass | 90
+Turtle Egg | 60
+Bucket of Axolotl | 75
+Black Candle | 54
+Blue Candle | 54
+Stripped Spruce Log | 48
+Lingering Potion of Slowness | 42
+Stripped Birch Log | 48
+Splash Potion of Poison | 39
+Crimson Fence Gate | 12
+Nether Brick Slab | 12
+Green Concrete Powder | 12
+Polished Diorite Stairs | 12
+Nether Brick Stairs | 12
+Spruce Pressure Plate | 12
+Polished Granite Slab | 12
+Waxed Oxidized Copper Trapdoor | 12
+Spruce Slab | 12
+Dark Prismarine | 9
+Waxed Oxidized Cut Copper Slab | 12
+Hanging Roots | 6
+Glass Pane | 9
+Smooth Quartz Slab | 6
+Clay Ball | 6
+Yellow Dye | 3
+Stone Button | 6
+Raw Porkchop | 0.6
+White Dye | 3
+Lingering Potion of Strength | 42
+Wooden Sword | 30
+Splash Potion of Regeneration | 39
+Potion of Weakness | 30
+Stone Sword | 30
+Dark Oak Wood | 24
+Potion of Weaving | 30
+Dead Tube Coral Block | 24
+Crimson Hyphae | 24
+Raw Salmon | 18
+Fire Coral Block | 24
+Nether Quartz | 15
+Flint and Steel | 18
+Glow Berries | 12
+Iron Ingot | 15
+Birch Trapdoor | 12
+Melon Seeds | 13
+Crimson Fence | 13
+Black Concrete Powder | 12
+Gray Wool | 12

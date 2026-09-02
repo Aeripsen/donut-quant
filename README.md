@@ -14,6 +14,7 @@ The full write-up with 40 methods, each re-priced on live data and scored, is in
 
 ## What is in here
 
+- `quant/donut.py` is THE machine: every buy/transform/sell path, all three channels, ranked by the constraint that actually binds (capital, furnace throughput, or market depth).
 - `quant/build_prices.py` merges every price source into `quant/price_table.csv`, one row per item:
   SMP500 settled sales (24h aggregates plus the median of the last 15 full-stack sales), LootSeller top order bid and floor,
   the last recorded sale, a June order-book snapshot, my own AH log prices.
