@@ -64,15 +64,55 @@ def f(n, k):
         return 0.0
 
 
+# ---------------------------------------------------------------- freshness correction
+# The SMP500 transaction feed (tx_stack_med, the honest clearing price) is Cloudflare-blocked and
+# frozen at its last successful pull. LootSeller candles still refresh daily. So for every item
+# LootSeller tracks, drift the stale clearing price by however far the TRUE FLOOR has moved since.
+#
+# True floor = median of the daily LOWS, never the close. Proven on 2026-09-10: dispenser closes
+# swung 2,000 -> 37,200 -> 3,600 -> 14,900 while every daily low sat at 1,200-1,400, and a real
+# 64-stack cleared at 1,127. Closes and highs are money-transfer listings; lows are the market.
+import glob as _glob
+import statistics as _stats
+
+DRIFT, FRESH_FLOOR = {}, {}
+for _p in _glob.glob(f"{SP}/api/lootseller/*.json"):
+    try:
+        _d = json.load(open(_p, encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        continue
+    _n = os.path.basename(_p)[:-5]
+    _c = [x for x in (_d.get("candles") or []) if (x.get("l") or 0) > 0]
+    if len(_c) < 9:
+        continue
+    _lows = [x["l"] for x in _c]
+    _then = _stats.median(_lows[-11:-7]) if len(_lows) >= 11 else _lows[-9]
+    _now = _stats.median(_lows[-4:])
+    FRESH_FLOOR[_n] = _now
+    if _then > 0:
+        DRIFT[_n] = max(0.25, min(4.0, _now / _then))    # clamp: refuse absurd corrections
+
+
+def drift(n):
+    return DRIFT.get(n, 1.0)
+
+
+def stale_days(n):
+    return 0 if n in DRIFT else 8
+
+
 def ah_sell(n):
-    """What a unit reliably fetches on the AH: 3+ stack sales, clamped by p25. 0 if untrustworthy."""
+    """Reliable AH unit price: 3+ stack sales, clamped by p25, drifted to today's floor. 0 if untrustworthy."""
+    base = 0.0
     if f(n, "n_stack") >= 3 and f(n, "tx_stack_med"):
         v, p25 = f(n, "tx_stack_med"), f(n, "tx_p25")
-        return (min(v, p25) if p25 else v) * (1 - TAX)
-    if int(f(n, "stack") or 64) == 1 and f(n, "n_single") >= 8:
+        base = min(v, p25) if p25 else v
+    elif int(f(n, "stack") or 64) == 1 and f(n, "n_single") >= 8:
         v, p25 = f(n, "tx_single_med"), f(n, "tx_p25")
-        return (min(v, p25) if p25 else v) * (1 - TAX)
-    return 0.0
+        base = min(v, p25) if p25 else v
+    if base <= 0:
+        return 0.0
+    return base * drift(n) * (1 - TAX)
 
 
 def buy_price(n):
@@ -147,7 +187,8 @@ def add(kind, out, inputs, out_n, smelts, label):
             per_capital=profit / cost if cost else 0,
             per_furnace=profit / max(smelts, 0.001),
             daily_ceiling=profit * cap if cap != float("inf") else float("inf"),
-            abs_cap=cap, src="; ".join(srcs)))
+            abs_cap=cap, fresh="live" if out in DRIFT else "%dd old" % stale_days(out),
+            drift=round(drift(out), 2), src="; ".join(srcs)))
 
 
 # smelting lanes
@@ -241,6 +282,17 @@ def realized(L):
 
 for L in real:
     L["realized"], L["units_day"] = realized(L)
+
+# full ranked dump so nothing is hidden behind a top-N cutoff
+with open(f"{SP}/quant/donut_lanes.csv", "w", newline="", encoding="utf-8") as fh:
+    cols = ["kind", "lane", "out", "channel", "cost", "price", "profit", "ratio", "smelts",
+            "per_capital", "per_furnace", "abs_cap", "units_day", "realized", "fresh", "drift", "src"]
+    w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore")
+    w.writeheader()
+    for L in sorted(real, key=lambda x: -x["realized"]):
+        w.writerow(L)
+print("Full ranked table of %d profitable lanes written to quant/donut_lanes.csv" % len(real))
+print("(%d total lanes enumerated before the profit and liquidity filters)" % len(LANES))
 
 BAR = "=" * 122
 print(BAR)
