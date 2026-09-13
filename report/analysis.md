@@ -1367,3 +1367,41 @@ ceiling one block above the water stops the leap. Fix the far end, not the row:
 **The loop.** Trigger all spawners from one sightline (with Trial Omen up for the ominous ones), walk
 to the pocket, poison-and-tap the breezes as the water delivers them one at a time, let hoppers take
 the ejected keys, repeat every 30 minutes. About five minutes of work per half hour.
+
+## 58. Correction to 57: do not transport the breezes, box the spawner (added 2026-09-13)
+
+Section 57 solved the kill spot; the player's actual problem was getting breezes to it. Three things
+about breezes make water conveyors miserable: they float up faster than any mob, they leap 5 blocks
+vertically the moment they have headroom, and while a player is inside 16 blocks their AI fights the
+current to reposition. And the fact that makes a conveyor unnecessary: solo, a breeze spawner runs
+ONE breeze at a time.
+
+**Design A, no transport: shrink the spawn room until it IS the kill pocket.** Trial spawners place
+mobs within a 4-block sphere in any position with line of sight to the spawner and room for the
+hitbox. Enclose the spawner in a box with a 3x3 interior floor and a 2-block ceiling (breeze is 0.6
+wide, 1.77 tall, fits; cannot leap). Every valid spawn position is now inside the box, one to two
+blocks from the wall. The player pit from section 57 sits against one wall: 1x1, one block lower,
+top-half slab overhead, a single 1x1 gap at the box floor level. One glass block in the box wall at
+the player's eye height so the spawner keeps line of sight to the player for activation (mobs and
+spawners see through glass; solid blocks break LOS). Hoppers under the box floor take the ejected
+keys. Loop: breeze spawns inside, splash poison through the gap or a lingering cloud pre-laid,
+one Looting tap, next breeze. No water, nothing to push.
+Unverified assumption: that the spawner will place a breeze inside a 3x3x2 box. Test with one wave
+before boxing the rest; if it refuses, widen to 5x5.
+
+**Design B, if water is unavoidable (several spawners feeding one pocket):**
+  - Source blocks push nothing. A row of sources is a bath, not a conveyor. Each segment needs one
+    source in a notch behind a wall, flowing 7 blocks along a 1-wide channel, then a 1-block step down
+    to the next segment's source. Only flowing water applies current.
+  - Channel interior exactly 2 tall: one flowing water block plus one air block, ceiling directly on
+    top. The breeze floats with its feet in the current and 0.23 blocks of headroom, so every leap
+    hits the ceiling and it keeps moving. One block taller and it leaps out of the stream; one block
+    shorter and it is pushed into a block, which the spawner counts as a kill and which drops no rods.
+  - Keep a dry 3x3 island around the spawner (spawn positions may not accept water) with the flow
+    starting at the island edge.
+  - After triggering, step outside the breeze's 16-block targeting range for the ride. A breeze with
+    no target does not fight the current. Return once it is in the pocket.
+
+**Design C, bait:** breezes pursue within 16 blocks and leap toward the target. A player in the pit
+under a 2-tall ceiling draws leaps that land in the pocket. Least reliable; breezes also back off
+when close. Use only if A fails.
