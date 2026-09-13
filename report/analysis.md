@@ -1322,3 +1322,48 @@ dispensers on order. Capital is not the constraint; attention and market depth a
      and the gambling-base decision, which is legal on the server and zero-sum, and his to make.
 
 If 1, 5 and 6 all run: roughly 9M + 14M + 20-50M a day, 45-75M, against 9M today.
+
+## 57. Trial spawner automation, and a breeze kill pocket that works (added 2026-09-13)
+
+Mechanics verified on minecraft.wiki before designing anything:
+  - Activation: player within 14 blocks WITH line of sight, Survival/Adventure. Once activated the
+    spawner no longer needs the player in range. Cooldown 30 min after the wave completes.
+  - A mob counts as defeated when killed by ANY cause (lava, fall), when it enters a block, or leaves
+    the dimension. Spawned mobs do not despawn naturally.
+  - Rewards eject as items for every player the spawner detected; hoppers collect them. Normal trial
+    chamber spawners: trial key 50 percent, the rest food and regen/swiftness potions.
+  - Breeze spawner in a trial chamber, solo: 2 total, ONE at a time (+1 total, +0.5 simultaneous per
+    extra player). Ominous roughly doubles it.
+  - Breeze: 30 HP, immune to fall damage, floats up in water faster than any mob, leaps 5 up and 15
+    across, pursues within 16 blocks. Wind charge: 0.5 heart, knockback that does NOT pass through
+    solid blocks, and it flips trapdoors, doors, buttons, levers and fence gates. Deflects every
+    projectile except wind charges, but "unable to deflect the blast radius of splash potions".
+  - Rods drop "only when killed by a player or a tamed wolf". Looting applies to the player's sword only.
+
+**Fully automatic: yes for rewards, no for rods.** Stand once where you have line of sight to every
+spawner within 14 blocks; they all activate and keep spawning without you. Non-breeze spawners can be
+lava-bladed: any death completes the wave, keys and potions eject, a hopper line collects. Every 30
+minutes you must be back in range with line of sight to re-trigger; standing there AFK is allowed,
+an autoclicker is not, and no clicking is needed. Breeze rods need a player or a tamed wolf to land
+the kill, so a fully automatic breeze spawner yields keys and forfeits the rods.
+
+**The kill pocket.** The water row is right: breezes float to the surface and ride the current, and a
+ceiling one block above the water stops the leap. Fix the far end, not the row:
+  1. Dead-end pocket at the end of the stream, 1 wide, 2 tall, solid blocks. No trapdoors, doors,
+     buttons or levers anywhere a wind charge can reach; iron doors only.
+  2. Player pit beside it: 1x1, floor one block below the pocket floor, top-half slab overhead
+     (kills the upward knockback), solid on three sides, and on the pocket side a single 1x1 gap at
+     the pocket's floor level, i.e. at the breeze's feet. Knockback cannot cross the solid wall; a
+     charge through the gap does half a heart and shoves you into your own pit wall.
+  3. Poison first, then one tap. Throw a splash potion of poison into the pocket (the blast cannot be
+     deflected), or drop a lingering cloud. Poison stops at 1 HP. Then any single hit through the gap
+     with a Looting III sword is the kill, with Looting applied. This is what removes the "they shoot
+     me while I try to kill them" problem: you are never fighting a healthy breeze, and if a row does
+     arrive it does not matter, one tap each. Poison on breezes is unconfirmed on the wiki; they are
+     not undead so it should apply. Test with one.
+  4. Semi-AFK alternative: two or three tamed wolves in the pocket. Wolf kills drop rods (confirmed),
+     but without Looting: 1-2 rods instead of 4-8, a 4x haircut, and wolves eat wind charges.
+
+**The loop.** Trigger all spawners from one sightline (with Trial Omen up for the ominous ones), walk
+to the pocket, poison-and-tap the breezes as the water delivers them one at a time, let hoppers take
+the ejected keys, repeat every 30 minutes. About five minutes of work per half hour.
