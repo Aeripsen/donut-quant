@@ -60,12 +60,12 @@ if __name__ == "__main__":
         spent_v = float(spent.rstrip("KMBT")) * mult2 if spent else 0
         bal = s["money"]
         share = made_v / bal if bal else 0
-        if share >= 0.6:
+        if made_v > bal * 2:
+            shape = "SPENT-DOWN farmer: /sold %s lifetime, holds %d%% of it" % (money(made_v), 100 * bal / made_v)
+        elif share >= 0.6:
             shape = "FARMER: /sell explains %d%% of balance" % (share * 100)
         elif share >= 0.15:
             shape = "MIXED: /sell is %d%% of balance, rest is AH/orders/transfers" % (share * 100)
-        elif made_v > bal * 2:
-            shape = "SPENT-DOWN farmer: /sold %s lifetime, holds a fraction" % money(made_v)
         else:
             shape = "AH/ORDERS or TRANSFERS: /sell is only %.1f%% of balance" % (share * 100)
         print("%-18s %10s %8.0f %10s %10s %8s %7d %8d %9d %9d  %s" % (
