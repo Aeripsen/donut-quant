@@ -1,0 +1,14 @@
+player                balance    hours /sell life /shop life /sell/hr   kills   deaths      mobs    broken  read
+the player              259.6M      120      38.0K          0      315      29      466      4427     33559  AH/ORDERS or TRANSFERS: /sell is only 0.0% of balance
+player_252                   853.3M      714     557.6M     103.9M   781.1K     447     1411     20236    439024  FARMER: /sell explains 65% of balance
+flipper_D               131.3M      128     347.8K       1.2M     2.7K      93      593     18173     18472  AH/ORDERS or TRANSFERS: /sell is only 0.3% of balance
+meliodas_nemo_pl        34.6M       50       4.0M          0    80.3K     115       38      1141     10174  AH/ORDERS or TRANSFERS: /sell is only 11.6% of balance
+Ikeacpvp                 2.0T     4718       5.8B     904.7M     1.2M    2511      999      4154    320049  AH/ORDERS or TRANSFERS: /sell is only 0.3% of balance
+Abuodee                  2.4T     3597     336.1M     218.2M    93.4K    7367     1382     50154    203910  AH/ORDERS or TRANSFERS: /sell is only 0.0% of balance
+Wampiptiii01             2.0T     3107       7.7M     123.3M     2.5K    2495      580      3485    209525  AH/ORDERS or TRANSFERS: /sell is only 0.0% of balance
+NeeIsNee                 1.4T     2193      45.6M     180.8M    20.8K    6496     1001      9789    154089  AH/ORDERS or TRANSFERS: /sell is only 0.0% of balance
+KlingMC                  1.0T     2711     279.2M     171.2M   103.0K    1560     1134      3986    119890  AH/ORDERS or TRANSFERS: /sell is only 0.0% of balance
+C_H_R_O_N_I_C          602.3B     2475     544.6M     554.9M   220.0K    1208      901      2569    364078  AH/ORDERS or TRANSFERS: /sell is only 0.1% of balance
+Jeadox                   1.3T     2594       1.2B     137.7M   462.7K    2227     1082      5186    215272  AH/ORDERS or TRANSFERS: /sell is only 0.1% of balance
+Milezz18819            925.9B      389       2.2M          0     5.7K      73      105       108      4134  AH/ORDERS or TRANSFERS: /sell is only 0.0% of balance
+iditity                 24.4B     3213     121.8B       1.5B    37.9M   14221     4625     28598    311232  FARMER: /sell explains 499% of balance
