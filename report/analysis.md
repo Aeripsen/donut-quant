@@ -1405,3 +1405,39 @@ before boxing the rest; if it refuses, widen to 5x5.
 **Design C, bait:** breezes pursue within 16 blocks and leap toward the target. A player in the pit
 under a 2-tall ceiling draws leaps that land in the pocket. Least reliable; breezes also back off
 when close. Use only if A fails.
+
+## 59. Proven breeze farm designs from the community, and one correction (added 2026-09-13)
+
+Searched instead of reasoning. Three designs exist that solve "the breeze will not come to the kill
+zone", each by a different mechanism, and the wiki supplied the rule they all rest on.
+
+**The rule.** Trial spawners place a mob only on a block whose top they have line of sight to, within
+a 4-block sphere, and that sight check "cannot pass through visual box" (the wiki is explicit that
+this differs from mob AI, which uses the collision box). So opaque full blocks stop it; glass ALSO
+stops it (full visual box); slabs, stairs, fences and iron bars do not. Surround the spawner so the
+only visible block-top is where you want the breeze, and it spawns there. Correction to sections 57
+and 58: the glass block I suggested for the activation window would block sight. Use an air gap or
+iron bars.
+
+**Design 1, Rays Works, simple (YouTube PI3XvJBWF9w, Feb 2024, ~32 rods/hr).** Force the breeze to
+spawn directly ON the hoppers, in front of the player. A placed string (tripwire) between player and
+breeze catches most wind charges, so the burst goes off at the string. Player attacks through it; rods
+and keys fall into the hoppers and a double chest below. Repeat after the 30-minute cooldown. No
+transport at all. This is the answer to the actual problem.
+
+**Design 2, Sportskeeda write-up of the common build.** Seal a room round the spawner, one block open
+at the front for activation sight. Dig the floor at least 3 deep round the spawner (breezes take no
+fall damage, so depth only needs to stop the leap). T-shape at the bottom: three hoppers into one
+chest reachable from outside. Water sources along the BACK wall push the breeze across the hoppers.
+Top slabs over the chest and round the collection area "so the breeze can't see out of the farm".
+That last line is the fix for the water problem: a breeze fights the current only while it has a
+target. Blind it and it rides. Player goes down and kills; rods land in the hoppers.
+
+**Design 3, Rays Works, advanced and scalable.** Force-spawn into flowing water that pushes the breeze
+through a NETHER PORTAL. The wiki counts "enters another dimension" as a defeat, so the wave completes
+and keys eject immediately while the breeze is stored alive on the Nether side, sealed in with
+trapdoors and scaffolding that send it up into a holding area. The player pops through every so often
+and kills the stored breezes in a batch with Looting. Several spawners can feed one portal. Keys fully
+automatic, rods on your own schedule, one kill session for many waves.
+
+Recommendation for one spawner: Design 1. For the whole chamber: Design 3.
