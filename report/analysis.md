@@ -1441,3 +1441,51 @@ and kills the stored breezes in a batch with Looting. Several spawners can feed 
 automatic, rods on your own schedule, one kill session for many waves.
 
 Recommendation for one spawner: Design 1. For the whole chamber: Design 3.
+
+## 60. Breeze farm builds, block by block, from the transcripts (added 2026-09-13)
+
+Auto-captions pulled for Rays Works (PI3XvJBWF9w and the update Yj8l8X42wcA, "5 Breeze Rod and
+Trial Key AFK Farms"), Wattles (6F6f9XFTitg) and UForced (3ZLWePTifbs); Shulkercraft's (7N1K2a7kgHE)
+description only, captions rate-limited. Saved under sources/breeze_farms/. Stated rates: Rays 24
+rods/hr/spawner with Looting III plus 2 keys/hr/spawner; Shulkercraft's rebuild of it 32 rods and 2
+keys per hour. Solo that is 4 breezes an hour per spawner, so "AFK" here means four sword swings per
+30 minutes.
+
+**Wattles confirms the glass rule from the other direction.** Deactivating the other spawners in the
+room requires fully opaque blocks; his words: copper grates, glass or leaves, "nope". Same visual-box
+check. Iron bars, slabs and air are the only things that leave a sightline open.
+
+**The converged layout (Rays simple, UForced, Wattles agree on the bones):**
+  - One solid block directly on top of the spawner. That removes the spawn position on the spawner
+    itself; without it the breeze spawns on the block you cannot reach.
+  - Walls one block out from the spawner on every side, two high plus a roof (Wattles: walls "extend
+    two blocks past the top", two solid blocks centred above as the roof). Interior floor 3x3.
+  - Three hoppers in a row into a chest (UForced: double chest behind, hoppers crouch-placed so they
+    feed it). The hopper tops are the only visible block-tops inside the box, so the breeze spawns on
+    the hoppers, "somewhere here in the centre".
+  - The player position: a composter with a trapdoor on each side (Rays: "trapdoors opening each
+    way"; UForced: two trapdoors). You crouch INSIDE the composter; its rim shields you, the open
+    trapdoor is the swing gap. Rays adds a wall block each side with one swappable block to peek and
+    aim, and warns to stand back so you do not mine the blocks behind the breeze while spamming.
+    Sportskeeda's version uses a placed string in front of the player to catch the wind charges.
+  - Exactly one block open in the outer wall where the spawner can see you, for activation. Wattles:
+    "one block open where we could actually see the spawner itself"; you also kill through it.
+  - UForced materials for the whole thing: 36 blocks, 3 hoppers, 2 chests, 1 composter, 3 trapdoors,
+    3 redstone torches.
+  - Wattles' water variant: kill floor at least three below, a corner water bucket flowing toward the
+    player, slabs across the top-front and a slab floating floor so the breeze cannot see out.
+
+**The portal variant (Rays, highest rate, for many spawners):** block the spawner on all sides and
+stack up with no sightline while building. Under it an asymmetric floor: two blocks out on one side,
+one on the next, two, two. Walls three tall. The breeze is pushed or walks through a lit nether
+portal into a holding pen on the far side, scaffolding to prevent entity cramming, trapdoors to stop
+it walking back. The spawner counts the dimension change as a defeat and drops the keys at once;
+you kill the stored breezes in batches with Looting.
+
+**The shield-and-dog variant (Rays):** player sits in a boat (no knockback) holding a shield; a tamed
+dog aggros on the breeze's attacks and kills it. Mud under the pen instead of soul sand. Lowest rate,
+one spawner, but hands-off. Wolf kills drop rods without Looting.
+
+**One DonutSMP-specific warning.** Rays runs the simple version on an autoclicker. The server's
+anti-cheat page treats autoclickers and CPS macros as bannable. At four kills an hour per spawner the
+manual version costs nothing; do not import the macro.
