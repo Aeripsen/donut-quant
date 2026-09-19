@@ -1489,3 +1489,39 @@ one spawner, but hands-off. Wolf kills drop rods without Looting.
 **One DonutSMP-specific warning.** Rays runs the simple version on an autoclicker. The server's
 anti-cheat page treats autoclickers and CPS macros as bannable. At four kills an hour per spawner the
 manual version costs nothing; do not import the macro.
+
+## 61. State of the hunt, 2026-09-19: no verified big lane yet, and what the logs say instead
+
+Balance 303.8M at 135 hours (259.6M on the 13th, so about 7M a day, slowing). Asked directly whether a
+big-money method has been found. Honest answer: not a verified one. What exists:
+
+**Where September's money actually came from (his client logs, AH sales plus order deliveries):**
+filled Shulker Boxes on the AH 51.4M plus Cyan Shulker Boxes 13.3M, so 64.7M from box lots listed at
+1.8M each; dispenser order deliveries 25.5M; sponge 5.5M; fire resistance potions 2.8M; pointed
+dripstone deliveries 2.5M. The box lots are his largest earner by a factor of 2.5 and their contents
+are still unknown to this report. Section 49's claim that multi-million lots never clear was wrong at
+the 1.8M price point: about 36 of them cleared this month.
+
+**The dispenser loop is closing.** Bids were 2,000-2,187 on the 13th; the last six daily bid closes
+are 2,000 / 1,900 / 3,300 / 1,100 / 1,600 / 959 against floor lows of 1,200-1,600. The exit that paid
++900 a unit is gone. The unfilled part of the 50K order at 1,100 should be cancelled or repriced
+under 800.
+
+**The diamond-tier enchant flips are small.** 13 diamond pickaxes bought at an average 266K, three
+sold at 297K: +31K each. 35 enchanted books bought for 1.79M, none sold. About 5.9M of cash is parked
+in that inventory. Wrong tier.
+
+**The one candidate that is an order of magnitude above everything else: enchanted netherite-tier
+orders.** The mace order bid has risen 10.1M to 11.4M in six days while the AH floor lows sit at
+3.0-3.9M and the last live sale was 5.29M. A 7.5M spread cannot survive seventeen days on an item with
+eleven thousand trades a day, so the bid is for an ENCHANTED mace, which is what every price feed
+strips out and what I had been filing under pollution. It is the opposite: enchanting is a
+value-adding step no scanner can see, in the server's richest liquid tier (netherite pickaxe 20.1M on
+31,033 trades a day, armour 6.5-7M a piece, mace 11.4M bid). Wind Burst comes only from ominous
+vaults, which he already runs. If the full book set for a mace costs X, each unit is 11.4M minus a
+3.5M mace minus X; at X of 3M that is +4.9M a mace and about 225M per turn of his bankroll. Unsized
+until three things are read in game: the order's exact enchant spec and remaining quantity, the AH
+price of each required book, and the cheapest plain mace.
+
+**Dead for good:** donutsmp.finance. Its /api/items is byte-identical to the August copy (sha1
+2ce2ed2a28fc) with June 25 timestamps; there is no live public order book anywhere.
