@@ -2,3 +2,8 @@ quant/donut_api_key.txt
 quant/donut.sqlite
 __pycache__/
 *.pyc
+private/
+.env
+.env.*
+**/*.sqlite
+**/donut_api_key.txt

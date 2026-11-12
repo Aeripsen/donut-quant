@@ -1,5 +1,56 @@
 # donut-quant
 
+## November 12, 2026: evidence-first economic model
+
+This project now distinguishes **observed transaction events**, **standing orders**,
+**asking prices**, **current inventory**, and **modeled profit** as different things.
+The old August/September economic analysis remains an historical baseline; its
+snapshots and original method rankings must **not** be presented as live November prices.
+
+Start with:
+- [System entities, state transitions, conservation laws and observability](docs/SYSTEM_MODEL.md)
+- [Dated August-to-November market comparison and depth-aware Sell Axe math](docs/MARKET_AUDIT_2026-11-12.md)
+- [Safe inventory, account access and API snapshot instructions](docs/ACCESS_CAPTURE.md)
+
+### Rebuild local private evidence (on your own authorized computer)
+
+```powershell
+cd "$HOME\donut-quant"
+python quant/personal_ledger.py
+python quant/linked_db.py
+python -m unittest discover -s tests -v
+```
+
+This scans the two local Modrinth profiles read-only and creates
+`private/ledger/personal_events.csv`, `private/ledger/summary.json`,
+and `private/economy.sqlite`. Private data is excluded from Git. Missing
+acquisition costs and order escrow mean **true realized net profit remains unknown**,
+even if partial sale receipts have been reconstructed.
+
+### Optional live/historical API evidence (account owner provides read-only key locally)
+
+```powershell
+$env:DONUTSTATS_API_KEY = Read-Host 'DonutStats read-only key'
+python quant/donutstats_snapshot.py --player YOUR_IGN --item elytra --item dried_kelp_block --include-global --max-requests 12
+python quant/import_market.py
+Remove-Item Env:DONUTSTATS_API_KEY
+```
+
+The separate DonutStats API key is **not** the official DonutSMP `/api` key. The
+snapshotter stores JSON in `private/market` and respects a persistent
+20-request-per-hour local free-tier budget. It collects only the requested first
+history page; a deep historical backfill needs cursor pagination and its own
+rate budgeting. Both API responses and current game screens must be checked for
+timestamps. `quant/import_market.py` imports observed order fills, order
+snapshots, quote observations and listing lifecycles by exact variant into SQLite,
+without falsely treating closed listings as completed sales.
+
+`quant/sell_routing.py` is a **conditional** order-depth simulation, not a
+claim that the server necessarily uses those settings today. Its bid matching is
+exact-variant, and tax and the effective `/worth` value must be verified in game.
+
+---
+
 I wanted to know where the money actually is on DonutSMP instead of trusting "5 billion a day" thumbnails,
 so I pulled the numbers and ran the math over every recipe in the game. This repo is the data, the scripts and the write-up.
 
@@ -47,7 +98,7 @@ The full write-up with 40 methods, each re-priced on live data and scored, is in
   (people "buy" a stick for 30K to move money) and renamed items.
 - Tools, armor and books are excluded from craft math: their AH price is the enchanted copy, not the plain item.
 - Order bids marked `(jun)` are from a June snapshot and are stale; read the live bid off `/orders` before acting.
-- The AH tax is unknown at the time of writing, every spread is pre-tax.
+- In the August/September baseline the AH tax was unknown and all modeled spreads are pre-tax. On November 12, 2026 client logs display a +2% listing tax quote; the accounting settlement method still needs verification. Older scripts default TAX to 0 and their projections must not be reused unadjusted.
 
 ## Running it
 
