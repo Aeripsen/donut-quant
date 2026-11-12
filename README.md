@@ -1,5 +1,22 @@
 # donut-quant
 
+**Try the free market-exit laboratory:** https://aeripsen.github.io/donut-quant/
+
+![Donut Quant Market Terminal preview](docs/assets/social_preview.png)
+
+[![Verify market terminal](https://github.com/Aeripsen/donut-quant/actions/workflows/verify.yml/badge.svg)](https://github.com/Aeripsen/donut-quant/actions/workflows/verify.yml)
+
+Instead of assuming you can sell every item at today's highest bid, the
+[Market Terminal](docs/MARKET_TERMINAL.md) simulates **finite order-book depth**,
+unsold inventory, optional Sell Axe fallback, fees, and your actual cost basis.
+Paste your own current bids; no sign-in required. The six included price
+examples are dated Nov 11-12, 2026, **not live quotes**.
+
+The original research and 2026-08/09 snapshots remain below, but should not
+be used as current trading recommendations. Data from
+[DonutStats.io](https://donutstats.io); see [data notice](DATA_NOTICE.md).
+
+
 ## November 12, 2026: evidence-first economic model
 
 This project now distinguishes **observed transaction events**, **standing orders**,

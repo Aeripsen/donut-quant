@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Donut Quant: a free, evidence-first Donut SMP market laboratory. Compare historical auction sales against real buy-order depth and simulate selling or farming without inventing profits.">
+  <meta property="og:title" content="Donut Quant | The exit-price calculator">
+  <meta property="og:description" content="A $692M asking price is not $692M you can cash out. Test order depth, liquidations, tax assumptions and Sell Axe economics.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aeripsen.github.io/donut-quant/">
+  <meta property="og:image" content="https://aeripsen.github.io/donut-quant/assets/social_preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Donut Quant | Price the exit</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <script type="module" src="./assets/app.mjs"></script>
+</head>
+<body>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Donut Quant Home">
+        <span class="brand-logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span>DONUT<span class="brand-accent">/</span>QUANT</span>
+        <small>RESEARCH LAB</small>
+      </a>
+      <nav class="topnav" aria-label="Main navigation">
+        <a href="#market">Market</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#method">How it works</a>
+      </nav>
+      <a class="repo-link" href="https://github.com/Aeripsen/donut-quant" target="_blank" rel="noopener noreferrer" aria-label="Open source code on GitHub">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 8.36 22.9c.58.11.79-.25.79-.56v-2.05c-3.2.7-3.88-1.36-3.88-1.36-.53-1.35-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.72 1.27 3.39.97.11-.75.41-1.27.75-1.57-2.55-.3-5.24-1.28-5.24-5.69 0-1.25.45-2.27 1.2-3.07-.12-.3-.52-1.46.12-3.04 0 0 .98-.31 3.16 1.18a10.9 10.9 0 0 1 5.75 0c2.18-1.49 3.16-1.18 3.16-1.18.64 1.58.24 2.74.12 3.04.75.8 1.2 1.82 1.2 3.07 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.07.8 2.16v3.05c0 .31.2.68.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+        <span>Source code</span>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="dot"></span> OPEN-SOURCE ECONOMY INTELLIGENCE <span class="dotline"></span> V0.1</div>
+          <h1 id="heroTitle">The asking price is <em>not</em> the exit price<span class="period">.</span></h1>
+          <p>That $692M Elytra listing looks like a fortune. But what would buyers actually pay, and for how many? Explore the real difference between price, demand and profit.</p>
+          <div class="hero-actions">
+            <a class="btn btn-main" href="#calculator">Run a trade scenario <span aria-hidden="true">↘</span></a>
+            <a class="btn btn-quiet" href="#market">Explore the market <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-meta">
+            <span class="status-pill"><span class="status-pip"></span> DATED SNAPSHOT, NOT LIVE</span>
+            <span id="stampText">Market observations · Nov 12, 2026</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="An example showing the gap between an Elytra asking price and a buy order">
+          <div class="visual-top"><span>ELYTRA / PRICE DISCOVERY</span><span class="top-mini">01 / 03</span></div>
+          <div class="ghost-donut" aria-hidden="true"><div></div></div>
+          <div class="visual-inner">
+            <div class="visual-line"><span class="visual-label">MARKET ASK</span><span class="visual-number price-ask">$692<span>M</span></span></div>
+            <div class="stair"><span class="bar bar-ask"></span><span class="bar-caption">A seller's asking price</span></div>
+            <div class="visual-line"><span class="visual-label">TOP BUY ORDER</span><span class="visual-number price-bid">$525<span>M</span></span></div>
+            <div class="stair"><span class="bar bar-bid"></span><span class="bar-caption">What the top observed buyer offers</span></div>
+            <div class="visual-alert"><span class="visual-alert-icon">!</span><span><b>$167M gap</b> before trading costs, and availability changes as orders fill.</span></div>
+          </div>
+          <div class="visual-bottom"><span>PRICE ≠ LIQUIDITY</span><span>2026-11-12 / SNAPSHOT</span></div>
+        </div>
+      </section>
+
+      <section class="strip" aria-label="Tool summary">
+        <div><span class="tiny-label">CURATED ITEMS</span><strong id="numberItems">6</strong><span class="muted">matched to historical research</span></div>
+        <div><span class="tiny-label">HISTORICAL BASELINE</span><strong>Aug <span class="small-number">29</span></strong><span class="muted">SMP500 settled-price samples</span></div>
+        <div><span class="tiny-label">MARKET SNAPSHOT</span><strong>Nov <span class="small-number">12</span></strong><span class="muted">DonutStats public order book</span></div>
+        <div><span class="tiny-label">PROFIT MODEL</span><strong>Depth<span class="accent">-</span>aware</strong><span class="muted">no unlimited top-bid assumptions</span></div>
+      </section>
+
+      <section id="market" class="section">
+        <div class="section-heading">
+          <div><span class="overline">01 / DISCOVER</span><h2>Market reality check</h2><p>Historical transactions, current asking prices and standing bids are three different observations.</p></div>
+          <div class="section-aside"><span class="mini-bullet"></span> Choose an item to inspect the price gap</div>
+        </div>
+        <div class="market-grid">
+          <div class="panel asset-panel">
+            <div class="panel-top"><h3>Assets</h3><span class="panel-sub">COMPARE ↔ INSPECT</span></div>
+            <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search items..." aria-label="Search items" autocomplete="off"></label>
+            <div class="asset-table-head"><span>ITEM</span><span>TOP BID</span><span>VS AUG*</span></div>
+            <div id="assetList" class="asset-list" aria-label="Market assets"><div class="loading">Loading curated observations...</div></div>
+            <p class="asset-foot">*Historical-to-current quote changes are <b>not</b> guaranteed trading returns. Variant and lot comparability vary.</p>
+          </div>
+
+          <div class="panel detail-panel" aria-live="polite">
+            <div class="panel-top"><span class="panel-sub" id="detailCategory">MARKET / PRODUCT</span><a id="detailSource" class="inline-link" href="https://donutstats.io" target="_blank" rel="noopener noreferrer">View source ↗</a></div>
+            <div class="detail-header"><div class="asset-icon" id="detailSymbol" aria-hidden="true">▤</div><div><h3 id="detailName">Dried Kelp Block</h3><span id="detailDate" class="muted">Nov 12, 2026 · sourced snapshot</span></div></div>
+            <div class="price-trio">
+              <div><span class="tiny-label">HIST. SETTLED</span><strong id="histValue">—</strong><small>Aug 29, 2026</small></div>
+              <div><span class="tiny-label">CHEAPEST ASK</span><strong id="askValue">—</strong><small>A seller's price</small></div>
+              <div class="highlight-cell"><span class="tiny-label">BEST VISIBLE BID</span><strong id="bidValue">—</strong><small>Limited available quantity</small></div>
+            </div>
+            <div class="comparison-head"><span>Historical price <span class="legend-circle cyan"></span> / Observed ask <span class="legend-circle purple"></span> / Top bid <span class="legend-circle gold"></span></span></div>
+            <div class="comparison-bars" id="comparisonBars" aria-label="Relative price comparisons"></div>
+            <div class="variance-row"><span>Current bid vs historical median</span><strong id="histChange">—</strong></div>
+            <div class="warning-callout"><span aria-hidden="true">!</span><span id="detailWarning">Loading...</span></div>
+            <div class="detail-footer"><span>PRICE SOURCE: <a href="https://donutstats.io" target="_blank" rel="noopener noreferrer">DONUTSTATS.IO ↗</a></span><span id="liquidityText">ORDER ACTIVITY: —</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="calculator" class="section">
+        <div class="section-heading">
+          <div><span class="overline">02 / EXPERIMENT</span><h2>Exit-price laboratory</h2><p>Sell into the known bid levels. When bids run out, the remaining items cannot magically sell at the top price.</p></div>
+          <div class="section-aside"><span class="mini-bullet"></span> Quantities, fees and costs are editable assumptions</div>
+        </div>
+        <div class="lab-grid">
+          <div class="panel controls-panel">
+            <div class="panel-top"><h3>Trade parameters</h3><span class="panel-sub">SANDBOX / NO TRANSACTIONS</span></div>
+            <div class="tabs" role="group" aria-label="Sale method">
+              <button type="button" class="tab active" id="modeOrders" aria-pressed="true">Fill buy orders</button>
+              <button type="button" class="tab" id="modeAxe" aria-pressed="false">Sell Axe scenario</button>
+            </div>
+            <div class="fields">
+              <label class="field"><span>Quantity <span class="field-note">items</span></span><input id="quantityInput" type="number" min="0" max="100000000" step="1" inputmode="numeric"></label>
+              <label class="field"><span>Acquisition / production cost <span class="field-note">per item</span></span><input id="costInput" type="number" min="0" step="any" placeholder="Enter to calculate net profit" inputmode="decimal"></label>
+              <label class="field"><span>Assumed sale fee <span class="field-note">%</span></span><input id="feeInput" type="number" min="0" max="99" step=".1" value="0" inputmode="decimal"></label>
+              <label class="field" id="worthField"><span>Effective server /worth <span class="field-note">per item, verify in game</span></span><input id="worthInput" type="number" min="0" step="any" inputmode="decimal"></label>
+              <label class="field" id="axeField"><span>Sell Axe acquisition cost <span class="field-note">in-game $ equivalent</span></span><input id="axeInput" type="number" min="0" step="any" placeholder="Enter a cost, even if 0" inputmode="decimal"></label>
+            </div>
+            <div class="tip-box"><span class="icon-lightbulb">↗</span><span id="scenarioHelp">Choose the amount to sell. Missing purchase cost means profit stays unknown.</span></div>
+            <details class="custom-book">
+              <summary>Have fresher orders? Paste your own ↘</summary>
+              <p>One bid per line: <code>price,remaining_units</code>. Example: <code>766,112</code>. These values stay in this browser session and are not sent anywhere.</p>
+              <label for="customBids" class="sr-only">Custom buy-order levels</label>
+              <textarea id="customBids" rows="4" spellcheck="false" placeholder="766,112&#10;757.5,665&#10;757.4,574"></textarea>
+              <div class="custom-buttons"><button id="applyBids" type="button">Apply these orders</button><button id="clearBids" type="button">Restore snapshot</button></div>
+              <p id="customMessage" class="custom-message" aria-live="polite">Using the curated dated order levels.</p>
+            </details>
+            <div class="capacity-box" id="capacityBox" hidden>
+              <div class="rule"></div><div class="capacity-heading">24-HOUR FARM CAPACITY</div>
+              <div class="fields">
+                <label class="field"><span>Farm production <span class="field-note">items/hour</span></span><input id="farmRate" type="number" min="0" value="1728" step="1"></label>
+                <label class="field"><span>Chest-clearing rate <span class="field-note">chests/hour</span></span><input id="chestRate" type="number" min="0" value="1" step=".1"></label>
+              </div>
+              <div class="capacity-result"><span>24h physical maximum</span><strong id="capacityResult">24 chests</strong></div>
+              <button id="useCapacity" class="text-link" type="button">Use this quantity in the scenario ↗</button>
+            </div>
+            <button id="reset" type="button" class="reset-btn">↺ Reset scenario for this item</button>
+          </div>
+
+          <div class="panel result-panel">
+            <div class="panel-top"><h3>Modeled outcome</h3><span class="model-tag">SCENARIO · NOT A PRICE PROMISE</span></div>
+            <div class="result-hero"><span class="tiny-label">CASH PROCEEDS AFTER ASSUMED FEES</span><strong id="revenueTotal">—</strong><p id="resultContext">Top available orders first, then no additional assumed buyers.</p></div>
+            <div class="result-summary">
+              <div><span>Filled into orders</span><strong id="orderUnits">—</strong></div>
+              <div><span>Server /worth fallback</span><strong id="fallbackUnits">—</strong></div>
+              <div><span>Unfilled, still owned</span><strong id="unsoldUnits">—</strong></div>
+              <div><span>Net after entered costs</span><strong id="profitNet">Not known</strong></div>
+            </div>
+            <div class="depth-head"><span class="tiny-label">HOW THE QUANTITY GETS ALLOCATED</span><span id="coverageText">—</span></div>
+            <div class="stacked-chart" id="stackedChart" role="img" aria-label="Order, server fallback and unsold proportions"></div>
+            <div class="depth-list" id="depthList" aria-label="Execution levels"></div>
+            <p class="footnote" id="assumptionNotice">Order-book data is a dated sample. Offers may no longer exist.</p>
+            <div class="result-actions"><button type="button" class="btn btn-main" id="shareCard">↓ Download result card</button><button type="button" class="btn btn-quiet" id="copyResult">Copy calculation ↗</button></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="method" class="section final-section">
+        <div class="section-heading"><div><span class="overline">03 / UNDERSTAND</span><h2>The system behind the numbers</h2><p>The tool models events and constraints, not isolated price tags.</p></div></div>
+        <div class="flow-graph" aria-label="Economic flow: acquire items, process them, route to buyers, receive proceeds, then reinvest">
+          <div class="flow-node"><span>01</span><b>ACQUIRE</b><small>Buy, harvest or receive</small></div><div class="flow-edge">→</div>
+          <div class="flow-node"><span>02</span><b>TRANSFORM</b><small>Craft, smelt or store</small></div><div class="flow-edge">→</div>
+          <div class="flow-node active-node"><span>03</span><b>SELL</b><small>Orders and /worth</small></div><div class="flow-edge">→</div>
+          <div class="flow-node"><span>04</span><b>REINVEST</b><small>Net cash after costs</small></div>
+        </div>
+        <div class="method-grid">
+          <article><span class="method-num">01</span><h3>Evidence types matter.</h3><p>Asks are offers; bids have finite depth; completed sales are observations. Historical item variants may not match modern ones.</p></article>
+          <article><span class="method-num">02</span><h3>Quantity changes price.</h3><p>The next buyer might bid less. Selling a whole chest is not equivalent to selling one item at the best visible order.</p></article>
+          <article><span class="method-num">03</span><h3>Costs decide profit.</h3><p>Materials, holding time, sale charges and an expiring Sell Axe can turn attractive revenue into a loss.</p></article>
+        </div>
+        <div class="source-banner"><div><span class="mini-bullet"></span><strong>Transparent by design</strong><p>Historical values come from the project's August 29 research. Curated public market observations are dated Nov 11-12, 2026. No live feed, private inventory, or API key is shipped with this website.</p></div><a href="https://github.com/Aeripsen/donut-quant/blob/main/docs/SYSTEM_MODEL.md" target="_blank" rel="noopener noreferrer" class="btn btn-quiet">Read the methodology ↗</a></div>
+      </section>
+    </main>
+    <footer><span>DONUT / QUANT <span class="brand-accent">✳</span> OPEN SOURCE</span><span>Data from <a href="https://donutstats.io" target="_blank" rel="noopener noreferrer">DonutStats.io</a> · Not affiliated with DonutSMP, Mojang or Microsoft.</span><span>BUILD BETTER DECISIONS, NOT BIGGER CLAIMS.</span></footer>
+  </div>
+</body>
+</html>

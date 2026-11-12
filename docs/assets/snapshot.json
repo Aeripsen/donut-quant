@@ -1,0 +1,282 @@
+{
+  "schema": "donut-quant.market-snapshot.v1",
+  "collectedOn": "2026-11-12",
+  "status": "CURATED_HISTORICAL_SNAPSHOT_NOT_LIVE",
+  "historicalDate": "2026-08-29",
+  "description": "Historical SMP500 settled-sale medians and manually verified DonutStats public market quotes. Not a live API feed. Asking prices are not completed sales. Historical variants and lot sizes may differ.",
+  "sources": {
+    "historical": {
+      "label": "donut-quant historical SMP500 snapshot",
+      "url": "https://github.com/Aeripsen/donut-quant/blob/main/quant/price_table.csv"
+    },
+    "current": {
+      "label": "Data from DonutStats.io",
+      "url": "https://donutstats.io"
+    }
+  },
+  "items": [
+    {
+      "id": "elytra",
+      "name": "Elytra",
+      "category": "High value",
+      "symbol": "✦",
+      "snapshotAt": "2026-11-12T11:00:00Z",
+      "historical": 358999982,
+      "historicalBasis": "Last 15 AH sale median. Enchantment variants mixed in 2026-08 data.",
+      "comparable": false,
+      "asking": 692000000,
+      "cheapest": 621000000,
+      "bid": 525000000,
+      "listings": 8,
+      "unit": "each",
+      "unitsFilled24h": 1,
+      "defaultQuantity": 1,
+      "worth": null,
+      "warning": "The August sale data mixed variants. The current ask is NOT a realized exit, and selling 20 Elytras cannot assume 20 buyers at $525M.",
+      "depth": [
+        {
+          "p": 525000000,
+          "q": 5
+        },
+        {
+          "p": 525000000,
+          "q": 8
+        },
+        {
+          "p": 524000000,
+          "q": 1
+        },
+        {
+          "p": 513000000,
+          "q": 1
+        }
+      ],
+      "depthDescription": "Top 4 publicly visible bid levels; not the entire order book.",
+      "source": "https://donutstats.io/prices/elytra"
+    },
+    {
+      "id": "tnt",
+      "name": "TNT",
+      "category": "Commodity",
+      "symbol": "▣",
+      "snapshotAt": "2026-11-12T11:00:00Z",
+      "historical": 3906,
+      "historicalBasis": "Median unit price across full-stack settled AH sales.",
+      "comparable": true,
+      "asking": 8300,
+      "cheapest": 8300,
+      "bid": 7000,
+      "listings": 370,
+      "unit": "each",
+      "unitsFilled24h": 540700,
+      "defaultQuantity": 64,
+      "worth": null,
+      "warning": "Displayed buy-order remaining quantities of 8K and 9.8K are rounded, so modeled depth is approximate.",
+      "depth": [
+        {
+          "p": 7000,
+          "q": 8000,
+          "approx": true
+        },
+        {
+          "p": 5900,
+          "q": 9800,
+          "approx": true
+        },
+        {
+          "p": 5900,
+          "q": 104
+        },
+        {
+          "p": 5800,
+          "q": 384
+        }
+      ],
+      "depthDescription": "Selected visible levels, largest quantities rounded on source.",
+      "source": "https://donutstats.io/prices/tnt"
+    },
+    {
+      "id": "dispenser",
+      "name": "Dispenser",
+      "category": "Commodity",
+      "symbol": "◫",
+      "snapshotAt": "2026-11-12T11:00:00Z",
+      "historical": 4500,
+      "historicalBasis": "Historical full-stack AH transaction median.",
+      "comparable": true,
+      "asking": 6800,
+      "cheapest": 6800,
+      "bid": 6000,
+      "listings": 171,
+      "unit": "each",
+      "unitsFilled24h": 131600,
+      "defaultQuantity": 64,
+      "worth": null,
+      "warning": "The middle 1.3K order quantity is rounded. Historical $4.5K sales do not imply a profitable purchase today.",
+      "depth": [
+        {
+          "p": 6000,
+          "q": 255
+        },
+        {
+          "p": 6000,
+          "q": 1300,
+          "approx": true
+        },
+        {
+          "p": 6000,
+          "q": 493
+        },
+        {
+          "p": 5100,
+          "q": 1100,
+          "approx": true
+        },
+        {
+          "p": 5000,
+          "q": 64
+        }
+      ],
+      "depthDescription": "Selected visible levels; values labeled K are approximate.",
+      "source": "https://donutstats.io/prices/dispenser"
+    },
+    {
+      "id": "gravel",
+      "name": "Gravel",
+      "category": "Commodity",
+      "symbol": "▥",
+      "snapshotAt": "2026-11-11T14:00:00Z",
+      "historical": 430,
+      "historicalBasis": "Historical median unit price of full stacks, not singles.",
+      "comparable": false,
+      "asking": 835,
+      "cheapest": 835,
+      "bid": 500,
+      "listings": 39,
+      "unit": "each",
+      "unitsFilled24h": 1100000,
+      "defaultQuantity": 64,
+      "worth": null,
+      "warning": "The $835 ask is for singles, while the historical $430 is a full-stack transaction median. Different lot sizes.",
+      "depth": [
+        {
+          "p": 500,
+          "q": 2200,
+          "approx": true
+        },
+        {
+          "p": 450,
+          "q": 15300,
+          "approx": true
+        },
+        {
+          "p": 300,
+          "q": 41
+        },
+        {
+          "p": 150,
+          "q": 24500,
+          "approx": true
+        }
+      ],
+      "depthDescription": "Rounded order quantities as shown on public source.",
+      "source": "https://donutstats.io/prices/gravel"
+    },
+    {
+      "id": "dried_kelp_block",
+      "name": "Dried Kelp Block",
+      "category": "Farm output",
+      "symbol": "▤",
+      "snapshotAt": "2026-11-12T11:00:00Z",
+      "historical": 2000,
+      "historicalBasis": "Historical AH transaction median, mixed lot sizes.",
+      "comparable": false,
+      "asking": 796.88,
+      "cheapest": 796.88,
+      "bid": 766,
+      "listings": 102,
+      "unit": "each",
+      "unitsFilled24h": 2200000,
+      "defaultQuantity": 1728,
+      "worth": 750,
+      "worthDate": "2026-09-02",
+      "warning": "The $750 server value was recorded in September, not verified for November. Sell Axe order routing is modeled as a conditional scenario.",
+      "depth": [
+        {
+          "p": 766,
+          "q": 112
+        },
+        {
+          "p": 766,
+          "q": 25
+        },
+        {
+          "p": 766,
+          "q": 67
+        },
+        {
+          "p": 757.5,
+          "q": 665
+        },
+        {
+          "p": 757.4,
+          "q": 574
+        },
+        {
+          "p": 750,
+          "q": 800,
+          "approx": true
+        },
+        {
+          "p": 750,
+          "q": 3000,
+          "approx": true
+        }
+      ],
+      "depthDescription": "Top visible order levels. Orders at or below server worth do not improve an axe sale.",
+      "source": "https://donutstats.io/prices/dried_kelp_block"
+    },
+    {
+      "id": "shulker_box",
+      "name": "Shulker Box",
+      "category": "Container",
+      "symbol": "▧",
+      "snapshotAt": "2026-11-12T11:00:00Z",
+      "historical": 49900,
+      "historicalBasis": "Mixed AH transaction median. Contents are not represented.",
+      "comparable": false,
+      "asking": 41200,
+      "cheapest": 41200,
+      "bid": 10000,
+      "listings": 916,
+      "unit": "box",
+      "unitsFilled24h": 561300,
+      "defaultQuantity": 1,
+      "worth": null,
+      "warning": "Extreme variant risk: median listing is about $26.5M because filled and empty boxes are mixed. Never estimate a filled-box profit from generic shell prices.",
+      "depth": [
+        {
+          "p": 10000,
+          "q": 59
+        },
+        {
+          "p": 7600,
+          "q": 31200,
+          "approx": true
+        },
+        {
+          "p": 7500,
+          "q": 6000,
+          "approx": true
+        },
+        {
+          "p": 7400,
+          "q": 19400,
+          "approx": true
+        }
+      ],
+      "depthDescription": "Generic listing/order classification; contents not matched.",
+      "source": "https://donutstats.io/prices/shulker_box"
+    }
+  ]
+}
